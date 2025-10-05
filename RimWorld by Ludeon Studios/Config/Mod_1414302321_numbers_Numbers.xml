@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Numbers.Numbers_Settings">
+		<numbersPawnTableDefs>
+			<li>Numbers_Enemies,NumbersTable_enemies,LabelShortWithIcon,Numbers_Equipment,Numbers_Pain,Numbers_RimWorld_StatDef_AimingDelayFactor,Numbers_RimWorld_StatDef_MeleeDPS,Numbers_RimWorld_SkillDef_Shooting,Numbers_RimWorld_SkillDef_Melee,Numbers_TraitsColored,RemainingSpace,</li>
+		</numbersPawnTableDefs>
+	</ModSettings>
+</SettingsBlock>
