@@ -1,0 +1,540 @@
+Mono path[0] = 'I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/Managed'
+Mono config path = 'I:/Games/Rimworld_1.6.4566a/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7900 XT (ID=0x744c)
+    Vendor:   ATI
+    VRAM:     20417 MB
+    Driver:   31.0.24033.1003
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.108 seconds
+- Finished resetting the current domain, in  0.001 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 0.559500 ms
+RimWorld 1.6.4566 rev607
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E488C37D0.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E4CB80100.dll
+[HugsLib] version 12.0.0
+[HugsLib] early-initializing AllowTool
+[RimHUD v1.17.5] Initialized
+[Interaction Bubbles v4.2] Initialized
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E4EB75010.dll
+DubsMintMenus v1.3.1086
+Translation data for language Russian / Русский has 36 errors. Generate translation report for more info.
+[TradeHelper] Loaded.
+QualityBuilder: JobDefOf.Deconstruct driverClass = JobDriver_Deconstruct
+[MarkThatPawn]: Found 20 icons for GDI
+[MarkThatPawn]: Found 8 icons for Ideology
+[MarkThatPawn]: Found 19 icons for Jobs
+[MarkThatPawn]: Found 8 icons for Militar
+[MarkThatPawn]: Found 20 icons for Nod
+[MarkThatPawn]: Found 8 icons for Numbers
+[MarkThatPawn]: Found 17 icons for Skills
+[MarkThatPawn]: Found 16 icons for Symbols
+[MarkThatPawn]: Found 13 icons for Weapons
+[MarkThatPawn]: Found 8 icons for WOW Style
+[MarkThatPawn]: Found 18 icons for XCOM
+[MarkThatPawn]: Found 13 icons for XCOM 2
+[MarkThatPawn]: Found 9 icons for XCOM Medieval
+[MarkThatPawn]: Found 94 loaded weapons, 6 explosive weapons and 10 thrown projectiles
+[MarkThatPawn]: Found 112 loaded apparel, 32 armored apparel, 11 royal apparel, 11 psycast apparel, 5 enviromental protection apparel, 6 mechanator apparel and 62 basic apparel 
+[MarkThatPawn]: Found 0 automatic rules defined
+[ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.Notify_MemberStripped
+[ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.TryUnequipSomething
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E8FF182D0.dll
+Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
+[Uuugggg.rimworld.Replace_Stuff.main] Patches on methods annotated as Obsolete were detected by HugsLib: Verse.AI.TouchPathEndModeUtility.IsCornerTouchAllowed
+OnLevelWasLoaded was found on ModInitializerComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 29700.
+Total: 216.999500 ms (FindLiveObjects: 1.648500 ms CreateObjectMapping: 0.855000 ms MarkObjects: 214.051100 ms  DeleteObjects: 0.444700 ms)
+
+CameraPlus: Found mod at I:\Games\Rimworld_1.6.4566a\Mods\CameraPlus
+[RimHUD v1.17.5] User preset 'PRESET' loaded
+[ShowMeYourHands]: Defined hand definitions of 69 weapons
+Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 0.804400 ms
+QualityBuilder added property to '128' things
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 29924.
+Total: 197.961600 ms (FindLiveObjects: 1.435600 ms CreateObjectMapping: 0.748300 ms MarkObjects: 195.710100 ms  DeleteObjects: 0.067400 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - IwoRosiak.Holsters
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F]
+ [0x0000c] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.DefMap`2[D,V].set_Item (D def, V value) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.SetPriority (Verse.WorkTypeDef w, System.Int32 priority) [0x00069] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.Disable (Verse.WorkTypeDef w) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.Notify_DisabledWorkTypesChanged () [0x00022] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Pawn.Notify_DisabledWorkTypesChanged () [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.ExposeData () [0x00025] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <24d25868955f4df08b02c73b55f389fe>:0 
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+QualityBuilder added to приказы category.
+[Yayo's Animation] GC : animation data count [0 -> 0]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 39929.
+Total: 341.309700 ms (FindLiveObjects: 1.972000 ms CreateObjectMapping: 1.147300 ms MarkObjects: 338.081700 ms  DeleteObjects: 0.108600 ms)
+
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 3934 frames, [1.0 KB-2.0 KB]: 5 frames, [2.0 KB-4.0 KB]: 1634 frames, [4.0 KB-8.0 KB]: 6 frames, [8.0 KB-16.0 KB]: 2 frames, [32.0 KB-64.0 KB]: 2 frames, [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 3 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 6.2 MB
+      Peak Allocated Bytes 6.2 MB
+      Overflow Count 1
+    [ALLOC_TEMP_Job.Worker 18]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.7 KB
+      Overflow Count 8
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 16]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 17]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 23
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 288 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 20]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 21]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_ReadCacheIndex]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 12
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 22]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 10.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 507 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 112 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 15]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 19]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 128 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 120.0 KB
+      Peak Allocated Bytes 117.3 KB
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 14029
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 41907
+        32B: 34 Subsections = 17408 buckets. Failed count: 60634
+        48B: 49 Subsections = 16725 buckets. Failed count: 165015
+        64B: 40 Subsections = 10240 buckets. Failed count: 63094
+        80B: 85 Subsections = 17408 buckets. Failed count: 56674
+        96B: 28 Subsections = 4778 buckets. Failed count: 47327
+        112B: 10 Subsections = 1462 buckets. Failed count: 16028
+        128B: 6 Subsections = 768 buckets. Failed count: 12060
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2149 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 1804 frames, [256.0 MB-0.50 GB]: 1634 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 20
+      Peak Allocated memory 313.4 MB
+      Peak Large allocation bytes 28.3 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 2977 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 60 frames, [64.0 MB-128.0 MB]: 915 frames, [128.0 MB-256.0 MB]: 1634 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 8
+      Peak Allocated memory 143.4 MB
+      Peak Large allocation bytes 33.8 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 39
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 41907
+        32B: 34 Subsections = 17408 buckets. Failed count: 60634
+        48B: 49 Subsections = 16725 buckets. Failed count: 165015
+        64B: 40 Subsections = 10240 buckets. Failed count: 63094
+        80B: 85 Subsections = 17408 buckets. Failed count: 56674
+        96B: 28 Subsections = 4778 buckets. Failed count: 47327
+        112B: 10 Subsections = 1462 buckets. Failed count: 16028
+        128B: 6 Subsections = 768 buckets. Failed count: 12060
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2149 frames, [0.50 GB-1.00 GB]: 3438 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 0.84 GB
+      Peak Large allocation bytes 0.82 GB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 2168 frames, [1.0 KB-2.0 KB]: 143 frames, [2.0 KB-4.0 KB]: 179 frames, [4.0 KB-8.0 KB]: 1466 frames, [32.0 KB-64.0 KB]: 1632 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 37.5 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 106
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 41907
+        32B: 34 Subsections = 17408 buckets. Failed count: 60634
+        48B: 49 Subsections = 16725 buckets. Failed count: 165015
+        64B: 40 Subsections = 10240 buckets. Failed count: 63094
+        80B: 85 Subsections = 17408 buckets. Failed count: 56674
+        96B: 28 Subsections = 4778 buckets. Failed count: 47327
+        112B: 10 Subsections = 1462 buckets. Failed count: 16028
+        128B: 6 Subsections = 768 buckets. Failed count: 12060
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2149 frames, [16.0 MB-32.0 MB]: 3438 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 6
+      Peak Allocated memory 19.2 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 2149 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 3434 frames, [128.0 KB-256.0 KB]: 2 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.6 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 41907
+        32B: 34 Subsections = 17408 buckets. Failed count: 60634
+        48B: 49 Subsections = 16725 buckets. Failed count: 165015
+        64B: 40 Subsections = 10240 buckets. Failed count: 63094
+        80B: 85 Subsections = 17408 buckets. Failed count: 56674
+        96B: 28 Subsections = 4778 buckets. Failed count: 47327
+        112B: 10 Subsections = 1462 buckets. Failed count: 16028
+        128B: 6 Subsections = 768 buckets. Failed count: 12060
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2149 frames, [256.0 KB-0.5 MB]: 3438 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 359.8 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 5588 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B

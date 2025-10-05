@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedXenotype>
+	<meta>
+		<gameVersion>1.5.4104 rev415</gameVersion>
+		<modIds>
+			<li>brrainz.harmony</li>
+			<li>ludeon.rimworld</li>
+			<li>ludeon.rimworld.royalty</li>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.biotech</li>
+			<li>ludeon.rimworld.anomaly</li>
+			<li>supes.mapwideorbitaltradebeacon</li>
+			<li>mlie.durableclothes</li>
+			<li>com.yayo.yayoani.continued</li>
+			<li>frozensnowfox.filthvanisheswithrainandtime</li>
+			<li>mehni.numbers</li>
+			<li>andromeda.nicehealthtab</li>
+			<li>mlie.markthatpawn</li>
+			<li>jaxe.bubbles</li>
+			<li>telardo.dragselect</li>
+			<li>bodlosh.weaponstats</li>
+			<li>mlie.showmeyourhands</li>
+			<li>bp.showbuildablematerialcount</li>
+			<li>uuugggg.replacestuff</li>
+		</modIds>
+		<modSteamIds>
+			<li>0</li>
+			<li>0</li>
+			<li>1149640</li>
+			<li>1392840</li>
+			<li>1826140</li>
+			<li>2380740</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+		</modSteamIds>
+		<modNames>
+			<li>Harmony</li>
+			<li>Core</li>
+			<li>Royalty</li>
+			<li>Ideology</li>
+			<li>Biotech</li>
+			<li>Anomaly</li>
+			<li>Map Wide Orbital Trade Beacon</li>
+			<li>Durable Clothes (Continued)</li>
+			<li>Yayo's Animation (Continued)</li>
+			<li>[FSF] Filth Vanishes With Rain And Time</li>
+			<li>Numbers</li>
+			<li>Nice Health Tab</li>
+			<li>Mark That Pawn</li>
+			<li>Interaction Bubbles</li>
+			<li>DragSelect</li>
+			<li>WeaponStats</li>
+			<li>Show Me Your Hands</li>
+			<li>Show Buildable Material Count</li>
+			<li>Replace Stuff</li>
+		</modNames>
+	</meta>
+	<xenotype>
+		<name>Экзоил</name>
+		<inheritable>True</inheritable>
+		<genes>
+			<li>Immunity_Weak</li>
+			<li>PsychicAbility_Dull</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>Aggression_DeadCalm</li>
+			<li>Delicate</li>
+			<li>Pain_Extra</li>
+			<li>Beauty_Beautiful</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Learning_Fast</li>
+			<li>ElongatedFingers</li>
+			<li>AptitudeTerrible_Shooting</li>
+			<li>AptitudeTerrible_Melee</li>
+			<li>AptitudeStrong_Construction</li>
+			<li>AptitudeTerrible_Mining</li>
+			<li>AptitudeStrong_Cooking</li>
+			<li>AptitudeStrong_Plants</li>
+			<li>AptitudeRemarkable_Crafting</li>
+			<li>AptitudeStrong_Artistic</li>
+			<li>AptitudeTerrible_Medicine</li>
+			<li>AptitudeStrong_Social</li>
+			<li>AptitudeRemarkable_Intellectual</li>
+		</genes>
+		<iconDef>Basic</iconDef>
+	</xenotype>
+</savedXenotype>

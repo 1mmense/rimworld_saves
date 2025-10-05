@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="TacticalGroups.TacticalGroupsSettings">
+		<DisplayFood>True</DisplayFood>
+		<DisplayRest>True</DisplayRest>
+		<DisplayWeapons>True</DisplayWeapons>
+		<DisplayColorBars>True</DisplayColorBars>
+		<DisplayBreakRiskOverlay>True</DisplayBreakRiskOverlay>
+		<DisableLabelBackground>True</DisableLabelBackground>
+		<WeaponPlacementOffset>-4</WeaponPlacementOffset>
+		<MarginTop>19.6629219</MarginTop>
+		<ColonistBarPositionX>-260.674164</ColonistBarPositionX>
+		<ColonistBarSpacingX>37.443821</ColonistBarSpacingX>
+		<ColonistBarSpacingY>96.3146057</ColonistBarSpacingY>
+		<ColonyGroupScale>0.5</ColonyGroupScale>
+		<GroupScale>0.5</GroupScale>
+		<GroupRowCount>2</GroupRowCount>
+		<PawnNeedsWidth>5</PawnNeedsWidth>
+		<PawnBoxHeight>113.544945</PawnBoxHeight>
+		<PawnBoxWidth>140.89888</PawnBoxWidth>
+		<PawnCameraOffsetX>0.0112359552</PawnCameraOffsetX>
+		<PawnCameraOffsetZ>0.842696607</PawnCameraOffsetZ>
+		<PawnScale>0.898314595</PawnScale>
+		<ColorBarMode>Extended</ColorBarMode>
+		<WeaponShowMode>Always</WeaponShowMode>
+		<WeaponShowScale>0.898314595</WeaponShowScale>
+		<OverridePawnRowCount>True</OverridePawnRowCount>
+		<AllGroupPresetsSaveable IsNull="True" />
+	</ModSettings>
+</SettingsBlock>
