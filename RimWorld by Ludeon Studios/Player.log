@@ -18,15 +18,15 @@ D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 0.559500 ms
+UnloadTime: 0.573900 ms
 RimWorld 1.6.4566 rev607
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E488C37D0.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E4CB80100.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000024D4E960E00.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000024D500CD0B0.dll
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
 [RimHUD v1.17.5] Initialized
 [Interaction Bubbles v4.2] Initialized
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E4EB75010.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000024D513A5010.dll
 DubsMintMenus v1.3.1086
 Translation data for language Russian / Русский has 36 errors. Generate translation report for more info.
 [TradeHelper] Loaded.
@@ -49,26 +49,30 @@ QualityBuilder: JobDefOf.Deconstruct driverClass = JobDriver_Deconstruct
 [MarkThatPawn]: Found 0 automatic rules defined
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.Notify_MemberStripped
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.TryUnequipSomething
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000020E8FF182D0.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000024D913373B0.dll
 Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
 [Uuugggg.rimworld.Replace_Stuff.main] Patches on methods annotated as Obsolete were detected by HugsLib: Verse.AI.TouchPathEndModeUtility.IsCornerTouchAllowed
 OnLevelWasLoaded was found on ModInitializerComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 29700.
-Total: 216.999500 ms (FindLiveObjects: 1.648500 ms CreateObjectMapping: 0.855000 ms MarkObjects: 214.051100 ms  DeleteObjects: 0.444700 ms)
+Total: 217.381300 ms (FindLiveObjects: 1.621300 ms CreateObjectMapping: 0.816000 ms MarkObjects: 214.495000 ms  DeleteObjects: 0.448700 ms)
 
 CameraPlus: Found mod at I:\Games\Rimworld_1.6.4566a\Mods\CameraPlus
 [RimHUD v1.17.5] User preset 'PRESET' loaded
 [ShowMeYourHands]: Defined hand definitions of 69 weapons
-Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 29883.
+Total: 202.757400 ms (FindLiveObjects: 1.478300 ms CreateObjectMapping: 0.865400 ms MarkObjects: 200.335300 ms  DeleteObjects: 0.078100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 0.804400 ms
+UnloadTime: 0.908700 ms
 QualityBuilder added property to '128' things
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 29924.
-Total: 197.961600 ms (FindLiveObjects: 1.435600 ms CreateObjectMapping: 0.748300 ms MarkObjects: 195.710100 ms  DeleteObjects: 0.067400 ms)
+Total: 215.957700 ms (FindLiveObjects: 1.468300 ms CreateObjectMapping: 0.767100 ms MarkObjects: 213.615100 ms  DeleteObjects: 0.106900 ms)
 
-Loading game from file Адептус Механикус_modded1111 with mods:
+Loading game from file Не_забыть_квест with mods:
   - brrainz.harmony
   - Ludeon.RimWorld
   - Ludeon.RimWorld.Royalty
@@ -123,6 +127,7 @@ Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipL
   at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
 Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
 [Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1593 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Голуг curPathRelToParent=
 Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
 Parameter name: index
 [Ref 83F8838F]
@@ -165,31 +170,883 @@ Parameter name: index
 Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
 Parameter name: index
 [Ref 83F8838F] Duplicate stacktrace, see ref for original
-QualityBuilder added to приказы category.
 [Yayo's Animation] GC : animation data count [0 -> 0]
+QualityBuilder added to приказы category.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 39929.
-Total: 341.309700 ms (FindLiveObjects: 1.972000 ms CreateObjectMapping: 1.147300 ms MarkObjects: 338.081700 ms  DeleteObjects: 0.108600 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 39348.
+Total: 259.205300 ms (FindLiveObjects: 1.939000 ms CreateObjectMapping: 1.170300 ms MarkObjects: 255.983100 ms  DeleteObjects: 0.112700 ms)
 
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+[Yayo's Animation] GC : animation data count [298 -> 209]
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+Bad string pass when reading rule weapon_noun(p=2)_mas->[weapon_type_mas]
+Bad string pass when reading rule weapon_noun(p=2)_fem->[weapon_type_fem]
+Bad string pass when reading rule weapon_noun(p=2)_neu->[weapon_type_neu]
+Bad string pass when reading rule weapon_adjective(p=2)_fem->[trait_adjective_fem]
+Bad string pass when reading rule weapon_adjective(p=2)_neu->[trait_adjective_neu]
+Failed to resolve text. Trying again with English. Exception: System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52B82781]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.Grammar.GrammarResolver.AddRule (Verse.Grammar.Rule rule) [0x00002] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Grammar.GrammarResolver.ResolveUnsafe (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.Boolean& success, System.String debugLabel, System.Boolean forceLog, System.Boolean useUntranslatedRules, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x00171] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Grammar.GrammarResolver.Resolve (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.String debugLabel, System.Boolean forceLog, System.String untranslatedRootKeyword, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x0001e] in <24d25868955f4df08b02c73b55f389fe>:0 
+[Yayo's Animation] GC : animation data count [504 -> 410]
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+SearchAndDestroy_Gizmo_Melee toggle
+Event.Use() should not be called for events of type Layout
+[Yayo's Animation] GC : animation data count [490 -> 218]
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 50791.
+Total: 317.819500 ms (FindLiveObjects: 3.501600 ms CreateObjectMapping: 3.347400 ms MarkObjects: 310.737800 ms  DeleteObjects: 0.232000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.428700 ms
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 47680.
+Total: 294.702100 ms (FindLiveObjects: 2.609500 ms CreateObjectMapping: 2.017200 ms MarkObjects: 289.935400 ms  DeleteObjects: 0.139500 ms)
+
+Loading game from file Адептус Механикус9999 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - IwoRosiak.Holsters
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human7261035 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human7261035 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Lord_1596 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Coyote curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1596 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Dunerat curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1595 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Apolyov curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1595 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Finn curPathRelToParent=
+[Yayo's Animation] GC : animation data count [292 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 56249.
+Total: 309.055000 ms (FindLiveObjects: 3.338100 ms CreateObjectMapping: 2.901100 ms MarkObjects: 302.678800 ms  DeleteObjects: 0.136500 ms)
+
+[Yayo's Animation] GC : animation data count [329 -> 226]
+Bad string pass when reading rule map(p=2)_mas->[mapNoun_mas]: [place]
+Bad string pass when reading rule map(p=2)_fem->[mapNoun_fem]: [place]
+Bad string pass when reading rule map(p=2)_neu->[mapNoun_neu]: [place]
+Bad string pass when reading rule mapNoun(p=5)_fem->карта
+Bad string pass when reading rule mapNoun(p=2)_mas>атлас
+Bad string pass when reading rule mapType(p=2)_mas->[Animal_mas]
+Bad string pass when reading rule mapType(p=2)_fem->[Animal_fem]
+Bad string pass when reading rule mapType(p=2)_neu->[Animal_neu]
+Bad string pass when reading rule mapType(p=2)_mas->[TreeType_mas]
+Bad string pass when reading rule mapType(p=2)_fem->[TreeType_fem]
+Bad string pass when reading rule mapType(p=2)_neu->[TreeType_neu]
+Bad string pass when reading rule |mapContents->[Quantity_adjphrase] [mapSubject], изображенные в стиле [artstyle_adj]. Под каждым — [AdjectiveAny_neu] [Animal_neu]
+Bad string pass when reading rule mapType(p=4)_fem->карта
+Event.Use() should not be called for events of type Layout
+Tried reserving impassable sittable or spot.
+Attempted to access a tile with ID 153611, but it is out of range (count: 1252)
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+Event.Use() should not be called for events of type Layout
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+SearchAndDestroy_Gizmo_Melee toggle
+[Yayo's Animation] GC : animation data count [377 -> 197]
+Event.Use() should not be called for events of type Layout
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+reinnited
+[Yayo's Animation] GC : animation data count [296 -> 201]
+reinnited
+[Yayo's Animation] GC : animation data count [241 -> 202]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 86 unused Assets to reduce memory usage. Loaded Objects now: 56770.
+Total: 401.037900 ms (FindLiveObjects: 3.838600 ms CreateObjectMapping: 3.612900 ms MarkObjects: 393.311300 ms  DeleteObjects: 0.274900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 56758.
+Total: 411.309900 ms (FindLiveObjects: 3.474600 ms CreateObjectMapping: 3.170100 ms MarkObjects: 404.522500 ms  DeleteObjects: 0.142700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.655400 ms
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 53349.
+Total: 359.292200 ms (FindLiveObjects: 2.874100 ms CreateObjectMapping: 2.492400 ms MarkObjects: 353.791400 ms  DeleteObjects: 0.134000 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - IwoRosiak.Holsters
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception registering TacticalGroups.ColonyGroup  - 0 in loaded object directory with unique load ID TacticalGroups.ColonyGroup1: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.ColonyGroup1
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human7278047 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1600 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7267106 curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1601 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7267351 curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1602 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7267471 curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1603 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7267593 curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1604 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7267886 curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1605 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7267927 curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1606 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7268016 curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1607 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=SignalAction_DormancyWakeUp7268265 curPathRelToParent=
+Pawn Tatyana has relation "Lover" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+[Yayo's Animation] GC : animation data count [346 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 66354.
+Total: 422.741900 ms (FindLiveObjects: 3.750000 ms CreateObjectMapping: 4.014800 ms MarkObjects: 414.829700 ms  DeleteObjects: 0.147000 ms)
+
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+reinnited
+Could not resolve symbol "PAWN_gender ? провёл : провела" for string "{PAWN_gender ? провёл : провела} на мне псионический ритуал".
+Attempted to access a tile with ID 153611, but it is out of range (count: 1252)
+Attempted to access a tile with ID 153611, but it is out of range (count: 1252)
+Attempted to access a tile with ID 153611, but it is out of range (count: 1252)
+Attempted to access a tile with ID 153611, but it is out of range (count: 1252)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 65889.
+Total: 411.616200 ms (FindLiveObjects: 4.296400 ms CreateObjectMapping: 3.415400 ms MarkObjects: 403.666600 ms  DeleteObjects: 0.237600 ms)
+
+[Yayo's Animation] GC : animation data count [357 -> 206]
+reinnited
+reinnited
+reinnited
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 314 unused Assets to reduce memory usage. Loaded Objects now: 57175.
+Total: 507.118200 ms (FindLiveObjects: 3.907600 ms CreateObjectMapping: 3.497800 ms MarkObjects: 499.208000 ms  DeleteObjects: 0.504700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.663000 ms
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 54520.
+Total: 427.489600 ms (FindLiveObjects: 3.067800 ms CreateObjectMapping: 2.945200 ms MarkObjects: 421.314100 ms  DeleteObjects: 0.162300 ms)
+
+Loading game from file Адептус Механикус4444 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - IwoRosiak.Holsters
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фанчнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Моин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тадженат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хахрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зовозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Лцокс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовхахрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доуов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зевозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вурач curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зекит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазхакрон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Цнат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фаново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ханат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кецнат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Танат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавкавин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сенав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавив curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Дженово curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовджерат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кецкорозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Пиов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Миин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Гавоназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Лаизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сосс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Дчхоич curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сонат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Куин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кахрон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доунат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Джи curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тссират curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ноизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазнов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Взрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеквозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Керозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фофовит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сетснов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ковиров curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Новозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вехорат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Форов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Казназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Цнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хаккаврат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчхазрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доу curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вунав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кокавов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Каз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мировозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Таа curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мивчвозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ко curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сец curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчвозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тсвоизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Розмеокс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Си curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тааназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеквон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазкувнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вохакново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зе curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавин curPathRelToParent=
+[Yayo's Animation] GC : animation data count [308 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 63186.
+Total: 472.563800 ms (FindLiveObjects: 3.568200 ms CreateObjectMapping: 3.688800 ms MarkObjects: 465.163300 ms  DeleteObjects: 0.143100 ms)
+
+Pawn Готорн threw exception while executing toil MakeNewToils's finish action (1), jobDriver=RimWorld.JobDriver_ConstructFinishFrame, job=FinishFrame (Job_50098579) A = Thing_Frame_Table1x2c7292766 Giver = JobGiver_Work [workGiverDef: ConstructFinishFrames], toilIndex=1: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9E73F00C]
+  at QualityBuilder.QualityBuilder.GetFirstBuildingBuildingOrFrame (Verse.Map map, Verse.IntVec3 c) [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame.afterFinishToil (QualityBuilder.CompQualityBuilder cmp, Verse.Map curMap, Verse.LocalTargetInfo targetInfo) [0x00086] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame+<>c__DisplayClass0_0.<Postfix>b__0 () [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at Verse.AI.Toil.Cleanup (System.Int32 myIndex, Verse.AI.JobDriver jobDriver) [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 55268.
+Total: 509.108900 ms (FindLiveObjects: 3.033000 ms CreateObjectMapping: 2.552000 ms MarkObjects: 503.356100 ms  DeleteObjects: 0.167400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.476100 ms
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 54552.
+Total: 418.923300 ms (FindLiveObjects: 2.996800 ms CreateObjectMapping: 2.819600 ms MarkObjects: 412.967800 ms  DeleteObjects: 0.138500 ms)
+
+Loading game from file Адептус Механикус4444 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - IwoRosiak.Holsters
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фанчнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Моин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тадженат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хахрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зовозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Лцокс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовхахрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доуов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зевозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вурач curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зекит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазхакрон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Цнат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фаново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ханат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кецнат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Танат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавкавин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сенав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавив curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Дженово curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовджерат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кецкорозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Пиов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Миин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Гавоназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Лаизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сосс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Дчхоич curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сонат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Куин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кахрон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доунат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Джи curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тссират curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ноизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазнов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Взрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеквозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Керозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фофовит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сетснов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ковиров curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Новозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вехорат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Форов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Казназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Цнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хаккаврат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчхазрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доу curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вунав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кокавов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Каз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мировозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Таа curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мивчвозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ко curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сец curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчвозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тсвоизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Розмеокс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Си curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тааназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеквон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазкувнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вохакново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зе curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавин curPathRelToParent=
+[Yayo's Animation] GC : animation data count [231 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 63214.
+Total: 598.419600 ms (FindLiveObjects: 3.332800 ms CreateObjectMapping: 3.918100 ms MarkObjects: 591.029300 ms  DeleteObjects: 0.139300 ms)
+
+Pawn Готорн threw exception while executing toil MakeNewToils's finish action (1), jobDriver=RimWorld.JobDriver_ConstructFinishFrame, job=FinishFrame (Job_50098579) A = Thing_Frame_Table1x2c7292766 Giver = JobGiver_Work [workGiverDef: ConstructFinishFrames], toilIndex=1: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9E73F00C]
+  at QualityBuilder.QualityBuilder.GetFirstBuildingBuildingOrFrame (Verse.Map map, Verse.IntVec3 c) [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame.afterFinishToil (QualityBuilder.CompQualityBuilder cmp, Verse.Map curMap, Verse.LocalTargetInfo targetInfo) [0x00086] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame+<>c__DisplayClass0_0.<Postfix>b__0 () [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at Verse.AI.Toil.Cleanup (System.Int32 myIndex, Verse.AI.JobDriver jobDriver) [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 55305.
+Total: 568.227700 ms (FindLiveObjects: 2.975500 ms CreateObjectMapping: 2.545600 ms MarkObjects: 562.541200 ms  DeleteObjects: 0.165200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.554100 ms
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 54578.
+Total: 485.804500 ms (FindLiveObjects: 2.967200 ms CreateObjectMapping: 2.991500 ms MarkObjects: 479.708300 ms  DeleteObjects: 0.137400 ms)
+
+Loading game from file Адептус Механикус4444 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - IwoRosiak.Holsters
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фанчнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Моин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тадженат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хахрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зовозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Лцокс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовхахрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доуов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зевозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вурач curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зекит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазхакрон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Цнат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фаново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ханат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кецнат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Танат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавкавин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сенав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавив curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Дженово curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фовджерат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кецкорозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Пиов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Миин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Гавоназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Лаизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1625 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сосс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Дчхоич curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сонат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Куин curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кахрон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доунат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Джи curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тссират curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ноизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазнов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Взрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеквозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Керозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фофовит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сетснов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ковиров curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Новозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вехорат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Форов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Казназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Цнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хаккаврат curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчхазрозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Доу curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вунав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кокавов curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Каз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мировозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Таа curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мивчвозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ко curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сец curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчвозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тсвоизз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Розмеокс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Си curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Тааназ curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеквон curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вчит curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хазкувнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1626 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Вохакново curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зе curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1624 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кавин curPathRelToParent=
+[Yayo's Animation] GC : animation data count [231 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 63244.
+Total: 669.827200 ms (FindLiveObjects: 3.612300 ms CreateObjectMapping: 3.334300 ms MarkObjects: 662.733100 ms  DeleteObjects: 0.146900 ms)
+
+Pawn Готорн threw exception while executing toil MakeNewToils's finish action (1), jobDriver=RimWorld.JobDriver_ConstructFinishFrame, job=FinishFrame (Job_50098579) A = Thing_Frame_Table1x2c7292766 Giver = JobGiver_Work [workGiverDef: ConstructFinishFrames], toilIndex=1: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9E73F00C]
+  at QualityBuilder.QualityBuilder.GetFirstBuildingBuildingOrFrame (Verse.Map map, Verse.IntVec3 c) [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame.afterFinishToil (QualityBuilder.CompQualityBuilder cmp, Verse.Map curMap, Verse.LocalTargetInfo targetInfo) [0x00086] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame+<>c__DisplayClass0_0.<Postfix>b__0 () [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at Verse.AI.Toil.Cleanup (System.Int32 myIndex, Verse.AI.JobDriver jobDriver) [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+Pawn Эстель threw exception while executing toil MakeNewToils's finish action (1), jobDriver=RimWorld.JobDriver_ConstructFinishFrame, job=FinishFrame (Job_50098939) A = Thing_Frame_Table1x2c7292771 Giver = JobGiver_Work [workGiverDef: ConstructFinishFrames], toilIndex=1: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9E73F00C]
+  at QualityBuilder.QualityBuilder.GetFirstBuildingBuildingOrFrame (Verse.Map map, Verse.IntVec3 c) [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame.afterFinishToil (QualityBuilder.CompQualityBuilder cmp, Verse.Map curMap, Verse.LocalTargetInfo targetInfo) [0x00086] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame+<>c__DisplayClass0_0.<Postfix>b__0 () [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at Verse.AI.Toil.Cleanup (System.Int32 myIndex, Verse.AI.JobDriver jobDriver) [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 55324.
+Total: 675.062600 ms (FindLiveObjects: 3.380600 ms CreateObjectMapping: 3.151900 ms MarkObjects: 668.372200 ms  DeleteObjects: 0.157800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.509600 ms
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 54604.
+Total: 678.613600 ms (FindLiveObjects: 3.168600 ms CreateObjectMapping: 2.715900 ms MarkObjects: 672.600200 ms  DeleteObjects: 0.128700 ms)
+
+Loading game from file Адептус Механикус4444 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - IwoRosiak.Holsters
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+[Yayo's Animation] GC : animation data count [232 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 63276.
+Total: 571.384600 ms (FindLiveObjects: 3.518000 ms CreateObjectMapping: 3.989500 ms MarkObjects: 563.728000 ms  DeleteObjects: 0.148600 ms)
+
+Pawn Готорн threw exception while executing toil MakeNewToils's finish action (1), jobDriver=RimWorld.JobDriver_ConstructFinishFrame, job=FinishFrame (Job_50100483) A = Thing_Frame_Table1x2c7292771 Giver = ThinkNode_QueuedJob [workGiverDef: ConstructFinishFrames], toilIndex=1: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 9E73F00C]
+  at QualityBuilder.QualityBuilder.GetFirstBuildingBuildingOrFrame (Verse.Map map, Verse.IntVec3 c) [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame.afterFinishToil (QualityBuilder.CompQualityBuilder cmp, Verse.Map curMap, Verse.LocalTargetInfo targetInfo) [0x00086] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at QualityBuilder._JobDriver_ConstructFinishFrame+<>c__DisplayClass0_0.<Postfix>b__0 () [0x00000] in <e5c47ef0cb77450ca875ec3f81f03bfa>:0 
+  at Verse.AI.Toil.Cleanup (System.Int32 myIndex, Verse.AI.JobDriver jobDriver) [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+[Yayo's Animation] GC : animation data count [298 -> 204]
+Can't start LayDown toil because pawn is not in the bed. pawn=Фосоп
+[Yayo's Animation] GC : animation data count [263 -> 211]
+Guest group arrived, but there are no guest beds and the player asked to wait until they are built.
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 3934 frames, [1.0 KB-2.0 KB]: 5 frames, [2.0 KB-4.0 KB]: 1634 frames, [4.0 KB-8.0 KB]: 6 frames, [8.0 KB-16.0 KB]: 2 frames, [32.0 KB-64.0 KB]: 2 frames, [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 3 frames
+      Peak usage frame count: [0-1.0 KB]: 14238 frames, [1.0 KB-2.0 KB]: 14 frames, [2.0 KB-4.0 KB]: 822498 frames, [4.0 KB-8.0 KB]: 104196 frames, [8.0 KB-16.0 KB]: 23257 frames, [16.0 KB-32.0 KB]: 2570 frames, [32.0 KB-64.0 KB]: 481 frames, [64.0 KB-128.0 KB]: 328 frames, [128.0 KB-256.0 KB]: 7 frames, [256.0 KB-0.5 MB]: 6 frames, [1.0 MB-2.0 MB]: 3 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 24 frames
       Initial Block Size 4.0 MB
-      Current Block Size 6.2 MB
-      Peak Allocated Bytes 6.2 MB
-      Overflow Count 1
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 8.0 MB
+      Overflow Count 163
     [ALLOC_TEMP_Job.Worker 18]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 3.7 KB
-      Overflow Count 8
+      Overflow Count 32
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -215,15 +1072,15 @@ Memory Statistics:
       Current Block Size 256.0 KB
       Peak Allocated Bytes 144 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 14]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
-      Overflow Count 0
     [ALLOC_TEMP_Job.Worker 17]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
@@ -263,7 +1120,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 288 B
+      Peak Allocated Bytes 480 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -278,12 +1135,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 20]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
@@ -298,27 +1155,27 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 9]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
+      Peak Allocated Bytes 0 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 21]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 176 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
@@ -358,12 +1215,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 22]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 10.3 KB
+      Peak Allocated Bytes 13.3 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
@@ -373,12 +1230,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
@@ -388,19 +1245,19 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 112 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 15]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 144 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 19]
+    [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 144 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 12]
+    [ALLOC_TEMP_Job.Worker 19]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 128 B
@@ -411,31 +1268,31 @@ Memory Statistics:
       Peak Allocated Bytes 117.3 KB
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 14029
+  Peak main deferred allocation count 45185
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 41907
-        32B: 34 Subsections = 17408 buckets. Failed count: 60634
-        48B: 49 Subsections = 16725 buckets. Failed count: 165015
-        64B: 40 Subsections = 10240 buckets. Failed count: 63094
-        80B: 85 Subsections = 17408 buckets. Failed count: 56674
-        96B: 28 Subsections = 4778 buckets. Failed count: 47327
-        112B: 10 Subsections = 1462 buckets. Failed count: 16028
-        128B: 6 Subsections = 768 buckets. Failed count: 12060
+        16B: 4 Subsections = 4096 buckets. Failed count: 13209034
+        32B: 34 Subsections = 17408 buckets. Failed count: 6532479
+        48B: 49 Subsections = 16725 buckets. Failed count: 18517712
+        64B: 40 Subsections = 10240 buckets. Failed count: 4658543
+        80B: 85 Subsections = 17408 buckets. Failed count: 113782522
+        96B: 28 Subsections = 4778 buckets. Failed count: 215605
+        112B: 10 Subsections = 1462 buckets. Failed count: 1051636
+        128B: 6 Subsections = 768 buckets. Failed count: 1867827
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 2149 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 1804 frames, [256.0 MB-0.50 GB]: 1634 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2206 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 106245 frames, [256.0 MB-0.50 GB]: 859171 frames
       Requested Block Size 16.0 MB
-      Peak Block count 20
-      Peak Allocated memory 313.4 MB
+      Peak Block count 31
+      Peak Allocated memory 470.1 MB
       Peak Large allocation bytes 28.3 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 2977 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 60 frames, [64.0 MB-128.0 MB]: 915 frames, [128.0 MB-256.0 MB]: 1634 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 5491 frames, [16.0 MB-32.0 MB]: 2646 frames, [32.0 MB-64.0 MB]: 327 frames, [64.0 MB-128.0 MB]: 4549 frames, [128.0 MB-256.0 MB]: 954610 frames
       Requested Block Size 16.0 MB
-      Peak Block count 8
-      Peak Allocated memory 143.4 MB
+      Peak Block count 14
+      Peak Allocated memory 226.8 MB
       Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -458,31 +1315,31 @@ Memory Statistics:
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 39
+  Peak main deferred allocation count 308
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 41907
-        32B: 34 Subsections = 17408 buckets. Failed count: 60634
-        48B: 49 Subsections = 16725 buckets. Failed count: 165015
-        64B: 40 Subsections = 10240 buckets. Failed count: 63094
-        80B: 85 Subsections = 17408 buckets. Failed count: 56674
-        96B: 28 Subsections = 4778 buckets. Failed count: 47327
-        112B: 10 Subsections = 1462 buckets. Failed count: 16028
-        128B: 6 Subsections = 768 buckets. Failed count: 12060
+        16B: 4 Subsections = 4096 buckets. Failed count: 13209034
+        32B: 34 Subsections = 17408 buckets. Failed count: 6532479
+        48B: 49 Subsections = 16725 buckets. Failed count: 18517712
+        64B: 40 Subsections = 10240 buckets. Failed count: 4658543
+        80B: 85 Subsections = 17408 buckets. Failed count: 113782522
+        96B: 28 Subsections = 4778 buckets. Failed count: 215605
+        112B: 10 Subsections = 1462 buckets. Failed count: 1051636
+        128B: 6 Subsections = 768 buckets. Failed count: 1867827
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2149 frames, [0.50 GB-1.00 GB]: 3438 frames
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2206 frames, [0.50 GB-1.00 GB]: 965416 frames
       Requested Block Size 16.0 MB
-      Peak Block count 5
-      Peak Allocated memory 0.84 GB
-      Peak Large allocation bytes 0.82 GB
+      Peak Block count 16
+      Peak Allocated memory 0.85 GB
+      Peak Large allocation bytes 0.83 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 2168 frames, [1.0 KB-2.0 KB]: 143 frames, [2.0 KB-4.0 KB]: 179 frames, [4.0 KB-8.0 KB]: 1466 frames, [32.0 KB-64.0 KB]: 1632 frames
+      Peak usage frame count: [0-1.0 KB]: 2226 frames, [1.0 KB-2.0 KB]: 1249 frames, [2.0 KB-4.0 KB]: 1499 frames, [4.0 KB-8.0 KB]: 1603 frames, [32.0 KB-64.0 KB]: 1598 frames, [64.0 KB-128.0 KB]: 3517 frames, [128.0 KB-256.0 KB]: 91169 frames, [256.0 KB-0.5 MB]: 389170 frames, [0.5 MB-1.0 MB]: 475592 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 37.5 KB
+      Peak Allocated memory 0.8 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 106
@@ -491,22 +1348,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 41907
-        32B: 34 Subsections = 17408 buckets. Failed count: 60634
-        48B: 49 Subsections = 16725 buckets. Failed count: 165015
-        64B: 40 Subsections = 10240 buckets. Failed count: 63094
-        80B: 85 Subsections = 17408 buckets. Failed count: 56674
-        96B: 28 Subsections = 4778 buckets. Failed count: 47327
-        112B: 10 Subsections = 1462 buckets. Failed count: 16028
-        128B: 6 Subsections = 768 buckets. Failed count: 12060
+        16B: 4 Subsections = 4096 buckets. Failed count: 13209034
+        32B: 34 Subsections = 17408 buckets. Failed count: 6532479
+        48B: 49 Subsections = 16725 buckets. Failed count: 18517712
+        64B: 40 Subsections = 10240 buckets. Failed count: 4658543
+        80B: 85 Subsections = 17408 buckets. Failed count: 113782522
+        96B: 28 Subsections = 4778 buckets. Failed count: 215605
+        112B: 10 Subsections = 1462 buckets. Failed count: 1051636
+        128B: 6 Subsections = 768 buckets. Failed count: 1867827
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2149 frames, [16.0 MB-32.0 MB]: 3438 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2206 frames, [16.0 MB-32.0 MB]: 965416 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
-      Peak Allocated memory 19.2 MB
+      Peak Allocated memory 19.6 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 2149 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 3434 frames, [128.0 KB-256.0 KB]: 2 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 2206 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 128427 frames, [128.0 KB-256.0 KB]: 836968 frames, [256.0 KB-0.5 MB]: 14 frames, [0.5 MB-1.0 MB]: 7 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.6 MB
@@ -518,22 +1375,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 41907
-        32B: 34 Subsections = 17408 buckets. Failed count: 60634
-        48B: 49 Subsections = 16725 buckets. Failed count: 165015
-        64B: 40 Subsections = 10240 buckets. Failed count: 63094
-        80B: 85 Subsections = 17408 buckets. Failed count: 56674
-        96B: 28 Subsections = 4778 buckets. Failed count: 47327
-        112B: 10 Subsections = 1462 buckets. Failed count: 16028
-        128B: 6 Subsections = 768 buckets. Failed count: 12060
+        16B: 4 Subsections = 4096 buckets. Failed count: 13209034
+        32B: 34 Subsections = 17408 buckets. Failed count: 6532479
+        48B: 49 Subsections = 16725 buckets. Failed count: 18517712
+        64B: 40 Subsections = 10240 buckets. Failed count: 4658543
+        80B: 85 Subsections = 17408 buckets. Failed count: 113782522
+        96B: 28 Subsections = 4778 buckets. Failed count: 215605
+        112B: 10 Subsections = 1462 buckets. Failed count: 1051636
+        128B: 6 Subsections = 768 buckets. Failed count: 1867827
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2149 frames, [256.0 KB-0.5 MB]: 3438 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2206 frames, [256.0 KB-0.5 MB]: 965416 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 359.8 KB
+      Peak Allocated memory 364.7 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 5588 frames
+      Peak usage frame count: [0-1.0 KB]: 967623 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
