@@ -3,8 +3,8 @@
 	<ModSettings Class="FasterBiosculpterPod.Settings">
 		<medicCycleDays>1</medicCycleDays>
 		<bioregenerationCycleDays>3</bioregenerationCycleDays>
-		<ageReversalCycleDays>0.5</ageReversalCycleDays>
-		<ageReversalDays>130</ageReversalDays>
+		<ageReversalCycleDays>1</ageReversalCycleDays>
+		<ageReversalDays>120</ageReversalDays>
 		<pleasureCycleDays>1</pleasureCycleDays>
 		<pleasureCycleMoodDays>15</pleasureCycleMoodDays>
 		<workToBuild>28020</workToBuild>
