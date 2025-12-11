@@ -11,22 +11,22 @@ Direct3D:
     VRAM:     20417 MB
     Driver:   31.0.24033.1003
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.110 seconds
-- Finished resetting the current domain, in  0.001 seconds
+- Loaded All Assemblies, in  0.109 seconds
+- Finished resetting the current domain, in  0.002 seconds
 D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 0.582800 ms
+UnloadTime: 0.583600 ms
 RimWorld 1.6.4566 rev607
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000002E446D06020.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000002E445E86BF0.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025BDB282860.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025BDCFFA220.dll
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
 [RimHUD v1.17.5] Initialized
 [Interaction Bubbles v4.2] Initialized
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000002E448C49020.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025BDED9B010.dll
 DubsMintMenus v1.3.1086
 Translation data for language Russian / Русский has 36 errors. Generate translation report for more info.
 [TradeHelper] Loaded.
@@ -49,7 +49,7 @@ QualityBuilder: JobDefOf.Deconstruct driverClass = JobDriver_Deconstruct
 [MarkThatPawn]: Found 0 automatic rules defined
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.Notify_MemberStripped
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.TryUnequipSomething
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000002E48F321010.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025C104A9010.dll
 [CreepJoinersRomancePatch]: Pawn_RelationsTracker.CompatibilityWith Patched
 [CreepJoinersRomancePatch]: Pawn_RelationsTracker.SecondaryLovinChanceFactor Patched
 Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
@@ -58,356 +58,30 @@ OnLevelWasLoaded was found on ModInitializerComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 29700.
-Total: 232.304700 ms (FindLiveObjects: 1.749500 ms CreateObjectMapping: 0.947500 ms MarkObjects: 229.033400 ms  DeleteObjects: 0.574100 ms)
+Total: 212.726000 ms (FindLiveObjects: 1.595600 ms CreateObjectMapping: 0.875800 ms MarkObjects: 209.796200 ms  DeleteObjects: 0.457800 ms)
 
 CameraPlus: Found mod at I:\Games\Rimworld_1.6.4566a\Mods\CameraPlus
 [RimHUD v1.17.5] User preset 'PRESET' loaded
 [ShowMeYourHands]: Defined hand definitions of 69 weapons
-Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 1.069700 ms
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 29924.
-Total: 207.659600 ms (FindLiveObjects: 1.437200 ms CreateObjectMapping: 0.783000 ms MarkObjects: 205.379800 ms  DeleteObjects: 0.059400 ms)
-
-Loading game from file Адептус Механикус2222 with mods:
-  - brrainz.harmony
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - DerekBickley.LTOColonyGroupsFinal
-  - LZWS.DerekBickley.LTOColonyGroupsFinal
-  - UnlimitedHugs.HugsLib
-  - com.yayo.yayoAni.continued
-  - Sl4vP0weR.WeAreUnited
-  - TimmyLiang.TradeHelper
-  - Mlie.ShowMeYourHands
-  - BP.ShowBuildableMaterialCount
-  - MemeGoddess.SearchAndDestroy
-  - Jaxe.RimHUD
-  - kamikadza13.RimHUD
-  - Memegoddess.ReplaceStuff
-  - longwater.smartstockpilecreation
-  - hatti.qualitybuilder
-  - telardo.NumbersTraitAddOn
-  - DawnsGlow.Numbers
-  - Andromeda.NiceHealthTab
-  - Andromeda.NiceHands
-  - Mlie.MarkThatPawn
-  - Supes.MapWideOrbitalTradeBeacon
-  - Jaxe.Bubbles
-  - S4.ImTryingToSaveYou
-  - Orion.Hospitality
-  - IwoRosiak.Holsters
-  - Inglix.FasterBiosculptingPod
-  - Mlie.DurableClothes
-  - dubwise.dubsmintminimap
-  - Ganja.DropInventory
-  - telardo.DragSelect
-  - avilmask.CommonSense
-  - brrainz.cameraplus
-  - Inglix.ApparelTaintedOnCorpseRot
-  - UnlimitedHugs.AllowTool
-  - brrainz.achtung
-  - FrozenSnowFox.FilthVanishesWithRainAndTime
-  - SClarke.GroundTargeter1.6temp
-  - Dubwise.DubsMintMenus
-  - KipsMods.AdjustableAbilityCooldowns
-  - erdelf.MinifyEverything
-  - microus.creepjoinersromance
-  - Shipdontnuketile.Sentinel
-QualityBuilder added property to '128' things
-Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
-[Ref CC152DD4]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
-Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
-[Ref CC152DD4] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F]
- [0x0000c] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.DefMap`2[D,V].set_Item (D def, V value) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.SetPriority (Verse.WorkTypeDef w, System.Int32 priority) [0x00069] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.Disable (Verse.WorkTypeDef w) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.Notify_DisabledWorkTypesChanged () [0x00022] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at Verse.Pawn.Notify_DisabledWorkTypesChanged () [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.ExposeData () [0x00025] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <24d25868955f4df08b02c73b55f389fe>:0 
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-QualityBuilder added to приказы category.
-[Yayo's Animation] GC : animation data count [0 -> 0]
-Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 39954.
-Total: 283.985100 ms (FindLiveObjects: 2.154300 ms CreateObjectMapping: 1.253000 ms MarkObjects: 280.451000 ms  DeleteObjects: 0.126600 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 38501.
-Total: 277.117500 ms (FindLiveObjects: 2.189300 ms CreateObjectMapping: 1.153200 ms MarkObjects: 273.623800 ms  DeleteObjects: 0.150900 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 1.545000 ms
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 37763.
-Total: 264.968300 ms (FindLiveObjects: 1.964000 ms CreateObjectMapping: 1.162300 ms MarkObjects: 261.733400 ms  DeleteObjects: 0.108500 ms)
-
-Loading game from file Адептус Механикус2222 with mods:
-  - brrainz.harmony
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - DerekBickley.LTOColonyGroupsFinal
-  - LZWS.DerekBickley.LTOColonyGroupsFinal
-  - UnlimitedHugs.HugsLib
-  - com.yayo.yayoAni.continued
-  - Sl4vP0weR.WeAreUnited
-  - TimmyLiang.TradeHelper
-  - Mlie.ShowMeYourHands
-  - BP.ShowBuildableMaterialCount
-  - MemeGoddess.SearchAndDestroy
-  - Jaxe.RimHUD
-  - kamikadza13.RimHUD
-  - Memegoddess.ReplaceStuff
-  - longwater.smartstockpilecreation
-  - hatti.qualitybuilder
-  - telardo.NumbersTraitAddOn
-  - DawnsGlow.Numbers
-  - Andromeda.NiceHealthTab
-  - Andromeda.NiceHands
-  - Mlie.MarkThatPawn
-  - Supes.MapWideOrbitalTradeBeacon
-  - Jaxe.Bubbles
-  - S4.ImTryingToSaveYou
-  - Orion.Hospitality
-  - IwoRosiak.Holsters
-  - Inglix.FasterBiosculptingPod
-  - Mlie.DurableClothes
-  - dubwise.dubsmintminimap
-  - Ganja.DropInventory
-  - telardo.DragSelect
-  - avilmask.CommonSense
-  - brrainz.cameraplus
-  - Inglix.ApparelTaintedOnCorpseRot
-  - UnlimitedHugs.AllowTool
-  - brrainz.achtung
-  - FrozenSnowFox.FilthVanishesWithRainAndTime
-  - SClarke.GroundTargeter1.6temp
-  - Dubwise.DubsMintMenus
-  - KipsMods.AdjustableAbilityCooldowns
-  - erdelf.MinifyEverything
-  - microus.creepjoinersromance
-  - Shipdontnuketile.Sentinel
-QualityBuilder added property to '0' things
-Cannot register RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch, (id=Precept_1024 in loaded object directory. Id already used by RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch.
-Cannot register TacticalGroups.PawnGroup  - 0, (id=TacticalGroups.PawnGroup6 in loaded object directory. Id already used by TacticalGroups.PawnGroup  - 0.
-[Yayo's Animation] GC : animation data count [221 -> 0]
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 46665.
-Total: 332.406100 ms (FindLiveObjects: 2.980500 ms CreateObjectMapping: 2.440400 ms MarkObjects: 326.864000 ms  DeleteObjects: 0.121000 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 38597.
-Total: 331.252700 ms (FindLiveObjects: 2.524500 ms CreateObjectMapping: 1.158500 ms MarkObjects: 327.429000 ms  DeleteObjects: 0.140000 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 3.066800 ms
-QualityBuilder added property to '0' things
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 37949.
-Total: 338.000500 ms (FindLiveObjects: 2.077900 ms CreateObjectMapping: 1.163000 ms MarkObjects: 334.658100 ms  DeleteObjects: 0.101300 ms)
-
-Loading game from file Адептус Механикус2222 with mods:
-  - brrainz.harmony
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - DerekBickley.LTOColonyGroupsFinal
-  - LZWS.DerekBickley.LTOColonyGroupsFinal
-  - UnlimitedHugs.HugsLib
-  - com.yayo.yayoAni.continued
-  - Sl4vP0weR.WeAreUnited
-  - TimmyLiang.TradeHelper
-  - Mlie.ShowMeYourHands
-  - BP.ShowBuildableMaterialCount
-  - MemeGoddess.SearchAndDestroy
-  - Jaxe.RimHUD
-  - kamikadza13.RimHUD
-  - Memegoddess.ReplaceStuff
-  - longwater.smartstockpilecreation
-  - hatti.qualitybuilder
-  - telardo.NumbersTraitAddOn
-  - DawnsGlow.Numbers
-  - Andromeda.NiceHealthTab
-  - Andromeda.NiceHands
-  - Mlie.MarkThatPawn
-  - Supes.MapWideOrbitalTradeBeacon
-  - Jaxe.Bubbles
-  - S4.ImTryingToSaveYou
-  - Orion.Hospitality
-  - IwoRosiak.Holsters
-  - Inglix.FasterBiosculptingPod
-  - Mlie.DurableClothes
-  - dubwise.dubsmintminimap
-  - Ganja.DropInventory
-  - telardo.DragSelect
-  - avilmask.CommonSense
-  - brrainz.cameraplus
-  - Inglix.ApparelTaintedOnCorpseRot
-  - UnlimitedHugs.AllowTool
-  - brrainz.achtung
-  - FrozenSnowFox.FilthVanishesWithRainAndTime
-  - SClarke.GroundTargeter1.6temp
-  - Dubwise.DubsMintMenus
-  - KipsMods.AdjustableAbilityCooldowns
-  - erdelf.MinifyEverything
-  - microus.creepjoinersromance
-  - Shipdontnuketile.Sentinel
-Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
-[Ref CC152DD4]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
-Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
-[Ref CC152DD4] Duplicate stacktrace, see ref for original
-[Yayo's Animation] GC : animation data count [221 -> 0]
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 46813.
-Total: 427.831900 ms (FindLiveObjects: 3.169800 ms CreateObjectMapping: 2.379400 ms MarkObjects: 422.133600 ms  DeleteObjects: 0.149000 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 49780.
-Total: 464.373800 ms (FindLiveObjects: 3.415600 ms CreateObjectMapping: 3.149600 ms MarkObjects: 457.559500 ms  DeleteObjects: 0.249000 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 40751.
-Total: 457.082500 ms (FindLiveObjects: 2.511800 ms CreateObjectMapping: 1.387000 ms MarkObjects: 453.055300 ms  DeleteObjects: 0.128000 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 1.492500 ms
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 39649.
-Total: 433.423300 ms (FindLiveObjects: 2.262800 ms CreateObjectMapping: 1.213100 ms MarkObjects: 429.829000 ms  DeleteObjects: 0.118000 ms)
-
-Loading game from file Адептус Механикус2222 with mods:
-  - brrainz.harmony
-  - Ludeon.RimWorld
-  - Ludeon.RimWorld.Royalty
-  - Ludeon.RimWorld.Ideology
-  - Ludeon.RimWorld.Biotech
-  - Ludeon.RimWorld.Anomaly
-  - Ludeon.RimWorld.Odyssey
-  - DerekBickley.LTOColonyGroupsFinal
-  - LZWS.DerekBickley.LTOColonyGroupsFinal
-  - UnlimitedHugs.HugsLib
-  - com.yayo.yayoAni.continued
-  - Sl4vP0weR.WeAreUnited
-  - TimmyLiang.TradeHelper
-  - Mlie.ShowMeYourHands
-  - BP.ShowBuildableMaterialCount
-  - MemeGoddess.SearchAndDestroy
-  - Jaxe.RimHUD
-  - kamikadza13.RimHUD
-  - Memegoddess.ReplaceStuff
-  - longwater.smartstockpilecreation
-  - hatti.qualitybuilder
-  - telardo.NumbersTraitAddOn
-  - DawnsGlow.Numbers
-  - Andromeda.NiceHealthTab
-  - Andromeda.NiceHands
-  - Mlie.MarkThatPawn
-  - Supes.MapWideOrbitalTradeBeacon
-  - Jaxe.Bubbles
-  - S4.ImTryingToSaveYou
-  - Orion.Hospitality
-  - IwoRosiak.Holsters
-  - Inglix.FasterBiosculptingPod
-  - Mlie.DurableClothes
-  - dubwise.dubsmintminimap
-  - Ganja.DropInventory
-  - telardo.DragSelect
-  - avilmask.CommonSense
-  - brrainz.cameraplus
-  - Inglix.ApparelTaintedOnCorpseRot
-  - UnlimitedHugs.AllowTool
-  - brrainz.achtung
-  - FrozenSnowFox.FilthVanishesWithRainAndTime
-  - SClarke.GroundTargeter1.6temp
-  - Dubwise.DubsMintMenus
-  - KipsMods.AdjustableAbilityCooldowns
-  - erdelf.MinifyEverything
-  - microus.creepjoinersromance
-  - Shipdontnuketile.Sentinel
-QualityBuilder added property to '0' things
-Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
-[Ref CC152DD4]
- [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
-Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
-[Ref CC152DD4] Duplicate stacktrace, see ref for original
-[Yayo's Animation] GC : animation data count [297 -> 0]
-Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 48496.
-Total: 544.225800 ms (FindLiveObjects: 3.067600 ms CreateObjectMapping: 2.498200 ms MarkObjects: 538.517700 ms  DeleteObjects: 0.142100 ms)
-
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 9095 frames, [1.0 KB-2.0 KB]: 11 frames, [2.0 KB-4.0 KB]: 60295 frames, [4.0 KB-8.0 KB]: 10543 frames, [8.0 KB-16.0 KB]: 6293 frames, [16.0 KB-32.0 KB]: 3216 frames, [32.0 KB-64.0 KB]: 109 frames, [64.0 KB-128.0 KB]: 15 frames, [128.0 KB-256.0 KB]: 1 frames, [1.0 MB-2.0 MB]: 3 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 13 frames
+      Peak usage frame count: [0-1.0 KB]: 3905 frames, [1.0 KB-2.0 KB]: 1 frames, [2.0 KB-4.0 KB]: 3 frames, [32.0 KB-64.0 KB]: 2 frames, [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 1 frames
       Initial Block Size 4.0 MB
-      Current Block Size 7.9 MB
-      Peak Allocated Bytes 7.9 MB
-      Overflow Count 16
+      Current Block Size 5.0 MB
+      Peak Allocated Bytes 5.0 MB
+      Overflow Count 1
     [ALLOC_TEMP_Job.Worker 18]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 3.7 KB
-      Overflow Count 20
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 4
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -421,7 +95,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 16]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 6]
       Initial Block Size 32.0 KB
@@ -431,22 +105,22 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 4]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 14]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 17]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -481,7 +155,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 288 B
+      Peak Allocated Bytes 480 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
@@ -496,12 +170,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 20]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
@@ -521,7 +195,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 9]
       Initial Block Size 32.0 KB
@@ -531,17 +205,17 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 21]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 5]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_ReadCacheIndex]
       Initial Block Size 64.0 KB
@@ -551,7 +225,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 13]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_EnlightenWorker] x 12
       Initial Block Size 64.0 KB
@@ -576,27 +250,27 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 22]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 13.3 KB
+      Peak Allocated Bytes 2.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
@@ -606,12 +280,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 15]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 19]
       Initial Block Size 256.0 KB
@@ -621,7 +295,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 128 B
       Overflow Count 0
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
@@ -629,32 +303,32 @@ Memory Statistics:
       Peak Allocated Bytes 117.3 KB
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 20303
+  Peak main deferred allocation count 43484
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 903540
-        32B: 34 Subsections = 17408 buckets. Failed count: 554353
-        48B: 49 Subsections = 16725 buckets. Failed count: 1649207
-        64B: 40 Subsections = 10240 buckets. Failed count: 462056
-        80B: 85 Subsections = 17408 buckets. Failed count: 995847
-        96B: 28 Subsections = 4778 buckets. Failed count: 60431
-        112B: 10 Subsections = 1462 buckets. Failed count: 107711
-        128B: 6 Subsections = 768 buckets. Failed count: 168421
+        16B: 4 Subsections = 4096 buckets. Failed count: 32227
+        32B: 34 Subsections = 17408 buckets. Failed count: 43193
+        48B: 49 Subsections = 16725 buckets. Failed count: 92752
+        64B: 40 Subsections = 10240 buckets. Failed count: 36944
+        80B: 85 Subsections = 17408 buckets. Failed count: 34834
+        96B: 28 Subsections = 4778 buckets. Failed count: 45509
+        112B: 10 Subsections = 1462 buckets. Failed count: 11057
+        128B: 6 Subsections = 768 buckets. Failed count: 8094
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 2223 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 6914 frames, [256.0 MB-0.50 GB]: 80457 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2151 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 1762 frames
       Requested Block Size 16.0 MB
-      Peak Block count 28
-      Peak Allocated memory 443.5 MB
+      Peak Block count 13
+      Peak Allocated memory 202.8 MB
       Peak Large allocation bytes 28.3 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 3581 frames, [16.0 MB-32.0 MB]: 1327 frames, [32.0 MB-64.0 MB]: 231 frames, [64.0 MB-128.0 MB]: 3999 frames, [128.0 MB-256.0 MB]: 80457 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 3912 frames, [16.0 MB-32.0 MB]: 2 frames
       Requested Block Size 16.0 MB
-      Peak Block count 10
-      Peak Allocated memory 171.2 MB
-      Peak Large allocation bytes 33.8 MB
+      Peak Block count 2
+      Peak Allocated memory 17.1 MB
+      Peak Large allocation bytes 0 B
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 0
@@ -676,31 +350,31 @@ Memory Statistics:
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 79
+  Peak main deferred allocation count 34
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 903540
-        32B: 34 Subsections = 17408 buckets. Failed count: 554353
-        48B: 49 Subsections = 16725 buckets. Failed count: 1649207
-        64B: 40 Subsections = 10240 buckets. Failed count: 462056
-        80B: 85 Subsections = 17408 buckets. Failed count: 995847
-        96B: 28 Subsections = 4778 buckets. Failed count: 60431
-        112B: 10 Subsections = 1462 buckets. Failed count: 107711
-        128B: 6 Subsections = 768 buckets. Failed count: 168421
+        16B: 4 Subsections = 4096 buckets. Failed count: 32227
+        32B: 34 Subsections = 17408 buckets. Failed count: 43193
+        48B: 49 Subsections = 16725 buckets. Failed count: 92752
+        64B: 40 Subsections = 10240 buckets. Failed count: 36944
+        80B: 85 Subsections = 17408 buckets. Failed count: 34834
+        96B: 28 Subsections = 4778 buckets. Failed count: 45509
+        112B: 10 Subsections = 1462 buckets. Failed count: 11057
+        128B: 6 Subsections = 768 buckets. Failed count: 8094
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2223 frames, [0.50 GB-1.00 GB]: 87371 frames
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2151 frames, [0.50 GB-1.00 GB]: 1762 frames
       Requested Block Size 16.0 MB
-      Peak Block count 15
-      Peak Allocated memory 0.82 GB
-      Peak Large allocation bytes 0.81 GB
+      Peak Block count 2
+      Peak Allocated memory 0.84 GB
+      Peak Large allocation bytes 0.82 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 2243 frames, [1.0 KB-2.0 KB]: 453 frames, [2.0 KB-4.0 KB]: 168 frames, [4.0 KB-8.0 KB]: 1893 frames, [16.0 KB-32.0 KB]: 2851 frames, [32.0 KB-64.0 KB]: 4313 frames, [64.0 KB-128.0 KB]: 17727 frames, [128.0 KB-256.0 KB]: 12685 frames, [256.0 KB-0.5 MB]: 42617 frames, [0.5 MB-1.0 MB]: 4645 frames
+      Peak usage frame count: [0-1.0 KB]: 2162 frames, [1.0 KB-2.0 KB]: 169 frames, [2.0 KB-4.0 KB]: 1578 frames, [4.0 KB-8.0 KB]: 5 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 0.6 MB
+      Peak Allocated memory 4.0 KB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 106
@@ -709,22 +383,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 903540
-        32B: 34 Subsections = 17408 buckets. Failed count: 554353
-        48B: 49 Subsections = 16725 buckets. Failed count: 1649207
-        64B: 40 Subsections = 10240 buckets. Failed count: 462056
-        80B: 85 Subsections = 17408 buckets. Failed count: 995847
-        96B: 28 Subsections = 4778 buckets. Failed count: 60431
-        112B: 10 Subsections = 1462 buckets. Failed count: 107711
-        128B: 6 Subsections = 768 buckets. Failed count: 168421
+        16B: 4 Subsections = 4096 buckets. Failed count: 32227
+        32B: 34 Subsections = 17408 buckets. Failed count: 43193
+        48B: 49 Subsections = 16725 buckets. Failed count: 92752
+        64B: 40 Subsections = 10240 buckets. Failed count: 36944
+        80B: 85 Subsections = 17408 buckets. Failed count: 34834
+        96B: 28 Subsections = 4778 buckets. Failed count: 45509
+        112B: 10 Subsections = 1462 buckets. Failed count: 11057
+        128B: 6 Subsections = 768 buckets. Failed count: 8094
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2223 frames, [16.0 MB-32.0 MB]: 87371 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2151 frames, [16.0 MB-32.0 MB]: 1762 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
-      Peak Allocated memory 19.5 MB
+      Peak Allocated memory 18.4 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 2223 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 75323 frames, [128.0 KB-256.0 KB]: 12043 frames, [256.0 KB-0.5 MB]: 4 frames, [0.5 MB-1.0 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 2151 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 1761 frames, [0.5 MB-1.0 MB]: 1 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.6 MB
@@ -736,22 +410,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 903540
-        32B: 34 Subsections = 17408 buckets. Failed count: 554353
-        48B: 49 Subsections = 16725 buckets. Failed count: 1649207
-        64B: 40 Subsections = 10240 buckets. Failed count: 462056
-        80B: 85 Subsections = 17408 buckets. Failed count: 995847
-        96B: 28 Subsections = 4778 buckets. Failed count: 60431
-        112B: 10 Subsections = 1462 buckets. Failed count: 107711
-        128B: 6 Subsections = 768 buckets. Failed count: 168421
+        16B: 4 Subsections = 4096 buckets. Failed count: 32227
+        32B: 34 Subsections = 17408 buckets. Failed count: 43193
+        48B: 49 Subsections = 16725 buckets. Failed count: 92752
+        64B: 40 Subsections = 10240 buckets. Failed count: 36944
+        80B: 85 Subsections = 17408 buckets. Failed count: 34834
+        96B: 28 Subsections = 4778 buckets. Failed count: 45509
+        112B: 10 Subsections = 1462 buckets. Failed count: 11057
+        128B: 6 Subsections = 768 buckets. Failed count: 8094
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2223 frames, [256.0 KB-0.5 MB]: 87371 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2151 frames, [256.0 KB-0.5 MB]: 1762 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 364.7 KB
+      Peak Allocated memory 359.8 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 89595 frames
+      Peak usage frame count: [0-1.0 KB]: 3914 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
