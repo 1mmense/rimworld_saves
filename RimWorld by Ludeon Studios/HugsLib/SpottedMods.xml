@@ -61,4 +61,12 @@
   <mod packageId="microus.creepjoinersromance" />
   <mod packageId="Shipdontnuketile.Sentinel" />
   <mod packageId="Syrus.CustomizeAnimals" />
+  <mod packageId="Mlie.PrisonCommons" />
+  <mod packageId="Taranchuk.PerformanceOptimizer" />
+  <mod packageId="dmitry6.RusPerformanceOptimizer" />
+  <mod packageId="Krkr.RocketMan" />
+  <mod packageId="Mlie.SinglePlantTexturePatch" />
+  <mod packageId="OskarPotocki.VanillaFactionsExpanded.Core" />
+  <mod packageId="VanillaExpanded.VWE" />
+  <mod packageId="avilmask.PsychicHarmonizerLagFix" />
 </Mods>

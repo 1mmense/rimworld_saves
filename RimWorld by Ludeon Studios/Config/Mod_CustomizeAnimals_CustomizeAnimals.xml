@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="CustomizeAnimals.CustomizeAnimals_ModSettings">
+		<Global>
+			<WillNeverEatGlobalList />
+		</Global>
+		<AlphaThrumbo>
+			<PackAnimal>True</PackAnimal>
+			<Shearable>
+				<IsShearable>True</IsShearable>
+				<WoolDef>Leather_AlphaThrumbo</WoolDef>
+				<IntervalDays>15</IntervalDays>
+				<Amount>120</Amount>
+			</Shearable>
+		</AlphaThrumbo>
+	</ModSettings>
+</SettingsBlock>

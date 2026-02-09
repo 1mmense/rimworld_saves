@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="TradeHelper.TradeHelperSettings">
-		<TradeHelperWishList />
+		<TradeHelperWishList>арх*,гиперткань,блоки мрамора,обсиди*</TradeHelperWishList>
 	</ModSettings>
 </SettingsBlock>

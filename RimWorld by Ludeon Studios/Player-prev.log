@@ -12,23 +12,204 @@ Direct3D:
     Driver:   31.0.24033.1003
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.109 seconds
-- Finished resetting the current domain, in  0.002 seconds
+- Finished resetting the current domain, in  0.001 seconds
 D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 0.583600 ms
+UnloadTime: 0.618900 ms
 RimWorld 1.6.4566 rev607
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025BDB282860.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025BDCFFA220.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C24586E030.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C245B22050.dll
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
 [RimHUD v1.17.5] Initialized
 [Interaction Bubbles v4.2] Initialized
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025BDED9B010.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C24959F050.dll
 DubsMintMenus v1.3.1086
-Translation data for language Russian / Русский has 36 errors. Generate translation report for more info.
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C2496B5010.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C2497A8020.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C2497B3030.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C24966BF90.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C2497C0640.dll
+GAGARIN STARTUP STARTED
+GAGARIN: <color=green>StartUpStarted called!</color>
+GAGARIN: <color=green>Cache found</color>
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>0.638</color> seconds
+GAGARIN: CombineIntoUnifiedXML has <color=red>Context.IsUsingCache=True</color>
+GAGARIN: <color=green>Loadeding XmlDocument</color> took <color=red>0.3339197 seconds</color>
+GAGARIN: <color=green>Loaded from cache!</color> Loading cache took <color=red>0 seconds</color>
+GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>0.696</color> seconds
+GAGARIN: <color=white>TKeySystem.Parse</color> took <color=red>0.002</color> seconds
+GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>0.001</color> seconds
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0</color> seconds
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
+GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>2.243</color> seconds
+GAGARIN: <color=white>ClearCachedPatches_Profiler</color> took <color=red>0</color> seconds
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.004</color> seconds
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ColonyGroups_1_3_07 in I:\Games\Rimworld_1.6.4566a\Mods\LTOColonyGroups\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ColonyGroups_1_3_07
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ColonyGroups_1_3_08 in I:\Games\Rimworld_1.6.4566a\Mods\LTOColonyGroups\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ColonyGroups_1_3_08
+[HugsLib][ERR] Failed to parse UpdateFeatureDef from mod Mlie.ShowMeYourHands:
+Object reference not set to an instance of an object
+Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="ShowMeYourHands_UpdateFeatureBase"><modNameReadable>ShowMeYourHands</modNameReadable><linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842</linkUrl></HugsLib.UpdateFeatureDef>
+File: I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml
+Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFF8D987]
+  at Gagarin.DirectXmlLoader_Patch+DirectXmlLoader_DefFromNode_Patch.Postfix (System.Xml.XmlNode node, Verse.LoadableXmlAsset loadingAsset, Verse.Def __result) [0x00030] in <a663837358ac4b1eb0c2fc77449d7c09>:0 
+  at Verse.DirectXmlLoader.DefFromNode (System.Xml.XmlNode node, Verse.LoadableXmlAsset loadingAsset) [0x00180] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX Krkr.RocketMan.Gagarin: Void Gagarin.DirectXmlLoader_Patch+DirectXmlLoader_DefFromNode_Patch:Postfix(XmlNode node, LoadableXmlAsset loadingAsset, Def __result)
+  at HugsLib.News.UpdateFeatureDefLoader.ResolveUpdateFeatureDefsFromNodes (System.Collections.Generic.IEnumerable`1[T] nodes) [0x000a2] in <e92fb9c535b84355b807623efc376846>:0 
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_14_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ShowMeYourHands_1_0_14_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_15_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ShowMeYourHands_1_0_15_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_33_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ShowMeYourHands_1_0_33_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_37_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ShowMeYourHands_1_0_37_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_39_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ShowMeYourHands_1_0_39_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_40_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is True, and Def: ShowMeYourHands_1_0_40_0
+[HugsLib][ERR] Failed to parse UpdateFeatureDef from mod MemeGoddess.SearchAndDestroy:
+Object reference not set to an instance of an object
+Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="SearchAndDestroy_UpdateFeatureBase"><modNameReadable>Search and Destroy</modNameReadable><modIdentifier>SearchAndDestroy</modIdentifier><linkUrl>https://ludeon.com/forums/index.php?topic=43068.0</linkUrl></HugsLib.UpdateFeatureDef>
+File: I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml
+Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFF8D987] Duplicate stacktrace, see ref for original
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.1.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is True, and Def: SearchAndDestroy_1.1.0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.2.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is True, and Def: SearchAndDestroy_1.2.0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.3.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is True, and Def: SearchAndDestroy_1.3.0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.4.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is True, and Def: SearchAndDestroy_1.4.0
+[HugsLib][ERR] Failed to parse UpdateFeatureDef from mod Memegoddess.ReplaceStuff:
+Object reference not set to an instance of an object
+Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase"><modNameReadable>Replace Stuff</modNameReadable><modIdentifier>Uuugggg.ReplaceStuff</modIdentifier><linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1372003680</linkUrl></HugsLib.UpdateFeatureDef>
+File: I:\Games\Rimworld_1.6.4566a\Mods\ReplaceStuff\1.3\News\UpdateFeatures.xml
+Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFF8D987] Duplicate stacktrace, see ref for original
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: Uuugggg_ReplaceStuff_1_1_0 in I:\Games\Rimworld_1.6.4566a\Mods\ReplaceStuff\1.3\News\UpdateFeatures.xml. IsUsingCache is True, and Def: Uuugggg_ReplaceStuff_1_1_0
+[HugsLib][ERR] Failed to parse UpdateFeatureDef from mod Mlie.MarkThatPawn:
+Object reference not set to an instance of an object
+Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="MarkThatPawn_UpdateFeatureBase"><modNameReadable>MarkThatPawn</modNameReadable><linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3056996662</linkUrl></HugsLib.UpdateFeatureDef>
+File: I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml
+Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFF8D987] Duplicate stacktrace, see ref for original
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_1 in I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is True, and Def: MarkThatPawn_1_4_1
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_6 in I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is True, and Def: MarkThatPawn_1_4_6
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_23 in I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is True, and Def: MarkThatPawn_1_4_23
+[HugsLib][ERR] Failed to parse UpdateFeatureDef from mod UnlimitedHugs.AllowTool:
+Object reference not set to an instance of an object
+Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="ATUpdateFeatureBase"><defName>AllowToolUpdateFeature</defName><modNameReadable>Allow Tool</modNameReadable><modIdentifier>AllowTool</modIdentifier><linkUrl>https://ludeon.com/forums/index.php?topic=17218</linkUrl></HugsLib.UpdateFeatureDef>
+File: I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml
+Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref FFF8D987] Duplicate stacktrace, see ref for original
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_2_3_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_2_3_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_2_4_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_2_4_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_0_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_3_0_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_2_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_3_2_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_4_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_3_4_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_5_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_3_5_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_6_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_3_6_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_7_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_3_7_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_10_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is True, and Def: AllowTool_3_10_0
+Translation data for language Russian / Русский has 91 errors. Generate translation report for more info.
 [TradeHelper] Loaded.
 QualityBuilder: JobDefOf.Deconstruct driverClass = JobDriver_Deconstruct
 [MarkThatPawn]: Found 20 icons for GDI
@@ -44,44 +225,2307 @@ QualityBuilder: JobDefOf.Deconstruct driverClass = JobDriver_Deconstruct
 [MarkThatPawn]: Found 18 icons for XCOM
 [MarkThatPawn]: Found 13 icons for XCOM 2
 [MarkThatPawn]: Found 9 icons for XCOM Medieval
-[MarkThatPawn]: Found 94 loaded weapons, 6 explosive weapons and 10 thrown projectiles
+[MarkThatPawn]: Found 135 loaded weapons, 9 explosive weapons and 16 thrown projectiles
 [MarkThatPawn]: Found 112 loaded apparel, 32 armored apparel, 11 royal apparel, 11 psycast apparel, 5 enviromental protection apparel, 6 mechanator apparel and 62 basic apparel 
 [MarkThatPawn]: Found 0 automatic rules defined
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.Notify_MemberStripped
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.TryUnequipSomething
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000025C104A9010.dll
+Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001C29CCA6020.dll
 [CreepJoinersRomancePatch]: Pawn_RelationsTracker.CompatibilityWith Patched
 [CreepJoinersRomancePatch]: Pawn_RelationsTracker.SecondaryLovinChanceFactor Patched
+GAGARIN: <color=green>StartUpFinished called!</color>
 Unloading 5 Unused Serialized files (Serialized files now loaded: 7)
+MVCF successfully applied 0 patches
 [Uuugggg.rimworld.Replace_Stuff.main] Patches on methods annotated as Obsolete were detected by HugsLib: Verse.AI.TouchPathEndModeUtility.IsCornerTouchAllowed
 OnLevelWasLoaded was found on ModInitializerComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 29700.
-Total: 212.726000 ms (FindLiveObjects: 1.595600 ms CreateObjectMapping: 0.875800 ms MarkObjects: 209.796200 ms  DeleteObjects: 0.457800 ms)
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 30015.
+Total: 241.169000 ms (FindLiveObjects: 1.529200 ms CreateObjectMapping: 0.880900 ms MarkObjects: 238.293600 ms  DeleteObjects: 0.465300 ms)
 
 CameraPlus: Found mod at I:\Games\Rimworld_1.6.4566a\Mods\CameraPlus
 [RimHUD v1.17.5] User preset 'PRESET' loaded
-[ShowMeYourHands]: Defined hand definitions of 69 weapons
+[ShowMeYourHands]: Defined hand definitions of 110 weapons
+Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.118100 ms
+QualityBuilder added property to '128' things
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 30241.
+Total: 225.891900 ms (FindLiveObjects: 1.415400 ms CreateObjectMapping: 0.780800 ms MarkObjects: 223.631100 ms  DeleteObjects: 0.064300 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Starting patches: 447 - 2/9/2026 1:31:43 AM
+Finished transpiling 446 methods - 2/9/2026 1:31:47 AM
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception registering TacticalGroups.ColonyGroup  - 0 in loaded object directory with unique load ID TacticalGroups.ColonyGroup1: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.ColonyGroup1
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Blitz curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Chibi curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Sale curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Allison curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Quiet curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Lyra curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Angus curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Chelse curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Woodrow curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Stella curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Hardy curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Goodwin curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Hays curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Vivian curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1859 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Dan curPathRelToParent=
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F]
+ [0x0000c] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.DefMap`2[D,V].set_Item (D def, V value) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.SetPriority (Verse.WorkTypeDef w, System.Int32 priority) [0x00069] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.Disable (Verse.WorkTypeDef w) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.Notify_DisabledWorkTypesChanged () [0x00022] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Pawn.Notify_DisabledWorkTypesChanged () [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.ExposeData () [0x00025] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <24d25868955f4df08b02c73b55f389fe>:0 
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 2051856534
+Could not find think node with key 1321599698
+Could not find think node with key 2051856534
+Could not find think node with key 1321599698
+Could not find think node with key -1928139435
+Could not find think node with key 811300205
+Could not find think node with key 1688872258
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key 1460133773
+Could not find think node with key -425931507
+Could not find think node with key -425931507
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 2051856534
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key -425931507
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key 1050388132
+Could not find think node with key 811300205
+Could not find think node with key 1688872258
+Could not find think node with key 811300205
+Could not find think node with key -1634916214
+Could not find think node with key 811300205
+Could not find think node with key 1688872258
+Could not find think node with key 2051856534
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key -425931507
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 1688872258
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key 1050388132
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 1321599698
+Could not find think node with key -290664883
+Could not find think node with key 811300205
+Could not find think node with key 1688872258
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key -406998904
+Could not find think node with key 1971212878
+Could not find think node with key -290664883
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -32711753
+Could not find think node with key 1321599698
+Could not find think node with key -406998904
+Could not find think node with key -659193634
+Could not find think node with key 811300205
+Could not find think node with key 1688872258
+Could not find think node with key 811300205
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key 1688872258
+Could not find think node with key -406998904
+Could not find think node with key 1688872258
+Could not find think node with key 1321599698
+Could not find think node with key -406998904
+Could not find think node with key 811300205
+Could not find think node with key -406998904
+Could not find think node with key 1321599698
+Could not find think node with key 811300205
+Could not find think node with key -406998904
+Could not find think node with key 811300205
+Could not find think node with key 811300205
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -406998904
+Could not find think node with key -425931507
+Could not find think node with key -425931507
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key 811300205
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key 2051856534
+Could not find think node with key -406998904
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -406998904
+Could not find think node with key -173885576
+Could not find think node with key -313446925
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key -1634916214
+Could not find think node with key -406998904
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -406998904
+Could not find think node with key 1321599698
+Could not find think node with key -32711753
+Could not find think node with key 1971212878
+Could not find think node with key -290664883
+Could not find think node with key -1634916214
+Could not find think node with key -1634916214
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -32711753
+Could not find think node with key -406998904
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key -313446925
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key 1884729246
+Could not find think node with key 1688872258
+Could not find think node with key -1634916214
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key 1884729246
+Could not find think node with key 1688872258
+Could not find think node with key 1884729246
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key 1688872258
+Could not find think node with key -558964545
+Could not find think node with key 2051856534
+Could not find think node with key -659193634
+Could not find think node with key 2051856534
+Could not find think node with key -158920353
+Could not find think node with key 811300205
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key 811300205
+Could not find think node with key -1634916214
+Could not find think node with key -406998904
+Could not find think node with key 811300205
+Could not find think node with key -406998904
+Could not find think node with key 968770816
+Could not find think node with key -1634916214
+Could not find think node with key 1688872258
+Could not find think node with key -406998904
+Could not find think node with key 2051856534
+Could not find think node with key 2051856534
+Could not find think node with key 2051856534
+Could not find think node with key -406998904
+Could not find think node with key 2051856534
+Could not find think node with key -406998904
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key 2051856534
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -659193634
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key 2051856534
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -266903435
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key 1688872258
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key 2051856534
+Could not find think node with key 2051856534
+Could not find think node with key 2051856534
+Could not find think node with key -406998904
+Could not find think node with key -406998904
+Could not find think node with key 2051856534
+Could not find think node with key 2051856534
+Could not find think node with key -1634916214
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [0 -> 0]
+QualityBuilder added to приказы category.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 46459.
+Total: 466.859500 ms (FindLiveObjects: 2.310500 ms CreateObjectMapping: 2.013300 ms MarkObjects: 462.400500 ms  DeleteObjects: 0.134900 ms)
+
+CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
+CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
+CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
+Event.Use() should not be called for events of type Layout
+[Yayo's Animation] GC : animation data count [400 -> 327]
+Dougherty started 10 jobs in one tick. newJob=Train (Job_64388578) A = Thing_AlphaThrumbo6443729 jobGiver=RimWorld.JobGiver_Work jobList=
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 52F7AAA3]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking GuineaPig8089745. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A60B8BD]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+Dougherty started 10 jobs in one tick. newJob=Train (Job_64436567) A = Thing_AlphaThrumbo7537487 jobGiver=RimWorld.JobGiver_Work jobList=
+Banks started 10 jobs in one tick. newJob=Train (Job_64451827) A = Thing_AlphaThrumbo7537487 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 44023.
+Total: 386.457600 ms (FindLiveObjects: 4.308400 ms CreateObjectMapping: 2.339800 ms MarkObjects: 379.631200 ms  DeleteObjects: 0.177900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 44019.
+Total: 342.314600 ms (FindLiveObjects: 2.716800 ms CreateObjectMapping: 1.907100 ms MarkObjects: 337.585700 ms  DeleteObjects: 0.104800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 2.880300 ms
+QualityBuilder added property to '0' things
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 42448.
+Total: 348.688200 ms (FindLiveObjects: 2.128700 ms CreateObjectMapping: 1.389400 ms MarkObjects: 345.042500 ms  DeleteObjects: 0.126900 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception registering TacticalGroups.ColonyGroup  - 0 in loaded object directory with unique load ID TacticalGroups.ColonyGroup1: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.ColonyGroup1
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1865 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
+Not all loadIDs which were read were consumed.
+Singles:
+  Thing_PassengerShuttle3263085 of type Verse.Thing. pathRelToParent=/item/thing, parent=-1000x-1000(0)
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [404 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 57108.
+Total: 480.910400 ms (FindLiveObjects: 3.108400 ms CreateObjectMapping: 3.376100 ms MarkObjects: 474.277900 ms  DeleteObjects: 0.147700 ms)
+
+Oleg threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F217B206]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00034] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX net.pardeike.rimworld.mods.achtung: Boolean AchtungMod.HaulAIUtility_PawnCanAutomaticallyHaulFast_Patch:Prefix(Pawn p, Thing t, Boolean forced, Boolean& __result)
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at Verse.GenClosest.ClosestThing_Global (Verse.IntVec3 center, System.Collections.IEnumerable searchSet, System.Single maxDistance, System.Predicate`1[T] validator, System.Func`2[T,TResult] priorityGetter, System.Boolean lookInHaulSources) [0x0013c] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x00147] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00671] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Orion.Hospitality: Boolean Hospitality.Patches.JobGiver_Work_Patch+TryIssueJobPackage:Prefix(Pawn pawn)
+Чайка threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F217B206] Duplicate stacktrace, see ref for original
+Oleg threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F217B206] Duplicate stacktrace, see ref for original
+Чайка threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F217B206] Duplicate stacktrace, see ref for original
+Oleg threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F217B206]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00034] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX net.pardeike.rimworld.mods.achtung: Boolean AchtungMod.HaulAIUtility_PawnCanAutomaticallyHaulFast_Patch:Prefix(Pawn p, Thing t, Boolean forced, Boolean& __result)
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at Verse.GenClosest.ClosestThing_Global (Verse.IntVec3 center, System.Collections.IEnumerable searchSet, System.Single maxDistance, System.Predicate`1[T] validator, System.Func`2[T,TResult] priorityGetter, System.Boolean lookInHaulSources) [0x0013c] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x00147] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00671] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Orion.Hospitality: Boolean Hospitality.Patches.JobGiver_Work_Patch+TryIssueJobPackage:Prefix(Pawn pawn)
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+[Yayo's Animation] GC : animation data count [389 -> 338]
+Event.Use() should not be called for events of type Layout
+Event.Use() should not be called for events of type Layout
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 52F7AAA3]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking GuineaPig8089744. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A60B8BD]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+Аллигатор threw exception in WorkGiver HaulUrgently: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref F217B206]
+  at Verse.GridsUtility.Fogged (Verse.Thing t) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.HaulAIUtility.PawnCanAutomaticallyHaulFast (Verse.Pawn p, Verse.Thing t, System.Boolean forced) [0x00034] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX net.pardeike.rimworld.mods.achtung: Boolean AchtungMod.HaulAIUtility_PawnCanAutomaticallyHaulFast_Patch:Prefix(Pawn p, Thing t, Boolean forced, Boolean& __result)
+  at AllowTool.WorkGiver_HaulUrgently+<PotentialWorkThingsGlobal>d__3.MoveNext () [0x00052] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at Verse.GenClosest.ClosestThing_Global (Verse.IntVec3 center, System.Collections.IEnumerable searchSet, System.Single maxDistance, System.Predicate`1[T] validator, System.Func`2[T,TResult] priorityGetter, System.Boolean lookInHaulSources) [0x0013c] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.GenClosest.ClosestThingReachable (Verse.IntVec3 root, Verse.Map map, Verse.ThingRequest thingReq, Verse.AI.PathEndMode peMode, Verse.TraverseParms traverseParams, System.Single maxDistance, System.Predicate`1[T] validator, System.Collections.Generic.IEnumerable`1[T] customGlobalSearchSet, System.Int32 searchRegionsMin, System.Int32 searchRegionsMax, System.Boolean forceAllowGlobalSearch, Verse.RegionType traversableRegionTypes, System.Boolean ignoreEntirelyForbiddenRegions, System.Boolean lookInHaulSources) [0x00147] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.JobGiver_Work.TryIssueJobPackage (Verse.Pawn pawn, Verse.AI.JobIssueParams jobParams) [0x00671] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Orion.Hospitality: Boolean Hospitality.Patches.JobGiver_Work_Patch+TryIssueJobPackage:Prefix(Pawn pawn)
+SearchAndDestroy_Gizmo_Melee toggle
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 55531.
+Total: 410.881200 ms (FindLiveObjects: 3.431500 ms CreateObjectMapping: 3.111500 ms MarkObjects: 404.145000 ms  DeleteObjects: 0.192800 ms)
+
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+NullReferenceException: Object reference not set to an instance of an object
+[Ref AF0E9DBA] Duplicate stacktrace, see ref for original
+
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+[Yayo's Animation] GC : animation data count [458 -> 283]
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 47051.
+Total: 416.226500 ms (FindLiveObjects: 3.242600 ms CreateObjectMapping: 2.345300 ms MarkObjects: 410.513800 ms  DeleteObjects: 0.124600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.407000 ms
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 45027.
+Total: 390.584300 ms (FindLiveObjects: 2.442700 ms CreateObjectMapping: 1.883500 ms MarkObjects: 386.135000 ms  DeleteObjects: 0.123000 ms)
+
+Loading game from file Адептус Механикус6666 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human8151295 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [293 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53707.
+Total: 584.283300 ms (FindLiveObjects: 3.105400 ms CreateObjectMapping: 2.961100 ms MarkObjects: 578.087700 ms  DeleteObjects: 0.128900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45704.
+Total: 540.137500 ms (FindLiveObjects: 2.499300 ms CreateObjectMapping: 2.128400 ms MarkObjects: 535.365300 ms  DeleteObjects: 0.144200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.367800 ms
+QualityBuilder added property to '0' things
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 45067.
+Total: 474.182100 ms (FindLiveObjects: 2.622900 ms CreateObjectMapping: 1.871000 ms MarkObjects: 469.577300 ms  DeleteObjects: 0.110900 ms)
+
+Loading game from file Адептус Механикус6666 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human8151295 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [287 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53735.
+Total: 630.609800 ms (FindLiveObjects: 3.281000 ms CreateObjectMapping: 2.981300 ms MarkObjects: 624.212300 ms  DeleteObjects: 0.135100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45708.
+Total: 629.124100 ms (FindLiveObjects: 2.737800 ms CreateObjectMapping: 1.972500 ms MarkObjects: 624.272600 ms  DeleteObjects: 0.140900 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.310700 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 45099.
+Total: 535.499800 ms (FindLiveObjects: 2.502900 ms CreateObjectMapping: 1.821500 ms MarkObjects: 531.066000 ms  DeleteObjects: 0.109300 ms)
+
+Loading game from file Адептус Механикус6666 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human8151295 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [275 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53769.
+Total: 748.849900 ms (FindLiveObjects: 2.866800 ms CreateObjectMapping: 2.376500 ms MarkObjects: 743.480300 ms  DeleteObjects: 0.125900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45769.
+Total: 712.153400 ms (FindLiveObjects: 2.665600 ms CreateObjectMapping: 2.082100 ms MarkObjects: 707.267400 ms  DeleteObjects: 0.138200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.383700 ms
+QualityBuilder added property to '0' things
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 45131.
+Total: 636.615100 ms (FindLiveObjects: 2.686000 ms CreateObjectMapping: 1.862300 ms MarkObjects: 631.957500 ms  DeleteObjects: 0.109200 ms)
+
+Loading game from file Адептус Механикус6666 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human8151295 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [287 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53799.
+Total: 805.556900 ms (FindLiveObjects: 3.105400 ms CreateObjectMapping: 3.062200 ms MarkObjects: 799.257400 ms  DeleteObjects: 0.131900 ms)
+
+Dougherty started 10 jobs in one tick. newJob=Train (Job_64896126) A = Thing_Megasloth7276405 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45889.
+Total: 817.777000 ms (FindLiveObjects: 2.527900 ms CreateObjectMapping: 1.877500 ms MarkObjects: 813.227500 ms  DeleteObjects: 0.144100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.468300 ms
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 45167.
+Total: 713.259600 ms (FindLiveObjects: 2.526000 ms CreateObjectMapping: 1.984100 ms MarkObjects: 708.619600 ms  DeleteObjects: 0.129600 ms)
+
+Loading game from file Адептус Механикус7777 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [288 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53932.
+Total: 841.746500 ms (FindLiveObjects: 3.423300 ms CreateObjectMapping: 2.781900 ms MarkObjects: 835.408500 ms  DeleteObjects: 0.132400 ms)
+
+Dougherty started 10 jobs in one tick. newJob=Train (Job_64906207) A = Thing_AlphaThrumbo3712781 jobGiver=RimWorld.JobGiver_Work jobList=
+Bad string pass when reading rule map(p=2)_mas->[mapNoun_mas]: [place]
+Bad string pass when reading rule map(p=2)_fem->[mapNoun_fem]: [place]
+Bad string pass when reading rule map(p=2)_neu->[mapNoun_neu]: [place]
+Bad string pass when reading rule mapNoun(p=5)_fem->карта
+Bad string pass when reading rule mapNoun(p=2)_mas>атлас
+Bad string pass when reading rule mapType(p=2)_mas->[Animal_mas]
+Bad string pass when reading rule mapType(p=2)_fem->[Animal_fem]
+Bad string pass when reading rule mapType(p=2)_neu->[Animal_neu]
+Bad string pass when reading rule mapType(p=2)_mas->[TreeType_mas]
+Bad string pass when reading rule mapType(p=2)_fem->[TreeType_fem]
+Bad string pass when reading rule mapType(p=2)_neu->[TreeType_neu]
+Failed to resolve text. Trying again with English. Exception: System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52B82781]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.Grammar.GrammarResolver.AddRule (Verse.Grammar.Rule rule) [0x00002] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Grammar.GrammarResolver.ResolveUnsafe (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.Boolean& success, System.String debugLabel, System.Boolean forceLog, System.Boolean useUntranslatedRules, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x00171] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Grammar.GrammarResolver.Resolve (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.String debugLabel, System.Boolean forceLog, System.String untranslatedRootKeyword, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x0001e] in <24d25868955f4df08b02c73b55f389fe>:0 
+Bad string pass when reading rule |mapContents->[Quantity_adjphrase] [mapSubject], изображенные в стиле [artstyle_adj]. Под каждым — [AdjectiveAny_neu] [Animal_neu]
+Bad string pass when reading rule mapType(p=4)_fem->карта
+Dougherty started 10 jobs in one tick. newJob=Train (Job_64937626) A = Thing_AlphaThrumbo7363260 jobGiver=RimWorld.JobGiver_Work jobList=
+[Yayo's Animation] GC : animation data count [310 -> 278]
+Dougherty started 10 jobs in one tick. newJob=Train (Job_65070526) A = Thing_AlphaThrumbo6968833 jobGiver=RimWorld.JobGiver_Work jobList=
+[Yayo's Animation] GC : animation data count [318 -> 293]
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 47776.
+Total: 902.069700 ms (FindLiveObjects: 3.273900 ms CreateObjectMapping: 2.578700 ms MarkObjects: 895.968000 ms  DeleteObjects: 0.248900 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.668000 ms
+QualityBuilder added property to '0' things
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 46138.
+Total: 922.726200 ms (FindLiveObjects: 2.616700 ms CreateObjectMapping: 1.898500 ms MarkObjects: 918.086900 ms  DeleteObjects: 0.124000 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human8163080 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.DirectPawnRelation curPathRelToParent=
+Pawn Кесдио has relation "ExSpouse" with null pawn after loading. This means that we forgot to serialize pawns somewhere (e.g. pawns from passing trade ships).
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [315 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 54900.
+Total: 1018.121300 ms (FindLiveObjects: 2.989100 ms CreateObjectMapping: 3.071900 ms MarkObjects: 1011.919700 ms  DeleteObjects: 0.140100 ms)
+
+Бартас started 10 jobs in one tick. newJob=Train (Job_65135701) A = Thing_Megasloth7147407 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46976.
+Total: 1069.947200 ms (FindLiveObjects: 3.004500 ms CreateObjectMapping: 2.208100 ms MarkObjects: 1064.593200 ms  DeleteObjects: 0.141000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.982100 ms
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 46226.
+Total: 981.855700 ms (FindLiveObjects: 2.506300 ms CreateObjectMapping: 1.930700 ms MarkObjects: 977.299000 ms  DeleteObjects: 0.119500 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception in SetupToils for pawn Wood driver=JobDriver_DoBill (toilIndex=24) driver.job=(DoBill (Job_65132084) A = Thing_Filth_Dirt8171798 B = Thing_Steel8173152 C = (120, 0, 88) Giver = ThinkNode_QueuedJob [workGiverDef: DoBillsFabricationBench])
+System.InvalidOperationException: DoBill on non-Billgiver.
+[Ref 9ED1420]
+  at Verse.AI.JobDriver_DoBill.get_BillGiver () [0x00027] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at CommonSense.JobDriver_DoBill_MakeNewToils_CommonSensePatch+<DoMakeToils>d__8.MoveNext () [0x00118] in <aafb527e0bf7465fa4e0a4345bc739e8>:0 
+  at Verse.AI.JobDriver.SetupToils () [0x00051] in <24d25868955f4df08b02c73b55f389fe>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn Wood driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_65135410))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 69895A9C]
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <24d25868955f4df08b02c73b55f389fe>:0 
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=Wood
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [298 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55004.
+Total: 1031.010300 ms (FindLiveObjects: 3.185600 ms CreateObjectMapping: 2.818600 ms MarkObjects: 1024.872600 ms  DeleteObjects: 0.133200 ms)
+
+Бартас started 10 jobs in one tick. newJob=Train (Job_65135699) A = Thing_Megasloth7147407 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47034.
+Total: 933.355400 ms (FindLiveObjects: 2.689100 ms CreateObjectMapping: 1.932900 ms MarkObjects: 928.598100 ms  DeleteObjects: 0.135200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.475400 ms
+QualityBuilder added property to '0' things
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 46290.
+Total: 841.323200 ms (FindLiveObjects: 2.489500 ms CreateObjectMapping: 1.975700 ms MarkObjects: 836.738900 ms  DeleteObjects: 0.119000 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception in SetupToils for pawn Wood driver=JobDriver_DoBill (toilIndex=24) driver.job=(DoBill (Job_65132084) A = Thing_Filth_Dirt8171798 B = Thing_Steel8173152 C = (120, 0, 88) Giver = ThinkNode_QueuedJob [workGiverDef: DoBillsFabricationBench])
+System.InvalidOperationException: DoBill on non-Billgiver.
+[Ref 9ED1420]
+  at Verse.AI.JobDriver_DoBill.get_BillGiver () [0x00027] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at CommonSense.JobDriver_DoBill_MakeNewToils_CommonSensePatch+<DoMakeToils>d__8.MoveNext () [0x00118] in <aafb527e0bf7465fa4e0a4345bc739e8>:0 
+  at Verse.AI.JobDriver.SetupToils () [0x00051] in <24d25868955f4df08b02c73b55f389fe>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn Wood driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_65135410))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 69895A9C]
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <24d25868955f4df08b02c73b55f389fe>:0 
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=Wood
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [298 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55045.
+Total: 959.042500 ms (FindLiveObjects: 2.890100 ms CreateObjectMapping: 2.385000 ms MarkObjects: 953.642600 ms  DeleteObjects: 0.124500 ms)
+
+Бартас started 10 jobs in one tick. newJob=Train (Job_65135702) A = Thing_Megasloth7147407 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47048.
+Total: 1074.863700 ms (FindLiveObjects: 2.586200 ms CreateObjectMapping: 1.961800 ms MarkObjects: 1070.182000 ms  DeleteObjects: 0.133300 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.486200 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 46336.
+Total: 1002.391300 ms (FindLiveObjects: 2.489100 ms CreateObjectMapping: 1.929900 ms MarkObjects: 997.864300 ms  DeleteObjects: 0.107800 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception in SetupToils for pawn Wood driver=JobDriver_DoBill (toilIndex=24) driver.job=(DoBill (Job_65132084) A = Thing_Filth_Dirt8171798 B = Thing_Steel8173152 C = (120, 0, 88) Giver = ThinkNode_QueuedJob [workGiverDef: DoBillsFabricationBench])
+System.InvalidOperationException: DoBill on non-Billgiver.
+[Ref 9ED1420]
+  at Verse.AI.JobDriver_DoBill.get_BillGiver () [0x00027] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at CommonSense.JobDriver_DoBill_MakeNewToils_CommonSensePatch+<DoMakeToils>d__8.MoveNext () [0x00118] in <aafb527e0bf7465fa4e0a4345bc739e8>:0 
+  at Verse.AI.JobDriver.SetupToils () [0x00051] in <24d25868955f4df08b02c73b55f389fe>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn Wood driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_65135410))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 69895A9C]
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <24d25868955f4df08b02c73b55f389fe>:0 
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=Wood
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [272 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55098.
+Total: 1146.916800 ms (FindLiveObjects: 3.083800 ms CreateObjectMapping: 2.889400 ms MarkObjects: 1140.820400 ms  DeleteObjects: 0.122900 ms)
+
+Бартас started 10 jobs in one tick. newJob=Train (Job_65135696) A = Thing_Megasloth7147407 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47117.
+Total: 1073.110500 ms (FindLiveObjects: 2.577200 ms CreateObjectMapping: 1.984000 ms MarkObjects: 1068.410600 ms  DeleteObjects: 0.138400 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.485600 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 46388.
+Total: 928.524600 ms (FindLiveObjects: 2.481100 ms CreateObjectMapping: 2.004300 ms MarkObjects: 923.934900 ms  DeleteObjects: 0.104200 ms)
+
+Loading game from file Адептус Механикус_modded1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception in SetupToils for pawn Wood driver=JobDriver_DoBill (toilIndex=24) driver.job=(DoBill (Job_65132084) A = Thing_Filth_Dirt8171798 B = Thing_Steel8173152 C = (120, 0, 88) Giver = ThinkNode_QueuedJob [workGiverDef: DoBillsFabricationBench])
+System.InvalidOperationException: DoBill on non-Billgiver.
+[Ref 9ED1420]
+  at Verse.AI.JobDriver_DoBill.get_BillGiver () [0x00027] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at CommonSense.JobDriver_DoBill_MakeNewToils_CommonSensePatch+<DoMakeToils>d__8.MoveNext () [0x00118] in <aafb527e0bf7465fa4e0a4345bc739e8>:0 
+  at Verse.AI.JobDriver.SetupToils () [0x00051] in <24d25868955f4df08b02c73b55f389fe>:0 
+JobDriver threw exception in toil MakeNewToils's initAction for pawn Wood driver=JobDriver_Wait (toilIndex=0) driver.job=(Wait (Job_65135410))
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 69895A9C]
+  at Verse.AI.JobDriver_Wait.<MakeNewToils>b__3_0 () [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.JobDriver.TryActuallyStartNextToil () [0x001b0] in <24d25868955f4df08b02c73b55f389fe>:0 
+An error occurred while starting an error recover job. We have to stop now to avoid infinite loops. This means that the pawn is now jobless which can cause further bugs. pawn=Wood
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [280 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55133.
+Total: 1032.022500 ms (FindLiveObjects: 3.251600 ms CreateObjectMapping: 2.921200 ms MarkObjects: 1025.724900 ms  DeleteObjects: 0.124500 ms)
+
+Бартас started 10 jobs in one tick. newJob=Train (Job_65135692) A = Thing_Megasloth7147407 jobGiver=RimWorld.JobGiver_Work jobList=
+Banks started 10 jobs in one tick. newJob=Train (Job_65146121) A = Thing_AlphaThrumbo6644270 jobGiver=RimWorld.JobGiver_Work jobList=
+Dougherty started 10 jobs in one tick. newJob=Train (Job_65147711) A = Thing_AlphaThrumbo7337875 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 47116.
+Total: 1201.400600 ms (FindLiveObjects: 2.754700 ms CreateObjectMapping: 1.942400 ms MarkObjects: 1196.557700 ms  DeleteObjects: 0.145500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.459500 ms
+QualityBuilder added property to '0' things
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 46430.
+Total: 1257.253000 ms (FindLiveObjects: 2.527100 ms CreateObjectMapping: 1.963400 ms MarkObjects: 1252.645400 ms  DeleteObjects: 0.116700 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [298 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55124.
+Total: 1349.791700 ms (FindLiveObjects: 2.907200 ms CreateObjectMapping: 2.498000 ms MarkObjects: 1344.264800 ms  DeleteObjects: 0.121300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47152.
+Total: 1215.545600 ms (FindLiveObjects: 2.584800 ms CreateObjectMapping: 1.955100 ms MarkObjects: 1210.861300 ms  DeleteObjects: 0.144300 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.428200 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 46496.
+Total: 1267.032400 ms (FindLiveObjects: 2.600900 ms CreateObjectMapping: 1.974500 ms MarkObjects: 1262.352400 ms  DeleteObjects: 0.104200 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [277 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55177.
+Total: 1275.083700 ms (FindLiveObjects: 3.301600 ms CreateObjectMapping: 2.890700 ms MarkObjects: 1268.766700 ms  DeleteObjects: 0.124500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47210.
+Total: 1327.057100 ms (FindLiveObjects: 2.639100 ms CreateObjectMapping: 1.930200 ms MarkObjects: 1322.342900 ms  DeleteObjects: 0.144800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.412200 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 46544.
+Total: 1384.321500 ms (FindLiveObjects: 2.863600 ms CreateObjectMapping: 1.887100 ms MarkObjects: 1379.464200 ms  DeleteObjects: 0.106400 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [279 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55209.
+Total: 1334.080800 ms (FindLiveObjects: 3.243600 ms CreateObjectMapping: 2.995500 ms MarkObjects: 1327.717500 ms  DeleteObjects: 0.123600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47245.
+Total: 1386.773600 ms (FindLiveObjects: 2.611800 ms CreateObjectMapping: 1.906000 ms MarkObjects: 1382.104000 ms  DeleteObjects: 0.151500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.414200 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 46580.
+Total: 1283.861500 ms (FindLiveObjects: 2.492500 ms CreateObjectMapping: 1.962700 ms MarkObjects: 1279.305700 ms  DeleteObjects: 0.100300 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [71 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55260.
+Total: 1643.335000 ms (FindLiveObjects: 2.914700 ms CreateObjectMapping: 2.404600 ms MarkObjects: 1637.890300 ms  DeleteObjects: 0.125300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47289.
+Total: 1430.142400 ms (FindLiveObjects: 2.559200 ms CreateObjectMapping: 1.965500 ms MarkObjects: 1425.471100 ms  DeleteObjects: 0.146100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.418700 ms
+QualityBuilder added property to '0' things
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 46628.
+Total: 1325.187300 ms (FindLiveObjects: 2.500800 ms CreateObjectMapping: 2.027200 ms MarkObjects: 1320.553500 ms  DeleteObjects: 0.105300 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [287 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55306.
+Total: 1764.991700 ms (FindLiveObjects: 3.327200 ms CreateObjectMapping: 3.013300 ms MarkObjects: 1758.530200 ms  DeleteObjects: 0.120900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47331.
+Total: 1572.017500 ms (FindLiveObjects: 2.586900 ms CreateObjectMapping: 1.940200 ms MarkObjects: 1567.345500 ms  DeleteObjects: 0.144700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.376700 ms
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 46676.
+Total: 1661.711800 ms (FindLiveObjects: 2.501100 ms CreateObjectMapping: 2.042100 ms MarkObjects: 1657.062200 ms  DeleteObjects: 0.106200 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [286 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55354.
+Total: 1564.520400 ms (FindLiveObjects: 2.899200 ms CreateObjectMapping: 2.407800 ms MarkObjects: 1559.084600 ms  DeleteObjects: 0.128300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47415.
+Total: 1578.106100 ms (FindLiveObjects: 2.763400 ms CreateObjectMapping: 1.847800 ms MarkObjects: 1573.352900 ms  DeleteObjects: 0.141600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.418800 ms
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 46724.
+Total: 1532.946300 ms (FindLiveObjects: 2.535700 ms CreateObjectMapping: 1.996300 ms MarkObjects: 1528.296700 ms  DeleteObjects: 0.117300 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [297 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55383.
+Total: 1613.058300 ms (FindLiveObjects: 3.447800 ms CreateObjectMapping: 3.103500 ms MarkObjects: 1606.365100 ms  DeleteObjects: 0.141800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 47415.
+Total: 1799.441200 ms (FindLiveObjects: 2.569100 ms CreateObjectMapping: 1.880400 ms MarkObjects: 1794.849000 ms  DeleteObjects: 0.142500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+UnloadTime: 1.414000 ms
+QualityBuilder added property to '0' things
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 46750.
+Total: 1557.472400 ms (FindLiveObjects: 2.503400 ms CreateObjectMapping: 2.042900 ms MarkObjects: 1552.810700 ms  DeleteObjects: 0.115300 ms)
+
+Loading game from file Адептус Механикус3333 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [297 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 55422.
+Total: 1721.176100 ms (FindLiveObjects: 3.151600 ms CreateObjectMapping: 2.941800 ms MarkObjects: 1714.954700 ms  DeleteObjects: 0.127900 ms)
+
+reinnited
+Banks started 10 jobs in one tick. newJob=Train (Job_65186142) A = Thing_Megasloth7147407 jobGiver=RimWorld.JobGiver_Work jobList=
+[Yayo's Animation] GC : animation data count [306 -> 295]
+Dougherty started 10 jobs in one tick. newJob=Train (Job_65220123) A = Thing_AlphaThrumbo6598314 jobGiver=RimWorld.JobGiver_Work jobList=
+Dougherty started 10 jobs in one tick. newJob=Train (Job_65270049) A = Thing_AlphaThrumbo6968833 jobGiver=RimWorld.JobGiver_Work jobList=
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 3905 frames, [1.0 KB-2.0 KB]: 1 frames, [2.0 KB-4.0 KB]: 3 frames, [32.0 KB-64.0 KB]: 2 frames, [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 1 frames
+      Peak usage frame count: [0-1.0 KB]: 31936 frames, [1.0 KB-2.0 KB]: 47 frames, [2.0 KB-4.0 KB]: 359002 frames, [4.0 KB-8.0 KB]: 68377 frames, [8.0 KB-16.0 KB]: 13698 frames, [16.0 KB-32.0 KB]: 1494 frames, [32.0 KB-64.0 KB]: 2950 frames, [64.0 KB-128.0 KB]: 275 frames, [128.0 KB-256.0 KB]: 3 frames, [1.0 MB-2.0 MB]: 3 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 62 frames
       Initial Block Size 4.0 MB
-      Current Block Size 5.0 MB
-      Peak Allocated Bytes 5.0 MB
-      Overflow Count 1
+      Current Block Size 8.0 MB
+      Peak Allocated Bytes 8.0 MB
+      Overflow Count 246
     [ALLOC_TEMP_Job.Worker 18]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 3.5 KB
-      Overflow Count 4
+      Peak Allocated Bytes 3.7 KB
+      Overflow Count 84
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -95,7 +2539,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 16]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 6]
       Initial Block Size 32.0 KB
@@ -110,17 +2554,17 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 14]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 17]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -170,12 +2614,12 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 20]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 144 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 329 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
@@ -190,32 +2634,32 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 21]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 9]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 21]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
-      Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 5]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_ReadCacheIndex]
       Initial Block Size 64.0 KB
@@ -225,7 +2669,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 13]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_EnlightenWorker] x 12
       Initial Block Size 64.0 KB
@@ -255,22 +2699,22 @@ Memory Statistics:
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 2.8 KB
+      Peak Allocated Bytes 13.3 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
@@ -280,22 +2724,22 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 15]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 19]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
+      Peak Allocated Bytes 176 B
       Overflow Count 0
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
@@ -303,32 +2747,32 @@ Memory Statistics:
       Peak Allocated Bytes 117.3 KB
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 43484
+  Peak main deferred allocation count 88413
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 32227
-        32B: 34 Subsections = 17408 buckets. Failed count: 43193
-        48B: 49 Subsections = 16725 buckets. Failed count: 92752
-        64B: 40 Subsections = 10240 buckets. Failed count: 36944
-        80B: 85 Subsections = 17408 buckets. Failed count: 34834
-        96B: 28 Subsections = 4778 buckets. Failed count: 45509
-        112B: 10 Subsections = 1462 buckets. Failed count: 11057
-        128B: 6 Subsections = 768 buckets. Failed count: 8094
+        16B: 4 Subsections = 4096 buckets. Failed count: 6718524
+        32B: 34 Subsections = 17408 buckets. Failed count: 3814519
+        48B: 49 Subsections = 16725 buckets. Failed count: 11434869
+        64B: 40 Subsections = 10240 buckets. Failed count: 2941420
+        80B: 85 Subsections = 17408 buckets. Failed count: 41904891
+        96B: 28 Subsections = 4778 buckets. Failed count: 141283
+        112B: 10 Subsections = 1462 buckets. Failed count: 574079
+        128B: 6 Subsections = 768 buckets. Failed count: 1162789
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 2151 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 1762 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2941 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 29159 frames, [256.0 MB-0.50 GB]: 445747 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 27
+      Peak Allocated memory 426.3 MB
+      Peak Large allocation bytes 31.2 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 4955 frames, [16.0 MB-32.0 MB]: 8296 frames, [32.0 MB-64.0 MB]: 1030 frames, [64.0 MB-128.0 MB]: 13081 frames, [128.0 MB-256.0 MB]: 450486 frames
       Requested Block Size 16.0 MB
       Peak Block count 13
-      Peak Allocated memory 202.8 MB
-      Peak Large allocation bytes 28.3 MB
-    [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 3912 frames, [16.0 MB-32.0 MB]: 2 frames
-      Requested Block Size 16.0 MB
-      Peak Block count 2
-      Peak Allocated memory 17.1 MB
-      Peak Large allocation bytes 0 B
+      Peak Allocated memory 220.1 MB
+      Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
   Used Block Count 0
@@ -350,31 +2794,31 @@ Memory Statistics:
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 34
+  Peak main deferred allocation count 149
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 32227
-        32B: 34 Subsections = 17408 buckets. Failed count: 43193
-        48B: 49 Subsections = 16725 buckets. Failed count: 92752
-        64B: 40 Subsections = 10240 buckets. Failed count: 36944
-        80B: 85 Subsections = 17408 buckets. Failed count: 34834
-        96B: 28 Subsections = 4778 buckets. Failed count: 45509
-        112B: 10 Subsections = 1462 buckets. Failed count: 11057
-        128B: 6 Subsections = 768 buckets. Failed count: 8094
+        16B: 4 Subsections = 4096 buckets. Failed count: 6718524
+        32B: 34 Subsections = 17408 buckets. Failed count: 3814519
+        48B: 49 Subsections = 16725 buckets. Failed count: 11434869
+        64B: 40 Subsections = 10240 buckets. Failed count: 2941420
+        80B: 85 Subsections = 17408 buckets. Failed count: 41904891
+        96B: 28 Subsections = 4778 buckets. Failed count: 141283
+        112B: 10 Subsections = 1462 buckets. Failed count: 574079
+        128B: 6 Subsections = 768 buckets. Failed count: 1162789
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2151 frames, [0.50 GB-1.00 GB]: 1762 frames
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2941 frames, [0.50 GB-1.00 GB]: 474906 frames
       Requested Block Size 16.0 MB
-      Peak Block count 2
+      Peak Block count 13
       Peak Allocated memory 0.84 GB
-      Peak Large allocation bytes 0.82 GB
+      Peak Large allocation bytes 0.83 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 2162 frames, [1.0 KB-2.0 KB]: 169 frames, [2.0 KB-4.0 KB]: 1578 frames, [4.0 KB-8.0 KB]: 5 frames
+      Peak usage frame count: [0-1.0 KB]: 2987 frames, [1.0 KB-2.0 KB]: 553 frames, [2.0 KB-4.0 KB]: 216 frames, [4.0 KB-8.0 KB]: 2756 frames, [32.0 KB-64.0 KB]: 8919 frames, [64.0 KB-128.0 KB]: 12577 frames, [128.0 KB-256.0 KB]: 74039 frames, [256.0 KB-0.5 MB]: 245920 frames, [0.5 MB-1.0 MB]: 129881 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 4.0 KB
+      Peak Allocated memory 0.7 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 106
@@ -383,22 +2827,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 32227
-        32B: 34 Subsections = 17408 buckets. Failed count: 43193
-        48B: 49 Subsections = 16725 buckets. Failed count: 92752
-        64B: 40 Subsections = 10240 buckets. Failed count: 36944
-        80B: 85 Subsections = 17408 buckets. Failed count: 34834
-        96B: 28 Subsections = 4778 buckets. Failed count: 45509
-        112B: 10 Subsections = 1462 buckets. Failed count: 11057
-        128B: 6 Subsections = 768 buckets. Failed count: 8094
+        16B: 4 Subsections = 4096 buckets. Failed count: 6718524
+        32B: 34 Subsections = 17408 buckets. Failed count: 3814519
+        48B: 49 Subsections = 16725 buckets. Failed count: 11434869
+        64B: 40 Subsections = 10240 buckets. Failed count: 2941420
+        80B: 85 Subsections = 17408 buckets. Failed count: 41904891
+        96B: 28 Subsections = 4778 buckets. Failed count: 141283
+        112B: 10 Subsections = 1462 buckets. Failed count: 574079
+        128B: 6 Subsections = 768 buckets. Failed count: 1162789
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2151 frames, [16.0 MB-32.0 MB]: 1762 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2941 frames, [16.0 MB-32.0 MB]: 474906 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
-      Peak Allocated memory 18.4 MB
+      Peak Allocated memory 19.5 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 2151 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 1761 frames, [0.5 MB-1.0 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 2941 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 52200 frames, [128.0 KB-256.0 KB]: 422646 frames, [256.0 KB-0.5 MB]: 40 frames, [0.5 MB-1.0 MB]: 20 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.6 MB
@@ -410,22 +2854,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 32227
-        32B: 34 Subsections = 17408 buckets. Failed count: 43193
-        48B: 49 Subsections = 16725 buckets. Failed count: 92752
-        64B: 40 Subsections = 10240 buckets. Failed count: 36944
-        80B: 85 Subsections = 17408 buckets. Failed count: 34834
-        96B: 28 Subsections = 4778 buckets. Failed count: 45509
-        112B: 10 Subsections = 1462 buckets. Failed count: 11057
-        128B: 6 Subsections = 768 buckets. Failed count: 8094
+        16B: 4 Subsections = 4096 buckets. Failed count: 6718524
+        32B: 34 Subsections = 17408 buckets. Failed count: 3814519
+        48B: 49 Subsections = 16725 buckets. Failed count: 11434869
+        64B: 40 Subsections = 10240 buckets. Failed count: 2941420
+        80B: 85 Subsections = 17408 buckets. Failed count: 41904891
+        96B: 28 Subsections = 4778 buckets. Failed count: 141283
+        112B: 10 Subsections = 1462 buckets. Failed count: 574079
+        128B: 6 Subsections = 768 buckets. Failed count: 1162789
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2151 frames, [256.0 KB-0.5 MB]: 1762 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2941 frames, [256.0 KB-0.5 MB]: 474906 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 359.8 KB
+      Peak Allocated memory 364.7 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 3914 frames
+      Peak usage frame count: [0-1.0 KB]: 477848 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B

@@ -29,10 +29,10 @@
   <steamDeckKeyboardMode>False</steamDeckKeyboardMode>
   <preferredNames />
   <resourceReadoutCategorized>True</resourceReadoutCategorized>
-  <runInBackground>False</runInBackground>
+  <runInBackground>True</runInBackground>
   <edgeScreenScroll>False</edgeScreenScroll>
   <rememberDrawStyles>True</rememberDrawStyles>
-  <zoomSwitchWorldLayer>True</zoomSwitchWorldLayer>
+  <zoomSwitchWorldLayer>False</zoomSwitchWorldLayer>
   <zoomToMouse>False</zoomToMouse>
   <temperatureMode>Celsius</temperatureMode>
   <autosaveIntervalDays>1</autosaveIntervalDays>
@@ -42,7 +42,7 @@
   <automaticPauseMode>MajorThreat</automaticPauseMode>
   <mapDragSensitivity>1.3</mapDragSensitivity>
   <smoothCameraJumps>False</smoothCameraJumps>
-  <gravshipCutscenes>True</gravshipCutscenes>
+  <gravshipCutscenes>False</gravshipCutscenes>
   <autosavesCount>10</autosavesCount>
   <extremeDifficultyUnlocked>False</extremeDifficultyUnlocked>
   <pauseOnError>False</pauseOnError>
