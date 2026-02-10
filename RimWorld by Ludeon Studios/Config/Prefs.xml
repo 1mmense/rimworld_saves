@@ -42,7 +42,7 @@
   <automaticPauseMode>MajorThreat</automaticPauseMode>
   <mapDragSensitivity>1.3</mapDragSensitivity>
   <smoothCameraJumps>False</smoothCameraJumps>
-  <gravshipCutscenes>False</gravshipCutscenes>
+  <gravshipCutscenes>True</gravshipCutscenes>
   <autosavesCount>10</autosavesCount>
   <extremeDifficultyUnlocked>False</extremeDifficultyUnlocked>
   <pauseOnError>False</pauseOnError>
