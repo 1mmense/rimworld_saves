@@ -104,6 +104,33 @@ ROCKETMAN: Found action with attribute OnInitialization, ContextualExtensions:In
 
 ROCKETMAN: Found action with attribute OnInitialization, SoyuzPatcher:Intialize
 
+GAGARIN: <color=yello>Cache disabled from</color>
+Gagarin.StartupHelper:StartUpStarted():0
+System.Reflection.RuntimeMethodInfo:InternalInvoke():0
+System.Reflection.RuntimeMethodInfo:Invoke():0
+System.Reflection.MethodBase:Invoke():0
+RocketMan.FunctionsUtility+<>c__DisplayClass1_0`1[[RocketMan.Main+OnInitialization, Cosmodrome, Version=0.6.3.2421, Culture=neutral, PublicKeyToken=null]]:<GetActions>b__3():0
+RocketMan.RocketMod:.ctor():0
+System.Reflection.RuntimeConstructorInfo:InternalInvoke():0
+System.Reflection.RuntimeConstructorInfo:InternalInvoke():0
+System.Reflection.RuntimeConstructorInfo:DoInvoke():0
+System.Reflection.RuntimeConstructorInfo:Invoke():0
+System.RuntimeType:CreateInstanceImpl():0
+System.Activator:CreateInstance():0
+System.Activator:CreateInstance():0
+Verse.LoadedModManager:CreateModClasses():0
+Verse.LoadedModManager:LoadAllActiveMods():0
+Verse.PlayDataLoader:DoPlayLoad():0
+Verse.PlayDataLoader:LoadAllPlayData():0
+Verse.Root+<>c:<Start>b__10_1():0
+Verse.LongEventHandler:RunEventFromAnotherThread():0
+Verse.LongEventHandler+<>c:<UpdateCurrentAsynchronousEvent>b__28_0():0
+System.Threading.ThreadHelper:ThreadStart_Context():0
+System.Threading.ExecutionContext:RunInternal():0
+System.Threading.ExecutionContext:Run():0
+System.Threading.ExecutionContext:Run():0
+System.Threading.ThreadHelper:ThreadStart():0
+
 GAGARIN: <color=green>Loading cache settings!</color>
 
 Gagarin:[NOTANERROR] patching TKeySystem:Void Parse(System.Xml.XmlDocument) finished!
@@ -142,31 +169,9 @@ Gagarin:[NOTANERROR] patching LoadedModManager:Void ClearCachedPatches() finishe
 
 Gagarin:[NOTANERROR] patching XmlInheritance:Void Resolve() finished!
 
-GAGARIN: <color=yello>Cache disabled from</color>
-Gagarin.LoadableXmlAsset_Constructor_Patch:Process():0
-Gagarin.LoadableXmlAsset_Constructor_Patch:PostfixFile():0
-MonoMod.Utils.DynamicMethodDefinition:Verse.LoadableXmlAsset..ctor_Patch1():0
-Verse.DirectXmlLoader:XmlAssetsInModFolder():0
-Verse.ModContentPack+<LoadDefs>d__57:MoveNext():0
-System.Collections.Generic.List`1[[Verse.LoadableXmlAsset, Assembly-CSharp, Version=1.6.9371.18214, Culture=neutral, PublicKeyToken=null]]:AddEnumerable():0
-System.Collections.Generic.List`1[[Verse.LoadableXmlAsset, Assembly-CSharp, Version=1.6.9371.18214, Culture=neutral, PublicKeyToken=null]]:InsertRange():0
-System.Collections.Generic.List`1[[Verse.LoadableXmlAsset, Assembly-CSharp, Version=1.6.9371.18214, Culture=neutral, PublicKeyToken=null]]:AddRange():0
-MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.LoadModXML_Patch2():0
-Verse.LoadedModManager:LoadAllActiveMods():0
-Verse.PlayDataLoader:DoPlayLoad():0
-Verse.PlayDataLoader:LoadAllPlayData():0
-Verse.Root+<>c:<Start>b__10_1():0
-Verse.LongEventHandler:RunEventFromAnotherThread():0
-Verse.LongEventHandler+<>c:<UpdateCurrentAsynchronousEvent>b__28_0():0
-System.Threading.ThreadHelper:ThreadStart_Context():0
-System.Threading.ExecutionContext:RunInternal():0
-System.Threading.ExecutionContext:Run():0
-System.Threading.ExecutionContext:Run():0
-System.Threading.ThreadHelper:ThreadStart():0
-
 GAGARIN:[DUPLICATE]: Started!
 
-GAGARIN:[DUPLICATE] Creating duplication reports took 434 MS
+GAGARIN:[DUPLICATE] Creating duplication reports took 511 MS
 
 GAGARIN:[DUPLICATE] Finished creating reports at <color=red>C:\Users\1mmense\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\RocketMan\Reports</color>
 
@@ -28594,7 +28599,7 @@ ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.legacy
 
 ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory
 
-[0.001927 seconds] ROCKETMAN: <color=red>IgnoreMe report</color>
+[0.001608 seconds] ROCKETMAN: <color=red>IgnoreMe report</color>
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Grizzly
 ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Apocriton
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Polar
@@ -28850,9 +28855,123 @@ ROCKETMAN: Position verfication started!
 
 ROCKETMAN: <color=red>Warm up</color> started for new map!
 
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
 ROCKETMAN: <color=red>Warm up</color> Finished for new map!
 
 ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error.
+<#-ERROR-#>
+System.NullReferenceException
+Object reference not set to an instance of an object
+	At Verse.GridsUtility.GetEdifice(Verse.IntVec3 c,Verse.Map map)[0]	StackTrace failed!
+
+
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error.
+<#-ERROR-#>
+System.NullReferenceException
+Object reference not set to an instance of an object
+	At Verse.GridsUtility.GetEdifice(Verse.IntVec3 c,Verse.Map map)[0]	StackTrace failed!
+
+
+
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error.
+<#-ERROR-#>
+System.NullReferenceException
+Object reference not set to an instance of an object
+	At Verse.GridsUtility.GetEdifice(Verse.IntVec3 c,Verse.Map map)[0]	StackTrace failed!
+
+
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
 
 ROCKETMAN: <color=red>Warm up</color> started for new map!
 
@@ -28878,25 +28997,153 @@ Soyuz caught this error. Please don't report this to the RocketMan team unless y
 <#-ERROR-#>
 System.NullReferenceException
 Object reference not set to an instance of an object
-	StackTrace failed!
-
-
-
-Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error.
-<#-ERROR-#>
-System.NullReferenceException
-Object reference not set to an instance of an object
 	At Verse.GridsUtility.GetEdifice(Verse.IntVec3 c,Verse.Map map)[0]	StackTrace failed!
 
 
 
-Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error.
-<#-ERROR-#>
-System.NullReferenceException
-Object reference not set to an instance of an object
-	At Verse.GridsUtility.GetEdifice(Verse.IntVec3 c,Verse.Map map)[0]	StackTrace failed!
+ROCKETMAN: <color=red>Warm up</color> started for new map!
 
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
 
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
+
+ROCKETMAN: <color=red>Warm up</color> started for new map!
+
+SOYUZ: Preset loaded!
+
+ROCKETMAN: <color=red>Warm up</color> Finished for new map!
+
+ROCKETMAN: Position verfication started!
 
 Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error.
 <#-ERROR-#>
@@ -28943,61 +29190,3 @@ ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
 ROCKETMAN: <color=red>Warm up</color> started for new map!
 
 SOYUZ: Preset loaded!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-SOYUZ: Preset loaded!
-
-ROCKETMAN: <color=red>Warm up</color> Finished for new map!
-
-ROCKETMAN: Position verfication started!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-SOYUZ: Preset loaded!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-SOYUZ: Preset loaded!
-
-ROCKETMAN: <color=red>Warm up</color> Finished for new map!
-
-ROCKETMAN: Position verfication started!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-SOYUZ: Preset loaded!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-ROCKETMAN: <color=red>Warm up ABORTED!</color> for new map!
-
-ROCKETMAN: <color=red>Warm up</color> started for new map!
-
-SOYUZ: Preset loaded!
-
-ROCKETMAN: <color=red>Warm up</color> Finished for new map!
-
-ROCKETMAN: Position verfication started!

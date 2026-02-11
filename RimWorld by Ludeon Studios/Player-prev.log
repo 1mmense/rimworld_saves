@@ -1,56 +1,56 @@
-Mono path[0] = 'I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/Managed'
-Mono config path = 'I:/Games/Rimworld_1.6.4566a/MonoBleedingEdge/etc'
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Mono path[0] = 'C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/Managed'
+Mono config path = 'C:/1GAMES/Rimworld_1.6.4566a/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 Initialize engine version: 2022.3.35f1 (011206c7a712)
-[Subsystems] Discovering subsystems at path I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 7900 XT (ID=0x744c)
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
     Vendor:   ATI
-    VRAM:     20417 MB
-    Driver:   31.0.24033.1003
+    VRAM:     7886 MB
+    Driver:   31.0.21912.14
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.106 seconds
+- Loaded All Assemblies, in  2.182 seconds
 - Finished resetting the current domain, in  0.001 seconds
 D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 0.578200 ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.027300 ms
 RimWorld 1.6.4566 rev607
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD15DF070.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD19D3350.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021731B0F840.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021731D73180.dll
 [HugsLib] version 12.0.0
 [HugsLib] early-initializing AllowTool
 [RimHUD v1.17.5] Initialized
 [Interaction Bubbles v4.2] Initialized
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD5A05030.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021735C72020.dll
 DubsMintMenus v1.3.1086
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD5E67010.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD5E26060.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD5F95020.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD5FA2630.dll
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EDD5FA9E40.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021735E43F70.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021735DA6020.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021735E5C9B0.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021735E18020.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-0000021735E69FC0.dll
 GAGARIN STARTUP STARTED
 GAGARIN: <color=green>StartUpStarted called!</color>
 GAGARIN: <color=green>Cache found</color>
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
+GAGARIN: Asset changed!<color=red>Weapons_Breach.xml</color>:<color=red>Unknown</color> in C:\1GAMES\Rimworld_1.6.4566a\Data\Core\Defs\ThingDefs_Misc\Weapons
 GAGARIN: <color=yello>Cache disabled from</color>
-Gagarin.StartupHelper:StartUpStarted():0
-System.Reflection.RuntimeMethodInfo:InternalInvoke():0
-System.Reflection.RuntimeMethodInfo:Invoke():0
-System.Reflection.MethodBase:Invoke():0
-RocketMan.FunctionsUtility+<>c__DisplayClass1_0`1[[RocketMan.Main+OnInitialization, Cosmodrome, Version=0.6.3.2421, Culture=neutral, PublicKeyToken=null]]:<GetActions>b__3():0
-RocketMan.RocketMod:.ctor():0
-System.Reflection.RuntimeConstructorInfo:InternalInvoke():0
-System.Reflection.RuntimeConstructorInfo:InternalInvoke():0
-System.Reflection.RuntimeConstructorInfo:DoInvoke():0
-System.Reflection.RuntimeConstructorInfo:Invoke():0
-System.RuntimeType:CreateInstanceImpl():0
-System.Activator:CreateInstance():0
-System.Activator:CreateInstance():0
-Verse.LoadedModManager:CreateModClasses():0
+Gagarin.LoadableXmlAsset_Constructor_Patch:Process():0
+Gagarin.LoadableXmlAsset_Constructor_Patch:PostfixFile():0
+MonoMod.Utils.DynamicMethodDefinition:Verse.LoadableXmlAsset..ctor_Patch1():0
+Verse.DirectXmlLoader:XmlAssetsInModFolder():0
+Verse.ModContentPack+<LoadDefs>d__57:MoveNext():0
+System.Collections.Generic.List`1[[Verse.LoadableXmlAsset, Assembly-CSharp, Version=1.6.9371.18214, Culture=neutral, PublicKeyToken=null]]:AddEnumerable():0
+System.Collections.Generic.List`1[[Verse.LoadableXmlAsset, Assembly-CSharp, Version=1.6.9371.18214, Culture=neutral, PublicKeyToken=null]]:InsertRange():0
+System.Collections.Generic.List`1[[Verse.LoadableXmlAsset, Assembly-CSharp, Version=1.6.9371.18214, Culture=neutral, PublicKeyToken=null]]:AddRange():0
+MonoMod.Utils.DynamicMethodDefinition:Verse.LoadedModManager.LoadModXML_Patch2():0
 Verse.LoadedModManager:LoadAllActiveMods():0
 Verse.PlayDataLoader:DoPlayLoad():0
 Verse.PlayDataLoader:LoadAllPlayData():0
@@ -62,18 +62,12 @@ System.Threading.ExecutionContext:RunInternal():0
 System.Threading.ExecutionContext:Run():0
 System.Threading.ExecutionContext:Run():0
 System.Threading.ThreadHelper:ThreadStart():0
-GAGARIN: Mod list changed! Deleting cache
-GAGARIN: <color=green>Cache not found or got purged!</color>
-b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
-b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
-b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
-b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
-GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>0.613</color> seconds
+GAGARIN: <color=white>LoadModXML_Profiler</color> took <color=red>6.581</color> seconds
 GAGARIN: CombineIntoUnifiedXML has <color=red>Context.IsUsingCache=False</color>
-GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>0.673</color> seconds
+GAGARIN: <color=white>CombineIntoUnifiedXML_Profiler</color> took <color=red>0.615</color> seconds
 GAGARIN: <color=white>TKeySystem.Parse</color> took <color=red>0.001</color> seconds
-GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>0.826</color> seconds
-GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.179</color> seconds
+GAGARIN: <color=white>ApplyPatches_Profiler</color> took <color=red>0.517</color> seconds
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.256</color> seconds
 GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
 GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
 GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
@@ -175,68 +169,68 @@ GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
 GAGARIN: DirectXmlToObjectNew_DefFromNodeNew_Patch.Postfix:
 b.4566:8/28/2025 12:00:00 AM:1.6.4566 rev607
 GAGARIN: <color=white>Cache created!</color> creating cache took <color=green>0 seconds</color>
-GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>6.269</color> seconds
+GAGARIN: <color=white>ParseAndProcessXML_Profiler</color> took <color=red>6.887</color> seconds
 GAGARIN: <color=white>ClearCachedPatches_Profiler</color> took <color=red>0</color> seconds
-GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.179</color> seconds
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ColonyGroups_1_3_07 in I:\Games\Rimworld_1.6.4566a\Mods\LTOColonyGroups\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ColonyGroups_1_3_07
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ColonyGroups_1_3_08 in I:\Games\Rimworld_1.6.4566a\Mods\LTOColonyGroups\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ColonyGroups_1_3_08
+GAGARIN: <color=white>XmlInheritance.Resolve</color> took <color=red>0.256</color> seconds
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ColonyGroups_1_3_07 in C:\1GAMES\Rimworld_1.6.4566a\Mods\LTOColonyGroups\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ColonyGroups_1_3_07
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ColonyGroups_1_3_08 in C:\1GAMES\Rimworld_1.6.4566a\Mods\LTOColonyGroups\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ColonyGroups_1_3_08
 [HugsLib][ERR] Failed to parse UpdateFeatureDef from mod Mlie.ShowMeYourHands:
 Object reference not set to an instance of an object
 Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="ShowMeYourHands_UpdateFeatureBase"><modNameReadable>ShowMeYourHands</modNameReadable><linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842</linkUrl></HugsLib.UpdateFeatureDef>
-File: I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml
+File: C:\1GAMES\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml
 Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref FFF8D987]
   at Gagarin.DirectXmlLoader_Patch+DirectXmlLoader_DefFromNode_Patch.Postfix (System.Xml.XmlNode node, Verse.LoadableXmlAsset loadingAsset, Verse.Def __result) [0x00030] in <a663837358ac4b1eb0c2fc77449d7c09>:0 
   at Verse.DirectXmlLoader.DefFromNode (System.Xml.XmlNode node, Verse.LoadableXmlAsset loadingAsset) [0x00180] in <24d25868955f4df08b02c73b55f389fe>:0 
     - POSTFIX Krkr.RocketMan.Gagarin: Void Gagarin.DirectXmlLoader_Patch+DirectXmlLoader_DefFromNode_Patch:Postfix(XmlNode node, LoadableXmlAsset loadingAsset, Def __result)
   at HugsLib.News.UpdateFeatureDefLoader.ResolveUpdateFeatureDefsFromNodes (System.Collections.Generic.IEnumerable`1[T] nodes) [0x000a2] in <e92fb9c535b84355b807623efc376846>:0 
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_14_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_14_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_15_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_15_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_33_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_33_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_37_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_37_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_39_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_39_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_40_0 in I:\Games\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_40_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_14_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_14_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_15_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_15_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_33_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_33_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_37_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_37_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_39_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_39_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: ShowMeYourHands_1_0_40_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\ShowMeYourHands\News\UpdateFeatures.xml. IsUsingCache is False, and Def: ShowMeYourHands_1_0_40_0
 [HugsLib][ERR] Failed to parse UpdateFeatureDef from mod MemeGoddess.SearchAndDestroy:
 Object reference not set to an instance of an object
 Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="SearchAndDestroy_UpdateFeatureBase"><modNameReadable>Search and Destroy</modNameReadable><modIdentifier>SearchAndDestroy</modIdentifier><linkUrl>https://ludeon.com/forums/index.php?topic=43068.0</linkUrl></HugsLib.UpdateFeatureDef>
-File: I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml
+File: C:\1GAMES\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml
 Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref FFF8D987] Duplicate stacktrace, see ref for original
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.1.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.1.0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.2.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.2.0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.3.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.3.0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.4.0 in I:\Games\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.4.0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.1.0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.1.0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.2.0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.2.0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.3.0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.3.0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: SearchAndDestroy_1.4.0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\SearchAndDestroy\News\UpdateFeatures.xml. IsUsingCache is False, and Def: SearchAndDestroy_1.4.0
 [HugsLib][ERR] Failed to parse UpdateFeatureDef from mod Memegoddess.ReplaceStuff:
 Object reference not set to an instance of an object
 Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase"><modNameReadable>Replace Stuff</modNameReadable><modIdentifier>Uuugggg.ReplaceStuff</modIdentifier><linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1372003680</linkUrl></HugsLib.UpdateFeatureDef>
-File: I:\Games\Rimworld_1.6.4566a\Mods\ReplaceStuff\1.3\News\UpdateFeatures.xml
+File: C:\1GAMES\Rimworld_1.6.4566a\Mods\ReplaceStuff\1.3\News\UpdateFeatures.xml
 Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref FFF8D987] Duplicate stacktrace, see ref for original
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: Uuugggg_ReplaceStuff_1_1_0 in I:\Games\Rimworld_1.6.4566a\Mods\ReplaceStuff\1.3\News\UpdateFeatures.xml. IsUsingCache is False, and Def: Uuugggg_ReplaceStuff_1_1_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: Uuugggg_ReplaceStuff_1_1_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\ReplaceStuff\1.3\News\UpdateFeatures.xml. IsUsingCache is False, and Def: Uuugggg_ReplaceStuff_1_1_0
 [HugsLib][ERR] Failed to parse UpdateFeatureDef from mod Mlie.MarkThatPawn:
 Object reference not set to an instance of an object
 Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="MarkThatPawn_UpdateFeatureBase"><modNameReadable>MarkThatPawn</modNameReadable><linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3056996662</linkUrl></HugsLib.UpdateFeatureDef>
-File: I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml
+File: C:\1GAMES\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml
 Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref FFF8D987] Duplicate stacktrace, see ref for original
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_1 in I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is False, and Def: MarkThatPawn_1_4_1
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_6 in I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is False, and Def: MarkThatPawn_1_4_6
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_23 in I:\Games\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is False, and Def: MarkThatPawn_1_4_23
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_1 in C:\1GAMES\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is False, and Def: MarkThatPawn_1_4_1
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_6 in C:\1GAMES\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is False, and Def: MarkThatPawn_1_4_6
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: MarkThatPawn_1_4_23 in C:\1GAMES\Rimworld_1.6.4566a\Mods\Mark That Pawn\News\UpdateFeatures.xml. IsUsingCache is False, and Def: MarkThatPawn_1_4_23
 [HugsLib][ERR] Failed to parse UpdateFeatureDef from mod UnlimitedHugs.AllowTool:
 Object reference not set to an instance of an object
 Context: <HugsLib.UpdateFeatureDef Abstract="true" Name="ATUpdateFeatureBase"><defName>AllowToolUpdateFeature</defName><modNameReadable>Allow Tool</modNameReadable><modIdentifier>AllowTool</modIdentifier><linkUrl>https://ludeon.com/forums/index.php?topic=17218</linkUrl></HugsLib.UpdateFeatureDef>
-File: I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml
+File: C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml
 Exception: System.NullReferenceException: Object reference not set to an instance of an object
 [Ref FFF8D987] Duplicate stacktrace, see ref for original
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_2_3_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_2_3_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_2_4_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_2_4_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_0_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_0_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_2_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_2_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_4_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_4_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_5_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_5_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_6_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_6_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_7_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_7_0
-GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_10_0 in I:\Games\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_10_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_2_3_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_2_3_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_2_4_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_2_4_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_0_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_0_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_2_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_2_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_4_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_4_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_5_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_5_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_6_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_6_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_7_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_7_0
+GAGARIN: DirectXmlLoader_DefFromNode_Patch.Postfix: AllowTool_3_10_0 in C:\1GAMES\Rimworld_1.6.4566a\Mods\AllowTool\News\AllowToolUpdateFeatures.xml. IsUsingCache is False, and Def: AllowTool_3_10_0
 Translation data for language Russian / Русский has 91 errors. Generate translation report for more info.
 [TradeHelper] Loaded.
 QualityBuilder: JobDefOf.Deconstruct driverClass = JobDriver_Deconstruct
@@ -258,7 +252,7 @@ QualityBuilder: JobDefOf.Deconstruct driverClass = JobDriver_Deconstruct
 [MarkThatPawn]: Found 0 automatic rules defined
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.Notify_MemberStripped
 [ImTryingToSaveYou] Patched JobDriver_ForceTargetWear.TryUnequipSomething
-Fallback handler could not load library I:/Games/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-000001EE1DD77350.dll
+Fallback handler could not load library C:/1GAMES/Rimworld_1.6.4566a/RimWorldWin64_Data/MonoBleedingEdge/data-00000215B08FF010.dll
 [CreepJoinersRomancePatch]: Pawn_RelationsTracker.CompatibilityWith Patched
 [CreepJoinersRomancePatch]: Pawn_RelationsTracker.SecondaryLovinChanceFactor Patched
 GAGARIN: <color=green>StartUpFinished called!</color>
@@ -269,17 +263,1003 @@ OnLevelWasLoaded was found on ModInitializerComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 30015.
-Total: 233.156700 ms (FindLiveObjects: 1.565000 ms CreateObjectMapping: 0.874700 ms MarkObjects: 230.258500 ms  DeleteObjects: 0.458100 ms)
+Total: 220.076300 ms (FindLiveObjects: 1.769800 ms CreateObjectMapping: 3.613700 ms MarkObjects: 214.287200 ms  DeleteObjects: 0.405200 ms)
 
-CameraPlus: Found mod at I:\Games\Rimworld_1.6.4566a\Mods\CameraPlus
+CameraPlus: Found mod at C:\1GAMES\Rimworld_1.6.4566a\Mods\CameraPlus
 [RimHUD v1.17.5] User preset 'PRESET' loaded
 [ShowMeYourHands]: Defined hand definitions of 110 weapons
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 30198.
+Total: 215.532200 ms (FindLiveObjects: 1.854600 ms CreateObjectMapping: 1.973900 ms MarkObjects: 211.596600 ms  DeleteObjects: 0.106600 ms)
+
+Starting patches: 447 - 2/10/2026 12:30:40 PM
+Finished transpiling 446 methods - 2/10/2026 12:30:48 PM
 Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
-[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
-UnloadTime: 1.284600 ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.221200 ms
 QualityBuilder added property to '128' things
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 30241.
-Total: 215.525900 ms (FindLiveObjects: 1.561200 ms CreateObjectMapping: 0.789300 ms MarkObjects: 213.104600 ms  DeleteObjects: 0.070400 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 30241.
+Total: 203.697800 ms (FindLiveObjects: 1.622100 ms CreateObjectMapping: 1.240100 ms MarkObjects: 200.735200 ms  DeleteObjects: 0.100000 ms)
+
+Loading game from file COMMIT_SAVE with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human8306288 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Thing_Human8306288 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Lord_1902 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=/lords
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F]
+ [0x0000c] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.DefMap`2[D,V].set_Item (D def, V value) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.SetPriority (Verse.WorkTypeDef w, System.Int32 priority) [0x00069] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.Disable (Verse.WorkTypeDef w) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.Notify_DisabledWorkTypesChanged () [0x00022] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Pawn.Notify_DisabledWorkTypesChanged () [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Pawn_WorkSettings.ExposeData () [0x00025] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <24d25868955f4df08b02c73b55f389fe>:0 
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[Ref 83F8838F] Duplicate stacktrace, see ref for original
+[HugsLib][ERR] AllowTool caused an exception during OnFixedUpdate: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+[Ref 862B632D]
+  at System.Collections.Generic.HashSet`1+Enumerator[T].MoveNext () [0x00013] in <1f993cbf88314b1baa1e10ca917bdc64>:0 
+  at AllowTool.HaulUrgentlyCacheHandler.GetMapHaulables (Verse.Map map, System.Collections.Generic.IReadOnlyList`1[T] intersectWith, System.Collections.Generic.ICollection`1[T] targetList) [0x0006e] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at AllowTool.HaulUrgentlyCacheHandler.RecacheIfNeeded (Verse.Map map, System.Single currentTime) [0x0004f] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at AllowTool.HaulUrgentlyCacheHandler.GetDesignatedThingsForMap (Verse.Map map, System.Single currentTime) [0x00001] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at AllowTool.HaulUrgentlyCacheHandler+NoStorageSpaceTracker.ProcessDesignations (Verse.Map map, System.Int32 currentUpdate, System.Single currentTime) [0x0002b] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at AllowTool.HaulUrgentlyCacheHandler.ProcessCacheEntries (System.Int32 currentFrame, System.Single currentTime) [0x00029] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at AllowTool.AllowToolController.FixedUpdate () [0x00012] in <8a098910d6a84b188090b9d6c096e9ee>:0 
+  at HugsLib.HugsLibController.OnFixedUpdate () [0x00021] in <e92fb9c535b84355b807623efc376846>:0 
+QualityBuilder added to приказы category.
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [0 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 39893.
+Total: 397.660500 ms (FindLiveObjects: 2.931300 ms CreateObjectMapping: 2.781400 ms MarkObjects: 391.837300 ms  DeleteObjects: 0.110400 ms)
+
+CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
+CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
+CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
+Banks started 10 jobs in one tick. newJob=Train (Job_66064241) A = Thing_AlphaThrumbo6598314 jobGiver=RimWorld.JobGiver_Work jobList=
+Banks started 10 jobs in one tick. newJob=Train (Job_66073995) A = Thing_AlphaThrumbo6598314 jobGiver=RimWorld.JobGiver_Work jobList=
+Banks started 10 jobs in one tick. newJob=Train (Job_66135983) A = Thing_AlphaThrumbo6598314 jobGiver=RimWorld.JobGiver_Work jobList=
+[Yayo's Animation] GC : animation data count [340 -> 322]
+Бартас started 10 jobs in one tick. newJob=Train (Job_66187867) A = Thing_Megasloth5995684 jobGiver=RimWorld.JobGiver_Work jobList=
+Scatterer RimWorld.GenStep_ScatterCaveDebris from def ScatterCaveDebris could not find cell to generate at.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 51682.
+Total: 382.615000 ms (FindLiveObjects: 4.558400 ms CreateObjectMapping: 6.096500 ms MarkObjects: 371.726000 ms  DeleteObjects: 0.233500 ms)
+
+GetInspectString exception on MinifiedThing8369891:
+System.NullReferenceException: Object reference not set to an instance of an object
+[Ref A20F893]
+  at RimWorld.CompShuttle.CompInspectStringExtra () [0x00059] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.ThingWithComps.InspectStringPartsFromComps () [0x00023] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.ThingWithComps.GetInspectString () [0x00013] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.MinifiedThing.GetInspectString () [0x00016] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.InspectPaneFiller.DrawInspectStringFor (Verse.ISelectable sel, UnityEngine.Rect rect) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 42275.
+Total: 459.615500 ms (FindLiveObjects: 2.467300 ms CreateObjectMapping: 2.896800 ms MarkObjects: 454.160700 ms  DeleteObjects: 0.090000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.506500 ms
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 41263.
+Total: 355.048300 ms (FindLiveObjects: 2.770400 ms CreateObjectMapping: 2.997000 ms MarkObjects: 349.160700 ms  DeleteObjects: 0.119400 ms)
+
+Loading game from file Адептус Механикус1111 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+QualityBuilder added property to '0' things
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Exception registering TacticalGroups.ColonyGroup  - 0 in loaded object directory with unique load ID TacticalGroups.ColonyGroup1: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.ColonyGroup1
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Map_121 of type Verse.Map. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=TacticalGroups.TacticalGroups curPathRelToParent=/colonyGroups/keys
+Null key while loading dictionary of Verse.Map and TacticalGroups.ColonyGroup. label=colonyGroups
+Could not resolve reference to object with loadID Map_121 of type Verse.Map. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent= - 3 curPathRelToParent=
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [421 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 50077.
+Total: 498.724200 ms (FindLiveObjects: 3.263800 ms CreateObjectMapping: 3.244700 ms MarkObjects: 492.081000 ms  DeleteObjects: 0.134200 ms)
+
+[Yayo's Animation] GC : animation data count [342 -> 323]
+Qiuxiaoye started 10 jobs in one tick. newJob=Train (Job_66311783) A = Thing_Thrumbo7394857 jobGiver=RimWorld.JobGiver_Work jobList=
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 52F7AAA3]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking Raccoon8142029. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A60B8BD]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+reinnited
+reinnited
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref ACE1DCC9]
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00311] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking Thrumbo8376756 (at (166, 0, 87)). Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 6AB8AD5F]
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00311] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+Guest group arrived, but there are no guest beds and the player asked to wait until they are built.
+[Yayo's Animation] GC : animation data count [350 -> 330]
+Banks started 10 jobs in one tick. newJob=Train (Job_66427713) A = Thing_AlphaThrumbo6964769 jobGiver=RimWorld.JobGiver_Work jobList=
+Dougherty started 10 jobs in one tick. newJob=Train (Job_66442471) A = Thing_AlphaThrumbo6312801 jobGiver=RimWorld.JobGiver_Work jobList=
+Dougherty started 10 jobs in one tick. newJob=Train (Job_66446657) A = Thing_AlphaThrumbo8117285 jobGiver=RimWorld.JobGiver_Work jobList=
+Banks started 10 jobs in one tick. newJob=Train (Job_66450027) A = Thing_AlphaThrumbo7179572 jobGiver=RimWorld.JobGiver_Work jobList=
+NullReferenceException: Object reference not set to an instance of an object
+[Ref 61CC7D93] Duplicate stacktrace, see ref for original
+
+reinnited
+Bad string pass when reading rule map(p=2)_mas->[mapNoun_mas]: [place]
+Bad string pass when reading rule map(p=2)_fem->[mapNoun_fem]: [place]
+Bad string pass when reading rule map(p=2)_neu->[mapNoun_neu]: [place]
+Bad string pass when reading rule mapNoun(p=5)_fem->карта
+Bad string pass when reading rule mapNoun(p=2)_mas>атлас
+Bad string pass when reading rule mapType(p=2)_mas->[Animal_mas]
+Bad string pass when reading rule mapType(p=2)_fem->[Animal_fem]
+Bad string pass when reading rule mapType(p=2)_neu->[Animal_neu]
+Bad string pass when reading rule mapType(p=2)_mas->[TreeType_mas]
+Bad string pass when reading rule mapType(p=2)_fem->[TreeType_fem]
+Bad string pass when reading rule mapType(p=2)_neu->[TreeType_neu]
+Failed to resolve text. Trying again with English. Exception: System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+[Ref 52B82781]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].FindEntry (TKey key) [0x00008] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryGetValue (TKey key, TValue& value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.Grammar.GrammarResolver.AddRule (Verse.Grammar.Rule rule) [0x00002] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Grammar.GrammarResolver.ResolveUnsafe (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.Boolean& success, System.String debugLabel, System.Boolean forceLog, System.Boolean useUntranslatedRules, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x00171] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.Grammar.GrammarResolver.Resolve (System.String rootKeyword, Verse.Grammar.GrammarRequest request, System.String debugLabel, System.Boolean forceLog, System.String untranslatedRootKeyword, System.Collections.Generic.List`1[T] extraTags, System.Collections.Generic.List`1[T] outTags, System.Boolean capitalizeFirstSentence) [0x0001e] in <24d25868955f4df08b02c73b55f389fe>:0 
+Bad string pass when reading rule |mapContents->[Quantity_adjphrase] [mapSubject], изображенные в стиле [artstyle_adj]. Под каждым — [AdjectiveAny_neu] [Animal_neu]
+Bad string pass when reading rule mapType(p=4)_fem->карта
+[Yayo's Animation] GC : animation data count [376 -> 357]
+Dougherty started 10 jobs in one tick. newJob=Train (Job_66550965) A = Thing_AlphaThrumbo8014992 jobGiver=RimWorld.JobGiver_Work jobList=
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 52F7AAA3]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking Deer8037171. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A60B8BD]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+Dougherty started 10 jobs in one tick. newJob=Shear (Job_66655999) A = Thing_AlphaThrumbo3712781 jobGiver=RimWorld.JobGiver_Work jobList=
+[Yayo's Animation] GC : animation data count [375 -> 340]
+Бартас started 10 jobs in one tick. newJob=Train (Job_66669899) A = Thing_Megasloth7629519 jobGiver=RimWorld.JobGiver_Work jobList=
+Qiuxiaoye started 10 jobs in one tick. newJob=Train (Job_66676733) A = Thing_Megasloth7147407 jobGiver=RimWorld.JobGiver_Work jobList=
+Бартас started 10 jobs in one tick. newJob=Train (Job_66677238) A = Thing_Megasloth7629519 jobGiver=RimWorld.JobGiver_Work jobList=
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 52F7AAA3]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking Thrumbo8376750. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A60B8BD]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 52F7AAA3]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking Thrumbo8376752. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A60B8BD]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 52F7AAA3]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+Exception ticking Thrumbo8376751. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 1A60B8BD]
+  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
+  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
+  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
+  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
+    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
+  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
+    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
+    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
+    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+  at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 45939.
+Total: 540.742300 ms (FindLiveObjects: 9.373900 ms CreateObjectMapping: 4.121000 ms MarkObjects: 526.984600 ms  DeleteObjects: 0.262500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.517100 ms
+QualityBuilder added property to '0' things
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 44219.
+Total: 454.500500 ms (FindLiveObjects: 2.677700 ms CreateObjectMapping: 2.715800 ms MarkObjects: 448.970400 ms  DeleteObjects: 0.136200 ms)
+
+Loading game from file Адептус Механикус4444 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Thing_Human8381860 of type Verse.Pawn. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=RimWorld.RelationshipRecord curPathRelToParent=/references
+Could not resolve reference to object with loadID Faction_125 of type RimWorld.Faction. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=VEF.Storyteller.RaidGroup curPathRelToParent=
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [349 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 52943.
+Total: 527.330700 ms (FindLiveObjects: 4.180800 ms CreateObjectMapping: 3.544500 ms MarkObjects: 519.473000 ms  DeleteObjects: 0.131900 ms)
+
+Dougherty started 10 jobs in one tick. newJob=Train (Job_66752279) A = Thing_AlphaThrumbo7337875 jobGiver=RimWorld.JobGiver_Work jobList=
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 45324.
+Total: 583.027200 ms (FindLiveObjects: 4.040200 ms CreateObjectMapping: 3.271300 ms MarkObjects: 575.570700 ms  DeleteObjects: 0.144600 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.726900 ms
+QualityBuilder added property to '0' things
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 44589.
+Total: 523.531700 ms (FindLiveObjects: 3.312000 ms CreateObjectMapping: 2.866100 ms MarkObjects: 517.232400 ms  DeleteObjects: 0.120600 ms)
+
+Loading game from file Адептус Механикус5555 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Торн (Уиспер) curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Tran curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Готорн curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Аллигатор curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кахнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Акеми curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Dougherty curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Erys curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мейси curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Wood curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Humps curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Banks curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ана curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Alla curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ryan curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Воробей curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Алексей curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеив curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Cynapse curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ben curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Oleg curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Эстель curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Macias curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Waugh curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хриопп curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Wolfe curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Даркакс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Филантропена curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Darcey curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Waldo curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фосоп curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Бууб curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сноу curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Меабиабру curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Губия curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Инеро curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Леремба curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Таркус curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Габра curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Бартас curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Qiuxiaoye curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Джесс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ровозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Чайка curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Габра curPathRelToParent=
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [353 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53325.
+Total: 662.405700 ms (FindLiveObjects: 4.104500 ms CreateObjectMapping: 3.682100 ms MarkObjects: 654.490800 ms  DeleteObjects: 0.128100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45324.
+Total: 675.730800 ms (FindLiveObjects: 3.139200 ms CreateObjectMapping: 3.096000 ms MarkObjects: 669.341900 ms  DeleteObjects: 0.153200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.615700 ms
+QualityBuilder added property to '0' things
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 44727.
+Total: 552.311300 ms (FindLiveObjects: 2.763600 ms CreateObjectMapping: 4.425400 ms MarkObjects: 545.009000 ms  DeleteObjects: 0.112900 ms)
+
+Loading game from file Адептус Механикус5555 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Торн (Уиспер) curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Tran curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Готорн curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Аллигатор curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кахнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Акеми curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Dougherty curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Erys curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мейси curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Wood curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Humps curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Banks curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ана curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Alla curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ryan curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Воробей curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Алексей curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеив curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Cynapse curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ben curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Oleg curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Эстель curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Macias curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Waugh curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хриопп curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Wolfe curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Даркакс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Филантропена curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Darcey curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Waldo curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фосоп curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Бууб curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сноу curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Меабиабру curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Губия curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Инеро curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Леремба curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Таркус curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Габра curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Бартас curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Qiuxiaoye curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Джесс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ровозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Чайка curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Габра curPathRelToParent=
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [322 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53418.
+Total: 663.188900 ms (FindLiveObjects: 3.614100 ms CreateObjectMapping: 3.759500 ms MarkObjects: 655.683400 ms  DeleteObjects: 0.131400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45430.
+Total: 749.410500 ms (FindLiveObjects: 3.028600 ms CreateObjectMapping: 3.593700 ms MarkObjects: 742.639400 ms  DeleteObjects: 0.148500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.524600 ms
+QualityBuilder added property to '0' things
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 44823.
+Total: 615.978300 ms (FindLiveObjects: 3.458000 ms CreateObjectMapping: 3.251900 ms MarkObjects: 609.145700 ms  DeleteObjects: 0.122100 ms)
+
+Loading game from file Адептус Механикус5555 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Торн (Уиспер) curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Tran curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Готорн curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Аллигатор curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Кахнав curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Акеми curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Dougherty curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Erys curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Мейси curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Wood curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Humps curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Banks curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ана curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Alla curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ryan curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Воробей curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Алексей curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Зеив curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Cynapse curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ben curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Oleg curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Эстель curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Macias curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Waugh curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Хриопп curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Wolfe curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Даркакс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Филантропена curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Darcey curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Waldo curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Фосоп curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Бууб curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Сноу curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Меабиабру curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Губия curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Инеро curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Леремба curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Таркус curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Габра curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Бартас curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Qiuxiaoye curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Джесс curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Ровозз curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Чайка curPathRelToParent=
+Could not resolve reference to object with loadID Lord_1917 of type Verse.AI.Group.Lord. Was it compressed away, destroyed, had no ID number, or not saved/loaded right? curParent=Габра curPathRelToParent=
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [335 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53477.
+Total: 809.660000 ms (FindLiveObjects: 3.676500 ms CreateObjectMapping: 3.506200 ms MarkObjects: 802.354000 ms  DeleteObjects: 0.122900 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 45527.
+Total: 755.700000 ms (FindLiveObjects: 4.288000 ms CreateObjectMapping: 3.404900 ms MarkObjects: 747.815300 ms  DeleteObjects: 0.191200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.935800 ms
+QualityBuilder added property to '0' things
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 44913.
+Total: 608.973800 ms (FindLiveObjects: 3.284100 ms CreateObjectMapping: 3.618700 ms MarkObjects: 601.951500 ms  DeleteObjects: 0.119100 ms)
 
 Loading game from file Адептус Механикус6666 with mods:
   - brrainz.harmony
@@ -346,325 +1326,357 @@ Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipL
   at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
 Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
 [Ref CC152DD4] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F]
- [0x0000c] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at System.Collections.Generic.List`1[T].set_Item (System.Int32 index, T value) [0x00009] in <51fded79cd284d4d911c5949aff4cb21>:0 
-  at Verse.DefMap`2[D,V].set_Item (D def, V value) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.SetPriority (Verse.WorkTypeDef w, System.Int32 priority) [0x00069] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.Disable (Verse.WorkTypeDef w) [0x00006] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.Notify_DisabledWorkTypesChanged () [0x00022] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at Verse.Pawn.Notify_DisabledWorkTypesChanged () [0x0001f] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at RimWorld.Pawn_WorkSettings.ExposeData () [0x00025] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at Verse.PostLoadIniter.DoAllPostLoadInits () [0x00032] in <24d25868955f4df08b02c73b55f389fe>:0 
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Could not do PostLoadInit on RimWorld.Pawn_WorkSettings: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
-Parameter name: index
-[Ref 83F8838F] Duplicate stacktrace, see ref for original
-Starting patches: 447 - 2/10/2026 12:06:50 AM
 CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
 CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
 CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
 CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
 CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
-[Yayo's Animation] GC : animation data count [0 -> 0]
-QualityBuilder added to приказы category.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 39892.
-Total: 397.413100 ms (FindLiveObjects: 1.862000 ms CreateObjectMapping: 1.113000 ms MarkObjects: 394.324400 ms  DeleteObjects: 0.113300 ms)
+[Yayo's Animation] GC : animation data count [338 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53634.
+Total: 790.460000 ms (FindLiveObjects: 3.508400 ms CreateObjectMapping: 3.885500 ms MarkObjects: 782.942000 ms  DeleteObjects: 0.123400 ms)
 
-CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
-CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
-CustomizeAnimals: INFO: pack animal texture not found: Things/Pawn/Animal/AlphaThrumbo/AlphaThrumboPack - using dummy: CA_pack_dummy - success: True
-Finished transpiling 446 methods - 2/10/2026 12:07:05 AM
-Qiuxiaoye started 10 jobs in one tick. newJob=Train (Job_65309521) A = Thing_Megasloth7376482 jobGiver=RimWorld.JobGiver_Work jobList=
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-[Yayo's Animation] GC : animation data count [421 -> 370]
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-Акеми started 10 jobs in one tick. newJob=Goto (Job_65361550) A = Thing_Larva8226766 jobGiver=SearchAndDestroy.JobGiver_GoWithinRangeOfHostile jobList=
-SearchAndDestroy_Gizmo_Melee toggle
-Dougherty started 10 jobs in one tick. newJob=Train (Job_65388641) A = Thing_AlphaThrumbo4765473 jobGiver=RimWorld.JobGiver_Work jobList=
-Бартас started 10 jobs in one tick. newJob=Train (Job_65414213) A = Thing_Megasloth8000920 jobGiver=RimWorld.JobGiver_Work jobList=
-reinnited
-Бартас started 10 jobs in one tick. newJob=Train (Job_65435830) A = Thing_Megasloth7376482 jobGiver=RimWorld.JobGiver_Work jobList=
-Бартас started 10 jobs in one tick. newJob=Train (Job_65441007) A = Thing_Megasloth5995684 jobGiver=RimWorld.JobGiver_Work jobList=
-Бартас started 10 jobs in one tick. newJob=Train (Job_65444533) A = Thing_Megasloth7376482 jobGiver=RimWorld.JobGiver_Work jobList=
-Guest group arrived, but there are no guest beds and the player asked to wait until they are built.
-[Yayo's Animation] GC : animation data count [453 -> 318]
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45680.
+Total: 824.428200 ms (FindLiveObjects: 3.069400 ms CreateObjectMapping: 2.819400 ms MarkObjects: 818.400500 ms  DeleteObjects: 0.138700 ms)
+
 Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 61188.
-Total: 400.355800 ms (FindLiveObjects: 3.998900 ms CreateObjectMapping: 4.422000 ms MarkObjects: 391.684100 ms  DeleteObjects: 0.250400 ms)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.354400 ms
+QualityBuilder added property to '0' things
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 45065.
+Total: 685.777700 ms (FindLiveObjects: 3.353800 ms CreateObjectMapping: 3.138300 ms MarkObjects: 679.177500 ms  DeleteObjects: 0.107500 ms)
+
+Loading game from file Адептус Механикус6666 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [338 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53726.
+Total: 889.017100 ms (FindLiveObjects: 4.396300 ms CreateObjectMapping: 3.375200 ms MarkObjects: 881.114500 ms  DeleteObjects: 0.130700 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 57320.
-Total: 378.962100 ms (FindLiveObjects: 3.636200 ms CreateObjectMapping: 2.866900 ms MarkObjects: 372.262600 ms  DeleteObjects: 0.195600 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45773.
+Total: 922.952400 ms (FindLiveObjects: 3.125800 ms CreateObjectMapping: 3.338300 ms MarkObjects: 916.299400 ms  DeleteObjects: 0.188100 ms)
 
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-Event.Use() should not be called for events of type Layout
-<color=teal>VEF.Weapons.Verb_ShootWithSmoke</color> cannot be used without <color=teal>MoteProperties</color> DefModExtension. Motes will not be thrown.
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-reinnited
-SearchAndDestroy_Gizmo_Melee toggle
-SearchAndDestroy_Gizmo_Melee toggle
-[Yayo's Animation] GC : animation data count [671 -> 322]
-Unloading 1 Unused Serialized files (Serialized files now loaded: 8)
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 60018.
-Total: 396.244000 ms (FindLiveObjects: 3.731100 ms CreateObjectMapping: 3.051400 ms MarkObjects: 389.276300 ms  DeleteObjects: 0.184900 ms)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.325500 ms
+QualityBuilder added property to '0' things
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 45157.
+Total: 829.314100 ms (FindLiveObjects: 3.241400 ms CreateObjectMapping: 2.866900 ms MarkObjects: 823.085000 ms  DeleteObjects: 0.120300 ms)
 
-Бартас started 10 jobs in one tick. newJob=Train (Job_65648443) A = Thing_Megasloth8004371 jobGiver=RimWorld.JobGiver_Work jobList=
+Loading game from file Адептус Механикус6666 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [338 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53816.
+Total: 905.373300 ms (FindLiveObjects: 4.539000 ms CreateObjectMapping: 3.391800 ms MarkObjects: 897.310100 ms  DeleteObjects: 0.131700 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 45850.
+Total: 957.103600 ms (FindLiveObjects: 3.713300 ms CreateObjectMapping: 3.437000 ms MarkObjects: 949.816700 ms  DeleteObjects: 0.136200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 8)
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.433200 ms
+QualityBuilder added property to '0' things
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 45249.
+Total: 911.518700 ms (FindLiveObjects: 3.124800 ms CreateObjectMapping: 2.815800 ms MarkObjects: 905.455200 ms  DeleteObjects: 0.122400 ms)
+
+Loading game from file Адептус Механикус6666 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - Ludeon.RimWorld.Biotech
+  - Ludeon.RimWorld.Anomaly
+  - Ludeon.RimWorld.Odyssey
+  - DerekBickley.LTOColonyGroupsFinal
+  - LZWS.DerekBickley.LTOColonyGroupsFinal
+  - UnlimitedHugs.HugsLib
+  - com.yayo.yayoAni.continued
+  - Sl4vP0weR.WeAreUnited
+  - TimmyLiang.TradeHelper
+  - Mlie.ShowMeYourHands
+  - BP.ShowBuildableMaterialCount
+  - OskarPotocki.VanillaFactionsExpanded.Core
+  - MemeGoddess.SearchAndDestroy
+  - Jaxe.RimHUD
+  - kamikadza13.RimHUD
+  - Memegoddess.ReplaceStuff
+  - longwater.smartstockpilecreation
+  - hatti.qualitybuilder
+  - telardo.NumbersTraitAddOn
+  - DawnsGlow.Numbers
+  - Andromeda.NiceHealthTab
+  - Andromeda.NiceHands
+  - Mlie.MarkThatPawn
+  - Supes.MapWideOrbitalTradeBeacon
+  - Jaxe.Bubbles
+  - S4.ImTryingToSaveYou
+  - Orion.Hospitality
+  - Inglix.FasterBiosculptingPod
+  - Mlie.DurableClothes
+  - dubwise.dubsmintminimap
+  - Ganja.DropInventory
+  - telardo.DragSelect
+  - avilmask.CommonSense
+  - brrainz.cameraplus
+  - Inglix.ApparelTaintedOnCorpseRot
+  - UnlimitedHugs.AllowTool
+  - brrainz.achtung
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - SClarke.GroundTargeter1.6temp
+  - Dubwise.DubsMintMenus
+  - KipsMods.AdjustableAbilityCooldowns
+  - erdelf.MinifyEverything
+  - microus.creepjoinersromance
+  - Shipdontnuketile.Sentinel
+  - Syrus.CustomizeAnimals
+  - Mlie.PrisonCommons
+  - Taranchuk.PerformanceOptimizer
+  - dmitry6.RusPerformanceOptimizer
+  - VanillaExpanded.VWE
+  - Krkr.RocketMan
+  - Mlie.SinglePlantTexturePatch
+  - avilmask.PsychicHarmonizerLagFix (incompatible version)
+Exception registering RimWorld.Precept_GravshipLaunch RimWorld.Precept_GravshipLaunch in loaded object directory with unique load ID Precept_1024: System.ArgumentException: An item with the same key has already been added. Key: Precept_1024
+[Ref CC152DD4]
+ [0x00006] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedObjectDirectory.RegisterLoaded (Verse.ILoadReferenceable reffable) [0x000da] in <24d25868955f4df08b02c73b55f389fe>:0 
+Exception registering TacticalGroups.PawnGroup  - 0 in loaded object directory with unique load ID TacticalGroups.PawnGroup6: System.ArgumentException: An item with the same key has already been added. Key: TacticalGroups.PawnGroup6
+[Ref CC152DD4] Duplicate stacktrace, see ref for original
+CustomizeAnimals: 'EggSpew' uses 'EggSpew' but ability does not require training to be usable
+CustomizeAnimals: 'SludgeSpew' uses 'SludgeSpew' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledBlinking' uses 'VEF_ControlledBlinking' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledDetonation' uses 'VEF_ControlledDetonation' but ability does not require training to be usable
+CustomizeAnimals: 'VEF_ControlledInvisibility' uses 'VEF_ControlledInvisibility' but ability does not require training to be usable
+[Yayo's Animation] GC : animation data count [333 -> 0]
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 53894.
+Total: 1014.022600 ms (FindLiveObjects: 4.107000 ms CreateObjectMapping: 3.744500 ms MarkObjects: 1006.046500 ms  DeleteObjects: 0.124200 ms)
+
+[Yayo's Animation] GC : animation data count [338 -> 338]
+Ben started 10 jobs in one tick. newJob=HaulToCell (Job_66785615) A = Thing_RawAgave8384697 B = (88, 0, 107) jobGiver=RimWorld.JobGiver_Work jobList=
 SearchAndDestroy_Gizmo_Melee toggle
-Event.Use() should not be called for events of type Layout
-Event.Use() should not be called for events of type Layout
-reinnited
-reinnited
-reinnited
-reinnited
-[Yayo's Animation] GC : animation data count [475 -> 304]
-Dougherty started 10 jobs in one tick. newJob=Train (Job_65722715) A = Thing_Megasloth7376482 jobGiver=RimWorld.JobGiver_Work jobList=
-Cannot find rules for pawn symbol PAWN.
-[Yayo's Animation] GC : animation data count [402 -> 306]
-Soyuz caught this error. Please don't report this to the RocketMan team unless you're certain RocketMan caused this error. with error System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 52F7AAA3]
-  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
-  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
-  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
-  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
-    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
-    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
-  at Verse.Pawn.Tick () [0x000a9] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
-    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
-    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
-Exception ticking Turkey8136413. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
-[Ref 1A60B8BD]
-  at Verse.GridsUtility.GetEdifice (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
-  at Verse.AI.Pawn_PathFollower.BuildingBlockingNextPathCell () [0x00030] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - PREFIX OskarPotocki.VEF: Boolean VEF.Hediffs.PhasingPatches:NoBuildingBlocking(Building& __result, Pawn ___pawn)
-  at Verse.AI.Pawn_PathFollower.TryEnterNextPathCell () [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - POSTFIX OskarPotocki.VEF: Void VEF.Hediffs.PhasingPatches:UnfogEnteredCells(Pawn_PathFollower __instance, Pawn ___pawn)
-  at Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick.Postfix (Verse.AI.Pawn_PathFollower __instance) [0x00014] in <3034aaaaa4ad436481584dde1b843a5c>:0 
-  at Verse.AI.Pawn_PathFollower.PatherTick () [0x0059a] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - PREFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Prefix(Pawn_PathFollower __instance)
-    - POSTFIX Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Postfix(Pawn_PathFollower __instance)
-    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_PathFollower_Patch+Pawn_PathFollower_PatherTick:Finalizer(Exception __exception)
-  at Verse.Pawn.Tick () [0x003e8] in <24d25868955f4df08b02c73b55f389fe>:0 
-    - TRANSPILER Krkr.RocketMan.Soyuz: IEnumerable`1 Soyuz.Patches.Pawn_Tick_Patch:Transpiler(IEnumerable`1 instructions, ILGenerator generator)
-    - POSTFIX Mlie.MarkThatPawn: Void MarkThatPawn.Harmony.Pawn_Tick:Postfix(Pawn __instance)
-    - FINALIZER Krkr.RocketMan.Soyuz: Void Soyuz.Patches.Pawn_Tick_Patch:Finalizer(Pawn __instance, Exception __exception)
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Melee toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+SearchAndDestroy_Gizmo_Ranged toggle
+Mushinto started 10 jobs in one tick. newJob=Goto (Job_66814444) A = Thing_Larva8402660 jobGiver=SearchAndDestroy.JobGiver_GoWithinRangeOfHostile jobList=
+Dougherty started 10 jobs in one tick. newJob=Train (Job_66841677) A = Thing_Thrumbo3402321 jobGiver=RimWorld.JobGiver_Work jobList=
+[Yayo's Animation] GC : animation data count [466 -> 358]
+Banks started 10 jobs in one tick. newJob=Train (Job_66912390) A = Thing_AlphaThrumbo7537487 jobGiver=RimWorld.JobGiver_Work jobList=
+Exception ticking Autodoor6828730. Suppressing further errors. Exception: System.NullReferenceException: Object reference not set to an instance of an object
+[Ref 22DEEEAD]
+  at Verse.GridsUtility.GetThingList (Verse.IntVec3 c, Verse.Map map) [0x00000] in <24d25868955f4df08b02c73b55f389fe>:0 
+  at RimWorld.Building_Door.Tick () [0x000c2] in <24d25868955f4df08b02c73b55f389fe>:0 
   at Verse.Thing.DoTick () [0x0007b] in <24d25868955f4df08b02c73b55f389fe>:0 
   at Verse.TickList.Tick () [0x00139] in <24d25868955f4df08b02c73b55f389fe>:0 
-[Yayo's Animation] GC : animation data count [363 -> 317]
-Guest group arrived, but there are no guest beds and the player asked to wait until they are built.
-[Yayo's Animation] GC : animation data count [335 -> 311]
+Dougherty started 10 jobs in one tick. newJob=Train (Job_66946735) A = Thing_Megasloth8000920 jobGiver=RimWorld.JobGiver_Work jobList=
+[Yayo's Animation] GC : animation data count [431 -> 341]
+Qiuxiaoye started 10 jobs in one tick. newJob=Train (Job_67086806) A = Thing_Megasloth7276405 jobGiver=RimWorld.JobGiver_Work jobList=
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 6494 frames, [1.0 KB-2.0 KB]: 8 frames, [2.0 KB-4.0 KB]: 391561 frames, [4.0 KB-8.0 KB]: 59443 frames, [8.0 KB-16.0 KB]: 8923 frames, [16.0 KB-32.0 KB]: 3123 frames, [32.0 KB-64.0 KB]: 224 frames, [64.0 KB-128.0 KB]: 123 frames, [128.0 KB-256.0 KB]: 8 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 6 frames
+      Peak usage frame count: [0-1.0 KB]: 9256 frames, [1.0 KB-2.0 KB]: 25 frames, [2.0 KB-4.0 KB]: 271012 frames, [4.0 KB-8.0 KB]: 81979 frames, [8.0 KB-16.0 KB]: 12401 frames, [16.0 KB-32.0 KB]: 1336 frames, [32.0 KB-64.0 KB]: 585 frames, [64.0 KB-128.0 KB]: 139 frames, [128.0 KB-256.0 KB]: 2 frames, [1.0 MB-2.0 MB]: 3 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 32 frames
       Initial Block Size 4.0 MB
-      Current Block Size 8.0 MB
-      Peak Allocated Bytes 8.0 MB
-      Overflow Count 28
-    [ALLOC_TEMP_Job.Worker 18]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+      Current Block Size 7.7 MB
+      Peak Allocated Bytes 7.7 MB
+      Overflow Count 1
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 120.0 KB
+      Peak Allocated Bytes 117.3 KB
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 3.7 KB
-      Overflow Count 8
+      Overflow Count 44
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 10]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 16]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 6]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 4]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 17]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 14]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 3]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 12]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 1]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 23
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 138 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 5]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 13]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 11]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 2]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 480 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 3]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 0]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 20]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 11]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
-      Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 4]
-      Initial Block Size 32.0 KB
-      Current Block Size 32.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
-    [ALLOC_TEMP_BatchDeleteObjects]
-      Initial Block Size 64.0 KB
-      Current Block Size 64.0 KB
-      Peak Allocated Bytes 54 B
-      Overflow Count 0
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 160 B
       Overflow Count 0
-    [ALLOC_TEMP_Background Job.Worker 9]
+    [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 21]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 160 B
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
@@ -676,22 +1688,52 @@ Memory Statistics:
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
     [ALLOC_TEMP_ReadCacheIndex]
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
       Peak Allocated Bytes 0.6 KB
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 13]
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 176 B
       Overflow Count 0
-    [ALLOC_TEMP_EnlightenWorker] x 12
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 160 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 8
       Initial Block Size 64.0 KB
       Current Block Size 64.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
@@ -706,42 +1748,72 @@ Memory Statistics:
       Current Block Size 32.0 KB
       Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 22]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 128 B
-      Overflow Count 0
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 13.3 KB
+      Peak Allocated Bytes 10.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 15
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 160 B
       Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 176 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 507 B
       Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 480 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 160 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 15]
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
       Peak Allocated Bytes 160 B
@@ -749,44 +1821,44 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+      Peak Allocated Bytes 331 B
       Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 19]
-      Initial Block Size 256.0 KB
-      Current Block Size 256.0 KB
-      Peak Allocated Bytes 144 B
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
-    [ALLOC_TEMP_Loading.AsyncRead]
+    [ALLOC_TEMP_BatchDeleteObjects]
       Initial Block Size 64.0 KB
-      Current Block Size 120.0 KB
-      Peak Allocated Bytes 117.3 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 28733
+  Peak main deferred allocation count 54307
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 5864466
-        32B: 34 Subsections = 17408 buckets. Failed count: 3966125
-        48B: 49 Subsections = 16725 buckets. Failed count: 11267240
-        64B: 40 Subsections = 10240 buckets. Failed count: 2955312
-        80B: 85 Subsections = 17408 buckets. Failed count: 26840525
-        96B: 27 Subsections = 4608 buckets. Failed count: 124885
-        112B: 10 Subsections = 1462 buckets. Failed count: 493051
-        128B: 7 Subsections = 896 buckets. Failed count: 1215143
+        16B: 4 Subsections = 4096 buckets. Failed count: 5545676
+        32B: 34 Subsections = 17408 buckets. Failed count: 4064085
+        48B: 49 Subsections = 16725 buckets. Failed count: 12468802
+        64B: 39 Subsections = 9984 buckets. Failed count: 3258295
+        80B: 85 Subsections = 17408 buckets. Failed count: 36528531
+        96B: 29 Subsections = 4949 buckets. Failed count: 137700
+        112B: 10 Subsections = 1462 buckets. Failed count: 550758
+        128B: 6 Subsections = 768 buckets. Failed count: 1227138
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 3708 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 2815 frames, [256.0 MB-0.50 GB]: 455781 frames, [0.50 GB-1.00 GB]: 7610 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2196 frames, [32.0 MB-64.0 MB]: 1 frames, [128.0 MB-256.0 MB]: 7162 frames, [256.0 MB-0.50 GB]: 367412 frames
       Requested Block Size 16.0 MB
-      Peak Block count 35
-      Peak Allocated memory 0.55 GB
+      Peak Block count 28
+      Peak Allocated memory 456.4 MB
       Peak Large allocation bytes 31.2 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 5087 frames, [16.0 MB-32.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 54 frames, [64.0 MB-128.0 MB]: 1381 frames, [128.0 MB-256.0 MB]: 463391 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 4573 frames, [16.0 MB-32.0 MB]: 1345 frames, [32.0 MB-64.0 MB]: 150 frames, [64.0 MB-128.0 MB]: 29528 frames, [128.0 MB-256.0 MB]: 341175 frames
       Requested Block Size 16.0 MB
-      Peak Block count 10
-      Peak Allocated memory 186.2 MB
+      Peak Block count 8
+      Peak Allocated memory 154.7 MB
       Peak Large allocation bytes 33.8 MB
 [ALLOC_TEMP_JOB_1_FRAME]
   Initial Block Size 2.0 MB
@@ -809,31 +1881,31 @@ Memory Statistics:
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 220
+  Peak main deferred allocation count 92
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 5864466
-        32B: 34 Subsections = 17408 buckets. Failed count: 3966125
-        48B: 49 Subsections = 16725 buckets. Failed count: 11267240
-        64B: 40 Subsections = 10240 buckets. Failed count: 2955312
-        80B: 85 Subsections = 17408 buckets. Failed count: 26840525
-        96B: 27 Subsections = 4608 buckets. Failed count: 124885
-        112B: 10 Subsections = 1462 buckets. Failed count: 493051
-        128B: 7 Subsections = 896 buckets. Failed count: 1215143
+        16B: 4 Subsections = 4096 buckets. Failed count: 5545676
+        32B: 34 Subsections = 17408 buckets. Failed count: 4064085
+        48B: 49 Subsections = 16725 buckets. Failed count: 12468802
+        64B: 39 Subsections = 9984 buckets. Failed count: 3258295
+        80B: 85 Subsections = 17408 buckets. Failed count: 36528531
+        96B: 29 Subsections = 4949 buckets. Failed count: 137700
+        112B: 10 Subsections = 1462 buckets. Failed count: 550758
+        128B: 6 Subsections = 768 buckets. Failed count: 1227138
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 3708 frames, [0.50 GB-1.00 GB]: 466206 frames
+      Peak usage frame count: [64.0 KB-128.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 2196 frames, [0.50 GB-1.00 GB]: 374574 frames
       Requested Block Size 16.0 MB
-      Peak Block count 15
+      Peak Block count 10
       Peak Allocated memory 0.85 GB
-      Peak Large allocation bytes 0.81 GB
+      Peak Large allocation bytes 0.85 GB
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 3747 frames, [1.0 KB-2.0 KB]: 189 frames, [2.0 KB-4.0 KB]: 156 frames, [4.0 KB-8.0 KB]: 2434 frames, [32.0 KB-64.0 KB]: 204 frames, [64.0 KB-128.0 KB]: 19 frames, [128.0 KB-256.0 KB]: 94262 frames, [256.0 KB-0.5 MB]: 24198 frames, [0.5 MB-1.0 MB]: 344706 frames
+      Peak usage frame count: [0-1.0 KB]: 2499 frames, [1.0 KB-2.0 KB]: 934 frames, [2.0 KB-4.0 KB]: 972 frames, [4.0 KB-8.0 KB]: 562 frames, [32.0 KB-64.0 KB]: 159 frames, [64.0 KB-128.0 KB]: 4352 frames, [128.0 KB-256.0 KB]: 38003 frames, [256.0 KB-0.5 MB]: 256475 frames, [0.5 MB-1.0 MB]: 72815 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 0.7 MB
+      Peak Allocated memory 0.6 MB
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
   Peak main deferred allocation count 106
@@ -842,22 +1914,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 5864466
-        32B: 34 Subsections = 17408 buckets. Failed count: 3966125
-        48B: 49 Subsections = 16725 buckets. Failed count: 11267240
-        64B: 40 Subsections = 10240 buckets. Failed count: 2955312
-        80B: 85 Subsections = 17408 buckets. Failed count: 26840525
-        96B: 27 Subsections = 4608 buckets. Failed count: 124885
-        112B: 10 Subsections = 1462 buckets. Failed count: 493051
-        128B: 7 Subsections = 896 buckets. Failed count: 1215143
+        16B: 4 Subsections = 4096 buckets. Failed count: 5545676
+        32B: 34 Subsections = 17408 buckets. Failed count: 4064085
+        48B: 49 Subsections = 16725 buckets. Failed count: 12468802
+        64B: 39 Subsections = 9984 buckets. Failed count: 3258295
+        80B: 85 Subsections = 17408 buckets. Failed count: 36528531
+        96B: 29 Subsections = 4949 buckets. Failed count: 137700
+        112B: 10 Subsections = 1462 buckets. Failed count: 550758
+        128B: 6 Subsections = 768 buckets. Failed count: 1227138
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 3708 frames, [16.0 MB-32.0 MB]: 466206 frames
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 2196 frames, [16.0 MB-32.0 MB]: 374574 frames
       Requested Block Size 4.0 MB
       Peak Block count 6
       Peak Allocated memory 19.6 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 3708 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 427776 frames, [128.0 KB-256.0 KB]: 38428 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 2196 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 88777 frames, [128.0 KB-256.0 KB]: 285770 frames, [256.0 KB-0.5 MB]: 18 frames, [0.5 MB-1.0 MB]: 9 frames
       Requested Block Size 4.0 MB
       Peak Block count 1
       Peak Allocated memory 0.6 MB
@@ -869,22 +1941,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 4 Subsections = 4096 buckets. Failed count: 5864466
-        32B: 34 Subsections = 17408 buckets. Failed count: 3966125
-        48B: 49 Subsections = 16725 buckets. Failed count: 11267240
-        64B: 40 Subsections = 10240 buckets. Failed count: 2955312
-        80B: 85 Subsections = 17408 buckets. Failed count: 26840525
-        96B: 27 Subsections = 4608 buckets. Failed count: 124885
-        112B: 10 Subsections = 1462 buckets. Failed count: 493051
-        128B: 7 Subsections = 896 buckets. Failed count: 1215143
+        16B: 4 Subsections = 4096 buckets. Failed count: 5545676
+        32B: 34 Subsections = 17408 buckets. Failed count: 4064085
+        48B: 49 Subsections = 16725 buckets. Failed count: 12468802
+        64B: 39 Subsections = 9984 buckets. Failed count: 3258295
+        80B: 85 Subsections = 17408 buckets. Failed count: 36528531
+        96B: 29 Subsections = 4949 buckets. Failed count: 137700
+        112B: 10 Subsections = 1462 buckets. Failed count: 550758
+        128B: 6 Subsections = 768 buckets. Failed count: 1227138
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 3708 frames, [256.0 KB-0.5 MB]: 466206 frames
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2196 frames, [256.0 KB-0.5 MB]: 374574 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 364.7 KB
+      Peak Allocated memory 364.9 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [0-1.0 KB]: 469915 frames
+      Peak usage frame count: [0-1.0 KB]: 376771 frames
       Requested Block Size 2.0 MB
       Peak Block count 0
       Peak Allocated memory 0 B
