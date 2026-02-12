@@ -47,7 +47,9 @@
   <extremeDifficultyUnlocked>False</extremeDifficultyUnlocked>
   <pauseOnError>False</pauseOnError>
   <devMode>False</devMode>
-  <debugActionPalette />
+  <debugActionPalette>
+    <li>Actions\Add Hediff...\Пыточная корона</li>
+  </debugActionPalette>
   <devPalettePosition>
     <x>0</x>
     <y>0</y>
@@ -55,7 +57,7 @@
   <langFolderName>Russian (Русский)</langFolderName>
   <logVerbose>False</logVerbose>
   <openLogOnWarnings>False</openLogOnWarnings>
-  <closeLogWindowOnEscape>True</closeLogWindowOnEscape>
+  <closeLogWindowOnEscape>False</closeLogWindowOnEscape>
   <disableQuickStartCryptoSickness>True</disableQuickStartCryptoSickness>
   <quickStartDevPaletteOn>False</quickStartDevPaletteOn>
   <resetModsConfigOnCrash>True</resetModsConfigOnCrash>
