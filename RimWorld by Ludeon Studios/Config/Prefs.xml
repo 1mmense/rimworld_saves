@@ -2,7 +2,7 @@
 <PrefsData>
   <volumeMaster>0.4963145</volumeMaster>
   <volumeGame>0.6928747</volumeGame>
-  <volumeMusic>0</volumeMusic>
+  <volumeMusic>0.2014741</volumeMusic>
   <volumeAmbient>0.4963145</volumeAmbient>
   <volumeUI>0.6990172</volumeUI>
   <screenWidth>0</screenWidth>
@@ -28,7 +28,7 @@
   <adaptiveTrainingEnabled>False</adaptiveTrainingEnabled>
   <steamDeckKeyboardMode>False</steamDeckKeyboardMode>
   <preferredNames />
-  <resourceReadoutCategorized>True</resourceReadoutCategorized>
+  <resourceReadoutCategorized>False</resourceReadoutCategorized>
   <runInBackground>True</runInBackground>
   <edgeScreenScroll>False</edgeScreenScroll>
   <rememberDrawStyles>True</rememberDrawStyles>
