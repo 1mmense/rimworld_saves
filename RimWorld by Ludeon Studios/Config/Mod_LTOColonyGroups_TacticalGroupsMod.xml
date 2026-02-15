@@ -2,8 +2,13 @@
 <SettingsBlock>
 	<ModSettings Class="TacticalGroups.TacticalGroupsSettings">
 		<DisplayWeapons>True</DisplayWeapons>
-		<WeaponPlacementOffset>10</WeaponPlacementOffset>
-		<ColonistBarPositionX>-400</ColonistBarPositionX>
+		<DisplayColorBars>True</DisplayColorBars>
+		<DisplayBreakRiskOverlay>True</DisplayBreakRiskOverlay>
+		<WeaponPlacementOffset>-4</WeaponPlacementOffset>
+		<MarginTop>19.6629219</MarginTop>
+		<ColonistBarPositionX>-143.820221</ColonistBarPositionX>
+		<ColonyGroupScale>0.533707857</ColonyGroupScale>
+		<GroupScale>0.685393274</GroupScale>
 		<WeaponShowMode>Always</WeaponShowMode>
 		<AllGroupPresetsSaveable IsNull="True" />
 	</ModSettings>

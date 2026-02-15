@@ -13,5 +13,14 @@
 				<Amount>120</Amount>
 			</Shearable>
 		</AlphaThrumbo>
+		<Thrumbo>
+			<PackAnimal>True</PackAnimal>
+			<Shearable>
+				<IsShearable>True</IsShearable>
+				<WoolDef>Leather_Thrumbo</WoolDef>
+				<IntervalDays>15</IntervalDays>
+				<Amount>120</Amount>
+			</Shearable>
+		</Thrumbo>
 	</ModSettings>
 </SettingsBlock>
