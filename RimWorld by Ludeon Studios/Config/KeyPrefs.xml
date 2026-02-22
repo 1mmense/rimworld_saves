@@ -700,4 +700,18 @@
       <keyBindingB>None</keyBindingB>
     </value>
   </li>
+  <li>
+    <key>VFE_Dev_Restart</key>
+    <value>
+      <keyBindingA>None</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
+  <li>
+    <key>BetterPawnControlEmergency</key>
+    <value>
+      <keyBindingA>5</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
 </KeyPrefsData>

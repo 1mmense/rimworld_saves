@@ -2,7 +2,7 @@
 <PrefsData>
   <volumeMaster>0.4963145</volumeMaster>
   <volumeGame>0.6928747</volumeGame>
-  <volumeMusic>0.2014741</volumeMusic>
+  <volumeMusic>0</volumeMusic>
   <volumeAmbient>0.4963145</volumeAmbient>
   <volumeUI>0.6990172</volumeUI>
   <screenWidth>0</screenWidth>
@@ -49,6 +49,8 @@
   <devMode>False</devMode>
   <debugActionPalette>
     <li>Actions\Add Hediff...\Пыточная корона</li>
+    <li>Actions\Spawn thing...</li>
+    <li>Actions\Spawn thing...\Genepack</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>

@@ -361,5 +361,13 @@
       <key>Fishing</key>
       <value>0</value>
     </li>
+    <li>
+      <key>DW_Penalties</key>
+      <value>0</value>
+    </li>
+    <li>
+      <key>DW_Settings</key>
+      <value>0</value>
+    </li>
   </knowledge>
 </ConceptKnowledge>

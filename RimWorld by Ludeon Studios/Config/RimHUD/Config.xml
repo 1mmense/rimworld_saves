@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Config Version="1.17.5">
-  <InspectPane>
-    <TabWidth>72</TabWidth>
-  </InspectPane>
   <Text>
-    <ValueWidth>115</ValueWidth>
+    <LabelWidth>121</LabelWidth>
+    <ValueWidth>63</ValueWidth>
     <ShowDecimals>False</ShowDecimals>
   </Text>
   <TutorialComplete />
-  <Preset>PRESET</Preset>
+  <Preset>SuperPreset</Preset>
 </Config>
