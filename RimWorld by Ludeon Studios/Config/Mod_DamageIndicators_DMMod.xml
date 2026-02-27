@@ -3,6 +3,6 @@
 	<ModSettings Class="DamageMotes.DMModSettings">
 		<EnableIndicatorNeutralFaction>True</EnableIndicatorNeutralFaction>
 		<DisplayPawnsOnly>True</DisplayPawnsOnly>
-		<DisplayPawnsInstigatorOnly>False</DisplayPawnsInstigatorOnly>
+		<DisplayPawnsInstigatorOnly>True</DisplayPawnsInstigatorOnly>
 	</ModSettings>
 </SettingsBlock>
