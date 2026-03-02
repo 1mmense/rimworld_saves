@@ -2,7 +2,6 @@
 <SettingsBlock>
 	<ModSettings Class="MarkThatPawn.MarkThatPawnSettings">
 		<ShowForColonist>False</ShowForColonist>
-		<ShowForPrisoner>False</ShowForPrisoner>
 		<ShowForSlave>False</ShowForSlave>
 		<AutoRuleBlobs />
 		<ShowOnCorpses>True</ShowOnCorpses>
