@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Config Version="1.17.5">
   <InspectPane>
-    <Height>292</Height>
+    <TabWidth>83</TabWidth>
   </InspectPane>
   <Text>
     <LabelWidth>121</LabelWidth>

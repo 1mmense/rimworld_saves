@@ -4363,6 +4363,14 @@
 					<job>UnloadYourHauledInventory</job>
 					<version>2</version>
 				</li>
+				<li>
+					<job>UnequipMechanoidWeapon</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReplaceMechanoidWeapon</job>
+					<version>2</version>
+				</li>
 			</AllJobsSettings>
 			<dilationFactorOffscreen>0.800000012</dilationFactorOffscreen>
 		</soyuzSettings_NewTemp>
