@@ -2,8 +2,38 @@
 <SettingsBlock>
 	<ModSettings Class="MultiSelectDrugs.MultiSelectDrugsSettings">
 		<enabledDrugs>
-			<keys />
-			<values />
+			<keys>
+				<li>GoJuice</li>
+				<li>WakeUp</li>
+				<li>Yayo</li>
+				<li>Flake</li>
+				<li>Luciferium</li>
+				<li>Penoxycyline</li>
+				<li>Beer</li>
+				<li>SmokeleafJoint</li>
+				<li>PsychiteTea</li>
+				<li>Ambrosia</li>
+				<li>JuggernautSerum</li>
+				<li>MetalbloodSerum</li>
+				<li>MindNumbSerum</li>
+				<li>VoidsightSerum</li>
+			</keys>
+			<values>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>False</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+				<li>True</li>
+			</values>
 		</enabledDrugs>
 	</ModSettings>
 </SettingsBlock>

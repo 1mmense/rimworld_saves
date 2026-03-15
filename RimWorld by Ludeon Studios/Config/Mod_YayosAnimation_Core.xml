@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="YayoAnimation.YayoAniSettings">
+		<OnlyPlayer>True</OnlyPlayer>
+		<UpdateFrequencyTicks>10</UpdateFrequencyTicks>
+		<MaximumZoomLevel>Close</MaximumZoomLevel>
 		<WalkAnim>False</WalkAnim>
+		<CombatTwirl>False</CombatTwirl>
 		<SleepAnim>False</SleepAnim>
+		<LovinAnim>False</LovinAnim>
 		<MechanoidWalk>False</MechanoidWalk>
 		<AnimalWalk>False</AnimalWalk>
+		<AnimalJob>False</AnimalJob>
 		<AnimalCombat>False</AnimalCombat>
 	</ModSettings>
 </SettingsBlock>

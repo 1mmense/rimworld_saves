@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="WeAreUnited.ModSettings">
+		<ValidateCapability>False</ValidateCapability>
+		<AllowLoyal>True</AllowLoyal>
+	</ModSettings>
+</SettingsBlock>
