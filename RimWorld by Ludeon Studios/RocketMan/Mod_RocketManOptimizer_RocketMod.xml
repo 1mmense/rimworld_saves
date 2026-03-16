@@ -4371,6 +4371,10 @@
 					<job>ReplaceMechanoidWeapon</job>
 					<version>2</version>
 				</li>
+				<li>
+					<job>EnterZGrave</job>
+					<version>0</version>
+				</li>
 			</AllJobsSettings>
 			<dilationFactorOffscreen>0.800000012</dilationFactorOffscreen>
 		</soyuzSettings_NewTemp>
