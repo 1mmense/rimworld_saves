@@ -51,6 +51,7 @@
     <li>Actions\Add Hediff...\Пыточная корона</li>
     <li>Actions\Spawn thing...</li>
     <li>Actions\Spawn thing...\Genepack</li>
+    <li>Actions\T: Change style</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>
