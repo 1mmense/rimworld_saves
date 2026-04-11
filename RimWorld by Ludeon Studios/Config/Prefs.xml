@@ -29,7 +29,7 @@
   <steamDeckKeyboardMode>False</steamDeckKeyboardMode>
   <preferredNames />
   <resourceReadoutCategorized>True</resourceReadoutCategorized>
-  <runInBackground>True</runInBackground>
+  <runInBackground>False</runInBackground>
   <edgeScreenScroll>False</edgeScreenScroll>
   <rememberDrawStyles>True</rememberDrawStyles>
   <zoomSwitchWorldLayer>False</zoomSwitchWorldLayer>
@@ -52,6 +52,7 @@
     <li>Actions\Spawn thing...</li>
     <li>Actions\Spawn thing...\Genepack</li>
     <li>Actions\T: Change style</li>
+    <li>Actions\T: Destroy</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>

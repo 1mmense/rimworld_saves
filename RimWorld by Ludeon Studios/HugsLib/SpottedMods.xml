@@ -82,4 +82,6 @@
   <mod packageId="Mlie.BlockUnwantedMinutiae" />
   <mod packageId="void.charactereditor" />
   <mod packageId="AmCh.NeedBarOverflow" />
+  <mod packageId="nep.caravanghouls" />
+  <mod packageId="Luapo.HumanLikeGhoul" />
 </Mods>
