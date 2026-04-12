@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="VEF.AnimalBehaviours.AnimalBehaviours_Settings">
-		<flagCorpseDecayingEffect>True</flagCorpseDecayingEffect>
-		<flagDigWhenHungry>True</flagDigWhenHungry>
+		<flagCorpseDecayingEffect>False</flagCorpseDecayingEffect>
+		<flagDigWhenHungry>False</flagDigWhenHungry>
 		<flagAnimalParticles>True</flagAnimalParticles>
-		<flagAsexualReproduction>True</flagAsexualReproduction>
-		<flagBlinkMechanics>True</flagBlinkMechanics>
-		<flagBuildPeriodically>True</flagBuildPeriodically>
-		<flagDigPeriodically>True</flagDigPeriodically>
+		<flagAsexualReproduction>False</flagAsexualReproduction>
+		<flagBlinkMechanics>False</flagBlinkMechanics>
+		<flagBuildPeriodically>False</flagBuildPeriodically>
+		<flagDigPeriodically>False</flagDigPeriodically>
 		<flagChargeBatteries>True</flagChargeBatteries>
-		<flagExplodingAnimalEggs>True</flagExplodingAnimalEggs>
-		<flagHovering>True</flagHovering>
-		<flagGraphicChanging>True</flagGraphicChanging>
-		<flagEffecters>True</flagEffecters>
+		<flagExplodingAnimalEggs>False</flagExplodingAnimalEggs>
+		<flagHovering>False</flagHovering>
+		<flagGraphicChanging>False</flagGraphicChanging>
+		<flagEffecters>False</flagEffecters>
 		<flagRegeneration>True</flagRegeneration>
-		<flagResurrection>True</flagResurrection>
-		<flagUntameable>True</flagUntameable>
+		<flagResurrection>False</flagResurrection>
+		<flagUntameable>False</flagUntameable>
 	</ModSettings>
 </SettingsBlock>
