@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="GhoulWorkAble.GhoulWorkAbleSettings">
-		<disableWorkTags>ManualSkilled, Caring, Social, Intellectual, Animals, Artistic, Crafting, Cooking, Cleaning, PlantWork, Mining, Constructing, Shooting</disableWorkTags>
+		<disableWorkTags>Shooting, AllWork</disableWorkTags>
+		<allowEquipment>False</allowEquipment>
+		<ablityLimit>True</ablityLimit>
 		<enableRPGTabPatch>False</enableRPGTabPatch>
 		<enableWorkTabPatch>False</enableWorkTabPatch>
 	</ModSettings>
