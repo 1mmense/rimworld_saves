@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
 <ModsConfigData>
-  <version>1.6.4566 rev607</version>
+  <version>1.6.4566 rev606</version>
   <activeMods>
     <li>brrainz.harmony</li>
     <li>ludeon.rimworld</li>
@@ -9,67 +9,67 @@
     <li>ludeon.rimworld.biotech</li>
     <li>ludeon.rimworld.anomaly</li>
     <li>ludeon.rimworld.odyssey</li>
-    <li>d12caedro.fabulousghouls</li>
-    <li>derekbickley.ltocolonygroupsfinal</li>
-    <li>lzws.derekbickley.ltocolonygroupsfinal</li>
     <li>unlimitedhugs.hugslib</li>
-    <li>com.yayo.yayoani.continued</li>
-    <li>sl4vp0wer.weareunited</li>
-    <li>timmyliang.tradehelper</li>
-    <li>mlie.showmeyourhands</li>
-    <li>bp.showbuildablematerialcount</li>
     <li>oskarpotocki.vanillafactionsexpanded.core</li>
-    <li>memegoddess.searchanddestroy</li>
-    <li>jaxe.rimhud</li>
-    <li>kamikadza13.rimhud</li>
-    <li>longwater.smartstockpilecreation</li>
-    <li>hatti.qualitybuilder</li>
-    <li>telardo.numberstraitaddon</li>
-    <li>dawnsglow.numbers</li>
-    <li>andromeda.nicehealthtab</li>
-    <li>andromeda.nicehands</li>
-    <li>mlie.markthatpawn</li>
-    <li>supes.mapwideorbitaltradebeacon</li>
-    <li>jaxe.bubbles</li>
-    <li>s4.imtryingtosaveyou</li>
-    <li>orion.hospitality</li>
-    <li>inglix.fasterbiosculptingpod</li>
-    <li>mlie.durableclothes</li>
-    <li>dubwise.dubsmintminimap</li>
-    <li>ganja.dropinventory</li>
-    <li>telardo.dragselect</li>
-    <li>avilmask.commonsense</li>
-    <li>brrainz.cameraplus</li>
-    <li>inglix.appareltaintedoncorpserot</li>
-    <li>unlimitedhugs.allowtool</li>
-    <li>brrainz.achtung</li>
     <li>frozensnowfox.filthvanisheswithrainandtime</li>
-    <li>sclarke.groundtargeter1.6temp</li>
-    <li>dubwise.dubsmintmenus</li>
+    <li>derekbickley.ltocolonygroupsfinal</li>
+    <li>brrainz.achtung</li>
     <li>kipsmods.adjustableabilitycooldowns</li>
-    <li>erdelf.minifyeverything</li>
-    <li>microus.creepjoinersromance</li>
-    <li>shipdontnuketile.sentinel</li>
-    <li>syrus.customizeanimals</li>
-    <li>mlie.prisoncommons</li>
-    <li>taranchuk.performanceoptimizer</li>
-    <li>dmitry6.rusperformanceoptimizer</li>
-    <li>vanillaexpanded.vwe</li>
-    <li>krkr.rocketman</li>
-    <li>mlie.singleplanttexturepatch</li>
-    <li>haecriver.simplymorecolors</li>
-    <li>yakobo.groupdrugs</li>
-    <li>cedaro.nohopelessromance</li>
-    <li>stevezero.fullarmorhandsfeet</li>
-    <li>caesarv6.damageindicators</li>
-    <li>mehni.pickupandhaul</li>
-    <li>blue.replacemechanoidweapon</li>
+    <li>unlimitedhugs.allowtool</li>
+    <li>inglix.appareltaintedoncorpserot</li>
     <li>mlie.blockunwantedminutiae</li>
-    <li>void.charactereditor</li>
-    <li>memegoddess.replacestuff</li>
-    <li>luapo.humanlikeghoul</li>
+    <li>brrainz.cameraplus</li>
     <li>nep.caravanghouls</li>
+    <li>void.charactereditor</li>
+    <li>avilmask.commonsense</li>
+    <li>microus.creepjoinersromance</li>
+    <li>syrus.customizeanimals</li>
+    <li>d12caedro.fabulousghouls</li>
+    <li>caesarv6.damageindicators</li>
+    <li>telardo.dragselect</li>
+    <li>ganja.dropinventory</li>
+    <li>dubwise.dubsmintmenus</li>
+    <li>dubwise.dubsmintminimap</li>
+    <li>mlie.durableclothes</li>
+    <li>inglix.fasterbiosculptingpod</li>
+    <li>stevezero.fullarmorhandsfeet</li>
+    <li>sclarke.groundtargeter1.6temp</li>
+    <li>yakobo.groupdrugs</li>
+    <li>orion.hospitality</li>
+    <li>luapo.humanlikeghoul</li>
+    <li>s4.imtryingtosaveyou</li>
+    <li>jaxe.bubbles</li>
+    <li>supes.mapwideorbitaltradebeacon</li>
+    <li>mlie.markthatpawn</li>
+    <li>erdelf.minifyeverything</li>
     <li>amch.needbaroverflow</li>
+    <li>andromeda.nicehealthtab</li>
+    <li>shipdontnuketile.sentinel</li>
+    <li>cedaro.nohopelessromance</li>
+    <li>dawnsglow.numbers</li>
+    <li>telardo.numberstraitaddon</li>
+    <li>taranchuk.performanceoptimizer</li>
+    <li>mehni.pickupandhaul</li>
+    <li>mlie.prisoncommons</li>
+    <li>hatti.qualitybuilder</li>
+    <li>longwater.smartstockpilecreation</li>
+    <li>blue.replacemechanoidweapon</li>
+    <li>memegoddess.replacestuff</li>
+    <li>jaxe.rimhud</li>
+    <li>memegoddess.searchanddestroy</li>
+    <li>bp.showbuildablematerialcount</li>
+    <li>mlie.showmeyourhands</li>
+    <li>haecriver.simplymorecolors</li>
+    <li>mlie.singleplanttexturepatch</li>
+    <li>timmyliang.tradehelper</li>
+    <li>vanillaexpanded.vwe</li>
+    <li>sl4vp0wer.weareunited</li>
+    <li>com.yayo.yayoani.continued</li>
+    <li>andromeda.nicehands</li>
+    <li>dmitry6.rusperformanceoptimizer</li>
+    <li>kamikadza13.rimhud</li>
+    <li>lzws.derekbickley.ltocolonygroupsfinal</li>
+    <li>krkr.rocketman</li>
   </activeMods>
   <knownExpansions>
     <li>ludeon.rimworld.royalty</li>
