@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="Numbers.Numbers_Settings">
+		<coolerThanTheWildlifeTab>False</coolerThanTheWildlifeTab>
+		<useTinyFont>True</useTinyFont>
 		<numbersPawnTableDefs>
 			<li>Numbers_Enemies,Numbers_Enemies,Gender,LabelShortWithIcon,Numbers_Bleedrate,Numbers_Equipment,Xenotype,Numbers_RimWorld_SkillDef_Melee,Numbers_RimWorld_SkillDef_Shooting,Numbers_TraitsColored,Numbers_HediffList,RemainingSpace,</li>
 		</numbersPawnTableDefs>

@@ -84,4 +84,7 @@
   <mod packageId="AmCh.NeedBarOverflow" />
   <mod packageId="nep.caravanghouls" />
   <mod packageId="Luapo.HumanLikeGhoul" />
+  <mod packageId="shunter.bettertradersguild" />
+  <mod packageId="rimtranslate.shunter.bettertradersguild" />
+  <mod packageId="FunkyShit.Mods.WorldEdit.alpha" />
 </Mods>
