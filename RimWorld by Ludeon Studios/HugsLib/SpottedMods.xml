@@ -89,4 +89,6 @@
   <mod packageId="FunkyShit.Mods.WorldEdit.alpha" />
   <mod packageId="Blockdude.ScrollableGizmos" />
   <mod packageId="Defi.tickspersecond.RW" />
+  <mod packageId="Telefonmast.GraphicsSettings" />
+  <mod packageId="cat2002.showhair" />
 </Mods>

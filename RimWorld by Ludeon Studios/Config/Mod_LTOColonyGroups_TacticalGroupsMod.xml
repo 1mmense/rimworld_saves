@@ -10,6 +10,7 @@
 		<ColonyGroupScale>0.533707857</ColonyGroupScale>
 		<GroupScale>0.685393274</GroupScale>
 		<WeaponShowMode>Always</WeaponShowMode>
+		<OverridePawnRowCount>True</OverridePawnRowCount>
 		<AllGroupPresetsSaveable IsNull="True" />
 	</ModSettings>
 </SettingsBlock>

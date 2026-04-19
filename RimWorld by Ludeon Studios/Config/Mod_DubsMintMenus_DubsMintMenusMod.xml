@@ -7,13 +7,14 @@
 		<BoxSizeX>90</BoxSizeX>
 		<BoxSizeY>75</BoxSizeY>
 		<infocardW>350</infocardW>
-		<MaxHeight>650</MaxHeight>
-		<InfoWidth>358</InfoWidth>
+		<MaxHeight>720</MaxHeight>
+		<InfoWidth>360</InfoWidth>
 		<billTabH>300</billTabH>
-		<bBoxSizeY>55</bBoxSizeY>
-		<listWidth>445</listWidth>
+		<bBoxSizeY>42</bBoxSizeY>
+		<listWidth>447</listWidth>
 		<ResearchListWidth>350</ResearchListWidth>
 		<AutoFocus>True</AutoFocus>
+		<BuildWheel>Mouse3</BuildWheel>
 		<pinnedArchitectTabs IsNull="True" />
 		<ResourceReadout />
 		<WheelDefs />
