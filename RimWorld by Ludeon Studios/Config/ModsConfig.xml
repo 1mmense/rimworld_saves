@@ -10,7 +10,11 @@
     <li>ludeon.rimworld.anomaly</li>
     <li>ludeon.rimworld.odyssey</li>
     <li>unlimitedhugs.hugslib</li>
+    <li>robertshepard.unlimitedhugs.hugslib</li>
     <li>oskarpotocki.vanillafactionsexpanded.core</li>
+    <li>ow.ru.core</li>
+    <li>vanillaexpanded.gravship</li>
+    <li>ow.ru.gravship1</li>
     <li>cat2002.showhair</li>
     <li>frozensnowfox.filthvanisheswithrainandtime</li>
     <li>derekbickley.ltocolonygroupsfinal</li>
@@ -18,7 +22,6 @@
     <li>kipsmods.adjustableabilitycooldowns</li>
     <li>unlimitedhugs.allowtool</li>
     <li>inglix.appareltaintedoncorpserot</li>
-    <li>shunter.bettertradersguild</li>
     <li>mlie.blockunwantedminutiae</li>
     <li>brrainz.cameraplus</li>
     <li>nep.caravanghouls</li>
@@ -65,17 +68,19 @@
     <li>mlie.showmeyourhands</li>
     <li>haecriver.simplymorecolors</li>
     <li>mlie.singleplanttexturepatch</li>
+    <li>sarg.smartspeed</li>
     <li>defi.tickspersecond.rw</li>
     <li>timmyliang.tradehelper</li>
     <li>vanillaexpanded.vwe</li>
     <li>sl4vp0wer.weareunited</li>
     <li>funkyshit.mods.worldedit.alpha</li>
     <li>com.yayo.yayoani.continued</li>
-    <li>rimtranslate.shunter.bettertradersguild</li>
+    <li>shunter.bettertradersguild</li>
     <li>andromeda.nicehands</li>
     <li>dmitry6.rusperformanceoptimizer</li>
     <li>kamikadza13.rimhud</li>
     <li>lzws.derekbickley.ltocolonygroupsfinal</li>
+    <li>rimtranslate.shunter.bettertradersguild</li>
     <li>krkr.rocketman</li>
   </activeMods>
   <knownExpansions>

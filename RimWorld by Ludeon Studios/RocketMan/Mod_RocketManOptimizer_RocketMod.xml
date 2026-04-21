@@ -2,8 +2,6 @@
 <SettingsBlock>
 	<ModSettings>
 		<version>0.6.3.2421</version>
-		<learning>False</learning>
-		<showWarmUpPopup>False</showWarmUpPopup>
 		<StatSettings>
 			<AllSettings>
 				<li>
@@ -59,37 +57,37 @@
 				</li>
 				<li>
 					<statDef>ArmorRating_Sharp</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ArmorRating_Blunt</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ArmorRating_Heat</statDef>
-					<expiryAfter>968.5979</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>Insulation_Cold</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>Insulation_Heat</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>EnergyShieldEnergyMax</statDef>
-					<expiryAfter>824.825562</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>EnergyShieldRechargeRate</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -109,7 +107,7 @@
 				</li>
 				<li>
 					<statDef>Mass</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -132,42 +130,42 @@
 				</li>
 				<li>
 					<statDef>Flammability</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>WorkToMake</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>DeteriorationRate</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>Beauty</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>BeautyOutdoors</statDef>
-					<expiryAfter>824.325684</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>Cleanliness</statDef>
-					<expiryAfter>976.395996</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>Comfort</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>Nutrition</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -177,7 +175,7 @@
 				</li>
 				<li>
 					<statDef>ShootingAccuracyTurret</statDef>
-					<expiryAfter>961.199707</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -187,27 +185,27 @@
 				</li>
 				<li>
 					<statDef>MedicalPotency</statDef>
-					<expiryAfter>960.699829</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MedicalQualityMax</statDef>
-					<expiryAfter>480.500031</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ConstructionSpeedFactor</statDef>
-					<expiryAfter>961.599609</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MeditationFocusStrength</statDef>
-					<expiryAfter>968.098022</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>PsychicSensitivityOffset</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -227,17 +225,17 @@
 				</li>
 				<li>
 					<statDef>FilthMultiplier</statDef>
-					<expiryAfter>991.392334</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>CleaningTimeFactor</statDef>
-					<expiryAfter>971.197266</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>WorkToBuild</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -247,7 +245,7 @@
 				</li>
 				<li>
 					<statDef>BedRestEffectiveness</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -266,7 +264,7 @@
 				</li>
 				<li>
 					<statDef>MedicalTendQualityOffset</statDef>
-					<expiryAfter>960.199951</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -280,7 +278,7 @@
 				</li>
 				<li>
 					<statDef>WorkTableWorkSpeedFactor</statDef>
-					<expiryAfter>603.679565</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -332,7 +330,7 @@
 				</li>
 				<li>
 					<statDef>ShootingAccuracyPawn</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -347,17 +345,17 @@
 				</li>
 				<li>
 					<statDef>ShootingAccuracyFactor_Medium</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ShootingAccuracyFactor_Long</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>AimingDelayFactor</statDef>
-					<expiryAfter>1002.9895</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -372,67 +370,67 @@
 				</li>
 				<li>
 					<statDef>IncomingDamageFactor</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>StaggerDurationFactor</statDef>
-					<expiryAfter>1014.78662</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MoveSpeed</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>CrawlSpeed</statDef>
-					<expiryAfter>965.19873</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MentalBreakThreshold</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>PsychicSensitivity</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ToxicResistance</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>GlobalLearningFactor</statDef>
-					<expiryAfter>1019.48547</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>BedHungerRateFactor</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>RestRateMultiplier</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>EatingSpeed</statDef>
-					<expiryAfter>960.599854</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ComfyTemperatureMin</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ComfyTemperatureMax</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -441,12 +439,12 @@
 				</li>
 				<li>
 					<statDef>InjuryHealingFactor</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>CarryingCapacity</statDef>
-					<expiryAfter>1012.08728</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -461,12 +459,12 @@
 				</li>
 				<li>
 					<statDef>MinimumHandlingSkill</statDef>
-					<expiryAfter>293.473785</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>PainShockThreshold</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -481,7 +479,7 @@
 				</li>
 				<li>
 					<statDef>AnimalsLearningFactor</statDef>
-					<expiryAfter>963.099243</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -491,7 +489,7 @@
 				</li>
 				<li>
 					<statDef>MaxNutrition</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -505,22 +503,22 @@
 				</li>
 				<li>
 					<statDef>PsychicEntropyMax</statDef>
-					<expiryAfter>491.319458</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>PsychicEntropyRecoveryRate</statDef>
-					<expiryAfter>975.39624</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ToxicEnvironmentResistance</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>RestFallRateFactor</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -530,7 +528,7 @@
 				</li>
 				<li>
 					<statDef>JoyFallRateFactor</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -545,7 +543,7 @@
 				</li>
 				<li>
 					<statDef>Wildness</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -554,7 +552,7 @@
 				</li>
 				<li>
 					<statDef>PawnBeauty</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -574,7 +572,7 @@
 				</li>
 				<li>
 					<statDef>SocialImpact</statDef>
-					<expiryAfter>975.896118</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -594,7 +592,7 @@
 				</li>
 				<li>
 					<statDef>WorkSpeedGlobal</statDef>
-					<expiryAfter>633.47229</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -624,42 +622,42 @@
 				</li>
 				<li>
 					<statDef>AnimalGatherSpeed</statDef>
-					<expiryAfter>961.24231</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>AnimalGatherYield</statDef>
-					<expiryAfter>960.099976</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>PlantWorkSpeed</statDef>
-					<expiryAfter>527.152283</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>PlantHarvestYield</statDef>
-					<expiryAfter>962.699341</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>DrugHarvestYield</statDef>
-					<expiryAfter>960.199951</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>HuntingStealth</statDef>
-					<expiryAfter>963.199219</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ConstructionSpeed</statDef>
-					<expiryAfter>997.582825</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ConstructSuccessChance</statDef>
-					<expiryAfter>989.792725</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -674,7 +672,7 @@
 				</li>
 				<li>
 					<statDef>ReadingSpeed</statDef>
-					<expiryAfter>969.697632</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -694,12 +692,12 @@
 				</li>
 				<li>
 					<statDef>MedicalTendQuality</statDef>
-					<expiryAfter>960.399902</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MedicalOperationSpeed</statDef>
-					<expiryAfter>961.299683</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -709,37 +707,37 @@
 				</li>
 				<li>
 					<statDef>SmeltingSpeed</statDef>
-					<expiryAfter>965.798584</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>GeneralLaborSpeed</statDef>
-					<expiryAfter>991.057922</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>DrugSynthesisSpeed</statDef>
-					<expiryAfter>960.599854</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>CookSpeed</statDef>
-					<expiryAfter>969.297729</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>FoodPoisonChance</statDef>
-					<expiryAfter>960.199951</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>DrugCookingSpeed</statDef>
-					<expiryAfter>960.399902</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ButcheryFleshSpeed</statDef>
-					<expiryAfter>961.099731</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -749,7 +747,7 @@
 				</li>
 				<li>
 					<statDef>ButcheryFleshEfficiency</statDef>
-					<expiryAfter>960.299927</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -759,12 +757,12 @@
 				</li>
 				<li>
 					<statDef>StuffPower_Armor_Sharp</statDef>
-					<expiryAfter>584.584229</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>StuffPower_Armor_Blunt</statDef>
-					<expiryAfter>583.984375</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -774,12 +772,12 @@
 				</li>
 				<li>
 					<statDef>StuffPower_Insulation_Cold</statDef>
-					<expiryAfter>860.816772</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>StuffPower_Insulation_Heat</statDef>
-					<expiryAfter>860.816772</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -810,22 +808,22 @@
 				</li>
 				<li>
 					<statDef>AccuracyTouch</statDef>
-					<expiryAfter>962.699341</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>AccuracyShort</statDef>
-					<expiryAfter>967.598145</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>AccuracyMedium</statDef>
-					<expiryAfter>966.898315</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>AccuracyLong</statDef>
-					<expiryAfter>962.299438</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -854,7 +852,7 @@
 				</li>
 				<li>
 					<statDef>MeditationPlantGrowthOffset</statDef>
-					<expiryAfter>964.29895</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -863,27 +861,27 @@
 				</li>
 				<li>
 					<statDef>SlaveSuppressionOffset</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>TerrorSource</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>BiosculpterPodSpeedFactor</statDef>
-					<expiryAfter>963.299194</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>StyleDominance</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>Terror</statDef>
-					<expiryAfter>975.696167</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -898,22 +896,22 @@
 				</li>
 				<li>
 					<statDef>SocialIdeoSpreadFrequencyFactor</statDef>
-					<expiryAfter>960.099976</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ShootingAccuracyOutdoorsDarkOffset</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ShootingAccuracyOutdoorsLitOffset</statDef>
-					<expiryAfter>1006.88855</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ShootingAccuracyIndoorsDarkOffset</statDef>
-					<expiryAfter>961.799561</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -955,12 +953,12 @@
 				</li>
 				<li>
 					<statDef>BiosculpterOccupantSpeed</statDef>
-					<expiryAfter>966.398438</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>SlaveSuppressionFallRate</statDef>
-					<expiryAfter>975.696167</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1008,7 +1006,7 @@
 				</li>
 				<li>
 					<statDef>ShootingAccuracyChildFactor</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1018,12 +1016,12 @@
 				</li>
 				<li>
 					<statDef>MechBandwidth</statDef>
-					<expiryAfter>960.399902</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MechControlGroups</statDef>
-					<expiryAfter>960.199951</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1073,12 +1071,12 @@
 				</li>
 				<li>
 					<statDef>WastepacksPerRecharge</statDef>
-					<expiryAfter>1000.49011</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MechEnergyLossPerHP</statDef>
-					<expiryAfter>964.498901</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1087,12 +1085,12 @@
 				</li>
 				<li>
 					<statDef>RawNutritionFactor</statDef>
-					<expiryAfter>961.099731</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>CancerRate</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1107,17 +1105,17 @@
 				</li>
 				<li>
 					<statDef>WorkSpeedGlobalOffsetMech</statDef>
-					<expiryAfter>494.000854</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>ContainmentStrength</statDef>
-					<expiryAfter>960.799805</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
 					<statDef>MinimumContainmentStrength</statDef>
-					<expiryAfter>480.800049</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1127,7 +1125,7 @@
 				</li>
 				<li>
 					<statDef>EntityStudyRate</statDef>
-					<expiryAfter>960.099976</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1137,7 +1135,7 @@
 				</li>
 				<li>
 					<statDef>ActivitySuppressionRate</statDef>
-					<expiryAfter>962.912415</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1161,7 +1159,7 @@
 				</li>
 				<li>
 					<statDef>VacuumResistance</statDef>
-					<expiryAfter>1024</expiryAfter>
+					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1179,48 +1177,8 @@
 					<version>1</version>
 				</li>
 				<li>
-					<statDef>RecruitRelationshipDamage</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
-					<statDef>ForcedRecruitRelationshipDamage</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
-					<statDef>RecruitEffectivity</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
-					<statDef>VEF_RangedCooldownFactor</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
-					<statDef>VEF_VerbRangeFactor</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
-					<statDef>VEF_EnergyShieldEnergyMaxOffset</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
-					<statDef>VEF_EnergyShieldEnergyMaxFactor</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
-					<statDef>VEF_EnergyShieldRadiusApparel</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
 					<statDef>VEF_EnergyShieldEnergyMaxBuilding</statDef>
-					<expiryAfter>960</expiryAfter>
+					<expiryAfter>480</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
@@ -1234,13 +1192,45 @@
 					<version>1</version>
 				</li>
 				<li>
-					<statDef>VEF_MeleeAttackDamageFactor</statDef>
+					<statDef>VEF_BuildingLearningRateOffset</statDef>
 					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
-					<statDef>VEF_RangeAttackDamageFactor</statDef>
+					<statDef>VEF_BuildingBreakdownFactor</statDef>
 					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_BuildingMaxOverclockFactor</statDef>
+					<expiryAfter>480</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_FactoryHeatPerSecondFactor</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_VerbRangeFactor</statDef>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_EnergyShieldEnergyMaxOffset</statDef>
+					<expiryAfter>480</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_EnergyShieldEnergyMaxFactor</statDef>
+					<expiryAfter>480</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_MeleeAttackDamageFactor</statDef>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_RangeAttackDamageFactor</statDef>
 					<version>1</version>
 				</li>
 				<li>
@@ -1294,11 +1284,6 @@
 					<version>1</version>
 				</li>
 				<li>
-					<statDef>VEF_MeleeWeaponRange</statDef>
-					<expiryAfter>960</expiryAfter>
-					<version>1</version>
-				</li>
-				<li>
 					<statDef>VEF_PositiveThoughtDurationFactor</statDef>
 					<expiryAfter>960</expiryAfter>
 					<version>1</version>
@@ -1314,12 +1299,74 @@
 					<version>1</version>
 				</li>
 				<li>
-					<statDef>VEF_BuildingLearningRateOffset</statDef>
+					<statDef>VEF_RangedDodgeChance</statDef>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_RangedCooldownFactor</statDef>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VEF_EnergyShieldRadiusApparel</statDef>
 					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
 				<li>
-					<statDef>VEF_RangedDodgeChance</statDef>
+					<statDef>VEF_MeleeWeaponRange</statDef>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_AccuracyGlobal</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_SubstructureSupportMultiplier</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_MaintenanceSensitivity</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_GravPowerAdjacency</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_GlobalMaintenanceSensitivity</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_GravshipTargeting</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_GravshipResearch</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>VGE_GravshipMaintenance</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>RecruitRelationshipDamage</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>ForcedRecruitRelationshipDamage</statDef>
+					<expiryAfter>960</expiryAfter>
+					<version>1</version>
+				</li>
+				<li>
+					<statDef>RecruitEffectivity</statDef>
 					<expiryAfter>960</expiryAfter>
 					<version>1</version>
 				</li>
@@ -1827,6 +1874,22 @@
 					<avgT>0</avgT>
 				</li>
 				<li>
+					<typeId>VanillaGravshipExpanded.Alert_AstrofireInHomeArea</typeId>
+					<avgT>0</avgT>
+				</li>
+				<li>
+					<typeId>VanillaGravshipExpanded.Alert_IneffectiveOxygenPack</typeId>
+					<avgT>0</avgT>
+				</li>
+				<li>
+					<typeId>VanillaGravshipExpanded.Alert_LowMaintenance</typeId>
+					<avgT>0</avgT>
+				</li>
+				<li>
+					<typeId>VanillaGravshipExpanded.Alert_LowOxygen</typeId>
+					<avgT>0</avgT>
+				</li>
+				<li>
 					<typeId>AllowTool.Alert_NoUrgentStorage</typeId>
 					<avgT>0</avgT>
 				</li>
@@ -1852,16 +1915,6 @@
 			<firstUse>False</firstUse>
 			<AllRaceSettings_NewTemp>
 				<li>
-					<pawnDef>Corpse_Bear_Grizzly</pawnDef>
-					<enabled>False</enabled>
-					<version>1</version>
-				</li>
-				<li>
-					<pawnDef>Corpse_Trispike</pawnDef>
-					<enabled>False</enabled>
-					<version>1</version>
-				</li>
-				<li>
 					<pawnDef>Bear_Grizzly</pawnDef>
 					<version>1</version>
 				</li>
@@ -1883,12 +1936,17 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Bear_Polar</pawnDef>
+					<pawnDef>VGE_Astropede</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Fingerspike</pawnDef>
+					<pawnDef>Corpse_Bear_Grizzly</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_Cat_Scimitar</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -1914,12 +1972,17 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Ostrich</pawnDef>
+					<pawnDef>VGE_Hunter</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Dreadmeld</pawnDef>
+					<pawnDef>Corpse_Bear_Polar</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_Wolverine</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -1946,12 +2009,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Emu</pawnDef>
+					<pawnDef>Corpse_Ostrich</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_BogHound</pawnDef>
+					<pawnDef>Corpse_Wolf_Great</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -1978,12 +2041,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Cassowary</pawnDef>
+					<pawnDef>Corpse_Emu</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_MonitorLizard</pawnDef>
+					<pawnDef>Corpse_Moose</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2010,12 +2073,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Cougar</pawnDef>
+					<pawnDef>Corpse_Cassowary</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_PrairieDog</pawnDef>
+					<pawnDef>Corpse_AlphaThrumbo</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2042,12 +2105,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Panther</pawnDef>
+					<pawnDef>Corpse_Cougar</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Porcupine</pawnDef>
+					<pawnDef>Corpse_Muskox</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2074,12 +2137,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Lynx</pawnDef>
+					<pawnDef>Corpse_Panther</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mastodon</pawnDef>
+					<pawnDef>Corpse_Tiger</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2106,12 +2169,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Cat</pawnDef>
+					<pawnDef>Corpse_Lynx</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Cat_Scimitar</pawnDef>
+					<pawnDef>Corpse_Mink</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2134,12 +2197,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_YorkshireTerrier</pawnDef>
+					<pawnDef>Corpse_Cat</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Wolverine</pawnDef>
+					<pawnDef>Corpse_Gorilla</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2162,12 +2225,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_GuineaPig</pawnDef>
+					<pawnDef>Corpse_YorkshireTerrier</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Wolf_Great</pawnDef>
+					<pawnDef>Corpse_Badger</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2190,12 +2253,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_LabradorRetriever</pawnDef>
+					<pawnDef>Corpse_GuineaPig</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Moose</pawnDef>
+					<pawnDef>Corpse_Panda</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2218,12 +2281,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Husky</pawnDef>
+					<pawnDef>Corpse_LabradorRetriever</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_AlphaThrumbo</pawnDef>
+					<pawnDef>Corpse_Hippo</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2246,12 +2309,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Monkey</pawnDef>
+					<pawnDef>Corpse_Husky</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Muskox</pawnDef>
+					<pawnDef>Corpse_Megavole</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2274,12 +2337,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Chicken</pawnDef>
+					<pawnDef>Corpse_Monkey</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Tiger</pawnDef>
+					<pawnDef>Corpse_Armadillo</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2302,12 +2365,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Duck</pawnDef>
+					<pawnDef>Corpse_Chicken</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mink</pawnDef>
+					<pawnDef>Corpse_Alligator</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2325,12 +2388,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Turkey</pawnDef>
+					<pawnDef>Corpse_Duck</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Gorilla</pawnDef>
+					<pawnDef>Corpse_Bullfrog</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2348,12 +2411,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Goose</pawnDef>
+					<pawnDef>Corpse_Turkey</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Badger</pawnDef>
+					<pawnDef>Corpse_ColossusToad</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2371,12 +2434,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Cow</pawnDef>
+					<pawnDef>Corpse_Goose</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Panda</pawnDef>
+					<pawnDef>Corpse_LavaSnail</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2389,12 +2452,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Boomalope</pawnDef>
+					<pawnDef>Corpse_Cow</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Hippo</pawnDef>
+					<pawnDef>Corpse_Sparrow</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2407,12 +2470,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Muffalo</pawnDef>
+					<pawnDef>Corpse_Boomalope</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Megavole</pawnDef>
+					<pawnDef>Corpse_Crow</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2425,12 +2488,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Bison</pawnDef>
+					<pawnDef>Corpse_Muffalo</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Armadillo</pawnDef>
+					<pawnDef>Corpse_Bluebird</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2443,12 +2506,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Dromedary</pawnDef>
+					<pawnDef>Corpse_Bison</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Alligator</pawnDef>
+					<pawnDef>Corpse_Quail</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2461,12 +2524,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Goat</pawnDef>
+					<pawnDef>Corpse_Dromedary</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Bullfrog</pawnDef>
+					<pawnDef>Corpse_Macaw</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2479,12 +2542,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Elk</pawnDef>
+					<pawnDef>Corpse_Goat</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_ColossusToad</pawnDef>
+					<pawnDef>Corpse_Flamingo</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2497,12 +2560,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Yak</pawnDef>
+					<pawnDef>Corpse_Elk</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_LavaSnail</pawnDef>
+					<pawnDef>Corpse_Heron</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2515,12 +2578,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Caribou</pawnDef>
+					<pawnDef>Corpse_Yak</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Sparrow</pawnDef>
+					<pawnDef>Corpse_Swan</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2533,12 +2596,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Horse</pawnDef>
+					<pawnDef>Corpse_Caribou</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Crow</pawnDef>
+					<pawnDef>Corpse_Peacock</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2551,12 +2614,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Donkey</pawnDef>
+					<pawnDef>Corpse_Horse</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Bluebird</pawnDef>
+					<pawnDef>Corpse_Vulture</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2569,12 +2632,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Elephant</pawnDef>
+					<pawnDef>Corpse_Donkey</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Quail</pawnDef>
+					<pawnDef>Corpse_Penguin</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2587,12 +2650,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Rhinoceros</pawnDef>
+					<pawnDef>Corpse_Elephant</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Macaw</pawnDef>
+					<pawnDef>Corpse_Walrus</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2605,12 +2668,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Hare</pawnDef>
+					<pawnDef>Corpse_Rhinoceros</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Flamingo</pawnDef>
+					<pawnDef>Corpse_SeaLion</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2623,12 +2686,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Snowhare</pawnDef>
+					<pawnDef>Corpse_Hare</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Heron</pawnDef>
+					<pawnDef>Corpse_Seal</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2641,12 +2704,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Megascarab</pawnDef>
+					<pawnDef>Corpse_Snowhare</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Swan</pawnDef>
+					<pawnDef>Corpse_HermitCrab</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2659,12 +2722,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Spelopede</pawnDef>
+					<pawnDef>Corpse_Megascarab</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Peacock</pawnDef>
+					<pawnDef>Corpse_StoneCrab</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2677,12 +2740,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Megaspider</pawnDef>
+					<pawnDef>Corpse_Spelopede</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Vulture</pawnDef>
+					<pawnDef>Corpse_SeaTurtle</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2695,12 +2758,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Thrumbo</pawnDef>
+					<pawnDef>Corpse_Megaspider</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Penguin</pawnDef>
+					<pawnDef>Corpse_Otter</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2713,12 +2776,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Cobra</pawnDef>
+					<pawnDef>Corpse_Thrumbo</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Walrus</pawnDef>
+					<pawnDef>Corpse_Larva</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2731,12 +2794,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Tortoise</pawnDef>
+					<pawnDef>Corpse_Cobra</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_SeaLion</pawnDef>
+					<pawnDef>Corpse_HiveQueen</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2749,12 +2812,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Alphabeaver</pawnDef>
+					<pawnDef>Corpse_Tortoise</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Seal</pawnDef>
+					<pawnDef>Corpse_Locust</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2767,12 +2830,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Pig</pawnDef>
+					<pawnDef>Corpse_Alphabeaver</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_HermitCrab</pawnDef>
+					<pawnDef>Corpse_Drone_Hunter</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2785,12 +2848,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_WildBoar</pawnDef>
+					<pawnDef>Corpse_Pig</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_StoneCrab</pawnDef>
+					<pawnDef>Corpse_Drone_Wasp</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2803,12 +2866,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Ibex</pawnDef>
+					<pawnDef>Corpse_WildBoar</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_SeaTurtle</pawnDef>
+					<pawnDef>Corpse_Drone_Sentry</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2821,12 +2884,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Deer</pawnDef>
+					<pawnDef>Corpse_Ibex</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Otter</pawnDef>
+					<pawnDef>Corpse_Mech_Cyclops</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2839,12 +2902,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Gazelle</pawnDef>
+					<pawnDef>Corpse_Deer</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Larva</pawnDef>
+					<pawnDef>Corpse_VGE_Astronaut</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2858,12 +2921,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Chinchilla</pawnDef>
+					<pawnDef>Corpse_Gazelle</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_HiveQueen</pawnDef>
+					<pawnDef>Corpse_VGE_Astropede</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2877,12 +2940,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Sheep</pawnDef>
+					<pawnDef>Corpse_Chinchilla</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Locust</pawnDef>
+					<pawnDef>Corpse_VGE_Hunter</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2896,12 +2959,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Alpaca</pawnDef>
-					<enabled>False</enabled>
-					<version>1</version>
-				</li>
-				<li>
-					<pawnDef>Corpse_Drone_Hunter</pawnDef>
+					<pawnDef>Corpse_Sheep</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2915,12 +2973,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Megasloth</pawnDef>
-					<enabled>False</enabled>
-					<version>1</version>
-				</li>
-				<li>
-					<pawnDef>Corpse_Drone_Wasp</pawnDef>
+					<pawnDef>Corpse_Alpaca</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2929,12 +2982,12 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Capybara</pawnDef>
+					<pawnDef>VGE_Astronaut</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Drone_Sentry</pawnDef>
+					<pawnDef>Corpse_Megasloth</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2943,12 +2996,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Squirrel</pawnDef>
-					<enabled>False</enabled>
-					<version>1</version>
-				</li>
-				<li>
-					<pawnDef>Corpse_Mech_Cyclops</pawnDef>
+					<pawnDef>Corpse_Capybara</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2957,7 +3005,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Rat</pawnDef>
+					<pawnDef>Corpse_Squirrel</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2966,7 +3014,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Boomrat</pawnDef>
+					<pawnDef>Corpse_Rat</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2975,7 +3023,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Raccoon</pawnDef>
+					<pawnDef>Corpse_Boomrat</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2984,7 +3032,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Iguana</pawnDef>
+					<pawnDef>Corpse_Raccoon</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -2993,7 +3041,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Warg</pawnDef>
+					<pawnDef>Corpse_Iguana</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3002,7 +3050,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Wolf_Timber</pawnDef>
+					<pawnDef>Corpse_Warg</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3011,7 +3059,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Wolf_Arctic</pawnDef>
+					<pawnDef>Corpse_Wolf_Timber</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3020,7 +3068,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Fox_Fennec</pawnDef>
+					<pawnDef>Corpse_Wolf_Arctic</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3029,7 +3077,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Fox_Red</pawnDef>
+					<pawnDef>Corpse_Fox_Fennec</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3038,7 +3086,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Fox_Arctic</pawnDef>
+					<pawnDef>Corpse_Fox_Red</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3047,7 +3095,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Human</pawnDef>
+					<pawnDef>Corpse_Fox_Arctic</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3057,7 +3105,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>UnnaturalCorpse_Human</pawnDef>
+					<pawnDef>Corpse_Human</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3067,7 +3115,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mech_CentipedeBlaster</pawnDef>
+					<pawnDef>UnnaturalCorpse_Human</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3077,7 +3125,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mech_CentipedeGunner</pawnDef>
+					<pawnDef>Corpse_Mech_CentipedeBlaster</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3087,7 +3135,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mech_CentipedeBurner</pawnDef>
+					<pawnDef>Corpse_Mech_CentipedeGunner</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3097,7 +3145,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mech_Lancer</pawnDef>
+					<pawnDef>Corpse_Mech_CentipedeBurner</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3107,7 +3155,7 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mech_Scyther</pawnDef>
+					<pawnDef>Corpse_Mech_Lancer</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3117,12 +3165,17 @@
 					<version>1</version>
 				</li>
 				<li>
-					<pawnDef>Corpse_Mech_Pikeman</pawnDef>
+					<pawnDef>Corpse_Mech_Scyther</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
 				<li>
 					<pawnDef>Mech_Termite</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_Mech_Pikeman</pawnDef>
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
@@ -3296,713 +3349,50 @@
 					<enabled>False</enabled>
 					<version>1</version>
 				</li>
+				<li>
+					<pawnDef>Corpse_Trispike</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_Fingerspike</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_Dreadmeld</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_BogHound</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_MonitorLizard</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_PrairieDog</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_Porcupine</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
+				<li>
+					<pawnDef>Corpse_Mastodon</pawnDef>
+					<enabled>False</enabled>
+					<version>1</version>
+				</li>
 			</AllRaceSettings_NewTemp>
 			<AllJobsSettings>
 				<li>
-					<job>Nuzzle</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SocialRelax</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_Asleep</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ForceTargetWear</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseItem</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Carried</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Capture</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Replant</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Clean</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>AnalyzeItem</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>InstallRelic</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Breastfeed</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ShieldMech</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PlayWalking</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GoldenCubePlay</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GotoShip</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Mate</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>VisitSickPawn</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_AsleepDormancy</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RemoveApparel</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TriggerObject</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Reading</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Arrest</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FinishFrame</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Research</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Hack</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExtractToInventory</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BreastfeedCarryToMom</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ControlMech</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PlayToys</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BuildCubeSculpture</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>LeaveShip</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>LayEgg</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Play_Horseshoes</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_Downed</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DropEquipment</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ClearSnow</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>EnterPortal</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReleasePrisoner</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DeconstructForBlueprint</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Hunt</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Reign</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GetNeuralSupercharge</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BringBabyToSafety</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DisassembleMech</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>EmptyWasteContainer</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>InvestigateMonolith</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseOutfitStand</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PredatorHunt</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Play_Hoopstone</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_SafeTemperature</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Strip</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Vomit</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Ignite</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>EscortPrisonerToBed</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Deconstruct</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>UseCommsConsole</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>LinkPsylinkable</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>EnterBiosculpterPod</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BringBabyToSafetyUnforced</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrisonerBloodfeed</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>HaulToAtomizer</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ActivateMonolith</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Forage</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Maintain</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Play_GameOfUr</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_Wander</job>
-					<version>2</version>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Open</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Flick</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>BeatFire</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>TakeWoundedPrisonerToBed</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Uninstall</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Mine</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>BestowingCeremony</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryToBiosculpterPod</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryToMomAfterBirth</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Deathrest</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RevenantAttack</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TakeBioferriteOutOfHarvester</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Seal</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExitMapFlying</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Play_Chess</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_Combat</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>EjectFuel</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TradeWithPawn</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExtinguishSelf</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TakeToBedToOperate</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExtractTree</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SmoothFloor</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Dance</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RecolorApparel</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FertilizeOvum</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CreateXenogerm</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RevenantWander</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ChimeraSwitchToAttackMode</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PutApparelOnOutfitStand</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrepareCaravan_GatherItems</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Play_Billiards</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>AttackStatic</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>RearmTurret</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>DismissTrader</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExtinguishFiresNearby</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TakeDownedPawnToBedDrafted</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FillIn</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RemoveFloor</job>
-					<version>2</version>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>GotoAndBeSociallyActive</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DyeHair</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BabySuckle</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>EnterBuilding</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RevenantEscape</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DevourerDigest</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TG_ExecuteDownedRaiders</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrepareCaravan_GatherAnimals</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Play_Poker</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>AttackMelee</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>RearmTurretAtomic</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Flee</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Ingest</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>CarryDownedPawnDrafted</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Repair</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>RemoveFoundation</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrepareSkylantern</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ActivateArchonexusCore</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BabyPlay</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryToBuilding</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RevenantSleep</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UnnaturalCorpseAttack</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>AskPawnToUnite</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrepareCaravan_CollectAnimals</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>WatchTelevision</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SocialFight</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Refuel</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
 					<job>FleeAndCower</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>LayDown</job>
-					<version>2</version>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>CarryToCryptosleepCasketDrafted</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FixBrokenDownBuilding</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SmoothWall</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>EatAtCannibalPlatter</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrisonerEnslave</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Skydreaming</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>AbsorbXenogerm</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SmashThing</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UnnaturalCorpseSkip</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CharmGuest</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrepareCaravan_GatherDownedPawns</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseTelescope</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseVerbOnThing</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RefuelAtomic</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>EnterTransporter</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>LayDownAwake</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryToPrisonerBedDrafted</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BuildRoof</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Sow</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>AcceptRole</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrisonerReduceWill</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>NatureRunning</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GetReimplanted</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryToEntityHolder</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FleeAndCowerShort</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GuestImproveRelationship</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReturnedCaravan_PenAnimals</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Play_MusicalInstrument</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseVerbOnThingStatic</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Reload</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Resurrect</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4010,419 +3400,7 @@
 					<version>2</version>
 				</li>
 				<li>
-					<job>Slaughter</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RemoveRoof</job>
-					<version>2</version>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Harvest</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>MeditatePray</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrisonerConvert</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Radiotalking</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryGenepackToContainer</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TransferBetweenEntityHolders</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrisonerInterrogateIdentity</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BuyItem</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>MarryAdjacentPawn</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>IdleWhileDespawned</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseVerbOnThingStaticReserve</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FillFermentingBarrel</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>InstallImplant</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Lovin</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Milk</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PaintBuilding</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>HarvestDesignated</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>InduceSlaveToRebel</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SlaveSuppress</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Floordrawing</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CastAbilityOnThingWithoutWeapon</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryToEntityHolderAlreadyHolding</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ActivitySuppression</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BrowseItems</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SpectateCeremony</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Goto</job>
-					<version>2</version>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>CastJump</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>TakeBeerOutOfFermentingBarrel</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Insult</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GotoMindControlled</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Shear</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PaintFloor</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CutPlant</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>GiveToPawn</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SlaveEmancipation</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Workwatching</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CastAbilityOnThingWithoutWeaponInterruptible</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReleaseEntity</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SelfDetonate</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ClaimGuestBed</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>StandAndBeSociallyActive</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PickupToHold</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CastAbilityOnThing</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>ApplyTechprint</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>HaulCorpseToPublicPlace</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>HaulToCell</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
 					<job>Tame</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RemovePaintBuilding</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CutPlantDesignated</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>OpenStylingStationDialog</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SlaveExecution</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Lessontaking</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CastAbilityGoToThing</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TendEntity</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GoSwimming</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VendingMachine_EmptyVendingMachine</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GiveSpeech</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Follow</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>CastAbilityTouch</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UnloadInventory</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>InducePrisonerToEscape</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>HaulToContainer</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Train</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RemovePaintFloor</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PrisonerAttemptRecruit</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseStylingStation</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CreateAndEnterCocoon</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Lessongiving</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_WithSleeping</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExecuteEntity</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>InspectGravEngine</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ScroungeFood</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Skygaze</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FollowClose</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>CastAbilityOnThingUninterruptible</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UnloadYourInventory</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>OfferHelp</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Steal</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RopeToPen</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FeedPatient</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>PrisonerExecution</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseStylingStationAutomatic</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CreateAndEnterHealingPod</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>InstallMechlink</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReleaseMechs</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExtractBioferrite</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Fish</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SwipeFood</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Meditate</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>FollowRoper</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CastAbilityOnThingMelee</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>HaulToTransporter</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>EmptyThingContainer</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Kidnap</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RopeRoamerToUnenclosedPen</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4430,404 +3408,27 @@
 					<version>2</version>
 				</li>
 				<li>
-					<job>GuiltyColonistExecution</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DeliverToAltar</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReturnToGauranlenTree</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RemoveMechlink</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SelfShutdown</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ActivityDormant</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FishAnimal</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UnloadMarkedItems</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Pray</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GotoSafeTemperature</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CastAbilityOnWorldTile</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>HaulToPortal</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>InteractThing</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryDownedPawnToExit</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RopeRoamerToHitchingPost</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DeliverFood</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>PlantSeed</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Sacrifice</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>MergeIntoGaumakerPod</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>MechCharge</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReadDatacore</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>EntityGoPassive</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Deactivated</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>SocialRelaxCommonSense</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GoForWalk</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GotoWander</job>
-					<version>2</version>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>Equip</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ManTurret</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DeliverToCell</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryDownedPawnToPortal</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Unrope</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DoBill</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>StudyItem</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Scarify</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ChangeTreeMode</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>HaulMechToCharger</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ClearPollution</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>NociosphereDepart</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PilotConsole</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FinishOffPawn</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BuildSnowman</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>TakeInventory</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>EnterCryptosleepCasket</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>DeliverToBed</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Rescue</job>
-					<version>2</version>
-					<throttleMode>None</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
-					<job>ReleaseAnimalToWild</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>OperateDeepDrill</job>
-					<version>2</version>
-					<throttleMode>Partial</throttleMode>
-					<throttleFilter>All</throttleFilter>
-				</li>
-				<li>
 					<job>ExtractSkull</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>Blind</job>
+					<job>ExtractToInventory</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>PruneGauranlenTree</job>
+					<job>CarryToMomAfterBirth</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>RepairMech</job>
+					<job>CarryToBuilding</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>TryRomance</job>
+					<job>TransferBetweenEntityHolders</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>HateChanting</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GotoOxygenatedArea</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CleanRoom</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VisitGrave</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>StandAndStare</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GiveToPackAnimal</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseNeurotrainer</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TakeCountToInventory</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CarryToCryptosleepCasket</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PlaceNoCostFrame</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>OperateScanner</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>StudyInteract</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ExtractRelic</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BottleFeedBaby</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>RepairMechRemote</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PlayStatic</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TalkCreepJoiner</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>GotoPatrolDest</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>FireFight</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ViewArt</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wait_MaintainPosture</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Wear</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>UseArtifact</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>TakeFromOtherInventory</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>CleanRoom</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VFEA_UseAbilityUninterruptible</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VEF_RefuelSecondary</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VFEA_UseAbility</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PS_DrainFromMarkedStorage</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VFEA_GotoTargetAndUseAbility</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PS_FillStorage</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VFEA_StandAndFaceTarget</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PS_PickUpProcessor</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VEF_AnimalResource</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>PS_BringToProcessor</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VEF_DestroyItem</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>BetterReload</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VEF_LayExplodingEgg</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReloadFromInventory</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VEF_IngestWeird</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>Unload</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VEF_AutoNutrition</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>VEF_ReloadWeaponTrait</job>
+					<job>GoSwimming</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4835,7 +3436,127 @@
 					<version>2</version>
 				</li>
 				<li>
+					<job>VGE_ReplenishOxygenPack</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Nuzzle</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Play_Horseshoes</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_Wander</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RearmTurret</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EnterTransporter</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Lovin</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Train</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DeliverFood</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>StudyInteract</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GetNeuralSupercharge</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FertilizeOvum</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>AbsorbXenogerm</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryToEntityHolderAlreadyHolding</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InspectGravEngine</job>
+					<version>2</version>
+				</li>
+				<li>
 					<job>VFEC_EquipShield</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VGE_BuildVacBarrierRoofs</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Mate</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Play_Hoopstone</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_Combat</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RearmTurretAtomic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Resurrect</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GotoMindControlled</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RopeToPen</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DoBill</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>AnalyzeItem</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EnterBiosculpterPod</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BabySuckle</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GetReimplanted</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReleaseEntity</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Fish</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4843,7 +3564,127 @@
 					<version>2</version>
 				</li>
 				<li>
+					<job>TG_ExecuteDownedRaiders</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>LayEgg</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Play_GameOfUr</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>AttackStatic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Refuel</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InstallImplant</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HaulToCell</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RopeRoamerToUnenclosedPen</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>OperateDeepDrill</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Hack</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryToBiosculpterPod</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BabyPlay</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryGenepackToContainer</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TendEntity</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FishAnimal</job>
+					<version>2</version>
+				</li>
+				<li>
 					<job>VEF_CustomizeItem</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FinishOffPawn</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PredatorHunt</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Play_Chess</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>AttackMelee</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RefuelAtomic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Insult</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HaulToContainer</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RopeRoamerToHitchingPost</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>OperateScanner</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Reign</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RecolorApparel</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Skydreaming</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityOnThingWithoutWeapon</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ExecuteEntity</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Deactivated</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4851,7 +3692,127 @@
 					<version>2</version>
 				</li>
 				<li>
+					<job>EnterZGrave</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Maintain</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Play_Billiards</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SocialFight</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Reload</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HaulCorpseToPublicPlace</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Steal</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Unrope</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Clean</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>LinkPsylinkable</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DyeHair</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>NatureRunning</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityOnThingWithoutWeaponInterruptible</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ExtractBioferrite</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PilotConsole</job>
+					<version>2</version>
+				</li>
+				<li>
 					<job>VEF_UseDoorTeleporter</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UnloadMarkedItems</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ExitMapFlying</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Play_Poker</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseVerbOnThing</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FillFermentingBarrel</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InducePrisonerToEscape</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Kidnap</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReleaseAnimalToWild</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Research</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BestowingCeremony</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ActivateArchonexusCore</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Radiotalking</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityGoToThing</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ActivityDormant</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GotoOxygenatedArea</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4859,19 +3820,579 @@
 					<version>2</version>
 				</li>
 				<li>
+					<job>SocialRelaxCommonSense</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrepareCaravan_GatherItems</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>WatchTelevision</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseVerbOnThingStatic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeBeerOutOfFermentingBarrel</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>OfferHelp</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryDownedPawnToExit</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PlaceNoCostFrame</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Hunt</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Dance</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrisonerEnslave</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Floordrawing</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_WithSleeping</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EntityGoPassive</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GotoPatrolDest</job>
+					<version>2</version>
+				</li>
+				<li>
 					<job>VFE_StudyBuilding</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>FireFight</job>
+					<job>CharmGuest</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>FireFight</job>
+					<job>PrepareCaravan_GatherAnimals</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>FireFight</job>
+					<job>UseTelescope</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseVerbOnThingStaticReserve</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ApplyTechprint</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EmptyThingContainer</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryDownedPawnToPortal</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Replant</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseCommsConsole</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GotoAndBeSociallyActive</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrisonerReduceWill</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Workwatching</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReleaseMechs</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>NociosphereDepart</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GotoShip</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VEF_RefuelSecondary</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GuestImproveRelationship</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrepareCaravan_CollectAnimals</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Play_MusicalInstrument</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastJump</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UnloadInventory</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InteractThing</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Rescue</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FinishFrame</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Mine</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrepareSkylantern</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrisonerConvert</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Lessontaking</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SelfShutdown</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HateChanting</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>LeaveShip</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PS_DrainFromMarkedStorage</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BuyItem</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrepareCaravan_GatherDownedPawns</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>IdleWhileDespawned</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityOnThing</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UnloadYourInventory</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DeliverToCell</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryToCryptosleepCasket</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DeconstructForBlueprint</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SmoothFloor</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EatAtCannibalPlatter</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SlaveSuppress</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Lessongiving</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReadDatacore</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TalkCreepJoiner</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseOutfitStand</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PS_FillStorage</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BrowseItems</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReturnedCaravan_PenAnimals</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Goto</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityTouch</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HaulToTransporter</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DeliverToBed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Capture</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Deconstruct</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RemoveFloor</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>AcceptRole</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SlaveEmancipation</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InstallMechlink</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ClearPollution</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GoldenCubePlay</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Forage</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PS_PickUpProcessor</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ClaimGuestBed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>MarryAdjacentPawn</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PickupToHold</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityOnThingUninterruptible</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HaulToPortal</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeCountToInventory</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Arrest</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Uninstall</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RemoveFoundation</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>MeditatePray</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SlaveExecution</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RemoveMechlink</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TryRomance</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BuildCubeSculpture</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Seal</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PS_BringToProcessor</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VendingMachine_EmptyVendingMachine</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SpectateCeremony</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Follow</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityOnThingMelee</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ManTurret</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeFromOtherInventory</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReleasePrisoner</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ExtractTree</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SmoothWall</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InduceSlaveToRebel</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CreateAndEnterCocoon</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>MechCharge</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PlayStatic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InvestigateMonolith</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PutApparelOnOutfitStand</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BetterReload</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ScroungeFood</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>StandAndBeSociallyActive</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FollowClose</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CastAbilityOnWorldTile</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EnterCryptosleepCasket</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Carried</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EscortPrisonerToBed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FillIn</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Sow</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GiveToPawn</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CreateAndEnterHealingPod</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HaulMechToCharger</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PlayWalking</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ActivateMonolith</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VFEA_UseAbilityUninterruptible</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReloadFromInventory</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SwipeFood</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GiveSpeech</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FollowRoper</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Equip</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseNeurotrainer</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Reading</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeWoundedPrisonerToBed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Repair</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Harvest</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>OpenStylingStationDialog</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ReturnToGauranlenTree</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RepairMech</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PlayToys</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeBioferriteOutOfHarvester</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VFEA_UseAbility</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Unload</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4879,7 +4400,127 @@
 					<version>2</version>
 				</li>
 				<li>
+					<job>Skygaze</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GotoSafeTemperature</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeInventory</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseArtifact</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EnterPortal</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeToBedToOperate</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FixBrokenDownBuilding</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HarvestDesignated</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseStylingStation</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>MergeIntoGaumakerPod</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RepairMechRemote</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EmptyWasteContainer</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ChimeraSwitchToAttackMode</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VFEA_GotoTargetAndUseAbility</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VEF_ReloadWeaponTrait</job>
+					<version>2</version>
+				</li>
+				<li>
 					<job>UnloadYourHauledInventory</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Meditate</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GotoWander</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GiveToPackAnimal</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseItem</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Ignite</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TakeDownedPawnToBedDrafted</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BuildRoof</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CutPlant</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UseStylingStationAutomatic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ChangeTreeMode</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ShieldMech</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>HaulToAtomizer</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DevourerDigest</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VFEA_StandAndFaceTarget</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VGE_InspectMechanoidGravEngine</job>
 					<version>2</version>
 				</li>
 				<li>
@@ -4887,15 +4528,391 @@
 					<version>2</version>
 				</li>
 				<li>
+					<job>Pray</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wear</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TriggerObject</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BeatFire</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryDownedPawnDrafted</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RemoveRoof</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CutPlantDesignated</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DeliverToAltar</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PruneGauranlenTree</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ControlMech</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RevenantAttack</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UnnaturalCorpseAttack</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VEF_AnimalResource</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VGE_BeatAstrofire</job>
+					<version>2</version>
+				</li>
+				<li>
 					<job>ReplaceMechanoidWeapon</job>
 					<version>2</version>
 				</li>
 				<li>
-					<job>EnterZGrave</job>
+					<job>GoForWalk</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>StandAndStare</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ForceTargetWear</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ClearSnow</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ExtinguishSelf</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryToCryptosleepCasketDrafted</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PaintBuilding</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrisonerAttemptRecruit</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Sacrifice</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BottleFeedBaby</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DisassembleMech</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RevenantWander</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>UnnaturalCorpseSkip</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VEF_DestroyItem</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VGE_ExtinguishAstrofiresNearby</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>AskPawnToUnite</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BuildSnowman</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_MaintainPosture</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RemoveApparel</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Vomit</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ExtinguishFiresNearby</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryToPrisonerBedDrafted</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PaintFloor</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrisonerExecution</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Scarify</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Breastfeed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrisonerBloodfeed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RevenantEscape</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FleeAndCowerShort</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VEF_LayExplodingEgg</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VGE_ExtinguishSelfAstrofire</job>
 					<version>2</version>
 				</li>
 				<li>
 					<job>BTG_Relock</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VisitGrave</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_Asleep</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DropEquipment</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Flick</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Ingest</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Slaughter</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RemovePaintBuilding</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>GuiltyColonistExecution</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Blind</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BreastfeedCarryToMom</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Deathrest</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RevenantSleep</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PrisonerInterrogateIdentity</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VEF_IngestWeird</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VGE_MaintainGrav</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CleanRoom</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ViewArt</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_AsleepDormancy</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Strip</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>TradeWithPawn</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>LayDown</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Milk</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>RemovePaintFloor</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>PlantSeed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ExtractRelic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BringBabyToSafety</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CreateXenogerm</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SmashThing</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>ActivitySuppression</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VEF_AutoNutrition</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VGE_CollectGravdata</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FireFight</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SocialRelax</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_Downed</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Open</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>DismissTrader</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>LayDownAwake</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Shear</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>FeedPatient</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>StudyItem</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>InstallRelic</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>BringBabyToSafetyUnforced</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EnterBuilding</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>CarryToEntityHolder</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>SelfDetonate</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>VisitSickPawn</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Wait_SafeTemperature</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>EjectFuel</job>
+					<version>2</version>
+				</li>
+				<li>
+					<job>Flee</job>
 					<version>2</version>
 				</li>
 			</AllJobsSettings>
