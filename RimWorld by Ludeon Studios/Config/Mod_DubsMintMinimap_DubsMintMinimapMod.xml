@@ -27,6 +27,7 @@
 			<col>RGBA(1.000, 0.000, 0.000, 1.000)</col>
 		</Hostiles>
 		<StaticRectPos>(1630, 3)</StaticRectPos>
+		<ShowAnimals>True</ShowAnimals>
 		<ShowCorpses>True</ShowCorpses>
 		<multi21>193</multi21>
 	</ModSettings>
