@@ -6,5 +6,6 @@
   </HugsLib>
   <AllowTool>
     <globalHotkeys>False</globalHotkeys>
+    <partyHunt>False</partyHunt>
   </AllowTool>
 </settings>
