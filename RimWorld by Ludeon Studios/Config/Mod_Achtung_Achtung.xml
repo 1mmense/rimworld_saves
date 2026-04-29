@@ -4,8 +4,8 @@
 		<positioningEnabled>True</positioningEnabled>
 		<rescueEnabled>True</rescueEnabled>
 		<achtungKey>Alt</achtungKey>
-		<forceCommandMenuMode>Auto</forceCommandMenuMode>
-		<forceCommandMenuKey>Ctrl</forceCommandMenuKey>
+		<forceCommandMenuMode>PressForMenu</forceCommandMenuMode>
+		<forceCommandMenuKey>Alt</forceCommandMenuKey>
 		<BreakLevel>AlmostExtreme</BreakLevel>
 		<HealthLevel>InPainShock</HealthLevel>
 		<ignoreForbidden>True</ignoreForbidden>
