@@ -3,17 +3,17 @@
 	<ModSettings Class="VEF.AnimalBehaviours.AnimalBehaviours_Settings">
 		<flagCorpseDecayingEffect>False</flagCorpseDecayingEffect>
 		<flagDigWhenHungry>False</flagDigWhenHungry>
-		<flagAnimalParticles>True</flagAnimalParticles>
+		<flagAnimalParticles>False</flagAnimalParticles>
 		<flagAsexualReproduction>False</flagAsexualReproduction>
 		<flagBlinkMechanics>False</flagBlinkMechanics>
 		<flagBuildPeriodically>False</flagBuildPeriodically>
 		<flagDigPeriodically>False</flagDigPeriodically>
-		<flagChargeBatteries>True</flagChargeBatteries>
+		<flagChargeBatteries>False</flagChargeBatteries>
 		<flagExplodingAnimalEggs>False</flagExplodingAnimalEggs>
 		<flagHovering>False</flagHovering>
 		<flagGraphicChanging>False</flagGraphicChanging>
 		<flagEffecters>False</flagEffecters>
-		<flagRegeneration>True</flagRegeneration>
+		<flagRegeneration>False</flagRegeneration>
 		<flagResurrection>False</flagResurrection>
 		<flagUntameable>False</flagUntameable>
 	</ModSettings>
