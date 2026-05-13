@@ -708,6 +708,13 @@
     </value>
   </li>
   <li>
+    <key>Dev_QuickGoToConfigPawnPage</key>
+    <value>
+      <keyBindingA>None</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
+  <li>
     <key>HotkeyEditor</key>
     <value>
       <keyBindingA>None</keyBindingA>

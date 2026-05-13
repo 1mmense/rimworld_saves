@@ -4066,10 +4066,6 @@
 					<version>2</version>
 				</li>
 				<li>
-					<job>UnequipMechanoidWeapon</job>
-					<version>2</version>
-				</li>
-				<li>
 					<job>Pray</job>
 					<version>2</version>
 				</li>
@@ -4134,10 +4130,6 @@
 				</li>
 				<li>
 					<job>VGE_BeatAstrofire</job>
-					<version>2</version>
-				</li>
-				<li>
-					<job>ReplaceMechanoidWeapon</job>
 					<version>2</version>
 				</li>
 				<li>
