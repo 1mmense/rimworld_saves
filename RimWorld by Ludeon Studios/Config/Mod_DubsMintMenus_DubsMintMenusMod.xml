@@ -1114,7 +1114,7 @@
 						<loadID>-41</loadID>
 						<recipe>Make_Apparel_ShieldBelt</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -1143,7 +1143,7 @@
 						<loadID>-42</loadID>
 						<recipe>Make_Apparel_VacsuitHelmet</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -1954,7 +1954,7 @@
 						<loadID>-71</loadID>
 						<recipe>Make_BionicEye</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -1983,7 +1983,7 @@
 						<loadID>-72</loadID>
 						<recipe>Make_BionicArm</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2012,7 +2012,7 @@
 						<loadID>-73</loadID>
 						<recipe>Make_BionicLeg</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2041,7 +2041,7 @@
 						<loadID>-74</loadID>
 						<recipe>Make_DetoxifierLung</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2070,7 +2070,7 @@
 						<loadID>-75</loadID>
 						<recipe>Make_BionicEar</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2099,7 +2099,7 @@
 						<loadID>-76</loadID>
 						<recipe>Make_ComponentSpacer</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2134,7 +2134,7 @@
 						<loadID>-77</loadID>
 						<recipe>Make_ComponentIndustrial</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2166,7 +2166,7 @@
 						<loadID>-78</loadID>
 						<recipe>Make_ComponentSpacer</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2201,7 +2201,7 @@
 						<loadID>-79</loadID>
 						<recipe>Make_ComponentIndustrial</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2290,7 +2290,7 @@
 						<loadID>-82</loadID>
 						<recipe>Make_Apparel_Pants</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2315,7 +2315,7 @@
 						<loadID>-83</loadID>
 						<recipe>Make_Apparel_CollarShirt</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2340,7 +2340,7 @@
 						<loadID>-84</loadID>
 						<recipe>Make_Apparel_Duster</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2365,7 +2365,7 @@
 						<loadID>-85</loadID>
 						<recipe>Make_Apparel_Pants</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2390,7 +2390,7 @@
 						<loadID>-86</loadID>
 						<recipe>Make_Apparel_CollarShirt</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -2508,6 +2508,146 @@
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
 						<boundUft>null</boundUft>
+					</li>
+				</FBills>
+			</li>
+			<li>
+				<BenchTemplateName>Thing_TableStonecutter221487</BenchTemplateName>
+				<BenchDef>TableStonecutter</BenchDef>
+				<FBills>
+					<li Class="Bill_Production">
+						<loadID>-91</loadID>
+						<recipe>Make_StoneBlocksAny</recipe>
+						<ingredientSearchRadius>13.034483</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>ChunkSandstone</li>
+								<li>ChunkGranite</li>
+								<li>ChunkLimestone</li>
+								<li>ChunkSlate</li>
+								<li>ChunkMarble</li>
+								<li>ChunkVacstone</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+					</li>
+					<li Class="Bill_Production">
+						<loadID>-92</loadID>
+						<recipe>Make_StoneBlocksSlate</recipe>
+						<suspended>True</suspended>
+						<ingredientSearchRadius>15.9612064</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>ChunkSlate</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>BestStockpile</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+					</li>
+					<li Class="Bill_Production">
+						<loadID>-93</loadID>
+						<recipe>Make_StoneBlocksMarble</recipe>
+						<ingredientSearchRadius>17.215517</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>ChunkMarble</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+					</li>
+					<li Class="Bill_Production">
+						<loadID>-94</loadID>
+						<recipe>Make_StoneBlocksVacstone</recipe>
+						<ingredientSearchRadius>10.1077585</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>ChunkVacstone</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>BestStockpile</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
 					</li>
 				</FBills>
 			</li>
