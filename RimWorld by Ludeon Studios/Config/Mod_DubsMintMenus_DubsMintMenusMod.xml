@@ -2558,7 +2558,7 @@
 						<suspended>True</suspended>
 						<ingredientSearchRadius>15.9612064</ingredientSearchRadius>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_Human221876</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
