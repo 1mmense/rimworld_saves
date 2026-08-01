@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SettingsBlock>
 	<ModSettings Class="TradeHelper.TradeHelperSettings">
-		<TradeHelperWishList>нейтроамин,*емесл*,*гравл*,архо*,*афья*</TradeHelperWishList>
+		<TradeHelperWishList>нейтроамин,*емесл*,*гравл*,архо*</TradeHelperWishList>
 	</ModSettings>
 </SettingsBlock>
