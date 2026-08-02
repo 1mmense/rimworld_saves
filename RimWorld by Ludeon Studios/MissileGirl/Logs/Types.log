@@ -1,0 +1,31 @@
+[LOGGER STARTED]
+
+Cosmodrome, Version=0.6.3.2421, Culture=neutral, PublicKeyToken=null.core
+
+MissileGirl.Patches.Game_FinalizeInit_Patch
+MissileGirl.Patches.Game_DeinitAndRemoveMap_Patch
+MissileGirl.Patches.Game_UpdatePlay_Patch
+MissileGirl.Patches.Map_FinalizeInit_Patch
+MissileGirl.Patches.Map_ConstructComponents_Patch
+
+
+Cosmodrome, Version=0.6.3.2421, Culture=neutral, PublicKeyToken=null
+
+MissileGirl.DebugWindowsOpener_Patch
+MissileGirl.MainMenuDrawer_DoMainMenuControls_Patch
+MissileGirl.Optimizations.CompDeepDrill_Patch
+MissileGirl.Optimizations.PlayLog_ReduceToCapacity_Patch
+MissileGirl.Optimizations.GenTemperature_Patch
+MissileGirl.Optimizations.ListerBuildingsRepairable_Patch
+MissileGirl.Optimizations.Lord_Notify_PawnDamaged_Patch
+MissileGirl.Optimizations.StatWorker_Patch
+MissileGirl.Patches.Pawn_TimetableTracker_GetAssignment_Patch
+MissileGirl.MapGenerator_Patch+GenerateMap_Patch
+MissileGirl.Patches.BeautyUtility_Patch+BeautyUtility_FillBeautyRelevantCells_Patch
+MissileGirl.Patches.BeautyUtility_Patch+Pawn_NeedsTracker_Patch
+MissileGirl.Patches.Pawn_Notify_Dirty+Pawn_ApparelTracker_Dirty
+MissileGirl.Patches.Pawn_Notify_Dirty+Pawn_EquipmentTracker_Dirty
+MissileGirl.Patches.Pawn_Notify_Dirty+Pawn_Dirty
+MissileGirl.Patches.Pawn_Notify_Dirty+Pawn_HealthTracker_Dirty
+MissileGirl.Patches.Pawn_Notify_Dirty+Pawn_HediffSet_Dirty
+

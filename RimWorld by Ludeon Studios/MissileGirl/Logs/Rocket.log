@@ -1,0 +1,862 @@
+[LOGGER STARTED]
+
+ROCKET_CORE:[NOTANERROR] patching Game:Void FinalizeInit() finished!
+
+ROCKET_CORE:[NOTANERROR] patching Game:Void DeinitAndRemoveMap(Verse.Map, Boolean) finished!
+
+ROCKET_CORE:[NOTANERROR] patching Game:Void UpdatePlay() finished!
+
+ROCKET_CORE:[NOTANERROR] patching Map:Void FinalizeInit() finished!
+
+ROCKET_CORE:[NOTANERROR] patching Map:Void ConstructComponents() finished!
+
+MissileGirl: Found assembly with name of <color=red>XmlDiffPatch</color> and file name of <color=red>XmlDiffPatch.dll</color>
+
+MissileGirl: Loaded assembly XmlDiffPatch, Version=1.0.8.28, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a and symbols state is False
+
+MissileGirl: Assembly is currently [valid=True] and Named XmlDiffPatch, Version=1.0.8.28, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+
+MissileGirl: Found assembly with name of <color=red>XmlDiffPatch.View</color> and file name of <color=red>XmlDiffPatch.View.dll</color>
+
+MissileGirl: Loaded assembly XmlDiffPatch.View, Version=1.0.1493.40755, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+MissileGirl: Assembly is currently [valid=True] and Named XmlDiffPatch.View, Version=1.0.1493.40755, Culture=neutral, PublicKeyToken=null
+
+MissileGirl: Found assembly with name of <color=red>Gagarin</color> and file name of <color=red>Gagarin.dll</color>
+
+MissileGirl: Loaded assembly Gagarin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+MissileGirl: Assembly is currently [valid=True] and Named Gagarin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+
+MissileGirl: Found assembly with name of <color=red>Proton</color> and file name of <color=red>Proton.dll</color>
+
+MissileGirl: Loaded assembly Proton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+MissileGirl: Assembly is currently [valid=True] and Named Proton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+MissileGirl: Found assembly with name of <color=red>Soyuz</color> and file name of <color=red>Soyuz.dll</color>
+
+MissileGirl: Loaded assembly Soyuz, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null and symbols state is False
+
+MissileGirl: Assembly is currently [valid=True] and Named Soyuz, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+<color=orange>MissileGirl:</color> Version 0.6.3.2421
+
+R is 2.3=21, 8.9=241 4.5=69
+
+MissileGirl: Found action with attribute OnDefsLoaded, KeyBinder:Start
+
+MissileGirl: Found action with attribute OnDefsLoaded, RocketMod:UpdateExceptions
+
+MissileGirl: Found action with attribute OnDefsLoaded, Analyzer_H_AlertsReadoutUpdate_Patch:Patch
+
+MissileGirl: Found action with attribute OnDefsLoaded, ProtonPatcher:PatchAll
+
+MissileGirl: Found action with attribute OnDefsLoaded, SoyuzPatcher:PatchAll
+
+MissileGirl: Found action with attribute OnTickRare, RocketMod:UpdateExceptions
+
+MissileGirl: Found action with attribute OnTickLonger, GUIUtility:Cleanup
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_Stats:YieldTab
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_Gagarin:YieldTab
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_Alerts:YieldTab
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_WorldPawns:YieldTab
+
+MissileGirl: Found function with attribute YieldModMenuTab, TabContent_Settings:YieldTab
+
+MissileGirl: Found function with attribute YieldModMenuTab, TabContent_Gagarin:YieldTab
+
+MissileGirl: Found action with attribute OnScribe, StatSettingsUtility:OnScribe
+
+MissileGirl: Found action with attribute OnScribe, ProtonSettingsUtility:OnScribe
+
+MissileGirl: Found action with attribute OnSettingsScribedLoaded, StatSettingsUtility:OnSettingsScribedLoaded
+
+MissileGirl: Found action with attribute OnStaticConstructor, StartupHelper:StartUpFinished
+
+MissileGirl: Found action with attribute OnInitialization, LoadableXmlAsset_Constructor_Patch:Start
+
+MissileGirl: Found action with attribute OnInitialization, StartupHelper:StartUpStarted
+
+MissileGirl: Found action with attribute OnInitialization, AlertsReadout_Constructor_Patch:Patch
+
+MissileGirl: Found action with attribute OnInitialization, ProtonPatcher:Initialize
+
+MissileGirl: Found action with attribute OnInitialization, SoyuzPatcher:Initialize
+
+GAGARIN: <color=green>Loading cache settings!</color>
+
+Gagarin:[NOTANERROR] patching TKeySystem:Void Parse(System.Xml.XmlDocument) finished!
+
+Gagarin:[NOTANERROR] patching DirectXmlToObjectNew:Verse.Def DefFromNodeNew(System.Xml.XmlNode, Verse.LoadableXmlAsset) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Collections.Generic.List`1[Verse.LoadableXmlAsset] LoadModXML(Boolean) finished!
+
+Gagarin:[NOTANERROR] patching TKeySystem:Void Parse(System.Xml.XmlDocument) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ClearCachedPatches() finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ApplyPatches(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ParseAndProcessXML(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset], Boolean) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Xml.XmlDocument CombineIntoUnifiedXML(System.Collections.Generic.List`1[Verse.LoadableXmlAsset], System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching ModContentPack:System.Collections.Generic.IEnumerable`1[Verse.LoadableXmlAsset] LoadDefs(Boolean) finished!
+
+Gagarin:[NOTANERROR] patching ModsConfig:Void Reset() finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Collections.Generic.List`1[Verse.LoadableXmlAsset] LoadModXML(Boolean) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:System.Xml.XmlDocument CombineIntoUnifiedXML(System.Collections.Generic.List`1[Verse.LoadableXmlAsset], System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ApplyPatches(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset]) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ParseAndProcessXML(System.Xml.XmlDocument, System.Collections.Generic.Dictionary`2[System.Xml.XmlNode,Verse.LoadableXmlAsset], Boolean) finished!
+
+Gagarin:[NOTANERROR] patching LoadedModManager:Void ClearCachedPatches() finished!
+
+Gagarin:[NOTANERROR] patching XmlInheritance:Void Resolve() finished!
+
+GAGARIN:[DUPLICATE]: Started!
+
+GAGARIN:[DUPLICATE] Creating duplication reports took 784 MS
+
+GAGARIN:[DUPLICATE] Finished creating reports at <color=red>C:\Users\1mmense\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\MissileGirl\Reports</color>
+
+MissileGirl: Found action with attribute OnStaticConstructor, StartupHelper:StartUpFinished
+
+MissileGirl: DebugWindowsOpener.DevToolStarterOnGUI patch did not find all expected IL anchors.
+
+MissileGirl: MissileGirl settings are stored in <color=red>C:\Users\1mmense\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\MissileGirl\Mod_MissileGirl_RocketMod.xml</color>
+
+MissileGirl: Defs loaded!
+
+MissileGirl: Patched KeyBinder!
+
+PROTON:[NOTANERROR] patching AlertsReadout:Void AlertsReadoutOnGUI() finished!
+
+PROTON:[NOTANERROR] patching AlertsReadout:Void AlertsReadoutUpdate() finished!
+
+PROTON:[NOTANERROR] patching Alert_MajorOrExtremeBreakRisk:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Hypothermia:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistNeedsRescuing:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LifeThreateningHediff:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_FireInHomeArea:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ImmobileCaravan:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DisallowedBuildingInsideMonument:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DangerousActivity:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UndercaveUnstable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CultistPsychicRitual:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CubeWithdrawal:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Digesting:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MeatHunger:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GhoulHypothermia:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_InsufficientContainmentStrength:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowOxygen:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_IdeoBuildingMissing:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_IdeoBuildingDisrespected:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MechThreat:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DormanyWakeUpDelay:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_InfestationDelay:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CasketOpening:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_FuelNodeIgnition:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HypothermicAnimals:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MinorBreakRisk:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_BestowerWaiting:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ReimplantationAvailable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedDefenses:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_QuestExpiresSoon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedDoctor:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMiner:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedWarden:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowBabyFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NoBabyFeeders:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AbandonedBaby:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NoBabyFoodCaravan:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowMedicine:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedWarmClothes:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedColonistBeds:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedBabyCribs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedSlaveBeds:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedSlaveCribs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistLeftUnburied:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistNeedsTend:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_EntityNeedsTend:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_StarvationColonists:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Exhaustion:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Heatstroke:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PasteDispenserNeedsHopper:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ActivatorCountdown:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SlavesUnsuppressed:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SlavesUnattended:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Biostarvation:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ToxicBuildup:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PollutedTerrain:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CreepJoinerTimeout:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_EmergingPitGate:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ColonistsIdle:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TimedMakeFactionHostile:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CaravanIdle:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_RoyalNoThroneAssigned:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UndignifiedThroneroom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UndignifiedBedroom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TitleRequiresBedroom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_RoyalNoAcceptableFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ThroneroomInvalidConfiguration:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMealSource:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedJoySources:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Boredom:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedBatteries:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedResearchProject:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AwaitingMedicalOperation:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_BrawlerHasRangedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ShieldUserHasRangedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_StarvationAnimals:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_BilliardsTableOnWall:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ChessTableNoChairs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PokerTableNoChairs:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_CannotBeUsedRoofed:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HunterHasShieldAndRangedWeapon:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MonumentMarkerMissingBlueprints:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ShuttleLandingBeaconUnusable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMeditationSpot:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UnusableMeditationFocus:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PermitAvailable:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalFilth:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalPenNeeded:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalPenNotEnclosed:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PredatorInPen:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimalRoaming:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PennedAnimalHungry:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_HitchedAnimalHungryNoFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TimedRaidsArriving:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SlaveRebellionLikely:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_RolesEmpty:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AnimaLinkingReady:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DateRitualComing:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AgeReversalDemandNear:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GauranlenTreeWithoutProductionMode:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ConnectedPawnNotAssignedToPlantCutting:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MinifiedTreeAboutToDie:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_SubjectHasNowOverseer:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_WarqueenHasLowResources:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowHemogen:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowDeathrest:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MechChargerFull:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedMechChargers:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedResearchBench:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MechMissingBodyPart:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_ToxifierGeneratorStopped:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_PsychicBondedSeparated:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MechDamaged:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GenebankUnpowered:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_DeathrestComplete:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedAnomalyProject:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NeedHoldingPlatform:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_InhibitorBlocked:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_MonolithAutoActivating:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Analyzable_GrayFlesh:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Analyzable_NeuralLump:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_Analyzable_RevenantFlesh:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_TatteredApparel:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_UnhappyNudity:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NoStorage:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_NoUrgentStorage:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GuestCantClaimBed:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GuestHasNoFood:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_GuestNotEnoughBeds:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_AstrofireInHomeArea:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_IneffectiveOxygenPack:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowMaintenance:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_LowOxygen:Void .ctor() finished!
+
+PROTON:[NOTANERROR] patching Alert_StatsLearning:Void .ctor() finished!
+
+SOYUZ:[NOTANERROR] patching WorldPawns:Verse.HediffDef DefPreventingMothball(Verse.Pawn) finished!
+
+MissileGirl: XMLParser started
+
+ROCKETRULES: IgnoreMeRule for OskarPotocki.VFE.Mechanoid
+
+ROCKETRULES: IgnoreMeRule for Alaestor.MiscRobots.PlusPlus
+
+ROCKETRULES: IgnoreMeRule for Haplo.Miscellaneous.Robots
+
+ROCKETRULES: IgnoreMeRule for ChJees.Androids
+
+ROCKETRULES: IgnoreMeRule for automatic.autocleaner
+
+ROCKETRULES: IgnoreMeRule for neronix17.mechadroids
+
+ROCKETRULES: IgnoreMeRule for neronix17.outerrim.galaxies
+
+ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.drones
+
+ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.legacy
+
+ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory
+
+[0.015934 seconds] MissileGirl: <color=red>IgnoreMe report</color>
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Grizzly
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cat_Scimitar
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Polar
+ROCKETRULES: IgnoreMe add def by name: Corpse_Wolverine
+ROCKETRULES: IgnoreMe add def by name: Corpse_Ostrich
+ROCKETRULES: IgnoreMe add def by name: Corpse_Wolf_Great
+ROCKETRULES: IgnoreMe add def by name: Corpse_Emu
+ROCKETRULES: IgnoreMe add def by name: Corpse_Moose
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cassowary
+ROCKETRULES: IgnoreMe add def by name: Corpse_AlphaThrumbo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cougar
+ROCKETRULES: IgnoreMe add def by name: Corpse_Muskox
+ROCKETRULES: IgnoreMe add def by name: Corpse_Panther
+ROCKETRULES: IgnoreMe add def by name: Corpse_Tiger
+ROCKETRULES: IgnoreMe add def by name: Corpse_Lynx
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mink
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Gorilla
+ROCKETRULES: IgnoreMe add def by name: Corpse_YorkshireTerrier
+ROCKETRULES: IgnoreMe add def by name: Corpse_Badger
+ROCKETRULES: IgnoreMe add def by name: Corpse_GuineaPig
+ROCKETRULES: IgnoreMe add def by name: Corpse_Panda
+ROCKETRULES: IgnoreMe add def by name: Corpse_LabradorRetriever
+ROCKETRULES: IgnoreMe add def by name: Corpse_Hippo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Husky
+ROCKETRULES: IgnoreMe add def by name: Corpse_Megavole
+ROCKETRULES: IgnoreMe add def by name: Corpse_Monkey
+ROCKETRULES: IgnoreMe add def by name: Corpse_Armadillo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Chicken
+ROCKETRULES: IgnoreMe add def by name: Corpse_Alligator
+ROCKETRULES: IgnoreMe add def by name: Corpse_Duck
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bullfrog
+ROCKETRULES: IgnoreMe add def by name: Corpse_Turkey
+ROCKETRULES: IgnoreMe add def by name: Corpse_ColossusToad
+ROCKETRULES: IgnoreMe add def by name: Corpse_Goose
+ROCKETRULES: IgnoreMe add def by name: Corpse_LavaSnail
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cow
+ROCKETRULES: IgnoreMe add def by name: Corpse_Sparrow
+ROCKETRULES: IgnoreMe add def by name: Corpse_Boomalope
+ROCKETRULES: IgnoreMe add def by name: Corpse_Crow
+ROCKETRULES: IgnoreMe add def by name: Corpse_Muffalo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bluebird
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bison
+ROCKETRULES: IgnoreMe add def by name: Corpse_Quail
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dromedary
+ROCKETRULES: IgnoreMe add def by name: Corpse_Macaw
+ROCKETRULES: IgnoreMe add def by name: Corpse_Goat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Flamingo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Elk
+ROCKETRULES: IgnoreMe add def by name: Corpse_Heron
+ROCKETRULES: IgnoreMe add def by name: Corpse_Yak
+ROCKETRULES: IgnoreMe add def by name: Corpse_Swan
+ROCKETRULES: IgnoreMe add def by name: Corpse_Caribou
+ROCKETRULES: IgnoreMe add def by name: Corpse_Peacock
+ROCKETRULES: IgnoreMe add def by name: Corpse_Horse
+ROCKETRULES: IgnoreMe add def by name: Corpse_Vulture
+ROCKETRULES: IgnoreMe add def by name: Corpse_Donkey
+ROCKETRULES: IgnoreMe add def by name: Corpse_Penguin
+ROCKETRULES: IgnoreMe add def by name: Corpse_Elephant
+ROCKETRULES: IgnoreMe add def by name: Corpse_Walrus
+ROCKETRULES: IgnoreMe add def by name: Corpse_Rhinoceros
+ROCKETRULES: IgnoreMe add def by name: Corpse_SeaLion
+ROCKETRULES: IgnoreMe add def by name: Corpse_Hare
+ROCKETRULES: IgnoreMe add def by name: Corpse_Seal
+ROCKETRULES: IgnoreMe add def by name: Corpse_Snowhare
+ROCKETRULES: IgnoreMe add def by name: Corpse_HermitCrab
+ROCKETRULES: IgnoreMe add def by name: Corpse_Megascarab
+ROCKETRULES: IgnoreMe add def by name: Corpse_StoneCrab
+ROCKETRULES: IgnoreMe add def by name: Corpse_Spelopede
+ROCKETRULES: IgnoreMe add def by name: Corpse_SeaTurtle
+ROCKETRULES: IgnoreMe add def by name: Corpse_Megaspider
+ROCKETRULES: IgnoreMe add def by name: Corpse_Otter
+ROCKETRULES: IgnoreMe add def by name: Corpse_Thrumbo
+ROCKETRULES: IgnoreMe add def by name: Corpse_Larva
+ROCKETRULES: IgnoreMe add def by name: Corpse_Cobra
+ROCKETRULES: IgnoreMe add def by name: Corpse_HiveQueen
+ROCKETRULES: IgnoreMe add def by name: Corpse_Tortoise
+ROCKETRULES: IgnoreMe add def by name: Corpse_Locust
+ROCKETRULES: IgnoreMe add def by name: Corpse_Alphabeaver
+ROCKETRULES: IgnoreMe add def by name: Corpse_Drone_Hunter
+ROCKETRULES: IgnoreMe add def by name: Corpse_Pig
+ROCKETRULES: IgnoreMe add def by name: Corpse_Drone_Wasp
+ROCKETRULES: IgnoreMe add def by name: Corpse_WildBoar
+ROCKETRULES: IgnoreMe add def by name: Corpse_Drone_Sentry
+ROCKETRULES: IgnoreMe add def by name: Corpse_Ibex
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Cyclops
+ROCKETRULES: IgnoreMe add def by name: Corpse_Deer
+ROCKETRULES: IgnoreMe add def by name: Corpse_VGE_Astronaut
+ROCKETRULES: IgnoreMe add def by name: Corpse_Gazelle
+ROCKETRULES: IgnoreMe add def by name: Corpse_VGE_Astropede
+ROCKETRULES: IgnoreMe add def by name: Corpse_Chinchilla
+ROCKETRULES: IgnoreMe add def by name: Corpse_VGE_Hunter
+ROCKETRULES: IgnoreMe add def by name: Corpse_Sheep
+ROCKETRULES: IgnoreMe add def by name: Corpse_Alpaca
+ROCKETRULES: IgnoreMe add def by name: Corpse_Megasloth
+ROCKETRULES: IgnoreMe add def by name: Corpse_Capybara
+ROCKETRULES: IgnoreMe add def by name: Corpse_Squirrel
+ROCKETRULES: IgnoreMe add def by name: Corpse_Rat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Boomrat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Raccoon
+ROCKETRULES: IgnoreMe add def by name: Corpse_Iguana
+ROCKETRULES: IgnoreMe add def by name: Corpse_Warg
+ROCKETRULES: IgnoreMe add def by name: Corpse_Wolf_Timber
+ROCKETRULES: IgnoreMe add def by name: Corpse_Wolf_Arctic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fox_Fennec
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fox_Red
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fox_Arctic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Human
+ROCKETRULES: IgnoreMe add def by name: UnnaturalCorpse_Human
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_CentipedeBlaster
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_CentipedeGunner
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_CentipedeBurner
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Lancer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Scyther
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Pikeman
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Termite
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Basic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Woodmaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Berrymaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Medicinemaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Gaumaker
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Carrier
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Clawer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dryad_Barkskin
+ROCKETRULES: IgnoreMe add def by name: Corpse_WasteRat
+ROCKETRULES: IgnoreMe add def by name: Corpse_Toxalope
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Tunneler
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Militor
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Lifter
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Constructoid
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Fabricor
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Agrihand
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Cleansweeper
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_WarUrchin
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Paramedic
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Legionary
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Tesseron
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Scorcher
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Apocriton
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Centurion
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Warqueen
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mech_Diabolus
+ROCKETRULES: IgnoreMe add def by name: Corpse_Sightstealer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Noctol
+ROCKETRULES: IgnoreMe add def by name: Corpse_Gorehulk
+ROCKETRULES: IgnoreMe add def by name: Corpse_Devourer
+ROCKETRULES: IgnoreMe add def by name: Corpse_Chimera
+ROCKETRULES: IgnoreMe add def by name: Corpse_Bulbfreak
+ROCKETRULES: IgnoreMe add def by name: Corpse_Toughspike
+ROCKETRULES: IgnoreMe add def by name: Corpse_Trispike
+ROCKETRULES: IgnoreMe add def by name: Corpse_Fingerspike
+ROCKETRULES: IgnoreMe add def by name: Corpse_Dreadmeld
+ROCKETRULES: IgnoreMe add def by name: Corpse_BogHound
+ROCKETRULES: IgnoreMe add def by name: Corpse_MonitorLizard
+ROCKETRULES: IgnoreMe add def by name: Corpse_PrairieDog
+ROCKETRULES: IgnoreMe add def by name: Corpse_Porcupine
+ROCKETRULES: IgnoreMe add def by name: Corpse_Mastodon
+
+MissileGirl: DebugWindowsOpener.DevToolStarterOnGUI patch did not find all expected IL anchors.
+
+MissileGirl:[NOTANERROR] patching DebugWindowsOpener:Void .ctor() finished!
+
+MissileGirl:[NOTANERROR] patching MainMenuDrawer:Void DoMainMenuControls(UnityEngine.Rect, Boolean) finished!
+
+MissileGirl:[NOTANERROR] patching CompDeepDrill:Boolean CanDrillNow() finished!
+
+MissileGirl:[NOTANERROR] patching PlayLog:Void ReduceToCapacity() finished!
+
+MissileGirl:[NOTANERROR] patching GenTemperature:Verse.FloatRange ComfortableTemperatureRange(Verse.Pawn) finished!
+
+MissileGirl:[NOTANERROR] patching ListerBuildingsRepairable:Void UpdateBuilding(Verse.Building) finished!
+
+MissileGirl:[NOTANERROR] patching Lord:Void Notify_PawnDamaged(Verse.Pawn, Verse.DamageInfo) finished!
+
+MissileGirl: Hijacking ([REFLECTED] RimWorld.StatWorker:GetValue, [DECLARING] RimWorld.StatWorker:GetValue, [ISSTATIC] False, [ISPUBLIC] False, [ISVIRTUAL] StatWorker, [ABSTRACT] False)
+
+MissileGirl:[NOTANERROR] patching StatWorker:Single GetValue(RimWorld.StatRequest, Boolean) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_TimetableTracker:RimWorld.TimeAssignmentDef GetAssignment(Int32) finished!
+
+MissileGirl:[NOTANERROR] patching MapGenerator:Verse.Map GenerateMap(Verse.IntVec3, RimWorld.Planet.MapParent, Verse.MapGeneratorDef, System.Collections.Generic.IEnumerable`1[Verse.GenStepWithParams], System.Action`1[Verse.Map], Boolean, Boolean) finished!
+
+MissileGirl:[NOTANERROR] patching BeautyUtility:Void FillBeautyRelevantCells(Verse.IntVec3, Verse.Map) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_NeedsTracker:Void NeedsTrackerTickInterval(Int32) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_ApparelTracker:Void Notify_ApparelAdded(RimWorld.Apparel) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_ApparelTracker:Void Notify_ApparelRemoved(RimWorld.Apparel) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_ApparelTracker:Void Notify_LostBodyPart() finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_ApparelTracker:Void Wear(RimWorld.Apparel, Boolean, Boolean) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_ApparelTracker:Void Remove(RimWorld.Apparel) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_EquipmentTracker:Void Notify_EquipmentAdded(Verse.ThingWithComps) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_EquipmentTracker:Void Notify_EquipmentRemoved(Verse.ThingWithComps) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn:Void Destroy(Verse.DestroyMode) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn:Void Notify_Teleported(Boolean, Boolean) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn:Void Notify_BulletImpactNearby(RimWorld.BulletImpactData) finished!
+
+MissileGirl:[NOTANERROR] patching Pawn_HealthTracker:Void Notify_UsedVerb(Verse.Verb, Verse.LocalTargetInfo) finished!
+
+MissileGirl:[NOTANERROR] patching HediffSet:Void DirtyCache() finished!
+
+GAGARIN: Lock removed!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_Stats:YieldTab
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_Gagarin:YieldTab
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_Alerts:YieldTab
+
+MissileGirl: Found function with attribute YieldTabContent, TabContent_WorldPawns:YieldTab
+
+MissileGirl: Found a new tab Statistics
+
+MissileGirl: Found a new tab Load time optimization
+
+MissileGirl: Found a new tab Настройки уведомлений
+
+MissileGirl: Found a new tab World Pawns
+
+MissileGirl: <color=red>MainButton</color> is now hidden!
+
+MissileGirl: <color=red>MainButton</color> is now shown!
+
+MissileGirl: <color=red>MainButton</color> is now hidden!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
