@@ -3452,8 +3452,8 @@
 				</FBills>
 			</li>
 			<li>
-				<BenchTemplateName>Thing_DrugLab88050</BenchTemplateName>
-				<BenchDef>DrugLab</BenchDef>
+				<BenchTemplateName>Thing_VGE_CompactDrugLab2725477</BenchTemplateName>
+				<BenchDef>VGE_CompactDrugLab</BenchDef>
 				<FBills>
 					<li Class="Bill_Production">
 						<loadID>-121</loadID>
@@ -3517,7 +3517,7 @@
 					<li Class="Bill_Production">
 						<loadID>-123</loadID>
 						<recipe>Make_MedicineIndustrialBulk</recipe>
-						<ingredientSearchRadius>32.2672424</ingredientSearchRadius>
+						<ingredientSearchRadius>40.2112083</ingredientSearchRadius>
 						<allowedSkillRange>0~20</allowedSkillRange>
 						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
@@ -3539,8 +3539,8 @@
 						<repeatMode>TargetCount</repeatMode>
 						<repeatCount>1</repeatCount>
 						<storeMode>BestStockpile</storeMode>
-						<targetCount>72</targetCount>
-						<unpauseWhenYouHave>72</unpauseWhenYouHave>
+						<targetCount>68</targetCount>
+						<unpauseWhenYouHave>68</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
 					</li>
@@ -3628,13 +3628,71 @@
 						<repeatMode>TargetCount</repeatMode>
 						<repeatCount>1</repeatCount>
 						<storeMode>BestStockpile</storeMode>
-						<targetCount>12</targetCount>
-						<unpauseWhenYouHave>12</unpauseWhenYouHave>
+						<targetCount>20</targetCount>
+						<unpauseWhenYouHave>20</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-127</loadID>
+						<recipe>Make_SmokeleafJointBulk</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>BestStockpile</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+					</li>
+					<li Class="Bill_Production">
+						<loadID>-128</loadID>
+						<recipe>Make_SmokeleafJoint</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>BestStockpile</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+					</li>
+					<li Class="Bill_Production">
+						<loadID>-129</loadID>
 						<recipe>Make_FlakeBulk</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
 						<pawnRestriction>null</pawnRestriction>

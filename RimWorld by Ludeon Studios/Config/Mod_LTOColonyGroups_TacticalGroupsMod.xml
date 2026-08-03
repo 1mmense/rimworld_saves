@@ -6,7 +6,8 @@
 		<DisplayBreakRiskOverlay>True</DisplayBreakRiskOverlay>
 		<WeaponPlacementOffset>-4</WeaponPlacementOffset>
 		<MarginTop>19.6629219</MarginTop>
-		<ColonistBarPositionX>-143.820221</ColonistBarPositionX>
+		<ColonistBarPositionX>-184.269669</ColonistBarPositionX>
+		<ColonistBarSpacingX>3.80337071</ColonistBarSpacingX>
 		<ColonyGroupScale>0.533707857</ColonyGroupScale>
 		<GroupScale>0.685393274</GroupScale>
 		<WeaponShowMode>Always</WeaponShowMode>
