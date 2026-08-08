@@ -54,6 +54,8 @@
     <li>Actions\T: Change style</li>
     <li>Actions\T: Destroy</li>
     <li>Actions\T: Set Quality...</li>
+    <li>Actions\Do incident</li>
+    <li>Actions\Do incident\MonolithMigration</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>
