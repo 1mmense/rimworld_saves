@@ -428,7 +428,7 @@ ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.legacy
 
 ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory
 
-[0.009256 seconds] MissileGirl: <color=red>IgnoreMe report</color>
+[0.013648 seconds] MissileGirl: <color=red>IgnoreMe report</color>
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Grizzly
 ROCKETRULES: IgnoreMe add def by name: Corpse_Cat_Scimitar
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Polar
@@ -651,16 +651,6 @@ MissileGirl: Position verfication started!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 
-MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up</color> Finished for new map!
-
-MissileGirl: Position verfication started!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
 MissileGirl: <color=red>Warm up</color> Finished for new map!
 
 MissileGirl: Position verfication started!
@@ -671,9 +661,7 @@ MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 
-MissileGirl: <color=red>Warm up</color> Finished for new map!
-
-MissileGirl: Position verfication started!
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 
@@ -691,13 +679,17 @@ MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 
-MissileGirl: <color=red>Warm up</color> Finished for new map!
-
-MissileGirl: Position verfication started!
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 
 MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 

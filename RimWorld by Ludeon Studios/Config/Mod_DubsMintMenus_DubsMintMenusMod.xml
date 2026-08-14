@@ -16,7 +16,7 @@
 		<listWidth>447</listWidth>
 		<ResearchListWidth>350</ResearchListWidth>
 		<AutoFocus>True</AutoFocus>
-		<BuildWheel>Mouse3</BuildWheel>
+		<BuildWheel>Mouse4</BuildWheel>
 		<pinnedArchitectTabs />
 		<ResourceReadout />
 		<WheelDefs />
@@ -1949,286 +1949,6 @@
 				</FBills>
 			</li>
 			<li>
-				<BenchTemplateName>Thing_ElectricTailoringBench48469</BenchTemplateName>
-				<BenchDef>ElectricTailoringBench</BenchDef>
-				<FBills>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-81</loadID>
-						<recipe>Make_Apparel_Pants</recipe>
-						<ingredientSearchRadius>15.9612064</ingredientSearchRadius>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Leather_Plain</li>
-								<li>Leather_Dog</li>
-								<li>Leather_Wolf</li>
-								<li>Leather_Panthera</li>
-								<li>Leather_Camel</li>
-								<li>Leather_Bluefur</li>
-								<li>Leather_Bear</li>
-								<li>Leather_GuineaPig</li>
-								<li>Leather_Human</li>
-								<li>Leather_Pig</li>
-								<li>Leather_Light</li>
-								<li>Leather_Bird</li>
-								<li>Leather_Chinchilla</li>
-								<li>Leather_Fox</li>
-								<li>Leather_Lizard</li>
-								<li>Leather_Elephant</li>
-								<li>Leather_Heavy</li>
-								<li>Leather_Rhinoceros</li>
-								<li>Leather_Thrumbo</li>
-								<li>Leather_Patch</li>
-								<li>Leather_Dread</li>
-								<li>Leather_Mastodon</li>
-								<li>Leather_Sealskin</li>
-								<li>Leather_AlphaThrumbo</li>
-								<li>Leather_Mink</li>
-								<li>Leather_Hippo</li>
-								<li>Leather_Armadillo</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>RepeatCount</repeatMode>
-						<storeMode>BestStockpile</storeMode>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-82</loadID>
-						<recipe>Make_Apparel_Pants</recipe>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Leather_Thrumbo</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>RepeatCount</repeatMode>
-						<storeMode>DropOnFloor</storeMode>
-						<playerCustomName>Сшить штаны (Т)</playerCustomName>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-83</loadID>
-						<recipe>Make_Apparel_CollarShirt</recipe>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Leather_Thrumbo</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>RepeatCount</repeatMode>
-						<storeMode>DropOnFloor</storeMode>
-						<playerCustomName>Сшить рубашку (Т)</playerCustomName>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-84</loadID>
-						<recipe>Make_Apparel_Duster</recipe>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Leather_Thrumbo</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>RepeatCount</repeatMode>
-						<storeMode>BestStockpile</storeMode>
-						<playerCustomName>Сшить плащ (Т)</playerCustomName>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-85</loadID>
-						<recipe>Make_Apparel_Pants</recipe>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Hyperweave</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>RepeatCount</repeatMode>
-						<storeMode>DropOnFloor</storeMode>
-						<playerCustomName>Сшить штаны (Г)</playerCustomName>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-86</loadID>
-						<recipe>Make_Apparel_CollarShirt</recipe>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Hyperweave</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>RepeatCount</repeatMode>
-						<storeMode>DropOnFloor</storeMode>
-						<playerCustomName>Сшить рубашку (Г)</playerCustomName>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-87</loadID>
-						<recipe>Make_Apparel_Duster</recipe>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Leather_Plain</li>
-								<li>Leather_Dog</li>
-								<li>Leather_Wolf</li>
-								<li>Leather_Panthera</li>
-								<li>Leather_Camel</li>
-								<li>Leather_Bluefur</li>
-								<li>Leather_Bear</li>
-								<li>Leather_GuineaPig</li>
-								<li>Leather_Human</li>
-								<li>Leather_Pig</li>
-								<li>Leather_Light</li>
-								<li>Leather_Bird</li>
-								<li>Leather_Chinchilla</li>
-								<li>Leather_Fox</li>
-								<li>Leather_Lizard</li>
-								<li>Leather_Elephant</li>
-								<li>Leather_Heavy</li>
-								<li>Leather_Rhinoceros</li>
-								<li>Leather_Patch</li>
-								<li>Leather_Dread</li>
-								<li>Leather_Mastodon</li>
-								<li>Leather_Sealskin</li>
-								<li>Leather_Mink</li>
-								<li>Leather_Hippo</li>
-								<li>Leather_Armadillo</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>Forever</repeatMode>
-						<repeatCount>1</repeatCount>
-						<storeMode>DropOnFloor</storeMode>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-					<li Class="Bill_ProductionWithUft">
-						<loadID>-88</loadID>
-						<recipe>Make_Apparel_CowboyHat</recipe>
-						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>null</pawnRestriction>
-						<precept>null</precept>
-						<xenogerm>null</xenogerm>
-						<ingredientFilter>
-							<disallowedSpecialFilters />
-							<allowedDefs>
-								<li>Leather_Plain</li>
-								<li>Leather_Dog</li>
-								<li>Leather_Wolf</li>
-								<li>Leather_Panthera</li>
-								<li>Leather_Camel</li>
-								<li>Leather_Bluefur</li>
-								<li>Leather_Bear</li>
-								<li>Leather_GuineaPig</li>
-								<li>Leather_Human</li>
-								<li>Leather_Pig</li>
-								<li>Leather_Light</li>
-								<li>Leather_Bird</li>
-								<li>Leather_Chinchilla</li>
-								<li>Leather_Fox</li>
-								<li>Leather_Lizard</li>
-								<li>Leather_Elephant</li>
-								<li>Leather_Heavy</li>
-								<li>Leather_Rhinoceros</li>
-								<li>Leather_Patch</li>
-								<li>Leather_Dread</li>
-								<li>Leather_Mastodon</li>
-								<li>Leather_Sealskin</li>
-								<li>Leather_Mink</li>
-								<li>Leather_Hippo</li>
-								<li>Leather_Armadillo</li>
-							</allowedDefs>
-							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
-							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
-							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
-						</ingredientFilter>
-						<repeatMode>Forever</repeatMode>
-						<repeatCount>1</repeatCount>
-						<storeMode>BestStockpile</storeMode>
-						<targetCount>10</targetCount>
-						<unpauseWhenYouHave>5</unpauseWhenYouHave>
-						<storeGroup>null</storeGroup>
-						<includeGroup>null</includeGroup>
-						<boundUft>null</boundUft>
-					</li>
-				</FBills>
-			</li>
-			<li>
 				<BenchTemplateName>Thing_TableStonecutter221487</BenchTemplateName>
 				<BenchDef>TableStonecutter</BenchDef>
 				<FBills>
@@ -3719,6 +3439,278 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+					</li>
+				</FBills>
+			</li>
+			<li>
+				<BenchTemplateName>Thing_VGE_CompactTailor6623764</BenchTemplateName>
+				<BenchDef>VGE_CompactTailor</BenchDef>
+				<FBills>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-121</loadID>
+						<recipe>Make_Apparel_Pants</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Leather_Thrumbo</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<playerCustomName>Сшить штаны (Т)</playerCustomName>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-122</loadID>
+						<recipe>Make_Apparel_CollarShirt</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Leather_Thrumbo</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<playerCustomName>Сшить рубашку (Т)</playerCustomName>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-123</loadID>
+						<recipe>Make_Apparel_Duster</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Leather_Thrumbo</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<playerCustomName>Сшить плащ (Т)</playerCustomName>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-124</loadID>
+						<recipe>Make_Apparel_Pants</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Hyperweave</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<playerCustomName>Сшить штаны (Г)</playerCustomName>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-125</loadID>
+						<recipe>Make_Apparel_CollarShirt</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Hyperweave</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<playerCustomName>Сшить рубашку (Г)</playerCustomName>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-126</loadID>
+						<recipe>Make_Apparel_Duster</recipe>
+						<ingredientSearchRadius>50.6637917</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Leather_AlphaThrumbo</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<repeatCount>20</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<playerCustomName>Сшить плащ (ГТ)</playerCustomName>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-127</loadID>
+						<recipe>Make_Apparel_Duster</recipe>
+						<ingredientSearchRadius>49.409481</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Leather_Plain</li>
+								<li>Leather_Dog</li>
+								<li>Leather_Wolf</li>
+								<li>Leather_Panthera</li>
+								<li>Leather_Camel</li>
+								<li>Leather_Bluefur</li>
+								<li>Leather_Bear</li>
+								<li>Leather_GuineaPig</li>
+								<li>Leather_Human</li>
+								<li>Leather_Pig</li>
+								<li>Leather_Light</li>
+								<li>Leather_Bird</li>
+								<li>Leather_Chinchilla</li>
+								<li>Leather_Fox</li>
+								<li>Leather_Lizard</li>
+								<li>Leather_Elephant</li>
+								<li>Leather_Heavy</li>
+								<li>Leather_Rhinoceros</li>
+								<li>Leather_Patch</li>
+								<li>Leather_Dread</li>
+								<li>Leather_Mastodon</li>
+								<li>Leather_Sealskin</li>
+								<li>Leather_Mink</li>
+								<li>Leather_Hippo</li>
+								<li>Leather_Armadillo</li>
+								<li>WoolSheep</li>
+								<li>WoolAlpaca</li>
+								<li>WoolMegasloth</li>
+								<li>WoolMuffalo</li>
+								<li>WoolBison</li>
+								<li>WoolMastodon</li>
+								<li>WoolMuskox</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-128</loadID>
+						<recipe>Make_Apparel_CowboyHat</recipe>
+						<ingredientSearchRadius>49.8275871</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs>
+								<li>Leather_Plain</li>
+								<li>Leather_Dog</li>
+								<li>Leather_Wolf</li>
+								<li>Leather_Panthera</li>
+								<li>Leather_Camel</li>
+								<li>Leather_Bluefur</li>
+								<li>Leather_Bear</li>
+								<li>Leather_GuineaPig</li>
+								<li>Leather_Human</li>
+								<li>Leather_Pig</li>
+								<li>Leather_Light</li>
+								<li>Leather_Bird</li>
+								<li>Leather_Chinchilla</li>
+								<li>Leather_Fox</li>
+								<li>Leather_Lizard</li>
+								<li>Leather_Elephant</li>
+								<li>Leather_Heavy</li>
+								<li>Leather_Rhinoceros</li>
+								<li>Leather_Patch</li>
+								<li>Leather_Dread</li>
+								<li>Leather_Mastodon</li>
+								<li>Leather_Sealskin</li>
+								<li>Leather_Mink</li>
+								<li>Leather_Hippo</li>
+								<li>Leather_Armadillo</li>
+								<li>WoolSheep</li>
+								<li>WoolAlpaca</li>
+								<li>WoolMegasloth</li>
+								<li>WoolMuffalo</li>
+								<li>WoolBison</li>
+								<li>WoolMastodon</li>
+								<li>WoolMuskox</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
 					</li>
 				</FBills>
 			</li>
