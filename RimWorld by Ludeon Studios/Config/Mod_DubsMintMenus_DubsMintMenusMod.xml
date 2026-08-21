@@ -3450,7 +3450,7 @@
 						<loadID>-121</loadID>
 						<recipe>Make_Apparel_Pants</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3475,7 +3475,7 @@
 						<loadID>-122</loadID>
 						<recipe>Make_Apparel_CollarShirt</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3500,7 +3500,7 @@
 						<loadID>-123</loadID>
 						<recipe>Make_Apparel_Duster</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3525,7 +3525,7 @@
 						<loadID>-124</loadID>
 						<recipe>Make_Apparel_Pants</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3550,7 +3550,7 @@
 						<loadID>-125</loadID>
 						<recipe>Make_Apparel_CollarShirt</recipe>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3576,7 +3576,7 @@
 						<recipe>Make_Apparel_Duster</recipe>
 						<ingredientSearchRadius>50.6637917</ingredientSearchRadius>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3603,7 +3603,7 @@
 						<recipe>Make_Apparel_Duster</recipe>
 						<ingredientSearchRadius>49.409481</ingredientSearchRadius>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3660,7 +3660,7 @@
 						<recipe>Make_Apparel_CowboyHat</recipe>
 						<ingredientSearchRadius>49.8275871</ingredientSearchRadius>
 						<allowedSkillRange>0~20</allowedSkillRange>
-						<pawnRestriction>Thing_CreepJoiner2358606</pawnRestriction>
+						<pawnRestriction>null</pawnRestriction>
 						<precept>null</precept>
 						<xenogerm>null</xenogerm>
 						<ingredientFilter>
@@ -3699,6 +3699,742 @@
 								<li>WoolMastodon</li>
 								<li>WoolMuskox</li>
 							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+				</FBills>
+			</li>
+			<li>
+				<BenchTemplateName>Thing_VGE_CompactFabBench1686418</BenchTemplateName>
+				<BenchDef>VGE_CompactFabBench</BenchDef>
+				<FBills>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-131</loadID>
+						<recipe>Make_ComponentSpacer</recipe>
+						<ingredientSearchRadius>47.7370682</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>ComponentIndustrial</li>
+								<li>Steel</li>
+								<li>Plasteel</li>
+								<li>Gold</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>30</targetCount>
+						<unpauseWhenYouHave>25</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-132</loadID>
+						<recipe>Make_ComponentIndustrial</recipe>
+						<ingredientSearchRadius>48.9913788</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>Steel</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>50</targetCount>
+						<unpauseWhenYouHave>45</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-133</loadID>
+						<recipe>Make_GravlitePanelBulk</recipe>
+						<suspended>True</suspended>
+						<ingredientSearchRadius>49.8275871</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+				</FBills>
+			</li>
+			<li>
+				<BenchTemplateName>Thing_VGE_CompactFabBench2682056</BenchTemplateName>
+				<BenchDef>VGE_CompactFabBench</BenchDef>
+				<FBills>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-141</loadID>
+						<recipe>Make_NuclearStomach</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>1</targetCount>
+						<unpauseWhenYouHave>1</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-142</loadID>
+						<recipe>Make_Apparel_ArmorRecon</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>1</targetCount>
+						<unpauseWhenYouHave>1</unpauseWhenYouHave>
+						<includeEquipped>True</includeEquipped>
+						<qualityRange>Excellent~Legendary</qualityRange>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-143</loadID>
+						<recipe>Make_BionicEye</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>2</targetCount>
+						<unpauseWhenYouHave>2</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-144</loadID>
+						<recipe>Make_VWE_Gun_ChargeMinigun</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-145</loadID>
+						<recipe>Make_CircadianAssistant</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-146</loadID>
+						<recipe>Make_Apparel_ArmorLocust</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-147</loadID>
+						<recipe>Make_Apparel_ArmorCataphract</recipe>
+						<suspended>True</suspended>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>3</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>3</targetCount>
+						<unpauseWhenYouHave>3</unpauseWhenYouHave>
+						<includeEquipped>True</includeEquipped>
+						<qualityRange>Masterwork~Legendary</qualityRange>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-148</loadID>
+						<recipe>Make_Apparel_ArmorHelmetCataphract</recipe>
+						<suspended>True</suspended>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters />
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>13</targetCount>
+						<unpauseWhenYouHave>8</unpauseWhenYouHave>
+						<includeEquipped>True</includeEquipped>
+						<qualityRange>Excellent~Legendary</qualityRange>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-149</loadID>
+						<recipe>Make_Coagulator</recipe>
+						<allowedSkillRange>15~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>1</targetCount>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1410</loadID>
+						<recipe>Make_HealingEnhancer</recipe>
+						<allowedSkillRange>15~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>1</targetCount>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1411</loadID>
+						<recipe>Make_DetoxifierLung</recipe>
+						<allowedSkillRange>15~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>2</targetCount>
+						<unpauseWhenYouHave>1</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1412</loadID>
+						<recipe>Make_BionicArm</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>2</targetCount>
+						<unpauseWhenYouHave>2</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1413</loadID>
+						<recipe>Make_BionicLeg</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>2</targetCount>
+						<unpauseWhenYouHave>2</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1414</loadID>
+						<recipe>Make_PilotAssistant</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1415</loadID>
+						<recipe>Make_ReprocessorStomach</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>RepeatCount</repeatMode>
+						<repeatCount>3</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1416</loadID>
+						<recipe>Make_GravlitePanelBulk</recipe>
+						<suspended>True</suspended>
+						<ingredientSearchRadius>49.8275871</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>Forever</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>10</targetCount>
+						<unpauseWhenYouHave>5</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1417</loadID>
+						<recipe>Make_ComponentIndustrial</recipe>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>Steel</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>50</targetCount>
+						<unpauseWhenYouHave>45</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1418</loadID>
+						<recipe>Make_ComponentSpacer</recipe>
+						<suspended>True</suspended>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4096</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>ComponentIndustrial</li>
+								<li>Steel</li>
+								<li>Plasteel</li>
+								<li>Gold</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>20</targetCount>
+						<unpauseWhenYouHave>15</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1419</loadID>
+						<recipe>Make_ComponentSpacer</recipe>
+						<ingredientSearchRadius>49.409481</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>ComponentIndustrial</li>
+								<li>Steel</li>
+								<li>Plasteel</li>
+								<li>Gold</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>20</targetCount>
+						<unpauseWhenYouHave>15</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1420</loadID>
+						<recipe>Make_ComponentIndustrial</recipe>
+						<ingredientSearchRadius>47.7370682</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>Thing_Human4350458</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs>
+								<li>Steel</li>
+							</allowedDefs>
+							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
+							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
+							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
+						</ingredientFilter>
+						<repeatMode>TargetCount</repeatMode>
+						<repeatCount>1</repeatCount>
+						<storeMode>DropOnFloor</storeMode>
+						<targetCount>50</targetCount>
+						<unpauseWhenYouHave>45</unpauseWhenYouHave>
+						<storeGroup>null</storeGroup>
+						<includeGroup>null</includeGroup>
+						<boundUft>null</boundUft>
+					</li>
+					<li Class="Bill_ProductionWithUft">
+						<loadID>-1421</loadID>
+						<recipe>Make_GravlitePanelBulk</recipe>
+						<suspended>True</suspended>
+						<ingredientSearchRadius>50.2456894</ingredientSearchRadius>
+						<allowedSkillRange>0~20</allowedSkillRange>
+						<pawnRestriction>null</pawnRestriction>
+						<precept>null</precept>
+						<xenogerm>null</xenogerm>
+						<ingredientFilter>
+							<disallowedSpecialFilters>
+								<li>AllowCorpsesColonist</li>
+								<li>AllowCorpsesStranger</li>
+								<li>AllowCorpsesSlave</li>
+								<li>AllowCorpsesMechFriendly</li>
+								<li>AllowCorpsesMechEnemy</li>
+								<li>AllowCorpsesUnnatural</li>
+							</disallowedSpecialFilters>
+							<allowedDefs />
 							<allowedHitPointsPercents>0~1</allowedHitPointsPercents>
 							<allowedMentalBreakChance>0~1</allowedMentalBreakChance>
 							<allowedQualityLevels>Awful~Legendary</allowedQualityLevels>
