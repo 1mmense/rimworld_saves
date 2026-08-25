@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PrefsData>
-  <volumeMaster>0.6007371</volumeMaster>
+  <volumeMaster>0.1093365</volumeMaster>
   <volumeGame>0.6928747</volumeGame>
   <volumeMusic>0</volumeMusic>
   <volumeAmbient>0.4963145</volumeAmbient>
@@ -46,16 +46,20 @@
   <autosavesCount>10</autosavesCount>
   <extremeDifficultyUnlocked>False</extremeDifficultyUnlocked>
   <pauseOnError>False</pauseOnError>
-  <devMode>False</devMode>
+  <devMode>True</devMode>
   <debugActionPalette>
     <li>Actions\Add Hediff...\Пыточная корона</li>
     <li>Actions\Spawn thing...</li>
-    <li>Actions\Spawn thing...\Genepack</li>
     <li>Actions\T: Change style</li>
     <li>Actions\T: Destroy</li>
     <li>Actions\T: Set Quality...</li>
     <li>Actions\Do incident</li>
     <li>Actions\Do incident\MonolithMigration</li>
+    <li>Actions\Spawn thing...\Genepack</li>
+    <li>Actions\Load blueprint (override, except colonists)</li>
+    <li>Actions\Set Faction Rect</li>
+    <li>Actions\T: Set Faction</li>
+    <li>Actions\T: Teleport</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>

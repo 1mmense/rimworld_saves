@@ -3,6 +3,7 @@
 	<ModSettings Class="ShowHair.Settings">
 		<version>1.1.0</version>
 		<OnlyApplyToColonists>True</OnlyApplyToColonists>
+		<UseDontShaveHead>False</UseDontShaveHead>
 		<hairDefNames />
 		<settingEntries>
 			<li>
