@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PrefsData>
-  <volumeMaster>0.1093365</volumeMaster>
+  <volumeMaster>0.4041769</volumeMaster>
   <volumeGame>0.6928747</volumeGame>
   <volumeMusic>0</volumeMusic>
   <volumeAmbient>0.4963145</volumeAmbient>
@@ -13,7 +13,7 @@
   <hatsOnlyOnMap>False</hatsOnlyOnMap>
   <plantWindSway>False</plantWindSway>
   <screenShakeIntensity>1</screenShakeIntensity>
-  <textureCompression>True</textureCompression>
+  <textureCompression>False</textureCompression>
   <showRealtimeClock>False</showRealtimeClock>
   <disableTinyText>False</disableTinyText>
   <animalNameMode>None</animalNameMode>
@@ -28,7 +28,7 @@
   <adaptiveTrainingEnabled>False</adaptiveTrainingEnabled>
   <steamDeckKeyboardMode>False</steamDeckKeyboardMode>
   <preferredNames />
-  <resourceReadoutCategorized>True</resourceReadoutCategorized>
+  <resourceReadoutCategorized>False</resourceReadoutCategorized>
   <runInBackground>True</runInBackground>
   <edgeScreenScroll>False</edgeScreenScroll>
   <rememberDrawStyles>True</rememberDrawStyles>
@@ -46,7 +46,7 @@
   <autosavesCount>10</autosavesCount>
   <extremeDifficultyUnlocked>False</extremeDifficultyUnlocked>
   <pauseOnError>False</pauseOnError>
-  <devMode>True</devMode>
+  <devMode>False</devMode>
   <debugActionPalette>
     <li>Actions\Add Hediff...\Пыточная корона</li>
     <li>Actions\Spawn thing...</li>
@@ -60,6 +60,17 @@
     <li>Actions\Set Faction Rect</li>
     <li>Actions\T: Set Faction</li>
     <li>Actions\T: Teleport</li>
+    <li>Actions\Do incident\CreepJoinerJoin</li>
+    <li>Actions\Set Ideo</li>
+    <li>Actions\Do incident\TraderCaravanArrival</li>
+    <li>Actions\Generate quest...\Intro_Deserter\100 points</li>
+    <li>Actions\Spawn thing...\Hive</li>
+    <li>Actions\Spawn Pawn...\Megascarab</li>
+    <li>Actions\Spawn Pawn...\Megaspider</li>
+    <li>Actions\Spawn Pawn...\Spelopede</li>
+    <li>Actions\Spawn thing...\CocoonMegascarab</li>
+    <li>Actions\Spawn thing...\CocoonMegaspider</li>
+    <li>Actions\Spawn thing...\CocoonSpelopede</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>

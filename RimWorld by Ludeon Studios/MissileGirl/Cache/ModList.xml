@@ -15,7 +15,6 @@
   <Mod packageId="robertshepard.unlimitedhugs.hugslib" />
   <Mod packageId="brrainz.achtung" />
   <Mod packageId="kipsmods.adjustableabilitycooldowns" />
-  <Mod packageId="mlie.savemaps" />
   <Mod packageId="unlimitedhugs.allowtool" />
   <Mod packageId="mlie.blockunwantedminutiae" />
   <Mod packageId="brrainz.cameraplus" />
@@ -56,6 +55,7 @@
   <Mod packageId="mastertea.randomplus" />
   <Mod packageId="memegoddess.replacestuff" />
   <Mod packageId="jaxe.rimhud" />
+  <Mod packageId="mlie.savemaps" />
   <Mod packageId="blockdude.scrollablegizmos" />
   <Mod packageId="memegoddess.searchanddestroy" />
   <Mod packageId="bp.showbuildablematerialcount" />
@@ -70,12 +70,10 @@
   <Mod packageId="vanillaexpanded.vwe" />
   <Mod packageId="sl4vp0wer.weareunited" />
   <Mod packageId="com.yayo.yayoani.continued" />
-  <Mod packageId="shunter.bettertradersguild" />
+  <Mod packageId="vr.missilegirl" />
   <Mod packageId="andromeda.nicehands" />
   <Mod packageId="dmitry6.rusperformanceoptimizer" />
   <Mod packageId="kamikadza13.rimhud" />
   <Mod packageId="ow.ru.gravship1" />
   <Mod packageId="lzws.derekbickley.ltocolonygroupsfinal" />
-  <Mod packageId="rimtranslate.shunter.bettertradersguild" />
-  <Mod packageId="vr.missilegirl" />
 </RunningMods>

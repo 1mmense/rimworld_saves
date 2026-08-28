@@ -151,7 +151,7 @@ Gagarin:[NOTANERROR] patching XmlInheritance:Void Resolve() finished!
 
 GAGARIN:[DUPLICATE]: Started!
 
-GAGARIN:[DUPLICATE] Creating duplication reports took 921 MS
+GAGARIN:[DUPLICATE] Creating duplication reports took 516 MS
 
 GAGARIN:[DUPLICATE] Finished creating reports at <color=red>C:\Users\1mmense\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\MissileGirl\Reports</color>
 
@@ -461,7 +461,7 @@ ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.legacy
 
 ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory
 
-[0.013301 seconds] MissileGirl: <color=red>IgnoreMe report</color>
+[0.00914 seconds] MissileGirl: <color=red>IgnoreMe report</color>
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Grizzly
 ROCKETRULES: IgnoreMe add def by name: Corpse_Cat_Scimitar
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Polar
@@ -676,6 +676,28 @@ GAGARIN: Lock removed!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
 MissileGirl: <color=red>Warm up</color> Finished for new map!
 
 MissileGirl: Position verfication started!
@@ -689,6 +711,78 @@ MissileGirl: <color=red>Warm up</color> started for new map!
 MissileGirl: <color=red>Warm up</color> Finished for new map!
 
 MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up</color> Finished for new map!
+
+MissileGirl: Position verfication started!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
+
+MissileGirl: <color=red>Warm up</color> started for new map!
+
+MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
 
