@@ -28,7 +28,7 @@
   <adaptiveTrainingEnabled>False</adaptiveTrainingEnabled>
   <steamDeckKeyboardMode>False</steamDeckKeyboardMode>
   <preferredNames />
-  <resourceReadoutCategorized>False</resourceReadoutCategorized>
+  <resourceReadoutCategorized>True</resourceReadoutCategorized>
   <runInBackground>True</runInBackground>
   <edgeScreenScroll>False</edgeScreenScroll>
   <rememberDrawStyles>True</rememberDrawStyles>
@@ -71,6 +71,19 @@
     <li>Actions\Spawn thing...\CocoonMegascarab</li>
     <li>Actions\Spawn thing...\CocoonMegaspider</li>
     <li>Actions\Spawn thing...\CocoonSpelopede</li>
+    <li>Actions\Spawn thing...\VWE_CombatHandgun</li>
+    <li>Actions\Spawn thing...\VWE_Gun_BattleRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_Carbine</li>
+    <li>Actions\Spawn thing...\VWE_Gun_HandCannon</li>
+    <li>Actions\Spawn thing...\VWE_Gun_HMG</li>
+    <li>Actions\Spawn thing...\VWE_Gun_LeverActionRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_LightSMG</li>
+    <li>Actions\Spawn thing...\VWE_Gun_MarksmanRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_SemiAutomaticRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_ServiceRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_SMG</li>
+    <li>Actions\Spawn thing...\VWE_SawedOffShotgun</li>
+    <li>Actions\T: Set Quality...\Normal</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>

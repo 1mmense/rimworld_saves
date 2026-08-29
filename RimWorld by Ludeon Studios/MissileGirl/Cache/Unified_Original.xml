@@ -382120,6 +382120,13 @@ Hopefully this will be usable!</content>
     <driverClass>WeAreUnited.JobDriver_AskToUnite</driverClass>
     <reportString>convincing to unite.</reportString>
   </JobDef>
+  <MainButtonDef>
+    <defName>Bodlosh_WeaponStats</defName>
+    <label>Weapons</label>
+    <description>Weapons</description>
+    <tabWindowClass>WeaponStats.MainTabWindow_WeaponStats</tabWindowClass>
+    <order>60</order>
+  </MainButtonDef>
   <KeyBindingCategoryDef>
     <defName>RocketKeyBindingCategory</defName>
     <label>MissileGirl - Performance Mod</label>

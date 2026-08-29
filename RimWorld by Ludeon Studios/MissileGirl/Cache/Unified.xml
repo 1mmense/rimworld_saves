@@ -464082,6 +464082,15 @@ Configurable in the Work tab.
       <reportString>convincing to unite.</reportString>
     </JobDef>
   </Item>
+  <Item path="I:\Games\Rimworld_1.6.4566a\Mods\WeaponStats\Defs\weaponStats.xml">
+    <MainButtonDef>
+      <defName>Bodlosh_WeaponStats</defName>
+      <label>Weapons</label>
+      <description>Weapons</description>
+      <tabWindowClass>WeaponStats.MainTabWindow_WeaponStats</tabWindowClass>
+      <order>60</order>
+    </MainButtonDef>
+  </Item>
   <Item path="I:\Games\Rimworld_1.6.4566a\Mods\MissileGirl\1.6\Defs\KeyBinding.xml">
     <KeyBindingCategoryDef>
       <defName>RocketKeyBindingCategory</defName>
