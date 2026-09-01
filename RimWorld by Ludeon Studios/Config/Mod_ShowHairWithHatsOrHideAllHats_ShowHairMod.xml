@@ -102,6 +102,18 @@
 					<li>Apparel_CultistMask</li>
 					<li>Apparel_SimpleHelmet</li>
 					<li>Apparel_AdvancedHelmet</li>
+					<li>Apparel_PowerArmorHelmet</li>
+					<li>Apparel_ArmorHelmetCataphract</li>
+					<li>Apparel_ArmorHelmetRecon</li>
+					<li>Apparel_ArmorHelmetCataphractPrestige</li>
+					<li>Apparel_ArmorMarineHelmetPrestige</li>
+					<li>Apparel_ArmorHelmetReconPrestige</li>
+					<li>VGE_Apparel_VacsuitHelmet_Prestige</li>
+					<li>Apparel_Gunlink</li>
+					<li>Apparel_ArmorHelmetMechCommander</li>
+					<li>Apparel_ArmorHelmetMechlordHelmet</li>
+					<li>Apparel_VacsuitHelmet</li>
+					<li>Apparel_KidHelmet</li>
 				</hatDefNames>
 			</li>
 		</settingEntries>
