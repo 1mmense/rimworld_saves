@@ -4,7 +4,6 @@
 		<BuildMenuPosNew>(0, 495)</BuildMenuPosNew>
 		<BuildMenuSizeNew>(1000, 550)</BuildMenuSizeNew>
 		<ShowMintBillsButton>True</ShowMintBillsButton>
-		<OrderBillsAz>True</OrderBillsAz>
 		<HideFinished>True</HideFinished>
 		<ShowBillWorkIcons>True</ShowBillWorkIcons>
 		<BoxSizeX>90</BoxSizeX>
