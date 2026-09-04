@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PrefsData>
-  <volumeMaster>0.576167</volumeMaster>
-  <volumeGame>0.6928747</volumeGame>
+  <volumeMaster>0.3857493</volumeMaster>
+  <volumeGame>0.5823095</volumeGame>
   <volumeMusic>0</volumeMusic>
   <volumeAmbient>0.4963145</volumeAmbient>
   <volumeUI>0.6990172</volumeUI>
@@ -83,7 +83,8 @@
     <li>Actions\Spawn thing...\VWE_Gun_ServiceRifle</li>
     <li>Actions\Spawn thing...\VWE_Gun_SMG</li>
     <li>Actions\Spawn thing...\VWE_SawedOffShotgun</li>
-    <li>Actions\T: Set Quality...\Normal</li>
+    <li>Actions\T: Set Stuff...</li>
+    <li>Actions\T: Set Quality...\Excellent</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>
