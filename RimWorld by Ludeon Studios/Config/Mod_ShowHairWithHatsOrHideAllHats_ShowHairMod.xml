@@ -3,6 +3,7 @@
 	<ModSettings Class="ShowHair.Settings">
 		<version>1.1.0</version>
 		<OnlyApplyToColonists>True</OnlyApplyToColonists>
+		<UseDontShaveHead>False</UseDontShaveHead>
 		<hairDefNames />
 		<settingEntries>
 			<li>
@@ -11,7 +12,7 @@
 					<li>InVacuum</li>
 				</conditionDefNames>
 				<notConditionDefNames />
-				<hatState>ShowsHair</hatState>
+				<hatState>HidesAllHair</hatState>
 				<hatDefNames>
 					<li>Apparel_CowboyHat</li>
 					<li>Apparel_BowlerHat</li>
@@ -40,36 +41,37 @@
 					<li>Apparel_GasMask</li>
 					<li>Apparel_CultistMask</li>
 					<li>Apparel_CeremonialCultistMask</li>
-					<li>Apparel_SimpleHelmet</li>
-					<li>Apparel_AdvancedHelmet</li>
-					<li>Apparel_PowerArmorHelmet</li>
-					<li>Apparel_ArmorHelmetRecon</li>
-					<li>Apparel_ArmorHelmetReconPrestige</li>
-					<li>Apparel_ArmorMarineHelmetPrestige</li>
-					<li>Apparel_ArmorHelmetCataphract</li>
-					<li>Apparel_ArmorHelmetCataphractPrestige</li>
-					<li>Apparel_Gunlink</li>
-					<li>Apparel_KidHelmet</li>
-					<li>Apparel_IntegratorHeadset</li>
-					<li>Apparel_ArmorHelmetMechCommander</li>
-					<li>Apparel_ArmorHelmetMechlordHelmet</li>
 					<li>Apparel_VacsuitHelmet</li>
+					<li>Apparel_ArmorHelmetMechlordHelmet</li>
+					<li>Apparel_ArmorHelmetMechCommander</li>
+					<li>Apparel_IntegratorHeadset</li>
+					<li>Apparel_KidHelmet</li>
+					<li>Apparel_Gunlink</li>
+					<li>Apparel_ArmorHelmetCataphractPrestige</li>
+					<li>Apparel_ArmorHelmetCataphract</li>
+					<li>Apparel_ArmorMarineHelmetPrestige</li>
+					<li>Apparel_ArmorHelmetReconPrestige</li>
+					<li>Apparel_ArmorHelmetRecon</li>
+					<li>Apparel_PowerArmorHelmet</li>
+					<li>Apparel_AdvancedHelmet</li>
+					<li>Apparel_SimpleHelmet</li>
 					<li>Apparel_HatLadies</li>
 					<li>Apparel_HatTop</li>
 					<li>Apparel_Coronet</li>
 					<li>Apparel_Crown</li>
 					<li>Apparel_CrownStellic</li>
 					<li>Apparel_Beret</li>
+					<li>VGE_Apparel_VacsuitHelmet_Prestige</li>
 				</hatDefNames>
+				<useDontShaveHead>False</useDontShaveHead>
 			</li>
 			<li>
 				<conditionDefNames />
 				<notConditionDefNames />
-				<hatState>ShowsHair</hatState>
+				<hatState>HidesAllHair</hatState>
 				<hatDefNames>
 					<li>Apparel_CowboyHat</li>
 					<li>Apparel_BowlerHat</li>
-					<li>Apparel_IntegratorHeadset</li>
 					<li>Apparel_TribalHeaddress</li>
 					<li>Apparel_HatLadies</li>
 					<li>Apparel_HatTop</li>
@@ -100,20 +102,9 @@
 					<li>Apparel_ArrayHeadset</li>
 					<li>Apparel_GasMask</li>
 					<li>Apparel_CultistMask</li>
-					<li>Apparel_SimpleHelmet</li>
-					<li>Apparel_AdvancedHelmet</li>
-					<li>Apparel_PowerArmorHelmet</li>
-					<li>Apparel_ArmorHelmetCataphract</li>
-					<li>Apparel_ArmorHelmetRecon</li>
-					<li>Apparel_ArmorHelmetCataphractPrestige</li>
-					<li>Apparel_ArmorMarineHelmetPrestige</li>
-					<li>Apparel_ArmorHelmetReconPrestige</li>
-					<li>VGE_Apparel_VacsuitHelmet_Prestige</li>
+					<li>Apparel_IntegratorHeadset</li>
+					<li>Apparel_CeremonialCultistMask</li>
 					<li>Apparel_Gunlink</li>
-					<li>Apparel_ArmorHelmetMechCommander</li>
-					<li>Apparel_ArmorHelmetMechlordHelmet</li>
-					<li>Apparel_VacsuitHelmet</li>
-					<li>Apparel_KidHelmet</li>
 				</hatDefNames>
 			</li>
 		</settingEntries>

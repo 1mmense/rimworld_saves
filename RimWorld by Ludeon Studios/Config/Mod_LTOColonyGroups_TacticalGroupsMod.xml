@@ -7,12 +7,17 @@
 		<WeaponPlacementOffset>-4</WeaponPlacementOffset>
 		<MarginTop>19.6629219</MarginTop>
 		<ColonistBarPositionX>-229.213486</ColonistBarPositionX>
-		<ColonistBarSpacingX>1</ColonistBarSpacingX>
+		<ColonistBarSpacingX>3.80337071</ColonistBarSpacingX>
 		<ColonistBarSpacingY>48.6573029</ColonistBarSpacingY>
 		<ColonyGroupScale>0.5</ColonyGroupScale>
 		<GroupScale>0.609550536</GroupScale>
 		<GroupRowCount>2</GroupRowCount>
 		<HealthBarWidth>5</HealthBarWidth>
+		<PawnBoxHeight>81.6292114</PawnBoxHeight>
+		<PawnBoxWidth>54.719101</PawnBoxWidth>
+		<PawnCameraOffsetX>-0.0112359552</PawnCameraOffsetX>
+		<PawnCameraOffsetZ>0.16853933</PawnCameraOffsetZ>
+		<PawnScale>1.14606738</PawnScale>
 		<ColorBarMode>Extended</ColorBarMode>
 		<WeaponShowMode>Always</WeaponShowMode>
 		<OverridePawnRowCount>True</OverridePawnRowCount>
