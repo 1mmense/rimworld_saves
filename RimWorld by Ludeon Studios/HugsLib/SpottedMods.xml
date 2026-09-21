@@ -86,4 +86,27 @@
   <mod packageId="vr.missilegirl" />
   <mod packageId="Mlie.SaveMaps" />
   <mod packageId="bodlosh.WeaponStats" />
+  <mod packageId="biotechpatch.1trickPwnyta" />
+  <mod packageId="ideologypatch.1trickPwnyta" />
+  <mod packageId="odysseypatch.1trickPwnyta" />
+  <mod packageId="Arylice.Rimworld.AutomaticStumpChopping" />
+  <mod packageId="lecht.AutoRepairOn" />
+  <mod packageId="ben.automaticnightowl" />
+  <mod packageId="falconne.BWM" />
+  <mod packageId="automatic.bionicicons" />
+  <mod packageId="Mlie.CutPlantsBeforeBuilding" />
+  <mod packageId="Leoltron.ExplicitTimings" />
+  <mod packageId="matvey24.FPSStabilizer" />
+  <mod packageId="kapitanoczywisty.minimallightcontrol" />
+  <mod packageId="Andromeda.NiceInventoryTab" />
+  <mod packageId="Doug.NoJobAuthors" />
+  <mod packageId="Edern.NoRandomApparelOnIdeoEdit" />
+  <mod packageId="HellRevenger.QuickArea" />
+  <mod packageId="louize.RuntimeGC.fork" />
+  <mod packageId="dhultgren.smarterconstruction" />
+  <mod packageId="sunlamphonesty.1trickPwnyta" />
+  <mod packageId="madarauchiha.undraftaftertucking" />
+  <mod packageId="FrozenSnowFox.ComplexJobs" />
+  <mod packageId="RU.pashka.FrozenSnowFox.ComplexJobs" />
+  <mod packageId="anomalypatch.1trickPwnyta" />
 </Mods>

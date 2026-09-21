@@ -50,6 +50,7 @@
 						<unpauseWhenYouHave>495</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-82</loadID>
@@ -82,6 +83,7 @@
 						<unpauseWhenYouHave>495</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-83</loadID>
@@ -107,6 +109,7 @@
 						<unpauseWhenYouHave>495</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-84</loadID>
@@ -134,6 +137,7 @@
 						<unpauseWhenYouHave>495</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -171,6 +175,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-92</loadID>
@@ -284,6 +289,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-93</loadID>
@@ -443,6 +449,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -506,6 +513,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-22</loadID>
@@ -593,6 +601,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-23</loadID>
@@ -725,6 +734,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-24</loadID>
@@ -757,6 +767,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-25</loadID>
@@ -902,6 +913,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-26</loadID>
@@ -935,6 +947,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -975,6 +988,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-32</loadID>
@@ -1007,6 +1021,7 @@
 						<unpauseWhenYouHave>105</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-33</loadID>
@@ -1039,6 +1054,7 @@
 						<unpauseWhenYouHave>145</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-34</loadID>
@@ -1073,6 +1089,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-35</loadID>
@@ -1105,6 +1122,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -1139,6 +1157,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -1161,6 +1180,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_Production">
@@ -1191,6 +1211,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-44</loadID>
@@ -1250,6 +1271,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -1311,6 +1333,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-52</loadID>
@@ -1380,6 +1403,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-53</loadID>
@@ -1512,6 +1536,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-54</loadID>
@@ -1542,6 +1567,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-55</loadID>
@@ -1687,6 +1713,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-56</loadID>
@@ -1720,6 +1747,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -1758,6 +1786,7 @@
 						<unpauseWhenYouHave>245</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-62</loadID>
@@ -1786,6 +1815,7 @@
 						<unpauseWhenYouHave>495</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-63</loadID>
@@ -1813,6 +1843,7 @@
 						<unpauseWhenYouHave>495</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-64</loadID>
@@ -1840,6 +1871,7 @@
 						<unpauseWhenYouHave>595</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-65</loadID>
@@ -1913,6 +1945,7 @@
 						<unpauseWhenYouHave>495</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-66</loadID>
@@ -1945,6 +1978,7 @@
 						<unpauseWhenYouHave>195</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -1988,6 +2022,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-92</loadID>
@@ -2021,6 +2056,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-93</loadID>
@@ -2053,6 +2089,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-94</loadID>
@@ -2085,6 +2122,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -2119,6 +2157,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2148,6 +2187,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2177,6 +2217,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2206,6 +2247,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2235,6 +2277,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2256,6 +2299,7 @@
 						<targetCount>5</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2278,6 +2322,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2307,6 +2352,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2336,6 +2382,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2365,6 +2412,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2395,6 +2443,7 @@
 						<unpauseWhenYouHave>1</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2430,6 +2479,7 @@
 						<unpauseWhenYouHave>15</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2462,6 +2512,7 @@
 						<unpauseWhenYouHave>45</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2497,6 +2548,7 @@
 						<unpauseWhenYouHave>15</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2529,6 +2581,7 @@
 						<unpauseWhenYouHave>45</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 				</FBills>
@@ -2564,6 +2617,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2594,6 +2648,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2623,6 +2678,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2652,6 +2708,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2674,6 +2731,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2703,6 +2761,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2734,6 +2793,7 @@
 						<unpauseWhenYouHave>1</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2763,6 +2823,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2792,6 +2853,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2824,6 +2886,7 @@
 						<unpauseWhenYouHave>45</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2859,6 +2922,7 @@
 						<unpauseWhenYouHave>15</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 				</FBills>
@@ -2894,6 +2958,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2924,6 +2989,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2953,6 +3019,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -2982,6 +3049,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3011,6 +3079,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3040,6 +3109,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3069,6 +3139,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3100,6 +3171,7 @@
 						<unpauseWhenYouHave>1</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3132,6 +3204,7 @@
 						<unpauseWhenYouHave>45</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3167,6 +3240,7 @@
 						<unpauseWhenYouHave>15</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 				</FBills>
@@ -3204,6 +3278,7 @@
 						<unpauseWhenYouHave>40</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-122</loadID>
@@ -3233,6 +3308,7 @@
 						<unpauseWhenYouHave>35</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-123</loadID>
@@ -3263,6 +3339,7 @@
 						<unpauseWhenYouHave>68</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-124</loadID>
@@ -3293,6 +3370,7 @@
 						<unpauseWhenYouHave>40</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-125</loadID>
@@ -3323,6 +3401,7 @@
 						<unpauseWhenYouHave>40</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-126</loadID>
@@ -3352,6 +3431,7 @@
 						<unpauseWhenYouHave>20</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-127</loadID>
@@ -3381,6 +3461,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-128</loadID>
@@ -3410,6 +3491,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-129</loadID>
@@ -3439,6 +3521,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -3469,6 +3552,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3494,6 +3578,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3519,6 +3604,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3544,6 +3630,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3569,6 +3656,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3596,6 +3684,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3653,6 +3742,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3710,6 +3800,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 				</FBills>
@@ -3752,6 +3843,7 @@
 						<unpauseWhenYouHave>25</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3785,6 +3877,7 @@
 						<unpauseWhenYouHave>45</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3817,6 +3910,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 				</FBills>
@@ -3852,6 +3946,7 @@
 						<unpauseWhenYouHave>1</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3876,6 +3971,7 @@
 						<qualityRange>Excellent~Legendary</qualityRange>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3906,6 +4002,7 @@
 						<unpauseWhenYouHave>2</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3935,6 +4032,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3964,6 +4062,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -3986,6 +4085,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4012,6 +4112,7 @@
 						<qualityRange>Masterwork~Legendary</qualityRange>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4038,6 +4139,7 @@
 						<qualityRange>Excellent~Legendary</qualityRange>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4067,6 +4169,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4096,6 +4199,7 @@
 						<targetCount>1</targetCount>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4126,6 +4230,7 @@
 						<unpauseWhenYouHave>1</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4156,6 +4261,7 @@
 						<unpauseWhenYouHave>2</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4186,6 +4292,7 @@
 						<unpauseWhenYouHave>2</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4215,6 +4322,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4245,6 +4353,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4277,6 +4386,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4309,6 +4419,7 @@
 						<unpauseWhenYouHave>45</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4345,6 +4456,7 @@
 						<unpauseWhenYouHave>15</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4381,6 +4493,7 @@
 						<unpauseWhenYouHave>15</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4414,6 +4527,7 @@
 						<unpauseWhenYouHave>45</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 					<li Class="Bill_ProductionWithUft">
@@ -4446,6 +4560,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 						<boundUft>null</boundUft>
 					</li>
 				</FBills>
@@ -4482,6 +4597,7 @@
 						<unpauseWhenYouHave>40</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-152</loadID>
@@ -4610,6 +4726,7 @@
 						<pauseWhenSatisfied>True</pauseWhenSatisfied>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-153</loadID>
@@ -4737,6 +4854,7 @@
 						<unpauseWhenYouHave>121</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-154</loadID>
@@ -4802,6 +4920,7 @@
 						<unpauseWhenYouHave>30</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-155</loadID>
@@ -4866,6 +4985,7 @@
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
 						<paused>True</paused>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-156</loadID>
@@ -5025,6 +5145,7 @@
 						<unpauseWhenYouHave>25</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-157</loadID>
@@ -5209,6 +5330,7 @@
 						<unpauseWhenYouHave>35</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-158</loadID>
@@ -5368,6 +5490,7 @@
 						<unpauseWhenYouHave>115</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-159</loadID>
@@ -5395,6 +5518,7 @@
 						<unpauseWhenYouHave>95</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-1510</loadID>
@@ -5549,6 +5673,7 @@
 						<unpauseWhenYouHave>20</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-1511</loadID>
@@ -5631,6 +5756,7 @@
 						<unpauseWhenYouHave>51</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -5694,6 +5820,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-162</loadID>
@@ -5785,6 +5912,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-163</loadID>
@@ -5917,6 +6045,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-164</loadID>
@@ -5944,6 +6073,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-165</loadID>
@@ -6092,6 +6222,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-166</loadID>
@@ -6125,6 +6256,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-167</loadID>
@@ -6216,6 +6348,7 @@
 						<unpauseWhenYouHave>5</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>
@@ -6249,6 +6382,7 @@
 						<unpauseWhenYouHave>95</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-172</loadID>
@@ -6275,6 +6409,7 @@
 						<unpauseWhenYouHave>355</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-173</loadID>
@@ -6301,6 +6436,7 @@
 						<unpauseWhenYouHave>149</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-174</loadID>
@@ -6328,6 +6464,7 @@
 						<unpauseWhenYouHave>149</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-175</loadID>
@@ -6449,6 +6586,7 @@
 						<unpauseWhenYouHave>355</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 					<li Class="Bill_Production">
 						<loadID>-176</loadID>
@@ -6476,6 +6614,7 @@
 						<unpauseWhenYouHave>355</unpauseWhenYouHave>
 						<storeGroup>null</storeGroup>
 						<includeGroup>null</includeGroup>
+						<productFilter IsNull="True" />
 					</li>
 				</FBills>
 			</li>

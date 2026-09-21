@@ -30820,7 +30820,7 @@
     <jobString>Burning apparel.</jobString>
     <workAmount>60</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <requiredGiverWorkType>Hauling</requiredGiverWorkType>
+    <requiredGiverWorkType>FSFCremating</requiredGiverWorkType>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
     <ingredients>
@@ -30863,7 +30863,7 @@
     <jobString>Burning weapon.</jobString>
     <workAmount>60</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <requiredGiverWorkType>Hauling</requiredGiverWorkType>
+    <requiredGiverWorkType>FSFCremating</requiredGiverWorkType>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
     <ingredients>
@@ -30902,7 +30902,7 @@
     <jobString>Burning drugs.</jobString>
     <workAmount>60</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <requiredGiverWorkType>Hauling</requiredGiverWorkType>
+    <requiredGiverWorkType>FSFCremating</requiredGiverWorkType>
     <effectWorking>BurnDrug</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
     <conceptLearned>DrugBurning</conceptLearned>
@@ -64923,6 +64923,7 @@ Each layer of armor is applied separately, from the outside in.</description>
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>3</heatPerSecond>
       </li>
+      <li Class="CompProperties_SunLampAutoBasin" />
     </comps>
     <specialDisplayRadius>5.8</specialDisplayRadius>
   </ThingDef>
@@ -84079,6 +84080,9 @@ Each layer of armor is applied separately, from the outside in.</description>
         <compClass>CompAttachBase</compClass>
       </li>
       <li>
+        <compClass>ImprovedWorkbenches.CompPawnOriginalMap</compClass>
+      </li>
+      <li>
         <compClass>CommonSense.CompJoyToppedOff</compClass>
       </li>
       <li Class="WeAreUnited.UniteComp_Properties" />
@@ -93948,6 +93952,27 @@ Each layer of armor is applied separately, from the outside in.</description>
         <Research>13</Research>
         <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">13</DarkStudy>
         <Diplomat>10</Diplomat>
+        <FSFNurse>7</FSFNurse>
+        <FSFSurgeon>10</FSFSurgeon>
+        <FSFRearming>3</FSFRearming>
+        <FSFTraining>7</FSFTraining>
+        <FSFButcher>7</FSFButcher>
+        <FSFRepair>10</FSFRepair>
+        <FSFDeconstruct>10</FSFDeconstruct>
+        <FSFHarvesting>7</FSFHarvesting>
+        <FSFDrilling>7</FSFDrilling>
+        <FSFDrugs>7</FSFDrugs>
+        <FSFFabrication>13</FSFFabrication>
+        <FSFMachining>13</FSFMachining>
+        <FSFProduction>3</FSFProduction>
+        <FSFRefining>7</FSFRefining>
+        <FSFSmelt>7</FSFSmelt>
+        <FSFStoneCut>7</FSFStoneCut>
+        <FSFTransport>3</FSFTransport>
+        <FSFCremating>3</FSFCremating>
+        <FSFDeliver>3</FSFDeliver>
+        <FSFHauling>3</FSFHauling>
+        <FSFScan>7</FSFScan>
       </lifeStageWorkSettings>
       <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
       <specialShadowData>
@@ -94069,7 +94094,7 @@ Each layer of armor is applied separately, from the outside in.</description>
         <feralMtbDays>10</feralMtbDays>
         <feralCascadeRadialDistance>25</feralCascadeRadialDistance>
       </li>
-      <li MayRequire="Ludeon.RimWorld.Biotech" Class="CompProperties_MechRepairable" />
+      <li MayRequire="Ludeon.RimWorld.Biotech" Class="AutoRepairOn.CompProperties_MechRepairableOn" />
     </comps>
   </ThingDef>
   <PawnKindDef Name="BaseMechanoidKind" Abstract="True">
@@ -107225,7 +107250,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <workType>Doctor</workType>
     <verb>tend to</verb>
     <gerund>tending to</gerund>
-    <priorityInType>90</priorityInType>
+    <priorityInType>495</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107236,16 +107261,16 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoctorTendToSelfEmergency</defName>
     <giverClass>WorkGiver_TendSelfEmergency</giverClass>
     <emergency>True</emergency>
-    <priorityInType>95</priorityInType>
+    <priorityInType>500</priorityInType>
   </WorkGiverDef>
   <WorkGiverDef>
     <defName>DoctorFeedHumanlikes</defName>
     <label>feed patients</label>
     <giverClass>WorkGiver_FeedPatient</giverClass>
-    <workType>Doctor</workType>
+    <workType>FSFNurse</workType>
     <verb>feed</verb>
     <gerund>feeding</gerund>
-    <priorityInType>80</priorityInType>
+    <priorityInType>97</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107257,8 +107282,8 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsMedicalHumanOperation</defName>
     <label>operate on humanlikes</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Doctor</workType>
-    <priorityInType>70</priorityInType>
+    <workType>FSFSurgeon</workType>
+    <priorityInType>95</priorityInType>
     <billGiversAllHumanlikes>true</billGiversAllHumanlikes>
     <billGiversAllHumanlikesCorpses>true</billGiversAllHumanlikesCorpses>
     <verb>operate on</verb>
@@ -107272,10 +107297,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoctorRescue</defName>
     <label>rescue downed allies to bed</label>
     <giverClass>WorkGiver_RescueDowned</giverClass>
-    <workType>Doctor</workType>
+    <workType>FSFNurse</workType>
     <verb>rescue</verb>
     <gerund>rescuing</gerund>
-    <priorityInType>60</priorityInType>
+    <priorityInType>500</priorityInType>
     <directOrderable>true</directOrderable>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -107291,7 +107316,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
-    <priorityInType>50</priorityInType>
+    <priorityInType>99</priorityInType>
     <prioritizeSustains>true</prioritizeSustains>
     <canBeDoneByMechs>false</canBeDoneByMechs>
   </WorkGiverDef>
@@ -107299,10 +107324,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoctorFeedAnimals</defName>
     <label>feed animals</label>
     <giverClass>WorkGiver_FeedPatient</giverClass>
-    <workType>Doctor</workType>
+    <workType>FSFNurse</workType>
     <verb>feed</verb>
     <gerund>feeding</gerund>
-    <priorityInType>40</priorityInType>
+    <priorityInType>55</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107315,8 +107340,8 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsMedicalAnimalOperation</defName>
     <label>operate on animals</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Doctor</workType>
-    <priorityInType>30</priorityInType>
+    <workType>FSFSurgeon</workType>
+    <priorityInType>90</priorityInType>
     <billGiversAllAnimals>true</billGiversAllAnimals>
     <billGiversAllAnimalsCorpses>true</billGiversAllAnimalsCorpses>
     <verb>operate on</verb>
@@ -107330,8 +107355,8 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>TakeToBedToOperate</defName>
     <label>take patients to bed for operations</label>
     <giverClass>WorkGiver_TakeToBedToOperate</giverClass>
-    <workType>Doctor</workType>
-    <priorityInType>20</priorityInType>
+    <workType>FSFSurgeon</workType>
+    <priorityInType>100</priorityInType>
     <verb>take to operate</verb>
     <gerund>taking to operate</gerund>
     <requiredCapacities>
@@ -107342,7 +107367,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>VisitSickPawn</defName>
     <label>visit sick people</label>
     <giverClass>WorkGiver_VisitSickPawn</giverClass>
-    <workType>Doctor</workType>
+    <workType>FSFNurse</workType>
     <priorityInType>10</priorityInType>
     <verb>visit</verb>
     <gerund>visiting</gerund>
@@ -107403,10 +107428,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>ExtractSkull</defName>
     <label>extract skull</label>
     <giverClass>WorkGiver_ExtractSkull</giverClass>
-    <workType>BasicWorker</workType>
+    <workType>FSFCremating</workType>
     <verb>extract</verb>
     <gerund>extracting skull of</gerund>
-    <priorityInType>20</priorityInType>
+    <priorityInType>99</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107465,10 +107490,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>FeedPrisoner</defName>
     <label>feed prisoners</label>
     <giverClass>WorkGiver_Warden_Feed</giverClass>
-    <workType>Warden</workType>
+    <workType>FSFNurse</workType>
     <verb>feed</verb>
     <gerund>feeding</gerund>
-    <priorityInType>80</priorityInType>
+    <priorityInType>77</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107477,10 +107502,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DeliverFoodToPrisoner</defName>
     <label>deliver food to prisoners</label>
     <giverClass>WorkGiver_Warden_DeliverFood</giverClass>
-    <workType>Warden</workType>
+    <workType>FSFNurse</workType>
     <verb>deliver food for</verb>
     <gerund>delivering food for</gerund>
-    <priorityInType>70</priorityInType>
+    <priorityInType>76</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107515,7 +107540,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <workType>Handling</workType>
     <verb>rope</verb>
     <gerund>roping</gerund>
-    <priorityInType>130</priorityInType>
+    <priorityInType>155</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107528,7 +107553,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <workType>Handling</workType>
     <verb>slaughter</verb>
     <gerund>slaughtering</gerund>
-    <priorityInType>100</priorityInType>
+    <priorityInType>200</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107540,7 +107565,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <workType>Handling</workType>
     <verb>release</verb>
     <gerund>releasing</gerund>
-    <priorityInType>100</priorityInType>
+    <priorityInType>195</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -107573,7 +107598,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>Tame</defName>
     <label>tame animals</label>
     <giverClass>WorkGiver_Tame</giverClass>
-    <workType>Handling</workType>
+    <workType>FSFTraining</workType>
     <verb>tame</verb>
     <gerund>taming</gerund>
     <priorityInType>80</priorityInType>
@@ -107587,7 +107612,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>Train</defName>
     <label>train animals</label>
     <giverClass>WorkGiver_Train</giverClass>
-    <workType>Handling</workType>
+    <workType>FSFTraining</workType>
     <verb>train</verb>
     <gerund>training</gerund>
     <priorityInType>70</priorityInType>
@@ -107601,7 +107626,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>RebalanceAnimalsInPens</defName>
     <giverClass>WorkGiver_RebalanceAnimalsInPens</giverClass>
     <label>rebalance penned animals</label>
-    <priorityInType>60</priorityInType>
+    <priorityInType>95</priorityInType>
   </WorkGiverDef>
   <WorkGiverDef>
     <defName>DoBillsCook</defName>
@@ -107640,7 +107665,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsButcherFlesh</defName>
     <label>butcher creatures</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Cooking</workType>
+    <workType>FSFButcher</workType>
     <priorityInType>90</priorityInType>
     <fixedBillGiverDefs>
       <li>TableButcher</li>
@@ -107658,7 +107683,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <label>fill food hoppers</label>
     <giverClass>WorkGiver_CookFillHopper</giverClass>
     <workType>Hauling</workType>
-    <priorityInType>50</priorityInType>
+    <priorityInType>475</priorityInType>
     <verb>fill</verb>
     <gerund>filling</gerund>
     <requiredCapacities>
@@ -107669,8 +107694,8 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsBrew</defName>
     <label>brew liquors</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Cooking</workType>
-    <priorityInType>30</priorityInType>
+    <workType>FSFProduction</workType>
+    <priorityInType>144</priorityInType>
     <fixedBillGiverDefs>
       <li>Brewery</li>
     </fixedBillGiverDefs>
@@ -107699,7 +107724,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>FixBrokenDownBuilding</defName>
     <label>fix broken-down buildings</label>
     <giverClass>WorkGiver_FixBrokenDownBuilding</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFRepair</workType>
     <priorityInType>120</priorityInType>
     <verb>replace broken components in</verb>
     <gerund>replacing broken components in</gerund>
@@ -107712,7 +107737,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>Uninstall</defName>
     <label>uninstall structures</label>
     <giverClass>WorkGiver_Uninstall</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFDeconstruct</workType>
     <priorityInType>110</priorityInType>
     <verb>uninstall</verb>
     <gerund>uninstalling</gerund>
@@ -107751,7 +107776,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>RemoveRoofs</defName>
     <label>remove roofs</label>
     <giverClass>WorkGiver_RemoveRoof</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFDeconstruct</workType>
     <priorityInType>90</priorityInType>
     <verb>remove roof</verb>
     <gerund>removing roof</gerund>
@@ -107765,7 +107790,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DeconstructForBlueprint</defName>
     <label>deconstruct structures for blueprints</label>
     <giverClass>WorkGiver_DeconstructForBlueprint</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFDeconstruct</workType>
     <priorityInType>85</priorityInType>
     <verb>deconstruct</verb>
     <gerund>deconstructing</gerund>
@@ -107823,7 +107848,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <label>replant tree</label>
     <giverClass>WorkGiver_Replant</giverClass>
     <workType>Growing</workType>
-    <priorityInType>60</priorityInType>
+    <priorityInType>85</priorityInType>
     <verb>replant</verb>
     <gerund>replanting</gerund>
     <requiredCapacities>
@@ -107836,8 +107861,8 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>FillIn</defName>
     <label>fill in</label>
     <giverClass>WorkGiver_FillIn</giverClass>
-    <workType>Construction</workType>
-    <priorityInType>51</priorityInType>
+    <workType>FSFDeconstruct</workType>
+    <priorityInType>3000</priorityInType>
     <verb>fill</verb>
     <gerund>filling in</gerund>
     <requiredCapacities>
@@ -107848,7 +107873,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>Deconstruct</defName>
     <label>deconstruct structures</label>
     <giverClass>WorkGiver_Deconstruct</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFDeconstruct</workType>
     <priorityInType>50</priorityInType>
     <verb>deconstruct</verb>
     <gerund>deconstructing</gerund>
@@ -107860,7 +107885,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>Repair</defName>
     <label>repair damaged things</label>
     <giverClass>WorkGiver_Repair</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFRepair</workType>
     <priorityInType>40</priorityInType>
     <verb>repair</verb>
     <gerund>repairing</gerund>
@@ -107930,7 +107955,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>ConstructRemoveFloors</defName>
     <label>remove floors</label>
     <giverClass>WorkGiver_ConstructRemoveFloor</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFDeconstruct</workType>
     <priorityInType>30</priorityInType>
     <verb>remove floor</verb>
     <gerund>removing floor</gerund>
@@ -107944,7 +107969,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>ConstructRemoveFoundations</defName>
     <label>remove foundation</label>
     <giverClass>WorkGiver_ConstructRemoveFoundation</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFDeconstruct</workType>
     <priorityInType>30</priorityInType>
     <verb>remove foundation</verb>
     <gerund>removing foundation</gerund>
@@ -107959,7 +107984,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <label>smooth floors</label>
     <giverClass>WorkGiver_ConstructSmoothFloor</giverClass>
     <workType>Construction</workType>
-    <priorityInType>20</priorityInType>
+    <priorityInType>10</priorityInType>
     <verb>smooth</verb>
     <gerund>smoothing</gerund>
     <scanThings>false</scanThings>
@@ -107974,7 +107999,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <label>smooth walls</label>
     <giverClass>WorkGiver_ConstructSmoothWall</giverClass>
     <workType>Construction</workType>
-    <priorityInType>10</priorityInType>
+    <priorityInType>20</priorityInType>
     <verb>smooth</verb>
     <gerund>smoothing</gerund>
     <scanThings>false</scanThings>
@@ -107988,7 +108013,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>GrowerHarvest</defName>
     <label>harvest crops</label>
     <giverClass>WorkGiver_GrowerHarvest</giverClass>
-    <workType>Growing</workType>
+    <workType>FSFHarvesting</workType>
     <priorityInType>100</priorityInType>
     <verb>harvest</verb>
     <gerund>harvesting</gerund>
@@ -108029,7 +108054,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>Drill</defName>
     <label>drill at deep drill</label>
     <giverClass>WorkGiver_DeepDrill</giverClass>
-    <workType>Mining</workType>
+    <workType>FSFDrilling</workType>
     <priorityInType>50</priorityInType>
     <verb>drill</verb>
     <gerund>drilling</gerund>
@@ -108070,7 +108095,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsMachiningTable</defName>
     <label>make things at machining table</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Smithing</workType>
+    <workType>FSFMachining</workType>
     <priorityInType>75</priorityInType>
     <fixedBillGiverDefs>
       <li>TableMachining</li>
@@ -108086,7 +108111,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsFabricationBench</defName>
     <label>fabricate things</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Smithing</workType>
+    <workType>FSFFabrication</workType>
     <priorityInType>50</priorityInType>
     <fixedBillGiverDefs>
       <li>FabricationBench</li>
@@ -108120,7 +108145,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <label>make things at art bench</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Art</workType>
-    <priorityInType>100</priorityInType>
+    <priorityInType>20</priorityInType>
     <fixedBillGiverDefs>
       <li>TableSculpting</li>
     </fixedBillGiverDefs>
@@ -108151,7 +108176,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsRefinery</defName>
     <label>work at refinery</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>FSFRefining</workType>
     <priorityInType>97</priorityInType>
     <fixedBillGiverDefs>
       <li>BiofuelRefinery</li>
@@ -108167,7 +108192,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsProduceDrugs</defName>
     <label>synthesize drugs</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>FSFDrugs</workType>
     <workTags>
       <li>Intellectual</li>
     </workTags>
@@ -108186,7 +108211,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsStonecut</defName>
     <label>make stone blocks</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>FSFStoneCut</workType>
     <priorityInType>90</priorityInType>
     <fixedBillGiverDefs>
       <li>TableStonecutter</li>
@@ -108202,7 +108227,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsSmelter</defName>
     <label>smelt items</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>FSFSmelt</workType>
     <priorityInType>80</priorityInType>
     <fixedBillGiverDefs>
       <li>ElectricSmelter</li>
@@ -108218,7 +108243,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>RearmTurrets</defName>
     <label>rearm turrets</label>
     <giverClass>WorkGiver_Refuel_Turret</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFRearming</workType>
     <verb>rearm</verb>
     <gerund>rearming</gerund>
     <priorityInType>150</priorityInType>
@@ -108235,7 +108260,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <workType>Hauling</workType>
     <verb>refuel</verb>
     <gerund>refueling</gerund>
-    <priorityInType>140</priorityInType>
+    <priorityInType>480</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -108245,7 +108270,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>UnloadCarriers</defName>
     <label>unload carriers</label>
     <giverClass>WorkGiver_UnloadCarriers</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFTransport</workType>
     <verb>unload</verb>
     <gerund>unloading</gerund>
     <priorityInType>130</priorityInType>
@@ -108258,7 +108283,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>HelpGatheringItemsForCaravan</defName>
     <label>load caravan</label>
     <giverClass>WorkGiver_HelpGatheringItemsForCaravan</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFTransport</workType>
     <verb>load</verb>
     <gerund>loading</gerund>
     <priorityInType>120</priorityInType>
@@ -108270,7 +108295,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>LoadTransporters</defName>
     <label>load transporters</label>
     <giverClass>WorkGiver_LoadTransporters</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFTransport</workType>
     <verb>load</verb>
     <gerund>loading</gerund>
     <priorityInType>110</priorityInType>
@@ -108282,7 +108307,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>HaulToPortal</defName>
     <label>haul to map</label>
     <giverClass>WorkGiver_HaulToPortal</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFHauling</workType>
     <verb>load</verb>
     <gerund>loading</gerund>
     <priorityInType>105</priorityInType>
@@ -108294,7 +108319,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>Strip</defName>
     <label>strip corpses</label>
     <giverClass>WorkGiver_Strip</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFCremating</workType>
     <verb>strip</verb>
     <gerund>stripping</gerund>
     <priorityInType>100</priorityInType>
@@ -108307,7 +108332,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>HaulCorpses</defName>
     <label>haul corpses</label>
     <giverClass>WorkGiver_HaulCorpses</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFHauling</workType>
     <verb>haul</verb>
     <gerund>hauling</gerund>
     <priorityInType>90</priorityInType>
@@ -108319,7 +108344,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsCremate</defName>
     <label>do cremation bills</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFCremating</workType>
     <priorityInType>40</priorityInType>
     <fixedBillGiverDefs>
       <li>ElectricCrematorium</li>
@@ -108335,7 +108360,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DoBillsHaulCampfire</defName>
     <label>do bills at campfire</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFCremating</workType>
     <priorityInType>30</priorityInType>
     <fixedBillGiverDefs>
       <li>Campfire</li>
@@ -108351,10 +108376,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>TakeBeerOutOfFermentingBarrel</defName>
     <label>take beer out of fermenting barrels</label>
     <giverClass>WorkGiver_TakeBeerOutOfFermentingBarrel</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFProduction</workType>
     <verb>take beer</verb>
     <gerund>taking beer from</gerund>
-    <priorityInType>20</priorityInType>
+    <priorityInType>145</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -108364,10 +108389,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>FillFermentingBarrel</defName>
     <label>fill fermenting barrels</label>
     <giverClass>WorkGiver_FillFermentingBarrel</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFProduction</workType>
     <verb>fill</verb>
     <gerund>filling</gerund>
-    <priorityInType>19</priorityInType>
+    <priorityInType>143</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -108377,7 +108402,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>HaulGeneral</defName>
     <label>haul general things</label>
     <giverClass>WorkGiver_HaulGeneral</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFHauling</workType>
     <verb>haul</verb>
     <gerund>hauling</gerund>
     <priorityInType>15</priorityInType>
@@ -108389,7 +108414,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DeliverResourcesToFrames</defName>
     <label>deliver resources to frames</label>
     <giverClass>WorkGiver_ConstructDeliverResourcesToFrames</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFDeliver</workType>
     <priorityInType>10</priorityInType>
     <verb>deliver to</verb>
     <gerund>delivering to</gerund>
@@ -108404,7 +108429,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>DeliverResourcesToBlueprints</defName>
     <label>deliver resources to blueprints</label>
     <giverClass>WorkGiver_ConstructDeliverResourcesToBlueprints</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFDeliver</workType>
     <priorityInType>9</priorityInType>
     <verb>deliver to</verb>
     <gerund>delivering to</gerund>
@@ -108419,7 +108444,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>HaulMerge</defName>
     <label>merge things</label>
     <giverClass>WorkGiver_Merge</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFHauling</workType>
     <verb>merge</verb>
     <gerund>merging</gerund>
     <priorityInType>5</priorityInType>
@@ -108431,10 +108456,10 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>EmptyEggBox</defName>
     <label>empty egg box</label>
     <giverClass>WorkGiver_EmptyEggBox</giverClass>
-    <workType>Hauling</workType>
+    <workType>Handling</workType>
     <verb>empty</verb>
     <gerund>emptying</gerund>
-    <priorityInType>20</priorityInType>
+    <priorityInType>80</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -108482,7 +108507,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>LongRangeScan</defName>
     <label>operate long range scanner</label>
     <giverClass>WorkGiver_OperateScanner</giverClass>
-    <workType>Research</workType>
+    <workType>FSFScan</workType>
     <priorityInType>50</priorityInType>
     <verb>scan at</verb>
     <gerund>scanning at</gerund>
@@ -108496,8 +108521,8 @@ Each layer of armor is applied separately, from the outside in.</description>
     <defName>GroundPenetratingScan</defName>
     <label>operate ground penetrating scanner</label>
     <giverClass>WorkGiver_OperateScanner</giverClass>
-    <workType>Research</workType>
-    <priorityInType>50</priorityInType>
+    <workType>FSFScan</workType>
+    <priorityInType>55</priorityInType>
     <verb>scan at</verb>
     <gerund>scanning at</gerund>
     <scannerDef>GroundPenetratingScanner</scannerDef>
@@ -108525,7 +108550,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <workType>Research</workType>
     <verb>study</verb>
     <gerund>studying</gerund>
-    <priorityInType>110</priorityInType>
+    <priorityInType>160</priorityInType>
     <canBeDoneByMechs>false</canBeDoneByMechs>
   </WorkGiverDef>
   <WorkGiverDef>
@@ -108533,7 +108558,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <label>hack buildings</label>
     <giverClass>WorkGiver_Hack</giverClass>
     <workType>Research</workType>
-    <priorityInType>130</priorityInType>
+    <priorityInType>1000</priorityInType>
     <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
     <verb>hack</verb>
     <gerund>hacking</gerund>
@@ -108572,7 +108597,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>doctor</labelShort>
     <pawnLabel>Doctor</pawnLabel>
     <gerundLabel>doctoring</gerundLabel>
-    <description>Treat the sick, bring them food, cheer them up, and perform assigned surgeries. Doctors will care for both colonists and prisoners.</description>
+    <description>Treat the sick. Doctors will care for colonists, prisoners and animals.</description>
     <verb>Care for</verb>
     <naturalPriority>1300</naturalPriority>
     <relevantSkills>
@@ -108613,7 +108638,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>warden</labelShort>
     <pawnLabel>Warden</pawnLabel>
     <gerundLabel>wardening</gerundLabel>
-    <description>Manage, feed, chat with, and recruit prisoners.</description>
+    <description>Manage, chat with, and recruit prisoners.</description>
     <verb>Handle</verb>
     <naturalPriority>1100</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
@@ -108631,7 +108656,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>handle</labelShort>
     <pawnLabel>Handler</pawnLabel>
     <gerundLabel>handling</gerundLabel>
-    <description>Tame, train, harvest resources from and slaughter animals.</description>
+    <description>Harvest resources from and slaughter animals.</description>
     <verb>Handle</verb>
     <naturalPriority>1050</naturalPriority>
     <relevantSkills>
@@ -108648,7 +108673,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>cook</labelShort>
     <pawnLabel>Cook</pawnLabel>
     <gerundLabel>cooking</gerundLabel>
-    <description>Prepare meals and butcher meat.</description>
+    <description>Prepare meals.</description>
     <verb>Cook</verb>
     <naturalPriority>1000</naturalPriority>
     <relevantSkills>
@@ -108687,7 +108712,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>construct</labelShort>
     <pawnLabel>Constructor</pawnLabel>
     <gerundLabel>constructing</gerundLabel>
-    <description>Build things that you've designated, and fix damaged or broken-down buildings.</description>
+    <description>Build things that you've designated.</description>
     <verb>Construct</verb>
     <naturalPriority>900</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
@@ -108706,7 +108731,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>grow</labelShort>
     <pawnLabel>Grower</pawnLabel>
     <gerundLabel>growing</gerundLabel>
-    <description>Plant seeds, harvest crops, and forage for wild plants.</description>
+    <description>Prepare soil for growing and plant seeds.</description>
     <verb>Grow</verb>
     <naturalPriority>700</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
@@ -108725,7 +108750,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>mine</labelShort>
     <pawnLabel>Miner</pawnLabel>
     <gerundLabel>mining</gerundLabel>
-    <description>Digging and drilling.</description>
+    <description>Digging.</description>
     <verb>Mine</verb>
     <naturalPriority>600</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
@@ -108746,7 +108771,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <gerundLabel>plant cutting</gerundLabel>
     <description>Cut or harvest plants as designated.</description>
     <verb>Cut</verb>
-    <naturalPriority>500</naturalPriority>
+    <naturalPriority>710</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
     <relevantSkills>
       <li>Plants</li>
@@ -108763,9 +108788,9 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>smith</labelShort>
     <pawnLabel>Smith</pawnLabel>
     <gerundLabel>smithing</gerundLabel>
-    <description>Create weapons and tools from raw materials, either as a blacksmith or by machining. Also repair mechanoids, if the colonist is a mechanitor.</description>
+    <description>Create weapons and tools from raw materials as a blacksmith.</description>
     <verb>Smith at</verb>
-    <naturalPriority>470</naturalPriority>
+    <naturalPriority>475</naturalPriority>
     <relevantSkills>
       <li>Crafting</li>
     </relevantSkills>
@@ -108783,7 +108808,7 @@ Each layer of armor is applied separately, from the outside in.</description>
     <gerundLabel>tailoring</gerundLabel>
     <description>Create apparel from raw materials.</description>
     <verb>Tailor at</verb>
-    <naturalPriority>450</naturalPriority>
+    <naturalPriority>480</naturalPriority>
     <relevantSkills>
       <li>Crafting</li>
     </relevantSkills>
@@ -108817,9 +108842,9 @@ Each layer of armor is applied separately, from the outside in.</description>
     <labelShort>craft</labelShort>
     <pawnLabel>Crafter</pawnLabel>
     <gerundLabel>crafting</gerundLabel>
-    <description>Do general low-skilled labor at work stations. This includes stonecutting, smelting, and more.</description>
+    <description>Do general crafting work at crafting work stations.</description>
     <verb>Craft at</verb>
-    <naturalPriority>400</naturalPriority>
+    <naturalPriority>485</naturalPriority>
     <relevantSkills>
       <li>Crafting</li>
     </relevantSkills>
@@ -108833,12 +108858,12 @@ Each layer of armor is applied separately, from the outside in.</description>
   </WorkTypeDef>
   <WorkTypeDef>
     <defName>Hauling</defName>
-    <labelShort>haul</labelShort>
-    <pawnLabel>Hauler</pawnLabel>
-    <gerundLabel>hauling</gerundLabel>
-    <description>Carry things to where they need to be.</description>
-    <verb>Haul</verb>
-    <naturalPriority>300</naturalPriority>
+    <labelShort>Maintenance</labelShort>
+    <pawnLabel>Maintenance Worker</pawnLabel>
+    <gerundLabel>Maintaining</gerundLabel>
+    <description>Perform various tasks to ensure upkeep and maintenance of systems, such as refueling, delivering and overall system care.</description>
+    <verb>Maintain</verb>
+    <naturalPriority>315</naturalPriority>
     <alwaysStartActive>true</alwaysStartActive>
     <requireCapableColonist>true</requireCapableColonist>
     <workTags>
@@ -203443,7 +203468,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Warden</workType>
     <verb>enslave</verb>
     <gerund>enslaving</gerund>
-    <priorityInType>95</priorityInType>
+    <priorityInType>73</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -203455,7 +203480,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Warden</workType>
     <verb>imprison</verb>
     <gerund>imprisoning</gerund>
-    <priorityInType>75</priorityInType>
+    <priorityInType>77</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -203467,7 +203492,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Warden</workType>
     <verb>suppress</verb>
     <gerund>suppressing</gerund>
-    <priorityInType>65</priorityInType>
+    <priorityInType>76</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -203513,7 +203538,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>fill</verb>
     <gerund>filling</gerund>
-    <priorityInType>109</priorityInType>
+    <priorityInType>460</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -232820,6 +232845,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
       <bulletStaggerEffecterDef>TunnelerSlowedDown</bulletStaggerEffecterDef>
       <mechEnabledWorkTypes>
         <li>Mining</li>
+        <li>FSFDrilling</li>
       </mechEnabledWorkTypes>
       <detritusLeavings>
         <li>
@@ -233019,6 +233045,12 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <race>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
+        <li>FSFRearming</li>
+        <li>HaulingUrgent</li>
+        <li>FSFHauling</li>
+        <li>FSFCremating</li>
+        <li>FSFTransport</li>
+        <li>FSFProduction</li>
       </mechEnabledWorkTypes>
       <lifeStageAges>
         <li>
@@ -233073,6 +233105,8 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <race>
       <mechEnabledWorkTypes>
         <li>Construction</li>
+        <li>FSFDeconstruct</li>
+        <li>FSFRepair</li>
       </mechEnabledWorkTypes>
       <lifeStageAges>
         <li>
@@ -233143,6 +233177,14 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
         <li>Tailoring</li>
         <li>Cooking</li>
         <li>Research</li>
+        <li>FSFStoneCut</li>
+        <li>FSFSmelt</li>
+        <li>FSFRefining</li>
+        <li>FSFFabrication</li>
+        <li>FSFMachining</li>
+        <li>FSFDrugs</li>
+        <li>FSFScan</li>
+        <li>FSFButcher</li>
       </mechEnabledWorkTypes>
       <lifeStageAges>
         <li>
@@ -233213,6 +233255,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
       <mechEnabledWorkTypes>
         <li>PlantCutting</li>
         <li>Growing</li>
+        <li>FSFHarvesting</li>
       </mechEnabledWorkTypes>
       <mechWorkTypePriorities>
         <PlantCutting>2</PlantCutting>
@@ -233402,6 +233445,8 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
       <mechEnabledWorkTypes>
         <li>Doctor</li>
         <li>Firefighter</li>
+        <li>FSFSurgeon</li>
+        <li>FSFNurse</li>
       </mechEnabledWorkTypes>
       <lifeStageAges>
         <li>
@@ -234690,6 +234735,9 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
         <baseMoodEffect>-20</baseMoodEffect>
       </li>
     </stages>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
   </ThoughtDef>
   <ThoughtDef>
     <defName>PregnancyEnded</defName>
@@ -234703,6 +234751,9 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
         <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
+    <nullifyingHediffs>
+      <li>Inhumanized</li>
+    </nullifyingHediffs>
   </ThoughtDef>
   <ThoughtDef>
     <defName>Stillbirth</defName>
@@ -235737,10 +235788,10 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <defName>DeliverHemogenToPrisoner</defName>
     <label>deliver hemogen to prisoners</label>
     <giverClass>WorkGiver_Warden_DeliverHemogen</giverClass>
-    <workType>Warden</workType>
+    <workType>FSFNurse</workType>
     <verb>deliver hemogen for</verb>
     <gerund>delivering hemogen for</gerund>
-    <priorityInType>72</priorityInType>
+    <priorityInType>75</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235749,10 +235800,10 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <defName>FeedHemogen</defName>
     <label>administer hemogen</label>
     <giverClass>Workgiver_AdministerHemogen</giverClass>
-    <workType>Doctor</workType>
+    <workType>FSFNurse</workType>
     <verb>administer hemogen to</verb>
     <gerund>administering hemogen to</gerund>
-    <priorityInType>65</priorityInType>
+    <priorityInType>96</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235777,7 +235828,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Research</workType>
     <verb>create xenogerm</verb>
     <gerund>creating xenogerm at</gerund>
-    <priorityInType>120</priorityInType>
+    <priorityInType>200</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235825,7 +235876,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>grow</verb>
     <gerund>growing</gerund>
-    <priorityInType>90</priorityInType>
+    <priorityInType>465</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235838,7 +235889,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Childcare</workType>
     <verb>rescue</verb>
     <gerund>rescuing</gerund>
-    <priorityInType>200</priorityInType>
+    <priorityInType>500</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235851,7 +235902,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Childcare</workType>
     <verb>breastfeed</verb>
     <gerund>breastfeeding</gerund>
-    <priorityInType>80</priorityInType>
+    <priorityInType>499</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235864,7 +235915,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Childcare</workType>
     <verb>play with</verb>
     <gerund>playing with</gerund>
-    <priorityInType>80</priorityInType>
+    <priorityInType>485</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235876,7 +235927,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Childcare</workType>
     <verb>feed</verb>
     <gerund>feeding</gerund>
-    <priorityInType>80</priorityInType>
+    <priorityInType>498</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235889,7 +235940,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Childcare</workType>
     <verb>get mother to breastfeed</verb>
     <gerund>getting mother to breastfeed</gerund>
-    <priorityInType>80</priorityInType>
+    <priorityInType>497</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235902,7 +235953,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Childcare</workType>
     <verb>teach</verb>
     <gerund>teaching</gerund>
-    <priorityInType>9999</priorityInType>
+    <priorityInType>450</priorityInType>
     <requiredCapacities>
       <li>Talking</li>
     </requiredCapacities>
@@ -235914,7 +235965,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>fill</verb>
     <gerund>filling</gerund>
-    <priorityInType>109</priorityInType>
+    <priorityInType>470</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235926,7 +235977,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Smithing</workType>
     <verb>repair</verb>
     <gerund>repairing</gerund>
-    <priorityInType>200</priorityInType>
+    <priorityInType>210</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235938,7 +235989,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <label>make things at mech gestator</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Smithing</workType>
-    <priorityInType>210</priorityInType>
+    <priorityInType>220</priorityInType>
     <fixedBillGiverDefs>
       <li>MechGestator</li>
       <li>LargeMechGestator</li>
@@ -235955,7 +236006,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <label>make things at subcore encoder</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Smithing</workType>
-    <priorityInType>220</priorityInType>
+    <priorityInType>200</priorityInType>
     <fixedBillGiverDefs>
       <li>SubcoreEncoder</li>
     </fixedBillGiverDefs>
@@ -235974,7 +236025,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>extract from</verb>
     <gerund>extracting from</gerund>
-    <priorityInType>110</priorityInType>
+    <priorityInType>455</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -235986,7 +236037,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>haul</verb>
     <gerund>hauling</gerund>
-    <priorityInType>90</priorityInType>
+    <priorityInType>450</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -236051,6 +236102,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
+    <priorityInType>9</priorityInType>
   </WorkGiverDef>
   <WorkTypeDef>
     <defName>Childcare</defName>
@@ -264932,7 +264984,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
-    <workerClass>IncidentWorker_GiveQuest</workerClass>
+    <workerClass>AnomalyPatch.QuestIncidentMapFix.IncidentWorker_GiveQuest_Map</workerClass>
     <questScriptDef>UnnaturalDarkness</questScriptDef>
     <minRefireDays>75</minRefireDays>
     <baseChance>1</baseChance>
@@ -265442,7 +265494,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
   </IncidentDef>
   <IncidentDef ParentName="DevourerAssault">
     <defName>DevourerWaterAssault</defName>
-    <workerClass>IncidentWorker_DevourerWaterAssault</workerClass>
+    <workerClass>IncidentWorker_DevourerWaterAssaultFix</workerClass>
     <baseChance>1</baseChance>
     <minThreatPoints>500</minThreatPoints>
   </IncidentDef>
@@ -276732,7 +276784,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <defName>DoBillsSerumCentrifuge</defName>
     <label>make things at serum lab</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>FSFDrugs</workType>
     <priorityInType>75</priorityInType>
     <fixedBillGiverDefs>
       <li>SerumCentrifuge</li>
@@ -276751,7 +276803,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>capture</verb>
     <gerund>capturing</gerund>
-    <priorityInType>300</priorityInType>
+    <priorityInType>9994</priorityInType>
   </WorkGiverDef>
   <WorkGiverDef>
     <defName>ReleaseEntity</defName>
@@ -276760,7 +276812,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Warden</workType>
     <verb>release</verb>
     <gerund>releasing</gerund>
-    <priorityInType>65</priorityInType>
+    <priorityInType>106</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -276772,7 +276824,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>transfer</verb>
     <gerund>transferring</gerund>
-    <priorityInType>64</priorityInType>
+    <priorityInType>9993</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -276784,7 +276836,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Warden</workType>
     <verb>suppress</verb>
     <gerund>suppressing</gerund>
-    <priorityInType>95</priorityInType>
+    <priorityInType>9992</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -276796,7 +276848,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Warden</workType>
     <verb>execute</verb>
     <gerund>executing</gerund>
-    <priorityInType>115</priorityInType>
+    <priorityInType>9995</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -276808,7 +276860,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Warden</workType>
     <verb>interrogate</verb>
     <gerund>interrogating</gerund>
-    <priorityInType>120</priorityInType>
+    <priorityInType>9991</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -276817,10 +276869,10 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <defName>TakeBioferriteOutOfHarvester</defName>
     <label>take bioferrite out of bioferrite harvester</label>
     <giverClass>WorkGiver_TakeBioferriteOutOfHarvester</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFProduction</workType>
     <verb>take bioferrite</verb>
     <gerund>taking bioferrite from</gerund>
-    <priorityInType>20</priorityInType>
+    <priorityInType>195</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -276892,8 +276944,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <title>unknown</title>
     <titleShort>unknown</titleShort>
     <description>[PAWN_nameDef]'s origins are unknown.</description>
-    <bodyTypeGlobal>Male</bodyTypeGlobal>
-    <bodyTypeFemale>Male</bodyTypeFemale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
     <bodyTypeMale>Male</bodyTypeMale>
     <shuffleable>false</shuffleable>
   </BackstoryDef>
@@ -323432,7 +323483,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <gerundLabel>fishing</gerundLabel>
     <description>Catch fish in fishing zones.</description>
     <verb>Fishing at</verb>
-    <naturalPriority>350</naturalPriority>
+    <naturalPriority>949</naturalPriority>
     <disabledForSlaves>false</disabledForSlaves>
     <relevantSkills>
       <li>Animals</li>
@@ -326205,7 +326256,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Research</workType>
     <verb>study</verb>
     <gerund>studying</gerund>
-    <priorityInType>101</priorityInType>
+    <priorityInType>160</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -326215,7 +326266,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <defName>VEF_RefuelSecondary</defName>
     <label>refuel ammunition</label>
     <giverClass>VEF.Buildings.WorkGiver_RefuelSecondary</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFRearming</workType>
     <priorityInType>70</priorityInType>
     <verb>refuel</verb>
     <gerund>refueling</gerund>
@@ -326231,7 +326282,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>drain out of storage</verb>
     <gerund>draining out of storage</gerund>
-    <priorityInType>100</priorityInType>
+    <priorityInType>495</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -326243,7 +326294,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <workType>Hauling</workType>
     <verb>fill storage</verb>
     <gerund>filling storage</gerund>
-    <priorityInType>99</priorityInType>
+    <priorityInType>495</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -326252,7 +326303,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <defName>PS_PickUpProcessor</defName>
     <label>pick up result from processor</label>
     <giverClass>PipeSystem.WorkGiver_PickUpProcessor</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFProduction</workType>
     <verb>pick up result from</verb>
     <gerund>picking up result from</gerund>
     <priorityInType>98</priorityInType>
@@ -326264,7 +326315,7 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <defName>PS_BringToProcessor</defName>
     <label>bring ingredient to processor</label>
     <giverClass>PipeSystem.WorkGiver_BringToProcessor</giverClass>
-    <workType>Hauling</workType>
+    <workType>FSFProduction</workType>
     <verb>bring ingredients to</verb>
     <gerund>bringing ingredients to</gerund>
     <priorityInType>97</priorityInType>
@@ -326463,6 +326514,834 @@ In order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_name
     <label>restart game</label>
     <defaultKeyCodeA />
   </KeyBindingDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeHarbinger_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeHarbinger_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeHarbinger_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeHarbinger/HarbingerTree_1</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreePolux_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreePolux_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreePolux_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreePolux/PoluxTreeA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeGrayPine_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeGrayPine_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeGrayPine_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeGrayPine/TreeGrayPineA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_Witchwood_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_Witchwood_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_Witchwood_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/Witchwood/WitchwoodA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_RatPalm_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_RatPalm_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_RatPalm_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/RatPalm/RatPalmB</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeGauranlen_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeGauranlen_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeGauranlen_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/GauranlenTree/GauranlenTreeB</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_Timbershroom_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_Timbershroom_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_Timbershroom_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/Timbershroom/TimbershroomB</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeAnima_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeAnima_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeAnima_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeAnima/TreeAnimaB</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeOak_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeOak_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeOak_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeOak_Leafless/TreeOak_LeaflessA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreePoplar_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreePoplar_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreePoplar_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreePoplar_Leafless/TreePoplar_LeaflessA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeCypress_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeCypress_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeCypress_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeCypress_Leafless/TreeCypress_LeaflessA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeMaple_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeMaple_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeMaple_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeMaple_Leafless/TreeMaple_LeaflessA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeWillow_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeWillow_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeWillow_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeWillow_Leafless/TreeWillow_LeaflessB</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeBamboo_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeBamboo_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeBamboo_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeBamboo_Leafless/TreeBamboo_Leafless</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeCecropia_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeCecropia_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeCecropia_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeCecropia_Leafless/TreeCecropiaA_Leafless</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreePalm_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreePalm_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreePalm_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreePalm/TreePalmA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeTeak_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeTeak_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeTeak_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeTeak/TreeTeakA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeDrago_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeDrago_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeDrago_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeDrago/TreeDragoA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_SaguaroCactus_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_SaguaroCactus_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_SaguaroCactus_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/SaguaroCactus_Leafless/SaguaroCactus_Leafless</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeBirch_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeBirch_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeBirch_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeBirch_Leafless/TreeBirchA_Leafless</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreePine_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreePine_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreePine_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreePine/TreePineA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_TreeCocoa_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_TreeCocoa_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_TreeCocoa_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/TreeCocoa/TreeCocoaA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
+  <EffecterDef>
+    <defName>ARYASC_BurnedTree_EffectFall</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <fleckDef>ARYASC_BurnedTree_Fleck</fleckDef>
+        <burstCount>1</burstCount>
+        <spawnLocType>OnSource</spawnLocType>
+        <scale>1</scale>
+        <rotation>0</rotation>
+        <rotationRate>90</rotationRate>
+        <absoluteAngle>True</absoluteAngle>
+        <positionOffset>(0, 0, .75)</positionOffset>
+        <positionRadiusMin>.0</positionRadiusMin>
+        <positionRadius>.0</positionRadius>
+        <angle>130</angle>
+        <fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+        <speed>1.5</speed>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>ARYASC_BurnedTree_Fleck</defName>
+    <graphicData>
+      <texPath>Things/Plant/BurnedTree/BurnedTreeA</texPath>
+      <shaderType>Mote</shaderType>
+      <graphicClass>Graphic_FleckPulse</graphicClass>
+      <renderInstanced>true</renderInstanced>
+      <color>(1, 1, 1, 1)</color>
+      <drawSize>(2, 2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>1</fadeOutTime>
+  </FleckDef>
   <ShowHair.HatConditionFlagDef>
     <defName>None</defName>
   </ShowHair.HatConditionFlagDef>
@@ -327331,7 +328210,7 @@ Configurable in the Work tab.
     <gerundLabel>Hauling urgently</gerundLabel>
     <description>High-priority hauling. Works like the regular kind, but only for things that are manually designated. Use &lt;b&gt;Architect &gt; Orders &gt; Haul Urgently&lt;/b&gt; to designate things to haul.\nAdded by the Allow Tool mod. Can be disabled in Options &gt; Mod Settings.</description>
     <verb>Haul urgently</verb>
-    <naturalPriority>1180</naturalPriority>
+    <naturalPriority>1170</naturalPriority>
     <alwaysStartActive>true</alwaysStartActive>
     <workTags>
       <li>ManualDumb</li>
@@ -327355,6 +328234,1026 @@ Configurable in the Work tab.
       <li>Violent</li>
     </workTags>
   </WorkTypeDef>
+  <BionicIconsTextureDef>
+    <defName>fsfAdvBionic2</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(144,98,179)</onlyForColor>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>fsfArchotech</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(82,190,128)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AA_MutantArmImplant</defName>
+    <texture>Things/Item/Resource/AA_MutantArmImplant</texture>
+    <replacement>BionicIcons/Boxes/AnimalMutated</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AA_MutantEyeImplant</defName>
+    <texture>Things/Item/Resource/AA_MutantEyeImplant</texture>
+    <replacement>BionicIcons/Boxes/AnimalMutated</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AA_MutantLegImplant</defName>
+    <texture>Things/Item/Resource/AA_MutantLegImplant</texture>
+    <replacement>BionicIcons/Boxes/AnimalMutated</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>AAFloat</defName>
+    <bodyParts>
+      <li>AA_HydrogenSac</li>
+      <li>AA_BoatHydrogenSac</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Float</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AAShell</defName>
+    <bodyParts>
+      <li>AA_FirstWormSegment</li>
+      <li>AA_SecondWormSegment</li>
+      <li>AA_ThirdWormSegment</li>
+      <li>AA_FourthWormSegment</li>
+      <li>AA_Carapace</li>
+      <li>AA_ConicalShell</li>
+      <li>AA_NautilusShell</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Shell</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AAWing</defName>
+    <bodyParts>
+      <li>AA_InsectWing</li>
+      <li>AA_ReptileWing</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Wing</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AAClaw</defName>
+    <bodyParts>
+      <li>AA_LeftPincer</li>
+      <li>AA_RightPincer</li>
+      <li>AA_LeftCreatureBlade</li>
+      <li>AA_RightCreatureBlade</li>
+      <li>AA_FrontClaw</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Claw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AANucleus</defName>
+    <bodyParts>
+      <li>AA_Nucleus</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Molecule</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AAJaw</defName>
+    <bodyParts>
+      <li>AA_InsectMouth</li>
+      <li>AA_CrocodileJaw</li>
+      <li>AA_SentientPlantMouth</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Jaw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AAEye</defName>
+    <bodyParts>
+      <li>AA_SnailEyeStalk</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Eye</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AALeg</defName>
+    <bodyParts>
+      <li>AA_SmallInsectLeg</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AATail</defName>
+    <bodyParts>
+      <li>AA_InsectTail</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Tail</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AATentacle</defName>
+    <bodyParts>
+      <li>AA_JellyfishTentacle</li>
+      <li>AA_ManTrapTentacle</li>
+      <li>AA_SquidTentacle</li>
+      <li>AA_NautilusTentacles</li>
+      <li>AA_JellyfishTentacles</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Tentacle</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AAWave</defName>
+    <bodyParts>
+      <li>AA_PlantVibrationSensor</li>
+      <li>AA_VibrationReceptor</li>
+      <li>AA_EcholocationOrgan</li>
+    </bodyParts>
+    <texture>BionicIcons/BodyParts/Wave</texture>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganblack</defName>
+    <texture>Things/Item/Organblack</texture>
+    <replacement>BionicIcons/Boxes/AndroidProsthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganwhite</defName>
+    <texture>Things/Item/Organwhite</texture>
+    <replacement>BionicIcons/Boxes/AndroidBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersArtificialBrain</defName>
+    <texture>Things/Misc/ATPP_ArtificialBrain</texture>
+    <replacement>BionicIcons/Boxes/AndroidBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrgangold</defName>
+    <texture>Things/Item/Organgold</texture>
+    <replacement>BionicIcons/Boxes/AndroidArchotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganorange</defName>
+    <texture>Things/Item/Organorange</texture>
+    <replacement>BionicIcons/Boxes/AndroidProstheticAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>AndroidTiersOrganPurple</defName>
+    <texture>Things/Item/OrganPurple</texture>
+    <replacement>BionicIcons/Boxes/AndroidChip</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>SmellSensor</defName>
+    <bodyPart>SmellSensor</bodyPart>
+    <texture>BionicIcons/BodyParts/Nose</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>MLeftKidney</defName>
+    <bodyPart>MLeftKidney</bodyPart>
+    <texture>BionicIcons/BodyParts/Battery</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>MRightKidney</defName>
+    <bodyPart>MRightKidney</bodyPart>
+    <texture>BionicIcons/BodyParts/Storage</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>MLiver</defName>
+    <bodyPart>MLiver</bodyPart>
+    <texture>BionicIcons/BodyParts/Transformer</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>MRightLung</defName>
+    <bodyPart>MRightLung</bodyPart>
+    <texture>BionicIcons/BodyParts/Heatsink</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>MHeart</defName>
+    <bodyPart>MHeart</bodyPart>
+    <texture>BionicIcons/BodyParts/Snowflake</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>CyberneticAnimalJaw</defName>
+    <bodyPart>CyberneticAnimalJaw</bodyPart>
+    <texture>BionicIcons/BodyParts/Jaw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RightMechanicalLeg</defName>
+    <bodyPart>RightMechanicalLeg</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>LeftMechanicalLeg</defName>
+    <bodyPart>LeftMechanicalLeg</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>FrontRightMechanicalLeg</defName>
+    <bodyPart>FrontRightMechanicalLeg</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>FrontLeftMechanicalLeg</defName>
+    <bodyPart>FrontLeftMechanicalLeg</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RearRightMechanicalLeg</defName>
+    <bodyPart>RearRightMechanicalLeg</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RearLeftMechanicalLeg</defName>
+    <bodyPart>RearLeftMechanicalLeg</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RightMechanicalShoulderMining</defName>
+    <bodyPart>RightMechanicalShoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/Drill</texture>
+    <nameContains>Mining</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RightMechanicalShoulderDrill</defName>
+    <bodyPart>RightMechanicalShoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/Drill</texture>
+    <nameContains>Drill</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RightMechanicalShoulderHydraulic</defName>
+    <bodyPart>RightMechanicalShoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/PowerArm</texture>
+    <nameContains>Hydraulic</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RightMechanicalShoulder</defName>
+    <bodyPart>RightMechanicalShoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/Shoulder</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>LeftMechanicalShoulder</defName>
+    <bodyPart>LeftMechanicalShoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/Shoulder</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>LeftHearingSensor</defName>
+    <bodyPart>LeftHearingSensor</bodyPart>
+    <texture>BionicIcons/BodyParts/Ear</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RightHearingSensor</defName>
+    <bodyPart>RightHearingSensor</bodyPart>
+    <texture>BionicIcons/BodyParts/Ear</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>MStomach</defName>
+    <bodyPart>MStomach</bodyPart>
+    <texture>BionicIcons/BodyParts/Power</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>LeftSightSensor</defName>
+    <bodyPart>LeftSightSensor</bodyPart>
+    <texture>BionicIcons/BodyParts/Eye</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RightSightSensor</defName>
+    <bodyPart>RightSightSensor</bodyPart>
+    <texture>BionicIcons/BodyParts/Eye</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Framework</defName>
+    <bodyPart>Framework</bodyPart>
+    <texture>BionicIcons/BodyParts/Torso</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>CounterWeightTail</defName>
+    <bodyPart>CounterWeightTail</bodyPart>
+    <texture>BionicIcons/BodyParts/Tail</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>ArtificialBrain</defName>
+    <bodyPart>ArtificialBrain</bodyPart>
+    <texture>BionicIcons/BodyParts/Microchip</texture>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>animalBionic</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_bionic</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animalOrgan</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_organ</texture>
+    <replacement>BionicIcons/Boxes/Animal</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>animalProsthetic</defName>
+    <texture>Things/Item/BodyPart/AnimalBodyPart_prosthetic</texture>
+    <replacement>BionicIcons/Boxes/AnimalProsthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>archotechExpandedArchotech</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(70,200,150)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>bionic</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(189,169,118)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>archotech</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(155,165,148)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>prosthetic</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(154,124,104)</onlyForColor>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>natural</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>Nose</defName>
+    <bodyPart>Nose</bodyPart>
+    <texture>BionicIcons/BodyParts/Nose</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Kidney</defName>
+    <bodyPart>Kidney</bodyPart>
+    <texture>BionicIcons/BodyParts/Kidney</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Liver</defName>
+    <bodyPart>Liver</bodyPart>
+    <texture>BionicIcons/BodyParts/Liver</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Lung</defName>
+    <bodyPart>Lung</bodyPart>
+    <texture>BionicIcons/BodyParts/Lung</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>heart</defName>
+    <bodyPart>Heart</bodyPart>
+    <texture>BionicIcons/BodyParts/Heart</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Foot</defName>
+    <bodyPart>Foot</bodyPart>
+    <texture>BionicIcons/BodyParts/Foot</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Jaw</defName>
+    <bodyPart>Jaw</bodyPart>
+    <texture>BionicIcons/BodyParts/Jaw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Clavicle</defName>
+    <bodyPart>Clavicle</bodyPart>
+    <texture>BionicIcons/BodyParts/Clavicle</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AnimalLeg</defName>
+    <bodyPart>Leg</bodyPart>
+    <texture>BionicIcons/BodyParts/AnimalLeg</texture>
+    <nameContains>Animal</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Leg</defName>
+    <bodyPart>Leg</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>PowerArm</defName>
+    <bodyPart>Shoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/PowerArm</texture>
+    <nameContains>Power</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Shoulder</defName>
+    <bodyPart>Shoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/Shoulder</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>ArmDrill</defName>
+    <bodyPart>Arm</bodyPart>
+    <texture>BionicIcons/BodyParts/Drill</texture>
+    <nameContains>Drill</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>ShoulderDrill</defName>
+    <bodyPart>Shoulder</bodyPart>
+    <texture>BionicIcons/BodyParts/Drill</texture>
+    <nameContains>Drill</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Arm</defName>
+    <bodyPart>Arm</bodyPart>
+    <texture>BionicIcons/BodyParts/Shoulder</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Ear</defName>
+    <bodyPart>Ear</bodyPart>
+    <texture>BionicIcons/BodyParts/Ear</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Spine</defName>
+    <bodyPart>Spine</bodyPart>
+    <texture>BionicIcons/BodyParts/Spine</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Stomach</defName>
+    <bodyPart>Stomach</bodyPart>
+    <texture>BionicIcons/BodyParts/Stomach</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>PowerClaw</defName>
+    <bodyPart>Hand</bodyPart>
+    <texture>BionicIcons/BodyParts/Claw</texture>
+    <nameContains>Claw</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Hand</defName>
+    <bodyPart>Hand</bodyPart>
+    <texture>BionicIcons/BodyParts/Hand</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Eye</defName>
+    <bodyPart>Eye</bodyPart>
+    <texture>BionicIcons/BodyParts/Eye</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Torso</defName>
+    <bodyPart>Torso</bodyPart>
+    <texture>BionicIcons/BodyParts/Torso</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Pelvis</defName>
+    <bodyPart>Pelvis</bodyPart>
+    <texture>BionicIcons/BodyParts/Pelvis</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Tail</defName>
+    <bodyPart>Tail</bodyPart>
+    <texture>BionicIcons/BodyParts/Tail</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Painstopper</defName>
+    <bodyPart>Brain</bodyPart>
+    <texture>BionicIcons/BodyParts/Painstopper</texture>
+    <nameContains>Painstopper</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Joywire</defName>
+    <bodyPart>Brain</bodyPart>
+    <texture>BionicIcons/BodyParts/Joywire</texture>
+    <nameContains>Joywire</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>BrainSoft</defName>
+    <bodyPart>Brain</bodyPart>
+    <texture>BionicIcons/BodyParts/Brain</texture>
+    <nameContains>Brain</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>BrainPsychic</defName>
+    <bodyPart>Brain</bodyPart>
+    <texture>BionicIcons/BodyParts/Psychic</texture>
+    <nameContains>Psychic</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>BrainMicrochip</defName>
+    <bodyPart>Brain</bodyPart>
+    <texture>BionicIcons/BodyParts/Microchip</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>AnimalJaw</defName>
+    <bodyPart>AnimalJaw</bodyPart>
+    <texture>BionicIcons/BodyParts/Jaw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Beak</defName>
+    <bodyPart>Beak</bodyPart>
+    <texture>BionicIcons/BodyParts/Jaw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>TurtleBeak</defName>
+    <bodyPart>TurtleBeak</bodyPart>
+    <texture>BionicIcons/BodyParts/Jaw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>InsectMouth</defName>
+    <bodyPart>InsectMouth</bodyPart>
+    <texture>BionicIcons/BodyParts/Jaw</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Tibia</defName>
+    <bodyPart>Tibia</bodyPart>
+    <texture>BionicIcons/BodyParts/Tibia</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Sternum</defName>
+    <bodyPart>Sternum</bodyPart>
+    <texture>BionicIcons/BodyParts/Sternum</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Skull</defName>
+    <bodyPart>Skull</bodyPart>
+    <texture>BionicIcons/BodyParts/Skull</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Waist</defName>
+    <bodyPart>Waist</bodyPart>
+    <texture>BionicIcons/BodyParts/Waist</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>ReproductiveOrgans</defName>
+    <bodyPart>ReproductiveOrgans</bodyPart>
+    <texture>BionicIcons/BodyParts/ReproductiveOrgans</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>VenomTalon</defName>
+    <bodyPart>MiddleFingers</bodyPart>
+    <texture>BionicIcons/BodyParts/Claw</texture>
+    <nameContains>Venom</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>VenomFangs</defName>
+    <bodyPart>Teeth</bodyPart>
+    <texture>BionicIcons/BodyParts/Fangs</texture>
+    <nameContains>Fangs</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Femur</defName>
+    <bodyPart>Femur</bodyPart>
+    <texture>BionicIcons/BodyParts/Femur</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Humerus</defName>
+    <bodyPart>Humerus</bodyPart>
+    <texture>BionicIcons/BodyParts/Humerus</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>WingGeneric</defName>
+    <bodyPart>Back</bodyPart>
+    <texture>BionicIcons/BodyParts/Wing</texture>
+    <nameContains>Wing</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Back</defName>
+    <bodyPart>Back</bodyPart>
+    <texture>BionicIcons/BodyParts/Torso</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Tongue</defName>
+    <bodyPart>Tongue</bodyPart>
+    <texture>BionicIcons/BodyParts/Tongue</texture>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>connBionic</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(189,169,118)</onlyForColor>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+    <onlyForMod>kikohi.cybernetic</onlyForMod>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>connProsthetic</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <onlyForColor>(154,124,104)</onlyForColor>
+    <replacement>BionicIcons/Boxes/ProstheticAdvanced</replacement>
+    <onlyForMod>kikohi.cybernetic</onlyForMod>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimArchoProt</defName>
+    <texture>CF/AnimArchoProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalArchotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimBionicOrg</defName>
+    <texture>CF/AnimBionicOrg</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimBionicProt</defName>
+    <texture>CF/AnimBionicProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalBionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimSimpleProt</defName>
+    <texture>CF/AnimSimpleProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalProsthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>CyberFaunaAnimWarProt</defName>
+    <texture>CF/AnimWarProt</texture>
+    <replacement>BionicIcons/Boxes/AnimalBattle</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>CFBattleAniHead</defName>
+    <bodyPart>Head</bodyPart>
+    <texture>BionicIcons/BodyParts/Gear</texture>
+    <nameContains>CFBattleAni</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>CFBattleAniNeck</defName>
+    <bodyPart>Neck</bodyPart>
+    <texture>BionicIcons/BodyParts/Gear</texture>
+    <nameContains>CFBattleAni</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>CFBattleAniBody</defName>
+    <bodyPart>Body</bodyPart>
+    <texture>BionicIcons/BodyParts/Gear</texture>
+    <nameContains>CFBattleAni</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>EccentricTech_Cosmetic</defName>
+    <texture>Things/Eccentric/CosmeticItem</texture>
+    <replacement>BionicIcons/Boxes/Cosmetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>EccentricTech_EarRight</defName>
+    <bodyPart>RightCrown</bodyPart>
+    <texture>BionicIcons/BodyParts/AnimalEar</texture>
+    <nameContains>EccentricEar</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EccentricTech_EarLeft</defName>
+    <bodyPart>LeftCrown</bodyPart>
+    <texture>BionicIcons/BodyParts/AnimalEar</texture>
+    <nameContains>EccentricEar</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EccentricTech_Horn</defName>
+    <bodyPart>FrontCrown</bodyPart>
+    <texture>BionicIcons/BodyParts/Horns</texture>
+    <nameContains>EccentricHorn</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EccentricTech_HornRight</defName>
+    <bodyPart>RightCrown</bodyPart>
+    <texture>BionicIcons/BodyParts/Horns</texture>
+    <nameContains>EccentricHorn</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EccentricTech_HornLeft</defName>
+    <bodyPart>LeftCrown</bodyPart>
+    <texture>BionicIcons/BodyParts/Horns</texture>
+    <nameContains>EccentricHorn</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EccentricTech_Tail</defName>
+    <bodyPart>CosmeticTail</bodyPart>
+    <texture>BionicIcons/BodyParts/Tail</texture>
+    <nameContains>EccentricTail</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>epoeBionicPart</defName>
+    <texture>Things/Item/BodyPart/BionicPart</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeAdvancedPart</defName>
+    <texture>Things/Item/BodyPart/AdvancedPart</texture>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeGlitterworldPart</defName>
+    <texture>Things/Item/BodyPart/GlitterworldPart</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSimplePart</defName>
+    <texture>Things/Item/BodyPart/SimplePart</texture>
+    <replacement>BionicIcons/Boxes/ProstheticAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeBasicProsthesis</defName>
+    <texture>Things/Item/BodyPart/BasicProsthesis</texture>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSurrogatePart</defName>
+    <texture>Things/Item/BodyPart/SurrogatePart</texture>
+    <replacement>BionicIcons/Boxes/Surrogate</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeSyntheticPart</defName>
+    <texture>Things/Item/BodyPart/SyntheticPart</texture>
+    <replacement>BionicIcons/Boxes/Synthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeArchotechPart</defName>
+    <texture>Things/Item/BodyPart/ArchotechPart</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>epoeNaturalPart</defName>
+    <texture>Things/Item/BodyPart/NaturalPart</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>RibPainkiller</defName>
+    <bodyPart>Ribcage</bodyPart>
+    <texture>BionicIcons/BodyParts/Painstopper</texture>
+    <nameContains>Painkiller</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RibAdrenaline</defName>
+    <bodyPart>Ribcage</bodyPart>
+    <texture>BionicIcons/BodyParts/RibAdrenaline</texture>
+    <nameContains>Adrenaline</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RibMedical</defName>
+    <bodyPart>Ribcage</bodyPart>
+    <texture>BionicIcons/BodyParts/RibMedical</texture>
+    <nameContains>Medical</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>RibDrugged</defName>
+    <bodyPart>Ribcage</bodyPart>
+    <texture>BionicIcons/BodyParts/RibDrugged</texture>
+    <nameContains>Drugged</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Ribcage</defName>
+    <bodyPart>Ribcage</bodyPart>
+    <texture>BionicIcons/BodyParts/Ribcage</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>ScytherBlade</defName>
+    <thingDef>ScytherBlade</thingDef>
+    <texture>BionicIcons/Items/ScytherBlade</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EpoeSkin</defName>
+    <bodyPart>Torso</bodyPart>
+    <texture>BionicIcons/BodyParts/Skin</texture>
+    <nameContains>Skin</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EpoeRib</defName>
+    <bodyPart>Rib1</bodyPart>
+    <texture>BionicIcons/BodyParts/Ribcage</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EpoeFinger</defName>
+    <bodyPart>Finger</bodyPart>
+    <texture>BionicIcons/BodyParts/Finger</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EpoeToe</defName>
+    <bodyPart>Toe</bodyPart>
+    <texture>BionicIcons/BodyParts/Toe</texture>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>EpoeRadius</defName>
+    <bodyPart>Radius</bodyPart>
+    <texture>BionicIcons/BodyParts/Tibia</texture>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>EvolvedOrgans</defName>
+    <texture>Things/Item/Resource/EvoOrgBox</texture>
+    <replacement>BionicIcons/Boxes/Evolved</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>EvolvedOrgansRedux</defName>
+    <texture>Things/Item/Health/EVOR_Texture_OrganBox</texture>
+    <replacement>BionicIcons/Boxes/Evolved</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>Abd_Hormone</defName>
+    <bodyPart>BodyCavityA</bodyPart>
+    <texture>BionicIcons/BodyParts/Molecule</texture>
+    <nameContains>Abd_Hormone</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Back_Hand</defName>
+    <bodyPart>Back</bodyPart>
+    <texture>BionicIcons/BodyParts/Tentacle</texture>
+    <nameContains>Back_Hand</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Abd_Combat</defName>
+    <bodyPart>BodyCavityA</bodyPart>
+    <texture>BionicIcons/BodyParts/Drop</texture>
+    <nameContains>Abd_Combat</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Abd_SecondHeart</defName>
+    <bodyPart>BodyCavity2</bodyPart>
+    <texture>BionicIcons/BodyParts/SecondaryHeart</texture>
+    <nameContains>Abd_SecondHeart</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Abd_ThirdLung</defName>
+    <bodyPart>BodyCavity1</bodyPart>
+    <texture>BionicIcons/BodyParts/Lung</texture>
+    <nameContains>Abd_ThirdLung</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Abd_Lymph</defName>
+    <bodyPart>BodyCavityA</bodyPart>
+    <texture>BionicIcons/BodyParts/LymphaticProliferator</texture>
+    <nameContains>Abd_Lymph</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>Abd_NoAge</defName>
+    <bodyPart>BodyCavityA</bodyPart>
+    <texture>BionicIcons/BodyParts/ImmortalOrgan</texture>
+    <nameContains>Abd_NoAge</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>BoneSaber</defName>
+    <bodyPart>Leg</bodyPart>
+    <texture>BionicIcons/BodyParts/Blade</texture>
+    <nameContains>BoneSaber</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>geneticRimAnimalGeneticHybridOrgan</defName>
+    <texture>Things/Item/GR_AnimalGeneticHybridOrgan</texture>
+    <replacement>BionicIcons/Boxes/GeneticOrganAnimal</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>geneticRimHumanGeneticHybridOrgan</defName>
+    <texture>Things/Item/GR_HumanGeneticHybridOrgan</texture>
+    <replacement>BionicIcons/Boxes/GeneticOrganHuman</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>geneticRimSkin</defName>
+    <bodyPart>Sternum</bodyPart>
+    <texture>BionicIcons/BodyParts/Skin</texture>
+    <nameContains>GR_</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>geneticRimLeg</defName>
+    <bodyPart>Tibia</bodyPart>
+    <texture>BionicIcons/BodyParts/Leg</texture>
+    <nameContains>GR_</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>glitterTechCyberneticOrgan</defName>
+    <texture>Things/Item/BodyPart/CyberneticOrgan</texture>
+    <replacement>BionicIcons/Boxes/Cyber</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>MedievalBasicProsthesis</defName>
+    <texture>Things/Item/BodyPart/BasicProsthesis</texture>
+    <replacement>BionicIcons/Boxes/MedievalBasic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>MedievalMechanicalProsthesis</defName>
+    <texture>Things/Item/BodyPart/MechanicalProsthesis</texture>
+    <replacement>BionicIcons/Boxes/MedievalBasic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>MedievalAmbroisenProsthesis</defName>
+    <texture>Things/Item/BodyPart/AmbroisenProsthesis</texture>
+    <replacement>BionicIcons/Boxes/MedievalAmbroisen</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseArchotech</defName>
+    <texture>Things/Item/Health/HealthItemArchotech</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseArchotech2</defName>
+    <texture>Things/Item/Health/HealthItemArchotech2</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseArchotech3</defName>
+    <texture>Things/Item/Health/HealthItemArchotech3</texture>
+    <replacement>BionicIcons/Boxes/ArchotechModule</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseBionic</defName>
+    <texture>Things/Item/Health/HealthItemBionic</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseBionic2</defName>
+    <texture>Things/Item/Health/HealthItemBionic2</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseBionic3</defName>
+    <texture>Things/Item/Health/HealthItemBionic3</texture>
+    <replacement>BionicIcons/Boxes/BionicModule</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseNatural</defName>
+    <texture>Things/Item/Health/HealthItemNatural</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseProstetheticUnused</defName>
+    <texture>Things/Item/Health/HealthItemProsthetic</texture>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>mseBasic</defName>
+    <texture>Things/Item/Health/HealthItemBasic</texture>
+    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>NightVisionBox</defName>
+    <texture>Things_Misc/HealthItem_TapetumImplant</texture>
+    <replacement>BionicIcons/Boxes/Cyber</replacement>
+    <colorIcon>(0,0,0)</colorIcon>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>TapetumLucidum</defName>
+    <thingDef>NV_TapetumRaw</thingDef>
+    <texture>BionicIcons/Items/TapetumLucidum</texture>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>mutated</defName>
+    <texture>Radiology/Items/MutatedBodyPartBox</texture>
+    <replacement>BionicIcons/Boxes/Mutated</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>rahBionic</defName>
+    <texture>Things/Item/BodyPart/Bionic</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>rahBionicArchotech</defName>
+    <texture>Things/Item/BodyPart/Bionic2</texture>
+    <replacement>BionicIcons/Boxes/Archotech</replacement>
+    <nameContains>Archotech</nameContains>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>rahBionic2</defName>
+    <texture>Things/Item/BodyPart/Bionic2</texture>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>rahOrgan</defName>
+    <texture>Things/Item/BodyPart/Organ</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>rahSimple</defName>
+    <texture>Things/Item/BodyPart/Simple</texture>
+    <replacement>BionicIcons/Boxes/ProstheticAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <ThingSetMakerDef>
+    <defName>AllBodyParts</defName>
+    <root Class="BionicIcons.ThingSetMaker_AllBodyParts" />
+  </ThingSetMakerDef>
+  <BionicIconsTextureDef>
+    <defName>VEIMemes_Box</defName>
+    <texture>Things/Item/Resource/FleshcrafterBodyPart</texture>
+    <replacement>BionicIcons/Boxes/Fleshcrafted</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>VFEIBox</defName>
+    <texture>Things/Item/HealthItemInsectoid</texture>
+    <replacement>BionicIcons/Boxes/Insectoid</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsIconDef>
+    <defName>VFEIPheromone</defName>
+    <bodyPart>Neck</bodyPart>
+    <texture>BionicIcons/BodyParts/Molecule</texture>
+    <nameContains>Pheromone</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>VFEISynapticCerebellum</defName>
+    <bodyPart>Brain</bodyPart>
+    <texture>BionicIcons/BodyParts/Brain</texture>
+    <nameContains>Cerebellum</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsIconDef>
+    <defName>VFEIJellySac</defName>
+    <bodyPart>Torso</bodyPart>
+    <texture>BionicIcons/BodyParts/Drop</texture>
+    <nameContains>JellySac</nameContains>
+  </BionicIconsIconDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Box</defName>
+    <texture>Things/Item/Health/HealthItem</texture>
+    <replacement>BionicIcons/Boxes/Default</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_AdvancedBionic</defName>
+    <texture>Things/Item/Health/MK_HealthItem_AdvancedBionic</texture>
+    <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Archotech</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Archotech</texture>
+    <replacement>BionicIcons/Boxes/Archotech2</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Bionic</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Bionic</texture>
+    <replacement>BionicIcons/Boxes/Bionic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Organic</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Organic</texture>
+    <replacement>BionicIcons/Boxes/Organic</replacement>
+  </BionicIconsTextureDef>
+  <BionicIconsTextureDef>
+    <defName>YAPE_Ultratech</defName>
+    <texture>Things/Item/Health/MK_HealthItem_Ultratech</texture>
+    <replacement>BionicIcons/Boxes/Ultratech</replacement>
+  </BionicIconsTextureDef>
   <TabulaRasa.UpdateDef Abstract="true" Name="BlockUnwantedMinutiae_UpdateInfoBase" MayRequire="neronix17.toolbox">
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3278213153</linkUrl>
     <banner>UpdateInfo/BlockUnwantedMinutiae</banner>
@@ -327759,6 +329658,11 @@ Configurable in the Work tab.
     <label>fridge room</label>
     <workerClass>CommonSense.RoomRoleWorker_CooledStoreRoom</workerClass>
   </RoomRoleDef>
+  <KeyBindingDef ParentName="GameKeyBinding">
+    <defName>TMB_ToggleAutoDesignatePlantsCutMode</defName>
+    <label>Toggle auto felling designation mode</label>
+    <defaultKeyCodeA>Backslash</defaultKeyCodeA>
+  </KeyBindingDef>
   <MainButtonDef>
     <defName>MintMenus</defName>
     <label>mint menus</label>
@@ -328780,7 +330684,7 @@ Configurable in the Work tab.
     <gerundLabel>Entertaining</gerundLabel>
     <description>Diplomats entertain guests and build friendships.</description>
     <verb>Entertain</verb>
-    <naturalPriority>1050</naturalPriority>
+    <naturalPriority>1060</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
     <relevantSkills>
       <li>Social</li>
@@ -329116,6 +331020,206 @@ Hopefully this will be usable!</content>
       </li>
     </stages>
   </HediffDef>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_HeadSlot</defName>
+    <x>2</x>
+    <y>0</y>
+    <whiteList>
+      <li>FullHead</li>
+      <li>UpperHead</li>
+    </whiteList>
+    <apparelLayers>
+      <li>Overhead</li>
+    </apparelLayers>
+    <priority>2</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_EarsSlot</defName>
+    <x>0</x>
+    <y>0</y>
+    <whiteList>
+      <li>Ears</li>
+    </whiteList>
+    <apparelLayers>
+      <li>Overhead</li>
+      <li>EyeCover</li>
+    </apparelLayers>
+    <priority>-2</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_TopHeadSlot</defName>
+    <x>3</x>
+    <y>0</y>
+    <whiteList>
+      <li>FullHead</li>
+      <li>UpperHead</li>
+      <li>Teeth</li>
+      <li>Mouth</li>
+      <li>Neck</li>
+    </whiteList>
+    <apparelLayers>
+      <li>Overhead</li>
+    </apparelLayers>
+    <priority>1</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_ShellHeadSlot</defName>
+    <x>1</x>
+    <y>0</y>
+    <whiteList>
+      <li>FullHead</li>
+      <li>UpperHead</li>
+      <li>Teeth</li>
+      <li>Mouth</li>
+      <li>Neck</li>
+      <li>Eyes</li>
+      <li>Ears</li>
+      <li>FaceCover</li>
+    </whiteList>
+    <apparelLayers>
+      <li>EyeCover</li>
+      <li>Overhead</li>
+      <li>FaceCover</li>
+      <li>StrappedHead</li>
+    </apparelLayers>
+    <priority>0</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_TorsoSlot</defName>
+    <x>2</x>
+    <y>1</y>
+    <whiteList>
+      <li>Torso</li>
+    </whiteList>
+    <apparelLayers>
+      <li>OnSkin</li>
+    </apparelLayers>
+    <priority>2</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_TorsoSlotSkin</defName>
+    <x>1</x>
+    <y>1</y>
+    <whiteList>
+      <li>Torso</li>
+    </whiteList>
+    <apparelLayers>
+      <li>OnSkin</li>
+      <li>Shell</li>
+    </apparelLayers>
+    <priority>1</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_TorsoSlotMiddle</defName>
+    <x>3</x>
+    <y>1</y>
+    <whiteList>
+      <li>Torso</li>
+    </whiteList>
+    <apparelLayers>
+      <li>Middle</li>
+    </apparelLayers>
+    <priority>2</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_BottomSlot</defName>
+    <x>2</x>
+    <y>2</y>
+    <whiteList>
+      <li>Legs</li>
+    </whiteList>
+    <apparelLayers>
+      <li>OnSkin</li>
+    </apparelLayers>
+    <priority>2</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_FeetSlot</defName>
+    <x>2</x>
+    <y>3</y>
+    <whiteList>
+      <li>Feet</li>
+    </whiteList>
+    <apparelLayers>
+      <li>OnSkin</li>
+      <li>Middle</li>
+    </apparelLayers>
+    <priority>2</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_SlaveCSlot</defName>
+    <x>1</x>
+    <y>2</y>
+    <whiteList>
+      <li>Neck</li>
+      <li>Torso</li>
+      <li>Shoulders</li>
+    </whiteList>
+    <blackList>
+      <li>FullHead</li>
+      <li>UpperHead</li>
+    </blackList>
+    <apparelLayers>
+      <li>Overhead</li>
+      <li>Backpack</li>
+    </apparelLayers>
+    <priority>-3</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_WaistSlot</defName>
+    <x>3</x>
+    <y>2</y>
+    <whiteList>
+      <li>Waist</li>
+      <li>Arms</li>
+      <li>Torso</li>
+    </whiteList>
+    <apparelLayers>
+      <li>OnSkin</li>
+      <li>Middle</li>
+      <li>Shell</li>
+      <li>VFEC_OuterShell</li>
+      <li>Webbing</li>
+    </apparelLayers>
+    <priority>-4</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_HandsSlot</defName>
+    <x>1</x>
+    <y>3</y>
+    <whiteList>
+      <li>Hands</li>
+    </whiteList>
+    <apparelLayers>
+      <li>OnSkin</li>
+      <li>Middle</li>
+    </apparelLayers>
+    <priority>2</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <NiceInventoryTab.ApparelSlotFilter>
+    <defName>NIT_Grid_BeltSlot</defName>
+    <x>3</x>
+    <y>3</y>
+    <whiteList>
+      <li>Torso</li>
+    </whiteList>
+    <apparelLayers>
+      <li>Belt</li>
+    </apparelLayers>
+    <priority>1</priority>
+  </NiceInventoryTab.ApparelSlotFilter>
+  <JobDef>
+    <defName>NIT_MoveApparelToInventory</defName>
+    <driverClass>NiceInventoryTab.JobDriver_RemoveApparelToInventory</driverClass>
+    <reportString>removing TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>NIT_WearFromInventory</defName>
+    <driverClass>NiceInventoryTab.JobDriver_WearFromInventory</driverClass>
+    <reportString>wearing TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
   <MainButtonDef>
     <defName>kNumbersOverviewTab</defName>
     <label>Numbers</label>
@@ -329921,6 +332025,15 @@ Hopefully this will be usable!</content>
     <priority>-1000</priority>
     <helpText>Note: Placing a building over valuable ore will allow builders to mine the ore. Ore can be wasted if mined with low skill. If your builders are not skilled at mining, you may want to cancel your building project and let skilled miners do their job first.</helpText>
   </ConceptDef>
+  <MainButtonDef>
+    <defName>RGC_UI</defName>
+    <label>RuntimeGC</label>
+    <description>No_Need_To_Translate_This_File_Because_This_Text_Is_Replaced_In_Dll</description>
+    <tabWindowClass>RuntimeGC.UserInterface</tabWindowClass>
+    <workerClass>RuntimeGC.MainButtonWorker_RuntimeGC</workerClass>
+    <order>177</order>
+    <validWithoutMap>true</validWithoutMap>
+  </MainButtonDef>
   <DutyDef>
     <defName>SD_SearchAndDestroy</defName>
     <alwaysShowWeapon>true</alwaysShowWeapon>
@@ -366883,6 +368996,8 @@ Hopefully this will be usable!</content>
       <mechEnabledWorkTypes>
         <li>Construction</li>
         <li>Firefighter</li>
+        <li>FSFDeconstruct</li>
+        <li>FSFRepair</li>
       </mechEnabledWorkTypes>
       <lifeStageAges>
         <li>
@@ -377471,7 +379586,7 @@ Hopefully this will be usable!</content>
     <defName>VGE_DoBillsProduceDrugs</defName>
     <label>synthesize drugs</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>FSFDrugs</workType>
     <workTags>
       <li>Intellectual</li>
     </workTags>
@@ -377490,7 +379605,7 @@ Hopefully this will be usable!</content>
     <defName>VGE_DoBillsMachiningTable</defName>
     <label>make things at machining table</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Smithing</workType>
+    <workType>FSFMachining</workType>
     <priorityInType>75</priorityInType>
     <fixedBillGiverDefs>
       <li>VGE_CompactMachiningTable</li>
@@ -377538,7 +379653,7 @@ Hopefully this will be usable!</content>
     <defName>VGE_DoBillsRefinery</defName>
     <label>work at refinery</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>FSFRefining</workType>
     <priorityInType>97</priorityInType>
     <fixedBillGiverDefs>
       <li>VGE_CompactRefinery</li>
@@ -377554,7 +379669,7 @@ Hopefully this will be usable!</content>
     <defName>VGE_DoBillsFabricationBench</defName>
     <label>fabricate things</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Smithing</workType>
+    <workType>FSFFabrication</workType>
     <priorityInType>50</priorityInType>
     <fixedBillGiverDefs>
       <li>VGE_CompactFabBench</li>
@@ -377583,10 +379698,10 @@ Hopefully this will be usable!</content>
     <defName>VGE_MaintainGrav</defName>
     <label>maintain gravship structure</label>
     <giverClass>VanillaGravshipExpanded.WorkGiver_MaintainGrav</giverClass>
-    <workType>Construction</workType>
+    <workType>FSFRepair</workType>
     <verb>maintain</verb>
     <gerund>maintaining</gerund>
-    <priorityInType>300</priorityInType>
+    <priorityInType>35</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -377599,7 +379714,7 @@ Hopefully this will be usable!</content>
     <workType>Research</workType>
     <verb>collect</verb>
     <gerund>collecting</gerund>
-    <priorityInType>150</priorityInType>
+    <priorityInType>1005</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -377608,7 +379723,7 @@ Hopefully this will be usable!</content>
     <defName>VGE_OperateScannerCluster</defName>
     <label>operate gravship scanner cluster</label>
     <giverClass>WorkGiver_OperateScanner</giverClass>
-    <workType>Research</workType>
+    <workType>FSFScan</workType>
     <priorityInType>50</priorityInType>
     <verb>scan at</verb>
     <gerund>scanning at</gerund>
@@ -377623,7 +379738,7 @@ Hopefully this will be usable!</content>
     <label>build vac barrier roofs</label>
     <giverClass>VanillaGravshipExpanded.WorkGiver_BuildVacBarrierRoof</giverClass>
     <workType>Construction</workType>
-    <priorityInType>100</priorityInType>
+    <priorityInType>101</priorityInType>
     <verb>build vac barrier roof</verb>
     <gerund>building vac barrier roof</gerund>
     <scanThings>false</scanThings>
@@ -382127,6 +384242,372 @@ Hopefully this will be usable!</content>
     <tabWindowClass>WeaponStats.MainTabWindow_WeaponStats</tabWindowClass>
     <order>60</order>
   </MainButtonDef>
+  <WorkTypeDef>
+    <defName>FSFNurse</defName>
+    <labelShort>Nurse</labelShort>
+    <pawnLabel>Nurse</pawnLabel>
+    <gerundLabel>Nursing</gerundLabel>
+    <description>Care for the sick, bring them food, cheer them up, and perform assigned duties. Nurses will care for colonists, prisoners and animals.</description>
+    <verb>Care for</verb>
+    <naturalPriority>1295</naturalPriority>
+    <relevantSkills>
+      <li>Medicine</li>
+    </relevantSkills>
+    <workTags>
+      <li>Caring</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFSurgeon</defName>
+    <labelShort>Surgeon</labelShort>
+    <pawnLabel>Surgeon</pawnLabel>
+    <gerundLabel>Operating</gerundLabel>
+    <description>Perform surgeries on colonists, prisoners and animals.</description>
+    <verb>Operate on</verb>
+    <naturalPriority>1290</naturalPriority>
+    <relevantSkills>
+      <li>Medicine</li>
+    </relevantSkills>
+    <workTags>
+      <li>Caring</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFRearming</defName>
+    <labelShort>Rearm</labelShort>
+    <pawnLabel>Rearmer</pawnLabel>
+    <gerundLabel>Rearming</gerundLabel>
+    <description>Rearm defenses such as turrets and traps.</description>
+    <verb>Rearm</verb>
+    <naturalPriority>1135</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualDumb</li>
+      <li>Hauling</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFTraining</defName>
+    <labelShort>Train</labelShort>
+    <pawnLabel>Trainer</pawnLabel>
+    <gerundLabel>Training</gerundLabel>
+    <description>Tame wild animals and train domesticated animals.</description>
+    <verb>Train</verb>
+    <naturalPriority>1045</naturalPriority>
+    <relevantSkills>
+      <li>Animals</li>
+    </relevantSkills>
+    <workTags>
+      <li>Animals</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFButcher</defName>
+    <labelShort>Butcher</labelShort>
+    <pawnLabel>Butcherer</pawnLabel>
+    <gerundLabel>Butchering</gerundLabel>
+    <description>Create kibble and butcher meat.</description>
+    <verb>Butcher</verb>
+    <naturalPriority>995</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <relevantSkills>
+      <li>Cooking</li>
+    </relevantSkills>
+    <workTags>
+      <li>Cooking</li>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFRepair</defName>
+    <labelShort>Repair</labelShort>
+    <pawnLabel>Repairer</pawnLabel>
+    <gerundLabel>Repairing</gerundLabel>
+    <description>Repair damaged or broken-down buildings and objects.</description>
+    <verb>Repair</verb>
+    <naturalPriority>910</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <relevantSkills>
+      <li>Construction</li>
+    </relevantSkills>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>Constructing</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFDeconstruct</defName>
+    <labelShort>Deconstruct</labelShort>
+    <pawnLabel>Deconstructor</pawnLabel>
+    <gerundLabel>Deconstructing</gerundLabel>
+    <description>Uninstall or deconstruct buildings, objects, floors and roofs.</description>
+    <verb>Deconstruct</verb>
+    <naturalPriority>905</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <relevantSkills>
+      <li>Construction</li>
+    </relevantSkills>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>Constructing</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFHarvesting</defName>
+    <labelShort>Harvest</labelShort>
+    <pawnLabel>Harvester</pawnLabel>
+    <gerundLabel>harvesting</gerundLabel>
+    <description>Harvest grown plants.</description>
+    <verb>Harvest</verb>
+    <naturalPriority>705</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <relevantSkills>
+      <li>Plants</li>
+    </relevantSkills>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>PlantWork</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFDrilling</defName>
+    <labelShort>Drill</labelShort>
+    <pawnLabel>Driller</pawnLabel>
+    <gerundLabel>Drilling</gerundLabel>
+    <description>Use deep drills to drill for resources.</description>
+    <verb>Drill</verb>
+    <naturalPriority>595</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <relevantSkills>
+      <li>Mining</li>
+    </relevantSkills>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>Mining</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFDrugs</defName>
+    <labelShort>Drugs</labelShort>
+    <pawnLabel>Chemist</pawnLabel>
+    <gerundLabel>Drugs</gerundLabel>
+    <description>Craft drugs at work stations.</description>
+    <verb>Craft at</verb>
+    <naturalPriority>500</naturalPriority>
+    <relevantSkills>
+      <li>Intellectual</li>
+    </relevantSkills>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>Crafting</li>
+      <li>Intellectual</li>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFMachining</defName>
+    <labelShort>Machining</labelShort>
+    <pawnLabel>Machinist</pawnLabel>
+    <gerundLabel>Machining</gerundLabel>
+    <description>Create weapons and tools from raw materials at a machining table.</description>
+    <verb>Machine at</verb>
+    <naturalPriority>470</naturalPriority>
+    <relevantSkills>
+      <li>Crafting</li>
+    </relevantSkills>
+    <workTags>
+      <li>Crafting</li>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFFabrication</defName>
+    <labelShort>Fabricate</labelShort>
+    <pawnLabel>Fabricator</pawnLabel>
+    <gerundLabel>Fabricating</gerundLabel>
+    <description>Create weapons, armour, bionics and components from raw materials at a fabrication bench.</description>
+    <verb>Fabricate at</verb>
+    <naturalPriority>465</naturalPriority>
+    <relevantSkills>
+      <li>Crafting</li>
+    </relevantSkills>
+    <workTags>
+      <li>Crafting</li>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFRefining</defName>
+    <labelShort>Refine</labelShort>
+    <pawnLabel>Refiner</pawnLabel>
+    <gerundLabel>Refining</gerundLabel>
+    <description>Refine materials at a refinery.</description>
+    <verb>Refine</verb>
+    <naturalPriority>425</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <relevantSkills>
+      <li>Crafting</li>
+    </relevantSkills>
+    <workTags>
+      <li>Crafting</li>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFProduction</defName>
+    <labelShort>Production</labelShort>
+    <pawnLabel>Producer</pawnLabel>
+    <gerundLabel>Producing</gerundLabel>
+    <description>Perform general production work producing various goods.  This typically involves filling and emptying production objects or performing simple tasks.</description>
+    <verb>Produce</verb>
+    <naturalPriority>415</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFSmelt</defName>
+    <labelShort>Smelt</labelShort>
+    <pawnLabel>Smelter</pawnLabel>
+    <gerundLabel>Smelting</gerundLabel>
+    <description>Operate smelters to perform tasks such as melting down slag or weapons.</description>
+    <verb>Smelt</verb>
+    <naturalPriority>410</naturalPriority>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFStoneCut</defName>
+    <labelShort>Stone Cut</labelShort>
+    <pawnLabel>Stonecutter</pawnLabel>
+    <gerundLabel>Stonecutting</gerundLabel>
+    <description>Create blocks of stone from rock chunks.</description>
+    <verb>Stone Cut</verb>
+    <naturalPriority>405</naturalPriority>
+    <workTags>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFTransport</defName>
+    <labelShort>Transport</labelShort>
+    <pawnLabel>Transport Handler</pawnLabel>
+    <gerundLabel>Transporting</gerundLabel>
+    <description>Prepare and unload transport pods, caravans and vehicles.</description>
+    <verb>Transport</verb>
+    <naturalPriority>325</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualDumb</li>
+      <li>Hauling</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFCremating</defName>
+    <labelShort>Mortuary</labelShort>
+    <pawnLabel>Mortuary Worker</pawnLabel>
+    <gerundLabel>Working</gerundLabel>
+    <description>Perform various tasks relating to dead bodies. Such as operating the crematorium or campfire to burn apparel, drugs and bodies.</description>
+    <verb>Work</verb>
+    <naturalPriority>320</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualDumb</li>
+      <li>Hauling</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFDeliver</defName>
+    <labelShort>Deliver</labelShort>
+    <pawnLabel>Hauler</pawnLabel>
+    <gerundLabel>delivering</gerundLabel>
+    <description>Deliver resources to construction projects.</description>
+    <verb>Delivering</verb>
+    <naturalPriority>310</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualDumb</li>
+      <li>Hauling</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFHauling</defName>
+    <labelShort>haul</labelShort>
+    <pawnLabel>Hauler</pawnLabel>
+    <gerundLabel>hauling</gerundLabel>
+    <description>Carry things to where they need to be.</description>
+    <verb>Haul</verb>
+    <naturalPriority>295</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualDumb</li>
+      <li>Hauling</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  <WorkTypeDef>
+    <defName>FSFScan</defName>
+    <labelShort>Scan</labelShort>
+    <pawnLabel>Scanner</pawnLabel>
+    <gerundLabel>scanning</gerundLabel>
+    <description>Perform complex work to achieve goals such as finding resources below the ground or in the world.</description>
+    <verb>Scan at</verb>
+    <naturalPriority>95</naturalPriority>
+    <relevantSkills>
+      <li>Intellectual</li>
+    </relevantSkills>
+    <workTags>
+      <li>Intellectual</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
   <KeyBindingCategoryDef>
     <defName>RocketKeyBindingCategory</defName>
     <label>MissileGirl - Performance Mod</label>
@@ -382176,4 +384657,46 @@ Hopefully this will be usable!</content>
     <canBeRandomlyAdded>false</canBeRandomlyAdded>
     <canBePlayerAddedRemoved>false</canBePlayerAddedRemoved>
   </ScenPartDef>
+  <WorkGiverDef>
+    <defName>FSFTakeToBedToOperate</defName>
+    <label>take patients to bed for operations</label>
+    <giverClass>WorkGiver_TakeToBedToOperate</giverClass>
+    <workType>FSFNurse</workType>
+    <priorityInType>499</priorityInType>
+    <verb>take to operate</verb>
+    <gerund>taking to operate</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>FSFDeliverResourcesToFrames</defName>
+    <label>deliver resources to frames</label>
+    <giverClass>WorkGiver_ConstructDeliverResourcesToFrames</giverClass>
+    <workType>FSFHauling</workType>
+    <priorityInType>10</priorityInType>
+    <verb>deliver to</verb>
+    <gerund>delivering to</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>FSFDeliverResourcesToBlueprints</defName>
+    <label>deliver resources to blueprints</label>
+    <giverClass>WorkGiver_ConstructDeliverResourcesToBlueprints</giverClass>
+    <workType>FSFHauling</workType>
+    <priorityInType>9</priorityInType>
+    <verb>deliver to</verb>
+    <gerund>delivering to</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
+    <prioritizeSustains>true</prioritizeSustains>
+    <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
 </Defs>

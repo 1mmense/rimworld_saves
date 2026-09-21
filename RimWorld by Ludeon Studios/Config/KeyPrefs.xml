@@ -715,6 +715,13 @@
     </value>
   </li>
   <li>
+    <key>TMB_ToggleAutoDesignatePlantsCutMode</key>
+    <value>
+      <keyBindingA>Backslash</keyBindingA>
+      <keyBindingB>None</keyBindingB>
+    </value>
+  </li>
+  <li>
     <key>HotkeyEditor</key>
     <value>
       <keyBindingA>None</keyBindingA>
