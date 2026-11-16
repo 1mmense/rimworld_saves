@@ -5,9 +5,12 @@
   <volumeMusic>0</volumeMusic>
   <volumeAmbient>0.4963145</volumeAmbient>
   <volumeUI>0.6990172</volumeUI>
-  <screenWidth>0</screenWidth>
-  <screenHeight>0</screenHeight>
-  <fullscreen>False</fullscreen>
+  <screenWidth>1920</screenWidth>
+  <screenHeight>1080</screenHeight>
+  <windowPositionX>-2147483648</windowPositionX>
+  <windowPositionY>-2147483648</windowPositionY>
+  <fullscreen>True</fullscreen>
+  <scaleRelativeToSystem>True</scaleRelativeToSystem>
   <uiScale>1</uiScale>
   <customCursorEnabled>True</customCursorEnabled>
   <hatsOnlyOnMap>False</hatsOnlyOnMap>
@@ -18,7 +21,7 @@
   <disableTinyText>False</disableTinyText>
   <animalNameMode>None</animalNameMode>
   <mechNameMode>WhileDrafted</mechNameMode>
-  <backgroundExpansionId>ludeon.rimworld.biotech</backgroundExpansionId>
+  <backgroundExpansionId IsNull="True" />
   <randomBackground>True</randomBackground>
   <showWeaponsUnderPortraitMode>Never</showWeaponsUnderPortraitMode>
   <dotHighlightDisplayMode>HighlightAll</dotHighlightDisplayMode>

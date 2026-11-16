@@ -88,6 +88,8 @@ MissileGirl: Found action with attribute OnInitialization, ProtonPatcher:Initial
 
 MissileGirl: Found action with attribute OnInitialization, SoyuzPatcher:Initialize
 
+GAGARIN: <color=green>Loading cache settings!</color>
+
 GAGARIN: <color=yellow>Cache disabled from</color>
 Gagarin.StartupHelper:StartUpStarted():0
 System.Reflection.RuntimeMethodInfo:InternalInvoke():0
@@ -114,8 +116,6 @@ System.Threading.ExecutionContext:RunInternal():0
 System.Threading.ExecutionContext:Run():0
 System.Threading.ExecutionContext:Run():0
 System.Threading.ThreadHelper:ThreadStart():0
-
-GAGARIN: <color=green>Loading cache settings!</color>
 
 Gagarin:[NOTANERROR] patching TKeySystem:Void Parse(System.Xml.XmlDocument) finished!
 
@@ -151,7 +151,7 @@ Gagarin:[NOTANERROR] patching XmlInheritance:Void Resolve() finished!
 
 GAGARIN:[DUPLICATE]: Started!
 
-GAGARIN:[DUPLICATE] Creating duplication reports took 612 MS
+GAGARIN:[DUPLICATE] Creating duplication reports took 384 MS
 
 GAGARIN:[DUPLICATE] Finished creating reports at <color=red>C:\Users\1mmense\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\MissileGirl\Reports</color>
 
@@ -461,7 +461,7 @@ ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory.legacy
 
 ROCKETRULES: IgnoreMeRule for spdskatr.projectrimfactory
 
-[0.023462 seconds] MissileGirl: <color=red>IgnoreMe report</color>
+[0.007456 seconds] MissileGirl: <color=red>IgnoreMe report</color>
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Grizzly
 ROCKETRULES: IgnoreMe add def by name: Corpse_Cat_Scimitar
 ROCKETRULES: IgnoreMe add def by name: Corpse_Bear_Polar
@@ -679,43 +679,3 @@ MissileGirl: <color=red>Warm up</color> started for new map!
 MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
 
 MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up</color> Finished for new map!
-
-MissileGirl: Position verfication started!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up</color> Finished for new map!
-
-MissileGirl: Position verfication started!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up ABORTED!</color> for new map!
-
-MissileGirl: <color=red>Warm up</color> started for new map!
-
-MissileGirl: <color=red>Warm up</color> Finished for new map!
-
-MissileGirl: Position verfication started!
