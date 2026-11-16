@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="FullArmor.FullArmorSettingsData">
+		<disableGloves>False</disableGloves>
+		<moveGlovesHeadgearLayer>True</moveGlovesHeadgearLayer>
+		<disableSpawningGloves>True</disableSpawningGloves>
+		<apparelOverrides>
+			<li>
+				<apparelDef>Apparel_FlakPants</apparelDef>
+				<coversHands>False</coversHands>
+				<coversFeet>True</coversFeet>
+			</li>
+			<li>
+				<apparelDef>Apparel_ShirtRuffle</apparelDef>
+				<coversHands>True</coversHands>
+				<coversFeet>False</coversFeet>
+			</li>
+			<li>
+				<apparelDef>Apparel_LabCoat</apparelDef>
+				<coversHands>True</coversHands>
+				<coversFeet>False</coversFeet>
+			</li>
+			<li>
+				<apparelDef>Apparel_Duster</apparelDef>
+				<coversHands>True</coversHands>
+				<coversFeet>True</coversFeet>
+			</li>
+			<li>
+				<apparelDef>Apparel_CollarShirt</apparelDef>
+				<coversHands>True</coversHands>
+				<coversFeet>False</coversFeet>
+			</li>
+			<li>
+				<apparelDef>Apparel_Pants</apparelDef>
+				<coversHands>False</coversHands>
+				<coversFeet>True</coversFeet>
+			</li>
+			<li>
+				<apparelDef>Apparel_Parka</apparelDef>
+				<coversHands>True</coversHands>
+				<coversFeet>False</coversFeet>
+			</li>
+			<li>
+				<apparelDef>Apparel_FlakJacket</apparelDef>
+				<coversHands>True</coversHands>
+				<coversFeet>False</coversFeet>
+			</li>
+		</apparelOverrides>
+	</ModSettings>
+</SettingsBlock>

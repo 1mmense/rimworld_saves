@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="CommonSense.Settings">
+		<adv_cleaning_ingest>True</adv_cleaning_ingest>
+		<safe_wander>True</safe_wander>
+		<adv_respect_capacity>False</adv_respect_capacity>
+	</ModSettings>
+</SettingsBlock>

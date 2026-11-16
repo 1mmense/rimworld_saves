@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ShowMeYourHands.ShowMeYourHandsModSettings">
+		<ManualMainHandPositions>
+			<keys />
+			<values />
+		</ManualMainHandPositions>
+		<ManualOffHandPositions>
+			<keys />
+			<values />
+		</ManualOffHandPositions>
+		<ManualMainHandRotations>
+			<keys />
+			<values />
+		</ManualMainHandRotations>
+		<GeneratedHandPositions>
+			<keys>
+				<li>VGE_Gun_PointDefense</li>
+				<li>VGE_Gun_GaussGun</li>
+				<li>VGE_Gun_JavelinPod</li>
+				<li>VGE_Gun_AnticraftCaster</li>
+				<li>VGE_Gun_MassDriver</li>
+				<li>VGE_Gun_HeavyChargeAnnihilator</li>
+				<li>VGE_MassLance</li>
+				<li>VGE_RocketswarmPod</li>
+				<li>VWE_Bow_Crossbow_Unique</li>
+				<li>VWE_Bow_Long_Unique</li>
+				<li>VWE_Bow_Compound_Unique</li>
+				<li>VWE_Gun_HandCannon_Unique</li>
+				<li>VWE_Gun_CombatHandgun_Unique</li>
+				<li>VWE_Gun_SawedOffShotgun_Unique</li>
+				<li>VWE_Gun_SemiAutomaticRifle_Unique</li>
+				<li>VWE_Gun_LeverActionRifle_Unique</li>
+				<li>VWE_Gun_TrenchGun_Unique</li>
+				<li>VWE_Gun_LightSMG_Unique</li>
+				<li>VWE_Gun_SMG_Unique</li>
+				<li>VWE_Gun_HMG_Unique</li>
+				<li>VWE_Gun_ServiceRifle_Unique</li>
+				<li>VWE_Gun_BattleRifle_Unique</li>
+				<li>VWE_Gun_Carbine_Unique</li>
+				<li>VWE_Gun_MarksmanRifle_Unique</li>
+				<li>VWE_Gun_AntiMaterialRifle_Unique</li>
+				<li>VWE_Gun_ChargePistol_Unique</li>
+				<li>VWE_Gun_ChargeShotgun_Unique</li>
+				<li>VWE_Gun_ChargeSMG_Unique</li>
+				<li>VWE_Gun_ChargeLMG_Unique</li>
+				<li>VWE_Gun_ChargeMinigun_Unique</li>
+				<li>VWE_Gun_ChargeSniperRifle_Unique</li>
+				<li>VWE_TrenchGun</li>
+			</keys>
+			<values>
+				<li>
+					<MainHand>(-0.271354169, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.268750012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.300000012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.297395855, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.204947919, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.0343750119, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.292187512, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.268750012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.gravship</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639281418420000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.237500012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.292187512, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(0.0124999881, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.143750012, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.0343750119, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.151562512, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.300000012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.292187512, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.190625012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.260937512, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.112500012, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.300000012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.300000012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.284375012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.284375012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.292187512, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.253125012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.0890625119, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.284375012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.0812500119, 0.300000012, 0)</MainHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.292187512, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.300000012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.253125012, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+				<li>
+					<MainHand>(-0.260937512, 0.300000012, -0.0500000007)</MainHand>
+					<SecHand>(0.200000003, -0.100000001, -0.0500000007)</SecHand>
+					<ModPackageId>vanillaexpanded.vwe</ModPackageId>
+					<AboutFileLastWriteTimeUtcTicks>639284310360000000</AboutFileLastWriteTimeUtcTicks>
+				</li>
+			</values>
+		</GeneratedHandPositions>
+		<ManualOffHandRotations>
+			<keys />
+			<values />
+		</ManualOffHandRotations>
+		<ShowOnRace>
+			<keys>
+				<li>Mech_Agrihand</li>
+				<li>Alligator</li>
+				<li>Alpaca</li>
+				<li>AlphaThrumbo</li>
+				<li>Alphabeaver</li>
+				<li>Mech_Apocriton</li>
+				<li>Macaw</li>
+				<li>Badger</li>
+				<li>Hippo</li>
+				<li>Squirrel</li>
+				<li>Bear_Polar</li>
+				<li>Mech_CentipedeBlaster</li>
+				<li>Mech_Militor</li>
+				<li>BogHound</li>
+				<li>Armadillo</li>
+				<li>Bulbfreak</li>
+				<li>Boomalope</li>
+				<li>Boomrat</li>
+				<li>MonitorLizard</li>
+				<li>Warg</li>
+				<li>Wolf_Great</li>
+				<li>Dromedary</li>
+				<li>Sightstealer</li>
+				<li>Wolf_Timber</li>
+				<li>Sparrow</li>
+				<li>Crow</li>
+				<li>Otter</li>
+				<li>Gazelle</li>
+				<li>ColossusToad</li>
+				<li>Megasloth</li>
+				<li>Gorilla</li>
+				<li>Ibex</li>
+				<li>Vulture</li>
+				<li>Goose</li>
+				<li>Porcupine</li>
+				<li>Mech_Pikeman</li>
+				<li>Dryad_Gaumaker</li>
+				<li>Dryad_Woodmaker</li>
+				<li>Dryad_Barkskin</li>
+				<li>Dryad_Clawer</li>
+				<li>Dryad_Carrier</li>
+				<li>Dryad_Medicinemaker</li>
+				<li>Dryad_Berrymaker</li>
+				<li>Drone_Sentry</li>
+				<li>Drone_Hunter</li>
+				<li>Mech_WarUrchin</li>
+				<li>Mech_Cleansweeper</li>
+				<li>Mech_Diabolus</li>
+				<li>Raccoon</li>
+				<li>Mech_Scyther</li>
+				<li>Dreadmeld</li>
+				<li>Hare</li>
+				<li>Snowhare</li>
+				<li>Bison</li>
+				<li>Iguana</li>
+				<li>Turkey</li>
+				<li>Mech_Scorcher</li>
+				<li>YorkshireTerrier</li>
+				<li>WildBoar</li>
+				<li>Cassowary</li>
+				<li>StoneCrab</li>
+				<li>Capybara</li>
+				<li>Cobra</li>
+				<li>Goat</li>
+				<li>Cow</li>
+				<li>HiveQueen</li>
+				<li>VGE_Astropede</li>
+				<li>VGE_Astronaut</li>
+				<li>Cat</li>
+				<li>HermitCrab</li>
+				<li>Gorehulk</li>
+				<li>Rat</li>
+				<li>Chicken</li>
+				<li>LabradorRetriever</li>
+				<li>LavaSnail</li>
+				<li>Swan</li>
+				<li>Mech_Legionary</li>
+				<li>Fox_Red</li>
+				<li>Larva</li>
+				<li>Moose</li>
+				<li>Horse</li>
+				<li>PrairieDog</li>
+				<li>Bullfrog</li>
+				<li>Elk</li>
+				<li>Mastodon</li>
+				<li>Megaspider</li>
+				<li>Megavole</li>
+				<li>Megascarab</li>
+				<li>Bear_Grizzly</li>
+				<li>Mech_Paramedic</li>
+				<li>Metalhorror</li>
+				<li>Walrus</li>
+				<li>GuineaPig</li>
+				<li>SeaTurtle</li>
+				<li>SeaLion</li>
+				<li>WasteRat</li>
+				<li>Muffalo</li>
+				<li>Dryad_Basic</li>
+				<li>Noctol</li>
+				<li>Mink</li>
+				<li>Rhinoceros</li>
+				<li>Nociosphere</li>
+				<li>Monkey</li>
+				<li>Sheep</li>
+				<li>Muskox</li>
+				<li>Mech_CentipedeBurner</li>
+				<li>Deer</li>
+				<li>Drone_Wasp</li>
+				<li>Donkey</li>
+				<li>VGE_Hunter</li>
+				<li>Peacock</li>
+				<li>Fingerspike</li>
+				<li>Panda</li>
+				<li>Panther</li>
+				<li>Quail</li>
+				<li>Fox_Arctic</li>
+				<li>Spelopede</li>
+				<li>Penguin</li>
+				<li>Devourer</li>
+				<li>Wolf_Arctic</li>
+				<li>Mech_Warqueen</li>
+				<li>Mech_Fabricor</li>
+				<li>Mech_CentipedeGunner</li>
+				<li>Cougar</li>
+				<li>Revenant</li>
+				<li>Wolverine</li>
+				<li>Lynx</li>
+				<li>Cat_Scimitar</li>
+				<li>Locust</li>
+				<li>Pig</li>
+				<li>Caribou</li>
+				<li>Bluebird</li>
+				<li>Elephant</li>
+				<li>Ostrich</li>
+				<li>Mech_Constructoid</li>
+				<li>Toughspike</li>
+				<li>Mech_Termite</li>
+				<li>Mech_Tesseron</li>
+				<li>Tiger</li>
+				<li>Toxalope</li>
+				<li>Mech_Lifter</li>
+				<li>Trispike</li>
+				<li>Thrumbo</li>
+				<li>Mech_Tunneler</li>
+				<li>Seal</li>
+				<li>Mech_Lancer</li>
+				<li>Duck</li>
+				<li>Fox_Fennec</li>
+				<li>Flamingo</li>
+				<li>Husky</li>
+				<li>Chimera</li>
+				<li>Heron</li>
+				<li>Mech_Centurion</li>
+				<li>Mech_Cyclops</li>
+				<li>Human</li>
+				<li>CreepJoiner</li>
+				<li>Tortoise</li>
+				<li>Chinchilla</li>
+				<li>Emu</li>
+				<li>FleshmassNucleus</li>
+				<li>Yak</li>
+			</keys>
+			<values>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>True</li>
+				<li>True</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+				<li>False</li>
+			</values>
+		</ShowOnRace>
+	</ModSettings>
+</SettingsBlock>

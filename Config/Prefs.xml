@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrefsData>
+  <volumeMaster>0.6621621</volumeMaster>
+  <volumeGame>0.5823095</volumeGame>
+  <volumeMusic>0</volumeMusic>
+  <volumeAmbient>0.4963145</volumeAmbient>
+  <volumeUI>0.6990172</volumeUI>
+  <screenWidth>1920</screenWidth>
+  <screenHeight>1080</screenHeight>
+  <windowPositionX>-2147483648</windowPositionX>
+  <windowPositionY>-2147483648</windowPositionY>
+  <fullscreen>True</fullscreen>
+  <scaleRelativeToSystem>True</scaleRelativeToSystem>
+  <uiScale>1</uiScale>
+  <customCursorEnabled>True</customCursorEnabled>
+  <hatsOnlyOnMap>False</hatsOnlyOnMap>
+  <plantWindSway>False</plantWindSway>
+  <screenShakeIntensity>1</screenShakeIntensity>
+  <textureCompression>False</textureCompression>
+  <showRealtimeClock>False</showRealtimeClock>
+  <disableTinyText>False</disableTinyText>
+  <animalNameMode>None</animalNameMode>
+  <mechNameMode>WhileDrafted</mechNameMode>
+  <backgroundExpansionId IsNull="True" />
+  <randomBackground>True</randomBackground>
+  <showWeaponsUnderPortraitMode>Never</showWeaponsUnderPortraitMode>
+  <dotHighlightDisplayMode>HighlightAll</dotHighlightDisplayMode>
+  <highlightStyleMode>Silhouettes</highlightStyleMode>
+  <visibleMood>True</visibleMood>
+  <twelveHourClock>True</twelveHourClock>
+  <adaptiveTrainingEnabled>False</adaptiveTrainingEnabled>
+  <steamDeckKeyboardMode>False</steamDeckKeyboardMode>
+  <preferredNames />
+  <resourceReadoutCategorized>True</resourceReadoutCategorized>
+  <runInBackground>False</runInBackground>
+  <edgeScreenScroll>False</edgeScreenScroll>
+  <rememberDrawStyles>True</rememberDrawStyles>
+  <zoomSwitchWorldLayer>False</zoomSwitchWorldLayer>
+  <zoomToMouse>False</zoomToMouse>
+  <temperatureMode>Celsius</temperatureMode>
+  <autosaveIntervalDays>1</autosaveIntervalDays>
+  <testMapSizes>False</testMapSizes>
+  <maxNumberOfPlayerSettlements>2</maxNumberOfPlayerSettlements>
+  <pauseOnLoad>True</pauseOnLoad>
+  <automaticPauseMode>MajorThreat</automaticPauseMode>
+  <mapDragSensitivity>1.3</mapDragSensitivity>
+  <smoothCameraJumps>False</smoothCameraJumps>
+  <gravshipCutscenes>True</gravshipCutscenes>
+  <autosavesCount>10</autosavesCount>
+  <extremeDifficultyUnlocked>False</extremeDifficultyUnlocked>
+  <pauseOnError>False</pauseOnError>
+  <devMode>False</devMode>
+  <debugActionPalette>
+    <li>Actions\Add Hediff...\Пыточная корона</li>
+    <li>Actions\Spawn thing...</li>
+    <li>Actions\T: Change style</li>
+    <li>Actions\T: Destroy</li>
+    <li>Actions\T: Set Quality...</li>
+    <li>Actions\Do incident</li>
+    <li>Actions\Do incident\MonolithMigration</li>
+    <li>Actions\Spawn thing...\Genepack</li>
+    <li>Actions\Load blueprint (override, except colonists)</li>
+    <li>Actions\Set Faction Rect</li>
+    <li>Actions\T: Set Faction</li>
+    <li>Actions\T: Teleport</li>
+    <li>Actions\Do incident\CreepJoinerJoin</li>
+    <li>Actions\Set Ideo</li>
+    <li>Actions\Do incident\TraderCaravanArrival</li>
+    <li>Actions\Generate quest...\Intro_Deserter\100 points</li>
+    <li>Actions\Spawn thing...\Hive</li>
+    <li>Actions\Spawn Pawn...\Megascarab</li>
+    <li>Actions\Spawn Pawn...\Megaspider</li>
+    <li>Actions\Spawn Pawn...\Spelopede</li>
+    <li>Actions\Spawn thing...\CocoonMegascarab</li>
+    <li>Actions\Spawn thing...\CocoonMegaspider</li>
+    <li>Actions\Spawn thing...\CocoonSpelopede</li>
+    <li>Actions\Spawn thing...\VWE_CombatHandgun</li>
+    <li>Actions\Spawn thing...\VWE_Gun_BattleRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_Carbine</li>
+    <li>Actions\Spawn thing...\VWE_Gun_HandCannon</li>
+    <li>Actions\Spawn thing...\VWE_Gun_HMG</li>
+    <li>Actions\Spawn thing...\VWE_Gun_LeverActionRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_LightSMG</li>
+    <li>Actions\Spawn thing...\VWE_Gun_MarksmanRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_SemiAutomaticRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_ServiceRifle</li>
+    <li>Actions\Spawn thing...\VWE_Gun_SMG</li>
+    <li>Actions\Spawn thing...\VWE_SawedOffShotgun</li>
+    <li>Actions\T: Set Stuff...</li>
+    <li>Actions\T: Set Quality...\Excellent</li>
+  </debugActionPalette>
+  <devPalettePosition>
+    <x>0</x>
+    <y>0</y>
+  </devPalettePosition>
+  <langFolderName>Russian (Русский)</langFolderName>
+  <logVerbose>False</logVerbose>
+  <openLogOnWarnings>False</openLogOnWarnings>
+  <closeLogWindowOnEscape>False</closeLogWindowOnEscape>
+  <disableQuickStartCryptoSickness>True</disableQuickStartCryptoSickness>
+  <quickStartDevPaletteOn>False</quickStartDevPaletteOn>
+  <resetModsConfigOnCrash>True</resetModsConfigOnCrash>
+  <simulateNotOwningRoyalty>False</simulateNotOwningRoyalty>
+  <simulateNotOwningIdeology>False</simulateNotOwningIdeology>
+  <simulateNotOwningBiotech>False</simulateNotOwningBiotech>
+  <simulateNotOwningAnomaly>False</simulateNotOwningAnomaly>
+</PrefsData>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedXenotype>
+	<meta>
+		<gameVersion>1.6.4566 rev607</gameVersion>
+		<modIds>
+			<li>brrainz.harmony</li>
+			<li>ludeon.rimworld</li>
+			<li>ludeon.rimworld.royalty</li>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.biotech</li>
+			<li>ludeon.rimworld.anomaly</li>
+			<li>ludeon.rimworld.odyssey</li>
+			<li>unlimitedhugs.hugslib</li>
+			<li>oskarpotocki.vanillafactionsexpanded.core</li>
+			<li>cat2002.showhair</li>
+			<li>frozensnowfox.filthvanisheswithrainandtime</li>
+			<li>derekbickley.ltocolonygroupsfinal</li>
+			<li>robertshepard.unlimitedhugs.hugslib</li>
+			<li>brrainz.achtung</li>
+			<li>kipsmods.adjustableabilitycooldowns</li>
+			<li>unlimitedhugs.allowtool</li>
+			<li>mlie.blockunwantedminutiae</li>
+			<li>brrainz.cameraplus</li>
+			<li>nep.caravanghouls</li>
+			<li>void.charactereditor</li>
+			<li>avilmask.commonsense</li>
+			<li>petetimessix.compacthediffs</li>
+			<li>microus.creepjoinersromance</li>
+			<li>syrus.customizeanimals</li>
+			<li>d12caedro.fabulousghouls</li>
+			<li>caesarv6.damageindicators</li>
+			<li>jelly.directabandonsettlement</li>
+			<li>telardo.dragselect</li>
+			<li>ganja.dropinventory</li>
+			<li>dubwise.dubsmintmenus</li>
+			<li>dubwise.dubsmintminimap</li>
+			<li>mlie.durableclothes</li>
+			<li>inglix.fasterbiosculptingpod</li>
+			<li>stevezero.fullarmorhandsfeet</li>
+			<li>telefonmast.graphicssettings</li>
+			<li>sclarke.groundtargeter1.6temp</li>
+			<li>yakobo.groupdrugs</li>
+			<li>orion.hospitality</li>
+			<li>s4.imtryingtosaveyou</li>
+			<li>jaxe.bubbles</li>
+			<li>supes.mapwideorbitaltradebeacon</li>
+			<li>mlie.markthatpawn</li>
+			<li>erdelf.minifyeverything</li>
+			<li>amch.needbaroverflow</li>
+			<li>shipdontnuketile.sentinel</li>
+			<li>cedaro.nohopelessromance</li>
+			<li>dawnsglow.numbers</li>
+			<li>telardo.numberstraitaddon</li>
+			<li>taranchuk.performanceoptimizer</li>
+			<li>mlie.prisoncommons</li>
+			<li>hatti.qualitybuilder</li>
+			<li>longwater.smartstockpilecreation</li>
+			<li>mastertea.randomplus</li>
+			<li>memegoddess.replacestuff</li>
+			<li>jaxe.rimhud</li>
+			<li>mlie.savemaps</li>
+			<li>blockdude.scrollablegizmos</li>
+			<li>memegoddess.searchanddestroy</li>
+			<li>bp.showbuildablematerialcount</li>
+			<li>mlie.showmeyourhands</li>
+			<li>haecriver.simplymorecolors</li>
+			<li>mlie.singleplanttexturepatch</li>
+			<li>sarg.smartspeed</li>
+			<li>defi.tickspersecond.rw</li>
+			<li>timmyliang.tradehelper</li>
+			<li>ow.ru.core</li>
+			<li>vanillaexpanded.gravship</li>
+			<li>vanillaexpanded.vwe</li>
+			<li>sl4vp0wer.weareunited</li>
+			<li>com.yayo.yayoani.continued</li>
+			<li>vr.missilegirl</li>
+			<li>andromeda.nicehands</li>
+			<li>dmitry6.rusperformanceoptimizer</li>
+			<li>kamikadza13.rimhud</li>
+			<li>ow.ru.gravship1</li>
+			<li>lzws.derekbickley.ltocolonygroupsfinal</li>
+		</modIds>
+		<modSteamIds>
+			<li>0</li>
+			<li>0</li>
+			<li>1149640</li>
+			<li>1392840</li>
+			<li>1826140</li>
+			<li>2380740</li>
+			<li>3022790</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>730936602</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>867467808</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>2566316158</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+		</modSteamIds>
+		<modNames>
+			<li>Harmony</li>
+			<li>Core</li>
+			<li>Royalty</li>
+			<li>Ideology</li>
+			<li>Biotech</li>
+			<li>Anomaly</li>
+			<li>Odyssey</li>
+			<li>HugsLib</li>
+			<li>Vanilla Expanded Framework</li>
+			<li>[CAT] Show Hair With Hats or Hide All Hats</li>
+			<li>[FSF] Filth Vanishes With Rain And Time</li>
+			<li>[LTO] Colony Groups</li>
+			<li>[RUS] HugsLib</li>
+			<li>Achtung!</li>
+			<li>Adjustable Ability Cooldowns</li>
+			<li>Allow Tool</li>
+			<li>Block Unwanted Minutiae (Continued)</li>
+			<li>Camera+</li>
+			<li>Caravan Ghouls</li>
+			<li>Character Editor</li>
+			<li>Common Sense</li>
+			<li>Compact Hediffs</li>
+			<li>Creep Joiners Romance Patch</li>
+			<li>Customize Animals</li>
+			<li>D12 Fabulous Ghouls</li>
+			<li>Damage Indicators [1.6]</li>
+			<li>Directly Abandon Settlement</li>
+			<li>DragSelect</li>
+			<li>Drop All Inventory (Continued)</li>
+			<li>Dubs Mint Menus</li>
+			<li>Dubs Mint Minimap</li>
+			<li>Durable Clothes (Continued)</li>
+			<li>Faster Biosculpter Pod</li>
+			<li>Full Armor - Hands and Feet [1.6]</li>
+			<li>Graphics Settings+</li>
+			<li>Ground Targeter</li>
+			<li>Group Drugs</li>
+			<li>Hospitality (Continued)</li>
+			<li>I'm Trying To Save You! (Pawn Dressing Rework)</li>
+			<li>Interaction Bubbles</li>
+			<li>Map Wide Orbital Trade Beacon</li>
+			<li>Mark That Pawn</li>
+			<li>MinifyEverything</li>
+			<li>Need Bar Overflow</li>
+			<li>No Gravship Launch Site World Map</li>
+			<li>No Hopeless Romance</li>
+			<li>Numbers (1.6 Temp)</li>
+			<li>Numbers Trait AddOn</li>
+			<li>Performance Optimizer</li>
+			<li>Prison Commons (Continued)</li>
+			<li>QualityBuilder</li>
+			<li>Quick Stockpile Creation</li>
+			<li>RandomPlus</li>
+			<li>Replace Stuff - Continued</li>
+			<li>RimHUD</li>
+			<li>Save Maps (Continued)</li>
+			<li>Scrollable Gizmos</li>
+			<li>Search and Destroy (Continued)</li>
+			<li>Show Buildable Material Count</li>
+			<li>Show Me Your Hands</li>
+			<li>Simply More Colors</li>
+			<li>Single Plant Texture Patch (Continued)</li>
+			<li>Smart Speed</li>
+			<li>TicksPerSecond - 1.6</li>
+			<li>TradeHelper</li>
+			<li>Vanilla Expanded Framework Russian Language Pack</li>
+			<li>Vanilla Gravship Expanded - Chapter 1</li>
+			<li>Vanilla Weapons Expanded</li>
+			<li>We Are United</li>
+			<li>Yayo's Animation (Continued)</li>
+			<li>Missile Girl - Performance Mod</li>
+			<li>Nice Hands Retexture</li>
+			<li>Performance Optimizer - Русификатор</li>
+			<li>RimHUD rus</li>
+			<li>Vanilla Gravship Expanded - Chapter 1 Russian Language Pack</li>
+			<li>Русский язык для [LTO] Colony Groups</li>
+		</modNames>
+	</meta>
+	<xenotype>
+		<name>мусорщик</name>
+		<inheritable>True</inheritable>
+		<genes>
+			<li>Immunity_SuperStrong</li>
+			<li>ToxicEnvironmentResistance_Total</li>
+			<li>Aggression_Aggressive</li>
+			<li>Beauty_Ugly</li>
+			<li>Head_Gaunt</li>
+			<li>Hair_Gray</li>
+			<li>Skin_SlateGray</li>
+			<li>PollutionRush</li>
+			<li>AptitudePoor_Cooking</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li>AptitudePoor_Artistic</li>
+			<li>ChemicalDependency_Psychite</li>
+			<li>AddictionImmune_WakeUp</li>
+		</genes>
+		<iconDef>Basic</iconDef>
+	</xenotype>
+</savedXenotype>

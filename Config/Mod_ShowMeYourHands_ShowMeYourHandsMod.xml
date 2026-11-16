@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ShowMeYourHands.ShowMeYourHandsModSettings">
+		<ManualMainHandPositions>
+			<keys>
+				<li>VWE_MeleeWeapon_Halberd</li>
+			</keys>
+			<values>
+				<li>(-0.165, 0.100, -0.120)</li>
+			</values>
+		</ManualMainHandPositions>
+		<ManualOffHandPositions>
+			<keys>
+				<li>VWE_MeleeWeapon_Halberd</li>
+			</keys>
+			<values>
+				<li>(0.005, -0.100, 0.045)</li>
+			</values>
+		</ManualOffHandPositions>
+		<ManualMainHandRotations>
+			<keys>
+				<li>VWE_MeleeWeapon_Halberd</li>
+			</keys>
+			<values>
+				<li>-23</li>
+			</values>
+		</ManualMainHandRotations>
+		<ManualOffHandRotations>
+			<keys>
+				<li>VWE_MeleeWeapon_Halberd</li>
+			</keys>
+			<values>
+				<li>-47</li>
+			</values>
+		</ManualOffHandRotations>
+	</ModSettings>
+</SettingsBlock>

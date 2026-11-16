@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="DubsMintMinimap.Settings">
+		<Animals>
+			<show>True</show>
+			<col>RGBA(0.180, 1.000, 0.180, 1.000)</col>
+			<marker>2</marker>
+		</Animals>
+		<Colonist>
+			<show>True</show>
+			<col>RGBA(0.180, 1.000, 1.000, 1.000)</col>
+			<marker>2</marker>
+		</Colonist>
+		<Prisoner>
+			<show>True</show>
+			<col>RGBA(1.000, 1.000, 0.180, 1.000)</col>
+			<marker>2</marker>
+		</Prisoner>
+		<Friendly>
+			<show>True</show>
+			<col>RGBA(0.180, 0.180, 1.000, 1.000)</col>
+			<marker>2</marker>
+		</Friendly>
+		<ColonyAnimals>
+			<show>True</show>
+			<col>RGBA(1.000, 0.713, 0.180, 1.000)</col>
+			<marker>2</marker>
+		</ColonyAnimals>
+		<Hostiles>
+			<show>True</show>
+			<col>RGBA(1.000, 0.180, 0.180, 1.000)</col>
+			<marker>2</marker>
+		</Hostiles>
+		<Predators>
+			<show>True</show>
+			<col>RGBA(1.000, 0.180, 0.180, 1.000)</col>
+			<marker>6</marker>
+		</Predators>
+		<StaticRectPos>(1617, 2)</StaticRectPos>
+		<ShowCorpses>True</ShowCorpses>
+		<multi21>200</multi21>
+	</ModSettings>
+</SettingsBlock>

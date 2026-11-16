@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedXenotype>
+	<meta>
+		<gameVersion>1.6.4566 rev607</gameVersion>
+		<modIds>
+			<li>brrainz.harmony</li>
+			<li>ludeon.rimworld</li>
+			<li>ludeon.rimworld.royalty</li>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.biotech</li>
+			<li>d12caedro.fabulousghouls</li>
+			<li>ludeon.rimworld.anomaly</li>
+			<li>ludeon.rimworld.odyssey</li>
+			<li>derekbickley.ltocolonygroupsfinal</li>
+			<li>lzws.derekbickley.ltocolonygroupsfinal</li>
+			<li>unlimitedhugs.hugslib</li>
+			<li>com.yayo.yayoani.continued</li>
+			<li>sl4vp0wer.weareunited</li>
+			<li>timmyliang.tradehelper</li>
+			<li>mlie.showmeyourhands</li>
+			<li>bp.showbuildablematerialcount</li>
+			<li>oskarpotocki.vanillafactionsexpanded.core</li>
+			<li>memegoddess.searchanddestroy</li>
+			<li>jaxe.rimhud</li>
+			<li>kamikadza13.rimhud</li>
+			<li>memegoddess.replacestuff</li>
+			<li>longwater.smartstockpilecreation</li>
+			<li>hatti.qualitybuilder</li>
+			<li>telardo.numberstraitaddon</li>
+			<li>dawnsglow.numbers</li>
+			<li>andromeda.nicehealthtab</li>
+			<li>andromeda.nicehands</li>
+			<li>mlie.markthatpawn</li>
+			<li>supes.mapwideorbitaltradebeacon</li>
+			<li>jaxe.bubbles</li>
+			<li>s4.imtryingtosaveyou</li>
+			<li>orion.hospitality</li>
+			<li>inglix.fasterbiosculptingpod</li>
+			<li>mlie.durableclothes</li>
+			<li>dubwise.dubsmintminimap</li>
+			<li>ganja.dropinventory</li>
+			<li>telardo.dragselect</li>
+			<li>avilmask.commonsense</li>
+			<li>brrainz.cameraplus</li>
+			<li>inglix.appareltaintedoncorpserot</li>
+			<li>unlimitedhugs.allowtool</li>
+			<li>brrainz.achtung</li>
+			<li>frozensnowfox.filthvanisheswithrainandtime</li>
+			<li>sclarke.groundtargeter1.6temp</li>
+			<li>dubwise.dubsmintmenus</li>
+			<li>kipsmods.adjustableabilitycooldowns</li>
+			<li>erdelf.minifyeverything</li>
+			<li>microus.creepjoinersromance</li>
+			<li>shipdontnuketile.sentinel</li>
+			<li>syrus.customizeanimals</li>
+			<li>mlie.prisoncommons</li>
+			<li>taranchuk.performanceoptimizer</li>
+			<li>dmitry6.rusperformanceoptimizer</li>
+			<li>vanillaexpanded.vwe</li>
+			<li>krkr.rocketman</li>
+			<li>mlie.singleplanttexturepatch</li>
+			<li>avilmask.psychicharmonizerlagfix</li>
+			<li>haecriver.simplymorecolors</li>
+			<li>yakobo.groupdrugs</li>
+			<li>cedaro.nohopelessromance</li>
+			<li>bodlosh.weaponstats</li>
+			<li>stevezero.fullarmorhandsfeet</li>
+			<li>caesarv6.damageindicators</li>
+			<li>mehni.pickupandhaul</li>
+		</modIds>
+		<modSteamIds>
+			<li>0</li>
+			<li>0</li>
+			<li>1149640</li>
+			<li>1392840</li>
+			<li>1826140</li>
+			<li>0</li>
+			<li>2380740</li>
+			<li>3022790</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>867467808</li>
+			<li>0</li>
+			<li>0</li>
+			<li>730936602</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+			<li>0</li>
+		</modSteamIds>
+		<modNames>
+			<li>Harmony</li>
+			<li>Core</li>
+			<li>Royalty</li>
+			<li>Ideology</li>
+			<li>Biotech</li>
+			<li>D12 Fabulous Ghouls</li>
+			<li>Anomaly</li>
+			<li>Odyssey</li>
+			<li>[LTO] Colony Groups</li>
+			<li>Русский язык для [LTO] Colony Groups</li>
+			<li>HugsLib</li>
+			<li>Yayo's Animation (Continued)</li>
+			<li>We Are United</li>
+			<li>TradeHelper</li>
+			<li>Show Me Your Hands</li>
+			<li>Show Buildable Material Count</li>
+			<li>Vanilla Expanded Framework</li>
+			<li>Search and Destroy (Continued)</li>
+			<li>RimHUD</li>
+			<li>RimHUD rus</li>
+			<li>Replace Stuff - Continued</li>
+			<li>Quick Stockpile Creation</li>
+			<li>QualityBuilder</li>
+			<li>Numbers Trait AddOn</li>
+			<li>Numbers (1.6 Temp)</li>
+			<li>Nice Health Tab</li>
+			<li>Nice Hands Retexture</li>
+			<li>Mark That Pawn</li>
+			<li>Map Wide Orbital Trade Beacon</li>
+			<li>Interaction Bubbles</li>
+			<li>I'm Trying To Save You! (Pawn Dressing Rework)</li>
+			<li>Hospitality (Continued)</li>
+			<li>Faster Biosculpter Pod</li>
+			<li>Durable Clothes (Continued)</li>
+			<li>Dubs Mint Minimap</li>
+			<li>Drop All Inventory (Continued)</li>
+			<li>DragSelect</li>
+			<li>Common Sense</li>
+			<li>Camera+</li>
+			<li>Apparel Tainted Only When Corpse Rots</li>
+			<li>Allow Tool</li>
+			<li>Achtung!</li>
+			<li>[FSF] Filth Vanishes With Rain And Time</li>
+			<li>Ground Targeter</li>
+			<li>Dubs Mint Menus</li>
+			<li>Adjustable Ability Cooldowns</li>
+			<li>MinifyEverything</li>
+			<li>Creep Joiners Romance Patch</li>
+			<li>No Gravship Launch Site World Map</li>
+			<li>Customize Animals</li>
+			<li>Prison Commons (Continued)</li>
+			<li>Performance Optimizer</li>
+			<li>Performance Optimizer - Русификатор</li>
+			<li>Vanilla Weapons Expanded</li>
+			<li>RocketMan - Performance Mod</li>
+			<li>Single Plant Texture Patch (Continued)</li>
+			<li>Psychic Harmonizer Lag Fix</li>
+			<li>Simply More Colors</li>
+			<li>Group Drugs</li>
+			<li>No Hopeless Romance</li>
+			<li>WeaponStats</li>
+			<li>Full Armor - Hands and Feet [1.6]</li>
+			<li>Damage Indicators [1.6]</li>
+			<li>Pick Up And Haul</li>
+		</modNames>
+	</meta>
+	<xenotype>
+		<name>Инж I</name>
+		<genes>
+			<li>Aggression_DeadCalm</li>
+			<li>Delicate</li>
+			<li>Pain_Extra</li>
+			<li>Body_Standard</li>
+			<li>ElongatedFingers</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AptitudeRemarkable_Crafting</li>
+			<li>AptitudeTerrible_Social</li>
+			<li>AptitudeRemarkable_Intellectual</li>
+		</genes>
+		<iconDef>Basic</iconDef>
+	</xenotype>
+</savedXenotype>

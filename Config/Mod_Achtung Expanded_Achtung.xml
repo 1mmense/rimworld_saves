@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="AchtungMod.AchtungSettings">
+		<positioningEnabled>True</positioningEnabled>
+		<rescueEnabled>True</rescueEnabled>
+		<achtungKey>Alt</achtungKey>
+		<forceCommandMenuMode>Delayed</forceCommandMenuMode>
+		<forceCommandMenuKey>Ctrl</forceCommandMenuKey>
+		<draftedColonistDraggingMode>Always</draftedColonistDraggingMode>
+		<BreakLevel>AlmostExtreme</BreakLevel>
+		<HealthLevel>InPainShock</HealthLevel>
+		<ignoreForbidden>True</ignoreForbidden>
+		<ignoreRestrictions>True</ignoreRestrictions>
+		<ignoreAssignments>True</ignoreAssignments>
+		<queueForcedJobs>True</queueForcedJobs>
+		<workMarkers>Animated</workMarkers>
+		<buildingSmart>True</buildingSmart>
+		<keepDraftedAndUndraftedCommandsSeparate>False</keepDraftedAndUndraftedCommandsSeparate>
+		<maxForcedItems>64</maxForcedItems>
+		<lastEnabledMaxForcedItems>64</lastEnabledMaxForcedItems>
+		<menuDelay>250</menuDelay>
+		<forcedEndedLetter>True</forcedEndedLetter>
+		<replaceCleanRoom>True</replaceCleanRoom>
+		<replaceFightFire>True</replaceFightFire>
+		<tutorialShown>True</tutorialShown>
+	</ModSettings>
+</SettingsBlock>
