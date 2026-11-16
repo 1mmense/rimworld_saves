@@ -35,7 +35,7 @@
 		<abilitySmokepopMech>15</abilitySmokepopMech>
 		<abilityFirefoampopMech>5</abilityFirefoampopMech>
 		<abilityResurrectionMech>2</abilityResurrectionMech>
-		<ritualVoidProvocation>5</ritualVoidProvocation>
+		<ritualVoidProvocation>2</ritualVoidProvocation>
 		<ritualImbueDeathRefusal>15</ritualImbueDeathRefusal>
 		<ritualPhilophagy>1</ritualPhilophagy>
 		<ritualSummonAnimals>10</ritualSummonAnimals>
@@ -47,7 +47,7 @@
 		<ritualBloodRain>25</ritualBloodRain>
 		<ritualBrainwipe>1</ritualBrainwipe>
 		<ritualPsychophagy>1</ritualPsychophagy>
-		<ritualSkipAbduction>10</ritualSkipAbduction>
+		<ritualSkipAbduction>1</ritualSkipAbduction>
 		<ritualSummonFleshbeasts>1</ritualSummonFleshbeasts>
 		<abilityUnnaturalHealing>6</abilityUnnaturalHealing>
 		<abilityShapeFlesh>40</abilityShapeFlesh>
