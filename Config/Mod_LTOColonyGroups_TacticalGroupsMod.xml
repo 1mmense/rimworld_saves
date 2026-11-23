@@ -6,7 +6,7 @@
 		<DisplayBreakRiskOverlay>True</DisplayBreakRiskOverlay>
 		<WeaponPlacementOffset>-4</WeaponPlacementOffset>
 		<MarginTop>11.2359552</MarginTop>
-		<ColonistBarPositionX>-166.292145</ColonistBarPositionX>
+		<ColonistBarPositionX>-269.662903</ColonistBarPositionX>
 		<ColonistBarSpacingX>1</ColonistBarSpacingX>
 		<ColonistBarSpacingY>48.6573029</ColonistBarSpacingY>
 		<ColonyGroupScale>0.5</ColonyGroupScale>
@@ -21,7 +21,6 @@
 		<ColorBarMode>Extended</ColorBarMode>
 		<WeaponShowMode>Always</WeaponShowMode>
 		<OverridePawnRowCount>True</OverridePawnRowCount>
-		<ColonistBarWidthOffset>-161.797729</ColonistBarWidthOffset>
 		<AllGroupPresetsSaveable IsNull="True" />
 	</ModSettings>
 </SettingsBlock>

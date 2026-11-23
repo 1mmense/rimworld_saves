@@ -3,9 +3,9 @@
 	<ModSettings Class="AchtungMod.AchtungSettings">
 		<positioningEnabled>True</positioningEnabled>
 		<rescueEnabled>True</rescueEnabled>
-		<achtungKey>Alt</achtungKey>
-		<forceCommandMenuMode>Delayed</forceCommandMenuMode>
-		<forceCommandMenuKey>Ctrl</forceCommandMenuKey>
+		<achtungKey>Ctrl</achtungKey>
+		<forceCommandMenuMode>PressForMenu</forceCommandMenuMode>
+		<forceCommandMenuKey>Alt</forceCommandMenuKey>
 		<draftedColonistDraggingMode>Always</draftedColonistDraggingMode>
 		<BreakLevel>AlmostExtreme</BreakLevel>
 		<HealthLevel>InPainShock</HealthLevel>

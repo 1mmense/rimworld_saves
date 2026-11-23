@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <ModsConfigData>
-  <version>1.7.5005 rev1082</version>
+  <version>1.7.5011 rev24</version>
   <activeMods>
     <li>brrainz.harmony</li>
     <li>ludeon.rimworld</li>
@@ -21,6 +21,7 @@
     <li>kipsmods.adjustableabilitycooldowns</li>
     <li>lecht.autorepairon</li>
     <li>ben.automaticnightowl</li>
+    <li>falconne.bwm</li>
     <li>automatic.bionicicons</li>
     <li>brrainz.cameraplus</li>
     <li>nep.caravanghouls</li>
