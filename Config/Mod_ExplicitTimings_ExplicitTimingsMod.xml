@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Leoltron.ExplicitTimings.Settings">
+		<MentalBreakColoring>MentalStateLetterColor</MentalBreakColoring>
+		<ShowOtherMentalBreaks>True</ShowOtherMentalBreaks>
+	</ModSettings>
+</SettingsBlock>

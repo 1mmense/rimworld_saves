@@ -21,7 +21,7 @@
 		<ColorBarMode>Extended</ColorBarMode>
 		<WeaponShowMode>Always</WeaponShowMode>
 		<OverridePawnRowCount>True</OverridePawnRowCount>
-		<ColonistBarWidthOffset>26.9663086</ColonistBarWidthOffset>
+		<ColonistBarWidthOffset>-53.9326172</ColonistBarWidthOffset>
 		<AllGroupPresetsSaveable IsNull="True" />
 	</ModSettings>
 </SettingsBlock>

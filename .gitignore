@@ -8,3 +8,4 @@ RocketMan\Cache
 RocketMan\Logs
 Saves/*
 !Saves/COMMIT_SAVE*.rws
+HardwareProfile
