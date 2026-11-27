@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PrefsData>
-  <volumeMaster>0.6621621</volumeMaster>
+  <volumeMaster>0.3427518</volumeMaster>
   <volumeGame>0.6253071</volumeGame>
-  <volumeMusic>0</volumeMusic>
+  <volumeMusic>0.3243243</volumeMusic>
   <volumeAmbient>0.2751842</volumeAmbient>
   <volumeUI>0.5638821</volumeUI>
   <screenWidth>1920</screenWidth>
@@ -88,6 +88,7 @@
     <li>Actions\Spawn thing...\VWE_SawedOffShotgun</li>
     <li>Actions\T: Set Stuff...</li>
     <li>Actions\T: Set Quality...\Excellent</li>
+    <li>Actions\T: Set Quality...\Legendary</li>
   </debugActionPalette>
   <devPalettePosition>
     <x>0</x>
