@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PrefsData>
-  <volumeMaster>0.3427518</volumeMaster>
+  <volumeMaster>0.4471744</volumeMaster>
   <volumeGame>0.6253071</volumeGame>
   <volumeMusic>0</volumeMusic>
-  <volumeAmbient>0.2751842</volumeAmbient>
+  <volumeAmbient>0.2997543</volumeAmbient>
   <volumeUI>0.5638821</volumeUI>
   <screenWidth>1920</screenWidth>
   <screenHeight>1080</screenHeight>
@@ -32,7 +32,7 @@
   <steamDeckKeyboardMode>False</steamDeckKeyboardMode>
   <preferredNames />
   <resourceReadoutCategorized>True</resourceReadoutCategorized>
-  <runInBackground>False</runInBackground>
+  <runInBackground>True</runInBackground>
   <edgeScreenScroll>False</edgeScreenScroll>
   <rememberDrawStyles>True</rememberDrawStyles>
   <zoomSwitchWorldLayer>False</zoomSwitchWorldLayer>

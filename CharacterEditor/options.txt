@@ -5,5 +5,5 @@ None|None|
 
 
 
-
+Apparel_Collar,рабский ошейник,3,3,True,25,Metallic|Leathery,MaxHitPoints!80|Flammability!1|DeteriorationRate!2|Beauty!-3|WorkToMake!1800|Mass!0.14|StuffEffectMultiplierArmor!0|StuffEffectMultiplierInsulation_Cold!0|StuffEffectMultiplierInsulation_Heat!0|EquipDelay!1.5,SlaveSuppressionOffset!0.15,,,Clothing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,False,,,,,,,,,,,,,,,,0,0,Overhead,Neck,,Slave,1;
 
