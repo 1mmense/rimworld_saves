@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Config Version="1.17.5">
   <InspectPane>
+    <Height>292</Height>
     <TabWidth>88</TabWidth>
   </InspectPane>
   <Text>
+    <Regular>
+      <Size>12</Size>
+    </Regular>
+    <Large>
+      <Size>7</Size>
+    </Large>
+    <Small>
+      <Size>-2</Size>
+    </Small>
     <LabelWidth>121</LabelWidth>
     <ValueWidth>63</ValueWidth>
     <ShowDecimals>False</ShowDecimals>
   </Text>
   <TutorialComplete />
-  <Preset>Preset111</Preset>
 </Config>
